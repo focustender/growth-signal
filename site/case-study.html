@@ -84,10 +84,9 @@
   <header class="hero">
     <div class="eyebrow">Fireclay Tile — work sample</div>
     <h1>Trade Signal</h1>
-    <p class="lede">A live lifecycle-analytics system built to show, not describe, what this role's own job description asks for: a friction point diagnosed from real data, two live CRMs reconciled against each other with a scoped fix, and a reusable Claude Code skill that keeps the analysis running instead of living in a one-time export. The same system also produced a Shopify prototype and design spec relevant to a parallel UI/UX opening, included further down for completeness.</p>
+    <p class="lede">A live lifecycle-analytics system built to show, not describe, what this role's own job description asks for: a friction point diagnosed from real data, two live CRMs reconciled against each other with a scoped fix, a reactivation mechanism tested and fixed against the live system, and a reusable Claude Code skill that keeps the analysis running instead of living in a one-time export.</p>
     <div class="roles">
       <span class="role-tag">Lifecycle Growth &amp; Analytics Manager</span>
-      <span class="role-tag secondary">AI-First UI/UX Designer — Shopify (supplementary)</span>
     </div>
   </header>
 
@@ -215,112 +214,30 @@
     </div>
   </section>
 
-  <section class="supplementary">
-    <span class="eyebrow">Supplementary — not the target role</span>
-    <h2>How the visualizer loop closes (Shopify / UI-UX work)</h2>
-    <p class="section-sub">The friction finding above also motivated a Trade Portal redesign and an on-site visualizer, built for a parallel AI-First UI/UX Designer opening. Kept here for completeness, not the focus of this application.</p>
-    <figure class="diagram">
-      <svg viewBox="0 0 760 320" role="img" aria-label="Trade Signal dataset finds a friction point that motivates the Trade Portal redesign; the Room Visualizer, a separate on-site feature, generates a visualize-without-follow-up event that feeds back into the dataset, which triggers an AI nurture email closing the loop.">
-        <defs>
-          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-            <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
-          </marker>
-          <marker id="arrow-accent" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-            <path d="M0,0 L10,5 L0,10 z" fill="#3f6f66"/>
-          </marker>
-        </defs>
-        <style>
-          text{ font-family:"IBM Plex Mono",monospace; font-size:11px; fill:currentColor; }
-          .box{ fill:none; stroke:currentColor; stroke-width:1.4; }
-          .lbl{ font-size:10px; }
-        </style>
-
-        <!-- Dataset (left) -->
-        <rect class="box" x="20" y="120" width="160" height="80" rx="2"/>
-        <text x="100" y="155" text-anchor="middle">Trade Signal</text>
-        <text x="100" y="170" text-anchor="middle">dataset</text>
-        <text x="100" y="185" text-anchor="middle" class="lbl" opacity="0.7">HubSpot + SQLite</text>
-
-        <!-- Trade Portal (top right) -->
-        <rect class="box" x="560" y="20" width="180" height="80" rx="2"/>
-        <text x="650" y="55" text-anchor="middle">Trade Portal /</text>
-        <text x="650" y="70" text-anchor="middle">Sample Kit Builder</text>
-        <text x="650" y="85" text-anchor="middle" class="lbl" opacity="0.7">Figma → Shopify</text>
-
-        <!-- Visualizer (bottom right) -->
-        <rect class="box" x="560" y="220" width="180" height="80" rx="2"/>
-        <text x="650" y="255" text-anchor="middle">Room Visualizer</text>
-        <text x="650" y="270" text-anchor="middle">(on-site feature)</text>
-        <text x="650" y="285" text-anchor="middle" class="lbl" opacity="0.7">perspective texture-map</text>
-
-        <!-- Nurture email (bottom left) -->
-        <rect class="box" x="20" y="220" width="160" height="80" rx="2"/>
-        <text x="100" y="255" text-anchor="middle">AI nurture</text>
-        <text x="100" y="270" text-anchor="middle">email</text>
-        <text x="100" y="285" text-anchor="middle" class="lbl" opacity="0.7">personalized send</text>
-
-        <!-- arrow: dataset -> trade portal (accent, the founding insight) -->
-        <path d="M 180 145 C 380 130, 420 90, 558 65" fill="none" stroke="#3f6f66" stroke-width="2" marker-end="url(#arrow-accent)"/>
-        <text x="360" y="105" text-anchor="middle" fill="#3f6f66" font-weight="600">73% trade-show stall finding</text>
-
-        <!-- arrow: visualizer -> dataset (feedback) -->
-        <path d="M 558 245 C 380 220, 280 210, 182 190" fill="none" class="box" marker-end="url(#arrow)"/>
-        <text x="370" y="215" text-anchor="middle" class="lbl">visualize, no sample in 3 days</text>
-
-        <!-- arrow: dataset -> nurture email -->
-        <path d="M 100 200 L 100 218" fill="none" class="box" marker-end="url(#arrow)"/>
-        <text x="150" y="212" class="lbl" opacity="0.7">triggers</text>
-
-        <!-- arrow: nurture email -> visualizer (dashed, closes the loop back to the customer) -->
-        <path d="M 180 255 C 350 320, 480 320, 558 270" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
-        <text x="370" y="318" text-anchor="middle" class="lbl" opacity="0.7">customer returns to visualize again</text>
-      </svg>
-      <figcaption>The dataset's friction finding informs a one-time design decision (the Sample Kit Builder). The visualizer is an ongoing loop: every session either converts or generates a new lifecycle event.</figcaption>
-    </figure>
-  </section>
-
-  <section class="supplementary">
-    <div class="role-heading"><span class="role-pill ux">Supplementary</span><h2 style="margin:0;">AI-First UI/UX Designer — Shopify</h2></div>
-    <p class="section-sub">Reports to the VP of Technology. Not the role this application targets — included for completeness since the same system produced this work.</p>
-    <table class="mapping">
-      <tr><th>What the JD asks for</th><th>What this shows</th></tr>
-      <tr><td>Robust AI workflow, must demo current AI usage</td><td>Every artifact here — the dataset, the analysis, the design, the visualizer code — was built with Claude Code end to end; the walkthrough shows the actual sessions, not a finished result presented cold</td></tr>
-      <tr><td>Expert in Figma, produces build-ready specs</td><td>Sample Kit Builder taken to a build-ready spec (see the artifact linked below), motivated by a specific, cited data finding rather than a generic redesign</td></tr>
-      <tr><td>Shopify Plus admin fluency, HTML/CSS/Liquid literacy</td><td>Prototype ported into a real Shopify Development Store — see stack status above</td></tr>
-      <tr><td>Home category, sample-driven purchase journeys, long consideration cycles</td><td>The entire concept is built around exactly this: the point where a sample-driven journey stalls</td></tr>
-      <tr><td>Self-directed, conversion/speed/mobile-first instincts</td><td>The visualizer prototype states its own CRO hypothesis and honestly scopes what a production version would still need (real product photography, a segmentation model for the wall region) rather than overclaiming polish</td></tr>
-    </table>
-  </section>
-
-  <section class="supplementary">
-    <h2>The two design artifacts</h2>
-    <p class="section-sub">Both are live, interactive Claude artifacts — not screenshots.</p>
+  <section>
+    <h2>Sample Kit Builder — the shipped intervention</h2>
+    <p class="section-sub">The Trade Portal module built to close the single-sample dead end, taken to a build-ready Figma spec and a real Shopify theme section — not screenshots.</p>
     <div class="grid-two">
       <div class="deliverable">
-        <span class="kicker">Concept 01</span>
-        <h3>Sample Kit Builder</h3>
-        <p>The Trade Portal module that closes the single-sample dead end, with the before/after states and the design rationale for why it targets this exact point in the funnel.</p>
+        <span class="kicker">Design</span>
+        <h3>Sample Kit Builder concept</h3>
+        <p>The before/after states and the rationale for why it targets this exact point in the funnel, live and interactive.</p>
         <a class="link-btn" href="https://claude.ai/code/artifact/ab73786b-f081-44f6-8d8e-625854e2515d">Open the artifact →</a>
-      </div>
-      <div class="deliverable">
-        <span class="kicker">Concept 02</span>
-        <h3>Room Visualizer</h3>
-        <p>A working perspective texture-mapping demo with a before/after toggle and three glaze colorways, plus an explanation of why no paid image-generation model is needed.</p>
-        <a class="link-btn" href="https://claude.ai/code/artifact/5224f126-1319-4e71-906c-33a9097ca8f6">Open the artifact →</a>
       </div>
       <div class="deliverable">
         <span class="kicker">Figma</span>
         <h3>Build-ready spec file</h3>
-        <p>The Sample Kit Builder rebuilt in Figma with real bound color/text variables and auto-layout — not a flat mockup, a file a developer can inspect in Dev Mode.</p>
+        <p>Rebuilt in Figma with real bound color/text variables and auto-layout — a file a developer can inspect in Dev Mode, not a flat mockup.</p>
         <a class="link-btn" href="https://www.figma.com/design/hpXw6uV7Noke53bJTOdcW5?node-id=3-2">Open in Figma →</a>
       </div>
       <div class="deliverable">
         <span class="kicker">Shopify</span>
         <h3>Live theme preview</h3>
-        <p>The section running for real on the dev store's product page, reading the live <code>custom.companion_samples</code> metafield — not a static screenshot. The rebuilt real-cart-add version is written and committed but not yet pushed to this preview; see the reactivation write-up above.</p>
+        <p>The section running for real on the dev store's product page, reading the live <code>custom.companion_samples</code> metafield. The rebuilt real-cart-add version is written and committed but not yet pushed to this preview; see the reactivation write-up above.</p>
         <a class="link-btn" href="https://fireclaytile-project.myshopify.com/products/original-ceramic-aegean?preview_theme_id=148365705269">Open the preview →</a>
       </div>
     </div>
+    <p class="section-sub" style="margin-top:1.5rem;">The same dataset also produced a Shopify visualizer prototype for a separate, unrelated opening — kept on <a href="other-work.html">a separate page</a> so it doesn't crowd this application.</p>
   </section>
 
   <footer class="meta">

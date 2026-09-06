@@ -1,0 +1,145 @@
+<title>Trade Signal — other work</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,wght@1,500&display=swap">
+<style>
+  :root{
+    --ink:#211d1a; --paper:#edeee8; --paper-raised:#f6f6f1;
+    --seaglass:#3f6f66; --seaglass-soft:#e2ebe8;
+    --clay:#a15c3e; --clay-soft:#f3e4dc;
+    --slate:#6b6862; --slate-soft:#dcdbd3;
+    --moss:#5b7f3a; --moss-soft:#e6ecdc; --line:#c9c7bd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#ece9e2; --paper:#1a1815; --paper-raised:#242220;
+      --seaglass:#7fada2; --seaglass-soft:#25332f;
+      --clay:#d08e6d; --clay-soft:#3a2a22;
+      --slate:#a5a196; --slate-soft:#332f29;
+      --moss:#93b76e; --moss-soft:#2b3221; --line:#3a372f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#ece9e2; --paper:#1a1815; --paper-raised:#242220;
+    --seaglass:#7fada2; --seaglass-soft:#25332f;
+    --clay:#d08e6d; --clay-soft:#3a2a22;
+    --slate:#a5a196; --slate-soft:#332f29;
+    --moss:#93b76e; --moss-soft:#2b3221; --line:#3a372f;
+  }
+  *{box-sizing:border-box;}
+  body{background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.6;}
+  .wrap{max-width:920px; margin:0 auto; padding:0 1.75rem 5rem;}
+  header.hero{padding:4rem 0 2.5rem; border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:var(--slate);}
+  h1{font-size:2.4rem; font-weight:700; margin:.6rem 0 0; text-wrap:balance; letter-spacing:-.01em;}
+  .lede{font-size:1.05rem; color:var(--slate); max-width:64ch; margin-top:1rem;}
+  a.back{font-family:"IBM Plex Mono",monospace; font-size:.78rem; color:var(--seaglass); text-decoration:none; display:inline-block; margin-top:1.25rem;}
+  a.back:hover{text-decoration:underline;}
+  section{padding:3rem 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:1.3rem; font-weight:600; margin:0 0 .5rem;}
+  .section-sub{color:var(--slate); font-size:.9rem; margin-bottom:1.75rem; max-width:64ch;}
+  figure.diagram{margin:0 0 2rem; padding:1.5rem; background:var(--paper-raised); border:1px solid var(--line);}
+  figure.diagram svg{width:100%; height:auto; display:block;}
+  figcaption{font-size:.8rem; color:var(--slate); margin-top:1rem; max-width:60ch;}
+  .grid-two{display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;}
+  @media (max-width:700px){.grid-two{grid-template-columns:1fr;}}
+  .deliverable{background:var(--paper-raised); border:1px solid var(--line); padding:1.5rem;}
+  .deliverable .kicker{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--seaglass); margin-bottom:.5rem; display:block;}
+  .deliverable h3{font-size:1.05rem; font-weight:600; margin:0 0 .6rem;}
+  .deliverable p{font-size:.88rem; color:var(--ink); margin-bottom:1rem;}
+  .link-btn{display:inline-block; font-size:.82rem; font-weight:500; padding:.55rem .9rem; background:var(--seaglass); color:var(--paper-raised); text-decoration:none;}
+  table.mapping{width:100%; border-collapse:collapse; font-size:.85rem;}
+  table.mapping th{text-align:left; font-family:"IBM Plex Mono",monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.05em; color:var(--slate); padding:.5rem .75rem; border-bottom:1px solid var(--line);}
+  table.mapping td{padding:.75rem; border-bottom:1px solid var(--line); vertical-align:top;}
+  table.mapping td:first-child{color:var(--ink); font-weight:500; width:38%;}
+  table.mapping td:last-child{color:var(--slate);}
+  .role-heading{display:flex; align-items:center; gap:.6rem; margin-bottom:1rem;}
+  .role-pill{font-family:"IBM Plex Mono",monospace; font-size:.7rem; padding:.25rem .6rem; background:var(--seaglass-soft); color:var(--seaglass);}
+  footer.meta{padding:2.5rem 0 0; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--slate); line-height:1.8;}
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Not part of the Fireclay Tile application</div>
+    <h1>Trade Signal — other work</h1>
+    <p class="lede">The same dataset and Sample Kit Builder also produced a Shopify prototype and Figma spec relevant to a separate AI-First UI/UX Designer opening at Fireclay, reporting to a different hiring manager. That role isn't being pursued (it calls for 5+ years of paid UI/UX experience, which isn't a real match here) — this page keeps the work for reference without it cluttering the Lifecycle Growth &amp; Analytics Manager case study.</p>
+    <a class="back" href="case-study.html">← Back to the Trade Signal case study</a>
+  </header>
+
+  <section>
+    <h2>How the visualizer loop closes</h2>
+    <p class="section-sub">The trade-show stall finding also motivated a Trade Portal redesign and an on-site visualizer, built for the parallel opening.</p>
+    <figure class="diagram">
+      <svg viewBox="0 0 760 320" role="img" aria-label="Trade Signal dataset finds a friction point that motivates the Trade Portal redesign; the Room Visualizer, a separate on-site feature, generates a visualize-without-follow-up event that feeds back into the dataset, which triggers an AI nurture email closing the loop.">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+          </marker>
+          <marker id="arrow-accent" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="#3f6f66"/>
+          </marker>
+        </defs>
+        <style>
+          text{ font-family:"IBM Plex Mono",monospace; font-size:11px; fill:currentColor; }
+          .box{ fill:none; stroke:currentColor; stroke-width:1.4; }
+          .lbl{ font-size:10px; }
+        </style>
+        <rect class="box" x="20" y="120" width="160" height="80" rx="2"/>
+        <text x="100" y="155" text-anchor="middle">Trade Signal</text>
+        <text x="100" y="170" text-anchor="middle">dataset</text>
+        <text x="100" y="185" text-anchor="middle" class="lbl" opacity="0.7">HubSpot + SQLite</text>
+        <rect class="box" x="560" y="20" width="180" height="80" rx="2"/>
+        <text x="650" y="55" text-anchor="middle">Trade Portal /</text>
+        <text x="650" y="70" text-anchor="middle">Sample Kit Builder</text>
+        <text x="650" y="85" text-anchor="middle" class="lbl" opacity="0.7">Figma → Shopify</text>
+        <rect class="box" x="560" y="220" width="180" height="80" rx="2"/>
+        <text x="650" y="255" text-anchor="middle">Room Visualizer</text>
+        <text x="650" y="270" text-anchor="middle">(on-site feature)</text>
+        <text x="650" y="285" text-anchor="middle" class="lbl" opacity="0.7">perspective texture-map</text>
+        <rect class="box" x="20" y="220" width="160" height="80" rx="2"/>
+        <text x="100" y="255" text-anchor="middle">AI nurture</text>
+        <text x="100" y="270" text-anchor="middle">email</text>
+        <text x="100" y="285" text-anchor="middle" class="lbl" opacity="0.7">personalized send</text>
+        <path d="M 180 145 C 380 130, 420 90, 558 65" fill="none" stroke="#3f6f66" stroke-width="2" marker-end="url(#arrow-accent)"/>
+        <text x="360" y="105" text-anchor="middle" fill="#3f6f66" font-weight="600">73% trade-show stall finding</text>
+        <path d="M 558 245 C 380 220, 280 210, 182 190" fill="none" class="box" marker-end="url(#arrow)"/>
+        <text x="370" y="215" text-anchor="middle" class="lbl">visualize, no sample in 3 days</text>
+        <path d="M 100 200 L 100 218" fill="none" class="box" marker-end="url(#arrow)"/>
+        <text x="150" y="212" class="lbl" opacity="0.7">triggers</text>
+        <path d="M 180 255 C 350 320, 480 320, 558 270" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+        <text x="370" y="318" text-anchor="middle" class="lbl" opacity="0.7">customer returns to visualize again</text>
+      </svg>
+      <figcaption>The dataset's friction finding informs a one-time design decision (the Sample Kit Builder). The visualizer is an ongoing loop: every session either converts or generates a new lifecycle event.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="role-heading"><span class="role-pill">Not pursued</span><h2 style="margin:0;">AI-First UI/UX Designer — Shopify</h2></div>
+    <p class="section-sub">Reports to the VP of Technology — a different hiring manager, a different role, not the target of this application.</p>
+    <table class="mapping">
+      <tr><th>What that JD asks for</th><th>What this shows</th></tr>
+      <tr><td>Robust AI workflow, must demo current AI usage</td><td>Every artifact here — the dataset, the analysis, the design, the visualizer code — was built with Claude Code end to end</td></tr>
+      <tr><td>Expert in Figma, produces build-ready specs</td><td>Sample Kit Builder taken to a build-ready spec, motivated by a specific, cited data finding rather than a generic redesign</td></tr>
+      <tr><td>Shopify Plus admin fluency, HTML/CSS/Liquid literacy</td><td>Prototype ported into a real Shopify Development Store</td></tr>
+      <tr><td>Home category, sample-driven purchase journeys, long consideration cycles</td><td>Built around exactly this: the point where a sample-driven journey stalls</td></tr>
+      <tr><td>Self-directed, conversion/speed/mobile-first instincts</td><td>The visualizer prototype states its own CRO hypothesis and honestly scopes what a production version would still need</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Room Visualizer</h2>
+    <p class="section-sub">A working perspective texture-mapping demo with a before/after toggle and three glaze colorways, plus an explanation of why no paid image-generation model is needed.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Concept</span>
+        <h3>Tile Room Visualizer</h3>
+        <p>Live, interactive Claude artifact — not a screenshot.</p>
+        <a class="link-btn" href="https://claude.ai/code/artifact/5224f126-1319-4e71-906c-33a9097ca8f6">Open the artifact →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="meta">
+    Trade Signal — supplementary work, not part of the Lifecycle Growth &amp; Analytics Manager application.<br>
+    Not affiliated with or endorsed by Fireclay Tile. All customer data is synthetic.
+  </footer>
+</div>
