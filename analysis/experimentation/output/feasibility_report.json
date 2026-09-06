@@ -1,0 +1,44 @@
+{
+  "baseline_second_sample_rate": 0.11,
+  "baseline_click_rate_sample_followup": 0.1761,
+  "trade_show_monthly_rate": 10.05,
+  "scale_threshold_pp": 8.0,
+  "iterate_threshold_pp": 3.0,
+  "scale_threshold_n_per_arm": 312,
+  "scale_threshold_n_total": 623,
+  "iterate_threshold_n_per_arm": 1907,
+  "iterate_threshold_n_total": 3813,
+  "months_to_reach_scale_threshold": 62.0,
+  "windows": {
+    "3": {
+      "total_leads": 30.1,
+      "per_arm": 15.1,
+      "mde_second_sample_pp": 46.6,
+      "mde_click_metric_pp": 48.4
+    },
+    "6": {
+      "total_leads": 60.3,
+      "per_arm": 30.1,
+      "mde_second_sample_pp": 31.3,
+      "mde_click_metric_pp": 33.6
+    },
+    "12": {
+      "total_leads": 120.5,
+      "per_arm": 60.3,
+      "mde_second_sample_pp": 20.7,
+      "mde_click_metric_pp": 23.0
+    },
+    "18": {
+      "total_leads": 180.8,
+      "per_arm": 90.4,
+      "mde_second_sample_pp": 16.3,
+      "mde_click_metric_pp": 18.3
+    },
+    "24": {
+      "total_leads": 241.1,
+      "per_arm": 120.5,
+      "mde_second_sample_pp": 13.8,
+      "mde_click_metric_pp": 15.6
+    }
+  }
+}
