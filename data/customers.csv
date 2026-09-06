@@ -1,0 +1,3201 @@
+customer_id,segment,source_channel,signup_date,region,company_name,email_opt_in
+CUST-00001,designer,organic_search,2024-10-08,CO,,1
+CUST-00002,homeowner,organic_search,2024-12-10,NY,,1
+CUST-00003,commercial,trade_show,2025-07-19,GA,Ashford Interiors,1
+CUST-00004,designer,direct,2024-02-27,CO,,1
+CUST-00005,homeowner,organic_search,2024-05-21,VA,,1
+CUST-00006,homeowner,showroom_walkin,2024-04-24,GA,,1
+CUST-00007,trade,architect_referral,2024-11-10,CO,Northline Architecture Group,1
+CUST-00008,homeowner,paid_social,2025-01-17,OH,,1
+CUST-00009,homeowner,direct,2025-02-20,TX,,1
+CUST-00010,homeowner,organic_search,2025-04-18,CO,,1
+CUST-00011,designer,architect_referral,2025-05-13,IL,,1
+CUST-00012,homeowner,organic_search,2025-08-06,CO,,1
+CUST-00013,commercial,direct,2024-09-07,NC,Union Construction,1
+CUST-00014,trade,trade_show,2024-09-14,WA,Coastal Construction,1
+CUST-00015,designer,organic_search,2024-05-10,WA,,0
+CUST-00016,homeowner,showroom_walkin,2024-12-06,PA,,0
+CUST-00017,commercial,trade_show,2025-06-05,FL,Ashford Design Studio,1
+CUST-00018,homeowner,paid_social,2025-06-16,NJ,,0
+CUST-00019,designer,architect_referral,2024-05-07,GA,,1
+CUST-00020,homeowner,paid_social,2024-08-06,VA,,0
+CUST-00021,trade,trade_show,2025-01-28,MI,Cascade Design Studio,0
+CUST-00022,homeowner,trade_show,2025-03-29,CT,,0
+CUST-00023,homeowner,showroom_walkin,2024-08-28,MA,,0
+CUST-00024,homeowner,email_capture,2024-11-01,FL,,0
+CUST-00025,designer,architect_referral,2024-03-26,PA,,1
+CUST-00026,designer,paid_social,2025-04-29,NY,,1
+CUST-00027,trade,trade_show,2024-05-03,MD,Ashford Studio,1
+CUST-00028,homeowner,paid_social,2025-03-22,MD,,1
+CUST-00029,homeowner,organic_search,2024-09-04,PA,,1
+CUST-00030,homeowner,trade_show,2024-12-04,NC,,1
+CUST-00031,homeowner,organic_search,2024-08-20,NC,,1
+CUST-00032,commercial,showroom_walkin,2025-05-04,NY,Coastal & Associates,1
+CUST-00033,commercial,paid_social,2025-03-02,CT,Meridian Studio,1
+CUST-00034,homeowner,showroom_walkin,2024-09-27,MD,,0
+CUST-00035,homeowner,organic_search,2024-11-10,CT,,1
+CUST-00036,homeowner,paid_social,2024-03-23,,,1
+CUST-00037,homeowner,paid_social,2024-12-07,AZ,,1
+CUST-00038,homeowner,paid_social,2024-07-11,VA,,1
+CUST-00039,designer,architect_referral,2024-06-11,GA,,1
+CUST-00040,trade,trade_show,2024-05-19,OR,Coastal Design + Build,0
+CUST-00041,commercial,direct,2024-09-01,MD,Coastal Design Studio,1
+CUST-00042,designer,organic_search,2024-02-07,IL,,1
+CUST-00043,trade,architect_referral,2025-01-24,AZ,Union Design Studio,1
+CUST-00044,homeowner,organic_search,2025-01-26,CT,,1
+CUST-00045,homeowner,paid_social,2025-05-09,NY,,1
+CUST-00046,trade,trade_show,2024-12-26,CO,Bramble Build Co.,1
+CUST-00047,homeowner,paid_social,2024-10-06,MN,,1
+CUST-00048,trade,trade_show,2024-04-02,,Northline & Associates,1
+CUST-00049,designer,referral,2025-07-28,AZ,,1
+CUST-00050,designer,architect_referral,2025-02-28,NY,,1
+CUST-00051,homeowner,organic_search,2024-01-22,WA,,1
+CUST-00052,designer,organic_search,2024-09-28,WA,,1
+CUST-00053,homeowner,email_capture,2024-03-03,MI,,1
+CUST-00054,homeowner,organic_search,2025-08-22,NJ,,1
+CUST-00055,homeowner,organic_search,2024-06-05,MI,,1
+CUST-00056,designer,showroom_walkin,2024-12-03,NY,,0
+CUST-00057,commercial,architect_referral,2025-07-24,CA,Bramble Design Studio,1
+CUST-00058,designer,organic_search,2024-02-23,IL,,1
+CUST-00059,homeowner,paid_social,2024-08-04,IL,,1
+CUST-00060,designer,paid_social,2025-02-18,CA,,1
+CUST-00061,homeowner,email_capture,2024-05-31,CO,,1
+CUST-00062,designer,direct,2024-11-19,IL,,1
+CUST-00063,homeowner,email_capture,2025-08-08,TX,,1
+CUST-00064,homeowner,paid_social,2024-10-16,FL,,1
+CUST-00065,homeowner,showroom_walkin,2024-12-24,GA,,1
+CUST-00066,homeowner,showroom_walkin,2025-06-04,,,1
+CUST-00067,homeowner,showroom_walkin,2024-05-14,CT,,1
+CUST-00068,trade,trade_show,2025-08-07,OH,Bramble Studio,1
+CUST-00069,trade,referral,2025-06-09,IL,Northline Interiors,1
+CUST-00070,homeowner,organic_search,2024-09-19,TX,,1
+CUST-00071,homeowner,showroom_walkin,2025-06-20,NC,,1
+CUST-00072,homeowner,referral,2024-12-06,IL,,1
+CUST-00073,homeowner,organic_search,2024-11-13,VA,,1
+CUST-00074,homeowner,organic_search,2025-05-24,NC,,1
+CUST-00075,homeowner,showroom_walkin,2024-12-27,CT,,1
+CUST-00076,designer,referral,2025-08-03,WA,,1
+CUST-00077,designer,email_capture,2024-07-23,NY,,1
+CUST-00078,commercial,architect_referral,2024-03-07,NJ,Bramble Build Co.,1
+CUST-00079,trade,trade_show,2024-03-29,OR,Union Studio,1
+CUST-00080,designer,referral,2025-07-18,MD,,0
+CUST-00081,homeowner,email_capture,2024-10-08,IL,,1
+CUST-00082,homeowner,showroom_walkin,2025-08-13,MA,,1
+CUST-00083,commercial,trade_show,2025-02-19,GA,Harbor Build Co.,1
+CUST-00084,homeowner,organic_search,2024-04-09,WA,,1
+CUST-00085,designer,direct,2025-04-26,GA,,1
+CUST-00086,homeowner,referral,2024-07-18,NC,,1
+CUST-00087,homeowner,organic_search,2024-02-09,IL,,1
+CUST-00088,homeowner,showroom_walkin,2025-03-02,MD,,0
+CUST-00089,homeowner,paid_social,2025-02-26,TX,,1
+CUST-00090,homeowner,referral,2024-09-27,CT,,0
+CUST-00091,designer,architect_referral,2025-05-15,AZ,,1
+CUST-00092,designer,organic_search,2025-08-23,CO,,1
+CUST-00093,designer,direct,2025-05-02,MI,,1
+CUST-00094,commercial,direct,2024-02-08,CA,Northline Design + Build,1
+CUST-00095,homeowner,organic_search,2024-04-25,AZ,,1
+CUST-00096,trade,referral,2025-02-19,PA,Northline Studio,1
+CUST-00097,designer,paid_social,2024-04-30,GA,,1
+CUST-00098,designer,direct,2025-07-04,TX,,1
+CUST-00099,homeowner,referral,2024-04-29,TX,,1
+CUST-00100,homeowner,organic_search,2024-03-11,,,1
+CUST-00101,commercial,trade_show,2025-01-21,FL,Cascade Design + Build,1
+CUST-00102,homeowner,direct,2024-09-10,OH,,1
+CUST-00103,homeowner,referral,2024-02-27,IL,,1
+CUST-00104,homeowner,email_capture,2025-01-25,VA,,1
+CUST-00105,homeowner,showroom_walkin,2024-07-14,WA,,1
+CUST-00106,homeowner,email_capture,2025-05-05,CO,,1
+CUST-00107,designer,paid_social,2024-05-29,CA,,0
+CUST-00108,homeowner,email_capture,2025-07-09,WA,,1
+CUST-00109,homeowner,referral,2024-10-08,NJ,,1
+CUST-00110,homeowner,organic_search,2024-08-19,GA,,1
+CUST-00111,homeowner,email_capture,2024-10-14,NJ,,1
+CUST-00112,trade,paid_social,2024-03-21,VA,Ashford Design Studio,1
+CUST-00113,commercial,trade_show,2024-10-06,OH,Ashford Studio,1
+CUST-00114,trade,paid_social,2025-02-02,AZ,Northline Design Studio,0
+CUST-00115,homeowner,organic_search,2024-06-20,PA,,1
+CUST-00116,designer,referral,2024-05-18,,,1
+CUST-00117,homeowner,paid_social,2025-02-06,NC,,1
+CUST-00118,designer,architect_referral,2024-03-16,OH,,1
+CUST-00119,homeowner,email_capture,2025-02-13,AZ,,1
+CUST-00120,commercial,trade_show,2024-10-29,PA,Northline Architecture Group,1
+CUST-00121,homeowner,organic_search,2025-04-08,AZ,,1
+CUST-00122,homeowner,showroom_walkin,2025-02-09,CA,,0
+CUST-00123,designer,trade_show,2024-12-22,NC,,1
+CUST-00124,designer,email_capture,2025-07-22,MN,,1
+CUST-00125,designer,referral,2024-06-20,OR,,1
+CUST-00126,homeowner,paid_social,2024-09-10,GA,,1
+CUST-00127,designer,organic_search,2024-10-26,GA,,0
+CUST-00128,homeowner,organic_search,2024-04-05,FL,,1
+CUST-00129,homeowner,paid_social,2024-08-04,MI,,1
+CUST-00130,homeowner,organic_search,2025-03-14,TX,,0
+CUST-00131,designer,organic_search,2025-05-03,OR,,1
+CUST-00132,homeowner,organic_search,2024-03-13,CO,,1
+CUST-00133,homeowner,organic_search,2024-05-06,MD,,1
+CUST-00134,trade,architect_referral,2024-09-02,MI,Meridian & Associates,1
+CUST-00135,homeowner,referral,2024-06-05,MA,,1
+CUST-00136,trade,organic_search,2024-02-26,GA,Cascade Architecture Group,1
+CUST-00137,trade,referral,2024-03-06,MA,Northline & Associates,1
+CUST-00138,homeowner,paid_social,2024-11-23,MA,,1
+CUST-00139,trade,showroom_walkin,2024-03-29,NJ,Ashford Interiors,1
+CUST-00140,trade,referral,2024-01-07,,Ashford Design Studio,0
+CUST-00141,homeowner,email_capture,2025-06-16,PA,,1
+CUST-00142,homeowner,organic_search,2025-04-22,AZ,,1
+CUST-00143,homeowner,email_capture,2024-02-01,FL,,1
+CUST-00144,trade,organic_search,2024-03-07,TX,Union Build Co.,1
+CUST-00145,homeowner,organic_search,2024-05-20,PA,,0
+CUST-00146,trade,showroom_walkin,2025-07-11,MI,Ashford Studio,1
+CUST-00147,trade,email_capture,2024-06-12,NY,Meridian Construction,1
+CUST-00148,commercial,trade_show,2024-06-26,MN,Ashford Design + Build,0
+CUST-00149,homeowner,email_capture,2025-05-19,NJ,,1
+CUST-00150,homeowner,email_capture,2025-02-09,MD,,1
+CUST-00151,designer,organic_search,2025-07-29,CT,,1
+CUST-00152,trade,trade_show,2025-08-02,NY,Cascade Design + Build,1
+CUST-00153,trade,architect_referral,2025-08-14,CO,Northline Design Studio,1
+CUST-00154,homeowner,email_capture,2024-06-17,CT,,1
+CUST-00155,homeowner,referral,2025-05-17,IL,,1
+CUST-00156,homeowner,paid_social,2025-01-25,NC,,1
+CUST-00157,trade,architect_referral,2025-03-04,NJ,Union Interiors,1
+CUST-00158,homeowner,paid_social,2025-02-10,NJ,,1
+CUST-00159,homeowner,paid_social,2024-05-31,MD,,1
+CUST-00160,homeowner,direct,2024-08-31,WA,,0
+CUST-00161,homeowner,paid_social,2025-02-20,MI,,0
+CUST-00162,designer,organic_search,2024-02-01,CO,,1
+CUST-00163,homeowner,direct,2024-01-10,MI,,1
+CUST-00164,homeowner,organic_search,2024-11-05,VA,,1
+CUST-00165,designer,trade_show,2024-11-01,NY,,1
+CUST-00166,trade,architect_referral,2025-02-17,AZ,Harbor & Associates,0
+CUST-00167,trade,architect_referral,2025-07-25,MN,Union Build Co.,1
+CUST-00168,designer,paid_social,2024-08-16,GA,,0
+CUST-00169,commercial,referral,2024-07-03,OR,Cascade Design + Build,1
+CUST-00170,designer,referral,2024-05-12,NY,,1
+CUST-00171,designer,organic_search,2024-01-23,MD,,1
+CUST-00172,designer,architect_referral,2025-03-04,NY,,1
+CUST-00173,trade,trade_show,2024-06-01,OR,Northline Architecture Group,0
+CUST-00174,trade,organic_search,2024-05-21,MN,Union Construction,0
+CUST-00175,homeowner,direct,2024-06-19,NY,,1
+CUST-00176,homeowner,organic_search,2024-11-17,CA,,1
+CUST-00177,homeowner,referral,2024-04-07,PA,,1
+CUST-00178,commercial,organic_search,2024-06-09,VA,Union Build Co.,1
+CUST-00179,homeowner,email_capture,2024-01-19,NY,,1
+CUST-00180,trade,trade_show,2025-04-12,AZ,Harbor Interiors,1
+CUST-00181,homeowner,organic_search,2024-08-15,CA,,1
+CUST-00182,homeowner,direct,2024-12-12,NY,,1
+CUST-00183,homeowner,email_capture,2024-06-30,MD,,1
+CUST-00184,homeowner,direct,2025-07-14,AZ,,0
+CUST-00185,commercial,architect_referral,2025-06-30,GA,Coastal Design Studio,1
+CUST-00186,designer,architect_referral,2024-02-18,FL,,0
+CUST-00187,homeowner,referral,2024-07-20,TX,,1
+CUST-00188,designer,direct,2024-11-04,MI,,1
+CUST-00189,trade,paid_social,2025-07-10,NJ,Ashford Interiors,0
+CUST-00190,homeowner,referral,2024-01-10,NY,,1
+CUST-00191,homeowner,email_capture,2024-04-26,FL,,1
+CUST-00192,homeowner,referral,2024-08-06,PA,,1
+CUST-00193,homeowner,paid_social,2024-11-19,CA,,1
+CUST-00194,trade,architect_referral,2024-10-29,IL,Ashford Design Studio,1
+CUST-00195,homeowner,referral,2024-10-24,OR,,1
+CUST-00196,homeowner,organic_search,2024-07-17,AZ,,1
+CUST-00197,homeowner,referral,2024-06-28,CT,,1
+CUST-00198,homeowner,email_capture,2025-04-28,IL,,1
+CUST-00199,homeowner,organic_search,2025-08-02,MD,,0
+CUST-00200,homeowner,email_capture,2024-02-17,WA,,1
+CUST-00201,homeowner,organic_search,2025-01-22,NC,,0
+CUST-00202,homeowner,organic_search,2024-10-14,TX,,1
+CUST-00203,homeowner,referral,2024-06-13,IL,,1
+CUST-00204,designer,architect_referral,2024-03-28,TX,,0
+CUST-00205,homeowner,organic_search,2024-07-26,VA,,1
+CUST-00206,homeowner,organic_search,2025-06-26,PA,,1
+CUST-00207,designer,organic_search,2024-05-17,MA,,1
+CUST-00208,homeowner,referral,2025-08-01,NC,,0
+CUST-00209,designer,architect_referral,2024-05-01,CO,,1
+CUST-00210,homeowner,organic_search,2024-08-15,NC,,1
+CUST-00211,homeowner,organic_search,2024-02-06,NC,,1
+CUST-00212,homeowner,referral,2024-07-18,OH,,1
+CUST-00213,homeowner,organic_search,2024-12-13,OH,,0
+CUST-00214,homeowner,email_capture,2025-05-02,AZ,,0
+CUST-00215,homeowner,showroom_walkin,2024-09-28,TX,,1
+CUST-00216,commercial,direct,2024-10-08,MI,Bramble Studio,1
+CUST-00217,homeowner,paid_social,2024-06-27,OH,,1
+CUST-00218,homeowner,direct,2024-10-13,OH,,1
+CUST-00219,homeowner,paid_social,2024-09-13,NJ,,1
+CUST-00220,homeowner,direct,2024-07-22,MD,,1
+CUST-00221,designer,direct,2025-01-25,CT,,1
+CUST-00222,commercial,architect_referral,2025-06-17,OH,Cascade Design Studio,1
+CUST-00223,homeowner,organic_search,2025-04-29,NJ,,1
+CUST-00224,homeowner,direct,2024-10-05,NJ,,0
+CUST-00225,designer,showroom_walkin,2025-06-30,GA,,1
+CUST-00226,trade,trade_show,2024-07-12,PA,Coastal Studio,1
+CUST-00227,trade,trade_show,2024-03-11,MN,Northline & Associates,1
+CUST-00228,homeowner,paid_social,2025-05-25,NC,,1
+CUST-00229,homeowner,email_capture,2024-07-22,OH,,1
+CUST-00230,homeowner,showroom_walkin,2025-07-16,VA,,1
+CUST-00231,homeowner,organic_search,2024-10-09,MD,,1
+CUST-00232,trade,architect_referral,2025-03-25,,Coastal Design + Build,1
+CUST-00233,homeowner,organic_search,2025-01-10,,,1
+CUST-00234,homeowner,paid_social,2024-11-25,NY,,1
+CUST-00235,homeowner,referral,2024-03-13,CA,,1
+CUST-00236,homeowner,organic_search,2025-06-22,CO,,0
+CUST-00237,designer,architect_referral,2025-03-13,NY,,1
+CUST-00238,homeowner,architect_referral,2025-03-16,AZ,,1
+CUST-00239,trade,trade_show,2025-08-07,MD,Harbor & Associates,1
+CUST-00240,designer,direct,2024-11-03,WA,,1
+CUST-00241,trade,trade_show,2024-11-08,VA,Cascade Design + Build,1
+CUST-00242,homeowner,organic_search,2025-02-08,MD,,1
+CUST-00243,trade,trade_show,2025-03-27,WA,Meridian Interiors,1
+CUST-00244,homeowner,direct,2024-11-08,OH,,1
+CUST-00245,designer,email_capture,2024-01-19,FL,,1
+CUST-00246,trade,trade_show,2024-08-24,FL,Northline Design + Build,1
+CUST-00247,homeowner,email_capture,2025-05-28,MA,,1
+CUST-00248,homeowner,organic_search,2024-05-21,MD,,1
+CUST-00249,trade,direct,2025-02-27,PA,Bramble Build Co.,1
+CUST-00250,designer,paid_social,2024-08-25,CO,,1
+CUST-00251,trade,trade_show,2024-11-28,OH,Coastal Studio,1
+CUST-00252,designer,showroom_walkin,2025-06-12,WA,,1
+CUST-00253,homeowner,direct,2024-07-25,OH,,1
+CUST-00254,designer,organic_search,2024-06-23,AZ,,1
+CUST-00255,homeowner,direct,2025-07-10,CA,,1
+CUST-00256,homeowner,organic_search,2024-12-23,WA,,1
+CUST-00257,designer,referral,2024-02-06,OR,,1
+CUST-00258,designer,organic_search,2025-06-25,OR,,1
+CUST-00259,designer,organic_search,2025-02-28,PA,,1
+CUST-00260,homeowner,organic_search,2024-05-19,MI,,1
+CUST-00261,homeowner,referral,2025-08-01,AZ,,1
+CUST-00262,homeowner,organic_search,2024-11-11,AZ,,1
+CUST-00263,homeowner,organic_search,2025-01-18,WA,,0
+CUST-00264,commercial,trade_show,2024-05-15,TX,Union Studio,1
+CUST-00265,homeowner,paid_social,2024-02-17,NY,,1
+CUST-00266,homeowner,paid_social,2024-12-12,NJ,,1
+CUST-00267,homeowner,trade_show,2025-06-30,OR,,1
+CUST-00268,homeowner,showroom_walkin,2025-04-21,MI,,1
+CUST-00269,homeowner,organic_search,2024-04-19,AZ,,1
+CUST-00270,homeowner,email_capture,2025-08-10,MI,,1
+CUST-00271,homeowner,showroom_walkin,2024-04-02,TX,,0
+CUST-00272,commercial,architect_referral,2025-06-06,FL,Bramble Design Studio,1
+CUST-00273,trade,direct,2024-08-28,PA,Coastal Design + Build,1
+CUST-00274,trade,trade_show,2025-03-11,CT,Coastal & Associates,1
+CUST-00275,commercial,organic_search,2025-06-23,MA,Northline Architecture Group,1
+CUST-00276,designer,trade_show,2024-12-17,NJ,,1
+CUST-00277,homeowner,showroom_walkin,2024-01-28,GA,,1
+CUST-00278,homeowner,showroom_walkin,2025-05-11,MN,,0
+CUST-00279,homeowner,paid_social,2025-06-29,CO,,1
+CUST-00280,homeowner,referral,2025-04-17,CO,,1
+CUST-00281,trade,direct,2024-05-04,NY,Cascade Studio,1
+CUST-00282,homeowner,paid_social,2024-03-18,OH,,1
+CUST-00283,homeowner,paid_social,2024-07-24,CT,,1
+CUST-00284,homeowner,showroom_walkin,2025-02-04,,,1
+CUST-00285,homeowner,organic_search,2025-01-28,MI,,1
+CUST-00286,homeowner,paid_social,2024-10-23,TX,,1
+CUST-00287,homeowner,organic_search,2025-03-24,TX,,1
+CUST-00288,homeowner,referral,2024-03-14,WA,,1
+CUST-00289,designer,architect_referral,2024-04-18,NY,,1
+CUST-00290,designer,referral,2025-08-12,NJ,,1
+CUST-00291,trade,organic_search,2025-05-13,,Cascade Architecture Group,1
+CUST-00292,homeowner,organic_search,2024-10-04,VA,,1
+CUST-00293,homeowner,direct,2024-11-04,NC,,1
+CUST-00294,homeowner,paid_social,2024-08-02,PA,,1
+CUST-00295,designer,direct,2024-08-23,NY,,1
+CUST-00296,homeowner,organic_search,2025-04-21,OH,,1
+CUST-00297,trade,trade_show,2024-08-09,MD,Union Construction,1
+CUST-00298,commercial,referral,2024-10-29,CO,Northline Design Studio,1
+CUST-00299,homeowner,referral,2024-03-13,FL,,1
+CUST-00300,homeowner,referral,2024-03-09,NJ,,1
+CUST-00301,homeowner,paid_social,2024-09-30,VA,,1
+CUST-00302,homeowner,paid_social,2024-07-02,GA,,1
+CUST-00303,homeowner,paid_social,2024-11-30,MI,,1
+CUST-00304,homeowner,organic_search,2024-11-20,MD,,1
+CUST-00305,homeowner,organic_search,2025-07-13,VA,,1
+CUST-00306,homeowner,referral,2025-03-28,AZ,,1
+CUST-00307,commercial,direct,2025-02-07,TX,Harbor Design + Build,1
+CUST-00308,homeowner,paid_social,2025-06-21,AZ,,0
+CUST-00309,designer,architect_referral,2024-05-20,TX,,1
+CUST-00310,designer,referral,2024-01-28,CA,,1
+CUST-00311,homeowner,showroom_walkin,2024-05-02,NC,,1
+CUST-00312,designer,organic_search,2024-07-17,MN,,1
+CUST-00313,trade,trade_show,2025-06-22,NJ,Northline Studio,1
+CUST-00314,designer,organic_search,2024-05-11,IL,,1
+CUST-00315,homeowner,organic_search,2024-09-16,WA,,1
+CUST-00316,trade,trade_show,2025-06-01,MD,Harbor Interiors,1
+CUST-00317,homeowner,paid_social,2024-08-07,VA,,1
+CUST-00318,homeowner,direct,2024-07-12,OR,,1
+CUST-00319,homeowner,paid_social,2024-07-22,AZ,,1
+CUST-00320,homeowner,email_capture,2024-01-31,NY,,1
+CUST-00321,designer,referral,2024-09-24,NJ,,1
+CUST-00322,designer,referral,2024-04-22,MD,,1
+CUST-00323,homeowner,paid_social,2025-01-21,CT,,1
+CUST-00324,homeowner,paid_social,2024-09-07,CO,,1
+CUST-00325,homeowner,paid_social,2024-12-13,MN,,1
+CUST-00326,homeowner,organic_search,2024-02-18,GA,,1
+CUST-00327,homeowner,referral,2025-04-09,NJ,,1
+CUST-00328,homeowner,organic_search,2025-04-18,IL,,1
+CUST-00329,designer,direct,2024-09-30,GA,,1
+CUST-00330,homeowner,showroom_walkin,2024-01-21,WA,,1
+CUST-00331,homeowner,organic_search,2025-08-17,VA,,0
+CUST-00332,homeowner,email_capture,2024-11-20,NJ,,1
+CUST-00333,trade,trade_show,2024-09-16,NJ,Ashford Architecture Group,1
+CUST-00334,homeowner,direct,2025-05-18,MI,,0
+CUST-00335,homeowner,organic_search,2024-07-07,OH,,1
+CUST-00336,homeowner,direct,2024-05-16,MA,,1
+CUST-00337,homeowner,organic_search,2024-06-21,WA,,1
+CUST-00338,homeowner,paid_social,2024-05-13,PA,,1
+CUST-00339,designer,architect_referral,2025-03-09,CT,,1
+CUST-00340,homeowner,paid_social,2025-01-25,GA,,1
+CUST-00341,commercial,trade_show,2024-10-14,NC,Bramble Construction,1
+CUST-00342,commercial,architect_referral,2024-06-03,NJ,Union Design Studio,1
+CUST-00343,trade,direct,2024-05-06,NC,Bramble Build Co.,1
+CUST-00344,commercial,organic_search,2025-08-07,MN,Northline Interiors,1
+CUST-00345,commercial,email_capture,2025-08-05,IL,Harbor Construction,1
+CUST-00346,homeowner,showroom_walkin,2024-05-14,NC,,1
+CUST-00347,homeowner,email_capture,2024-08-17,IL,,1
+CUST-00348,designer,direct,2025-06-09,NY,,1
+CUST-00349,trade,trade_show,2024-09-28,AZ,Cascade Interiors,1
+CUST-00350,designer,paid_social,2025-01-04,FL,,1
+CUST-00351,homeowner,organic_search,2024-06-05,OH,,1
+CUST-00352,commercial,organic_search,2025-02-13,MI,Union Interiors,1
+CUST-00353,designer,architect_referral,2025-04-24,IL,,1
+CUST-00354,homeowner,referral,2024-01-19,NC,,1
+CUST-00355,trade,trade_show,2024-04-16,WA,Union & Associates,0
+CUST-00356,homeowner,referral,2025-06-03,NY,,1
+CUST-00357,homeowner,direct,2024-06-06,NC,,1
+CUST-00358,trade,showroom_walkin,2025-06-01,MN,Ashford Studio,1
+CUST-00359,homeowner,architect_referral,2025-06-13,OR,,1
+CUST-00360,homeowner,direct,2025-07-20,GA,,1
+CUST-00361,designer,architect_referral,2025-02-18,TX,,1
+CUST-00362,homeowner,organic_search,2025-06-07,NJ,,1
+CUST-00363,designer,referral,2024-02-18,NY,,1
+CUST-00364,homeowner,showroom_walkin,2024-04-17,AZ,,1
+CUST-00365,homeowner,paid_social,2025-05-16,PA,,1
+CUST-00366,homeowner,paid_social,2025-01-18,GA,,1
+CUST-00367,homeowner,organic_search,2025-05-15,CA,,1
+CUST-00368,designer,organic_search,2024-11-29,OR,,1
+CUST-00369,homeowner,organic_search,2024-11-12,NJ,,1
+CUST-00370,homeowner,trade_show,2025-05-29,CA,,0
+CUST-00371,homeowner,paid_social,2025-06-24,AZ,,1
+CUST-00372,trade,paid_social,2024-07-26,CO,Meridian & Associates,1
+CUST-00373,homeowner,direct,2025-05-27,TX,,1
+CUST-00374,trade,referral,2025-06-06,GA,Northline Construction,1
+CUST-00375,homeowner,paid_social,2024-11-21,AZ,,0
+CUST-00376,designer,architect_referral,2025-07-05,OR,,1
+CUST-00377,designer,architect_referral,2024-07-15,OR,,1
+CUST-00378,homeowner,organic_search,2025-05-27,MI,,1
+CUST-00379,homeowner,direct,2024-07-15,CA,,1
+CUST-00380,homeowner,email_capture,2025-06-29,OH,,1
+CUST-00381,designer,email_capture,2024-09-12,TX,,1
+CUST-00382,designer,referral,2024-09-13,CO,,1
+CUST-00383,designer,showroom_walkin,2024-10-28,FL,,1
+CUST-00384,trade,paid_social,2025-06-05,MA,Union & Associates,1
+CUST-00385,homeowner,organic_search,2024-07-24,TX,,1
+CUST-00386,trade,trade_show,2025-02-13,MN,Harbor Design + Build,1
+CUST-00387,homeowner,organic_search,2024-06-29,MA,,1
+CUST-00388,homeowner,paid_social,2025-01-18,AZ,,0
+CUST-00389,homeowner,showroom_walkin,2025-04-26,CT,,1
+CUST-00390,designer,architect_referral,2024-02-07,TX,,1
+CUST-00391,homeowner,paid_social,2025-05-24,AZ,,1
+CUST-00392,homeowner,organic_search,2025-01-03,WA,,1
+CUST-00393,homeowner,referral,2024-05-21,NJ,,1
+CUST-00394,homeowner,trade_show,2025-04-30,CO,,1
+CUST-00395,homeowner,architect_referral,2025-03-03,TX,,1
+CUST-00396,homeowner,email_capture,2024-12-04,MD,,1
+CUST-00397,homeowner,organic_search,2025-01-30,GA,,1
+CUST-00398,homeowner,organic_search,2025-03-18,MI,,1
+CUST-00399,trade,trade_show,2025-08-12,WA,Bramble & Associates,1
+CUST-00400,homeowner,organic_search,2025-03-18,OH,,1
+CUST-00401,trade,showroom_walkin,2025-04-06,MN,Harbor & Associates,1
+CUST-00402,homeowner,organic_search,2024-01-19,CT,,1
+CUST-00403,trade,trade_show,2024-04-15,FL,Union Design Studio,1
+CUST-00404,trade,architect_referral,2024-06-20,MN,Northline Design + Build,1
+CUST-00405,trade,trade_show,2024-04-14,NJ,Cascade Construction,0
+CUST-00406,designer,referral,2024-11-21,MI,,1
+CUST-00407,designer,organic_search,2024-01-22,CT,,1
+CUST-00408,commercial,architect_referral,2024-10-22,CA,Ashford Design + Build,1
+CUST-00409,homeowner,organic_search,2025-03-10,MN,,1
+CUST-00410,homeowner,showroom_walkin,2024-06-08,,,1
+CUST-00411,homeowner,direct,2025-01-18,MI,,1
+CUST-00412,designer,trade_show,2025-01-12,WA,,0
+CUST-00413,commercial,architect_referral,2024-01-13,NY,Coastal Studio,1
+CUST-00414,homeowner,showroom_walkin,2025-05-27,NJ,,1
+CUST-00415,designer,organic_search,2024-06-21,,,1
+CUST-00416,trade,referral,2024-03-01,MN,Meridian Construction,0
+CUST-00417,homeowner,email_capture,2024-09-29,MI,,1
+CUST-00418,commercial,architect_referral,2025-01-22,CT,Ashford Design + Build,1
+CUST-00419,homeowner,organic_search,2025-06-27,MA,,1
+CUST-00420,designer,organic_search,2024-11-25,CA,,0
+CUST-00421,designer,architect_referral,2025-06-16,MD,,1
+CUST-00422,homeowner,organic_search,2025-07-07,CO,,1
+CUST-00423,homeowner,paid_social,2024-05-06,IL,,1
+CUST-00424,commercial,trade_show,2024-08-26,CO,Bramble Architecture Group,1
+CUST-00425,homeowner,paid_social,2025-01-24,MD,,1
+CUST-00426,homeowner,organic_search,2024-10-30,CO,,1
+CUST-00427,designer,paid_social,2024-05-06,MA,,1
+CUST-00428,commercial,trade_show,2024-08-03,CO,Harbor Build Co.,1
+CUST-00429,homeowner,showroom_walkin,2024-10-16,TX,,1
+CUST-00430,designer,organic_search,2025-08-12,NY,,0
+CUST-00431,homeowner,email_capture,2024-07-02,WA,,1
+CUST-00432,designer,organic_search,2025-04-19,FL,,1
+CUST-00433,designer,organic_search,2024-03-06,NJ,,1
+CUST-00434,homeowner,referral,2024-05-07,TX,,0
+CUST-00435,homeowner,email_capture,2024-06-24,PA,,1
+CUST-00436,homeowner,organic_search,2025-05-17,AZ,,0
+CUST-00437,homeowner,showroom_walkin,2025-03-08,OR,,1
+CUST-00438,commercial,referral,2024-07-27,OR,Bramble Interiors,1
+CUST-00439,homeowner,email_capture,2025-01-22,NY,,1
+CUST-00440,trade,trade_show,2025-06-28,NJ,Coastal & Associates,1
+CUST-00441,designer,organic_search,2024-12-28,OH,,1
+CUST-00442,trade,direct,2025-02-20,AZ,Northline Architecture Group,1
+CUST-00443,homeowner,showroom_walkin,2025-05-06,MI,,0
+CUST-00444,trade,trade_show,2024-02-13,CT,Cascade Interiors,1
+CUST-00445,homeowner,organic_search,2024-08-06,CA,,1
+CUST-00446,homeowner,paid_social,2025-05-14,WA,,1
+CUST-00447,homeowner,paid_social,2024-07-05,NJ,,1
+CUST-00448,commercial,direct,2024-09-29,NY,Union Build Co.,1
+CUST-00449,homeowner,organic_search,2024-04-20,CA,,1
+CUST-00450,homeowner,paid_social,2024-06-05,VA,,1
+CUST-00451,homeowner,direct,2024-04-15,VA,,1
+CUST-00452,homeowner,organic_search,2024-10-14,NC,,1
+CUST-00453,homeowner,paid_social,2025-01-05,MD,,1
+CUST-00454,trade,organic_search,2025-07-13,CT,Union Interiors,1
+CUST-00455,trade,architect_referral,2025-07-27,NC,Union Architecture Group,0
+CUST-00456,designer,organic_search,2024-01-04,MN,,1
+CUST-00457,commercial,referral,2024-04-28,CA,Ashford Design + Build,1
+CUST-00458,homeowner,organic_search,2024-01-11,NC,,0
+CUST-00459,trade,organic_search,2025-01-26,MA,Meridian & Associates,1
+CUST-00460,commercial,referral,2024-10-15,CA,Cascade Studio,1
+CUST-00461,homeowner,showroom_walkin,2024-05-20,CA,,1
+CUST-00462,trade,architect_referral,2024-03-28,TX,Union Build Co.,1
+CUST-00463,designer,architect_referral,2024-04-25,MI,,1
+CUST-00464,designer,trade_show,2024-10-20,NC,,1
+CUST-00465,homeowner,organic_search,2024-05-10,MN,,1
+CUST-00466,designer,paid_social,2024-01-03,TX,,1
+CUST-00467,homeowner,organic_search,2025-03-10,NC,,1
+CUST-00468,designer,paid_social,2025-02-25,AZ,,1
+CUST-00469,designer,referral,2024-02-27,CO,,1
+CUST-00470,homeowner,architect_referral,2024-12-09,CA,,1
+CUST-00471,homeowner,paid_social,2024-12-30,IL,,1
+CUST-00472,commercial,trade_show,2025-06-19,AZ,Cascade Design + Build,1
+CUST-00473,trade,architect_referral,2024-03-30,MI,Ashford Build Co.,0
+CUST-00474,homeowner,paid_social,2024-11-17,NC,,1
+CUST-00475,designer,referral,2025-04-24,NJ,,1
+CUST-00476,homeowner,paid_social,2024-11-20,AZ,,1
+CUST-00477,designer,organic_search,2024-03-11,MA,,1
+CUST-00478,homeowner,showroom_walkin,2024-12-29,MD,,1
+CUST-00479,commercial,trade_show,2024-11-20,NY,Coastal Construction,1
+CUST-00480,designer,organic_search,2025-01-07,CA,,1
+CUST-00481,homeowner,direct,2025-03-12,VA,,1
+CUST-00482,trade,architect_referral,2024-03-30,NY,Harbor Studio,1
+CUST-00483,trade,trade_show,2025-03-06,TX,Union Studio,1
+CUST-00484,trade,trade_show,2025-02-09,CA,Meridian Construction,1
+CUST-00485,homeowner,email_capture,2024-02-03,,,1
+CUST-00486,homeowner,paid_social,2024-04-11,IL,,1
+CUST-00487,homeowner,showroom_walkin,2024-08-15,GA,,1
+CUST-00488,homeowner,organic_search,2024-03-16,MI,,1
+CUST-00489,homeowner,paid_social,2024-06-05,TX,,1
+CUST-00490,homeowner,organic_search,2025-05-14,PA,,1
+CUST-00491,commercial,trade_show,2025-02-11,CA,Ashford Studio,1
+CUST-00492,homeowner,referral,2025-06-23,TX,,1
+CUST-00493,designer,paid_social,2024-01-22,,,1
+CUST-00494,designer,paid_social,2024-02-18,FL,,0
+CUST-00495,homeowner,organic_search,2024-01-11,IL,,1
+CUST-00496,designer,organic_search,2024-02-14,NY,,1
+CUST-00497,homeowner,referral,2025-08-14,MI,,0
+CUST-00498,homeowner,email_capture,2024-03-02,,,1
+CUST-00499,homeowner,direct,2024-07-11,OR,,1
+CUST-00500,homeowner,paid_social,2025-03-17,VA,,1
+CUST-00501,homeowner,organic_search,2024-10-09,VA,,1
+CUST-00502,designer,direct,2024-10-01,MI,,1
+CUST-00503,homeowner,paid_social,2024-01-14,MI,,1
+CUST-00504,homeowner,direct,2024-12-09,OH,,1
+CUST-00505,designer,architect_referral,2024-01-22,IL,,1
+CUST-00506,homeowner,organic_search,2024-12-23,AZ,,1
+CUST-00507,trade,paid_social,2024-06-02,VA,Cascade Construction,1
+CUST-00508,commercial,architect_referral,2024-05-26,TX,Northline Construction,1
+CUST-00509,commercial,organic_search,2024-09-24,GA,Cascade Studio,1
+CUST-00510,homeowner,email_capture,2025-04-17,CA,,1
+CUST-00511,homeowner,organic_search,2024-04-19,AZ,,1
+CUST-00512,homeowner,showroom_walkin,2024-06-07,GA,,1
+CUST-00513,trade,trade_show,2025-03-25,CT,Cascade Design Studio,1
+CUST-00514,trade,paid_social,2024-10-17,OH,Coastal Design Studio,1
+CUST-00515,trade,trade_show,2025-06-09,OR,Cascade Design + Build,1
+CUST-00516,designer,showroom_walkin,2025-06-03,VA,,1
+CUST-00517,homeowner,organic_search,2024-08-30,NY,,1
+CUST-00518,designer,organic_search,2024-09-15,MI,,1
+CUST-00519,trade,showroom_walkin,2025-06-24,MI,Meridian & Associates,1
+CUST-00520,designer,direct,2025-08-05,OR,,1
+CUST-00521,homeowner,referral,2025-07-13,NY,,0
+CUST-00522,trade,organic_search,2025-05-20,OR,Harbor Design + Build,0
+CUST-00523,designer,architect_referral,2025-07-19,MI,,1
+CUST-00524,trade,trade_show,2024-01-16,CO,Northline Design Studio,1
+CUST-00525,homeowner,referral,2025-05-05,NY,,1
+CUST-00526,trade,trade_show,2024-11-05,NC,Bramble Interiors,1
+CUST-00527,designer,paid_social,2024-03-27,WA,,1
+CUST-00528,trade,direct,2025-08-28,TX,Ashford Studio,0
+CUST-00529,commercial,direct,2024-10-21,NJ,Bramble Build Co.,0
+CUST-00530,designer,paid_social,2024-09-12,NJ,,1
+CUST-00531,homeowner,referral,2024-03-22,MA,,1
+CUST-00532,trade,trade_show,2024-02-12,NJ,Harbor Construction,0
+CUST-00533,trade,paid_social,2024-11-30,CT,Ashford Studio,0
+CUST-00534,homeowner,architect_referral,2024-03-21,OR,,0
+CUST-00535,homeowner,direct,2024-02-22,CT,,1
+CUST-00536,homeowner,paid_social,2025-01-05,MI,,1
+CUST-00537,designer,trade_show,2024-07-21,MN,,1
+CUST-00538,homeowner,organic_search,2025-03-17,CA,,0
+CUST-00539,homeowner,referral,2024-10-27,NY,,1
+CUST-00540,homeowner,organic_search,2024-01-08,MD,,1
+CUST-00541,homeowner,paid_social,2024-11-22,MN,,1
+CUST-00542,designer,organic_search,2024-07-30,NJ,,1
+CUST-00543,homeowner,paid_social,2024-09-26,OR,,0
+CUST-00544,commercial,architect_referral,2024-11-21,TX,Harbor Design Studio,1
+CUST-00545,designer,organic_search,2024-07-01,WA,,1
+CUST-00546,homeowner,paid_social,2024-04-08,CO,,0
+CUST-00547,homeowner,organic_search,2024-10-24,MA,,0
+CUST-00548,designer,organic_search,2025-04-03,PA,,0
+CUST-00549,homeowner,organic_search,2024-06-09,NJ,,1
+CUST-00550,homeowner,organic_search,2024-11-04,CA,,1
+CUST-00551,trade,trade_show,2024-06-04,NY,Coastal Interiors,1
+CUST-00552,homeowner,organic_search,2025-08-13,MI,,1
+CUST-00553,homeowner,organic_search,2024-11-14,AZ,,1
+CUST-00554,homeowner,trade_show,2024-06-03,WA,,1
+CUST-00555,homeowner,paid_social,2024-08-29,AZ,,1
+CUST-00556,homeowner,organic_search,2024-01-14,MN,,1
+CUST-00557,homeowner,referral,2024-07-28,CT,,1
+CUST-00558,homeowner,paid_social,2024-03-03,CT,,1
+CUST-00559,designer,referral,2025-02-16,MA,,1
+CUST-00560,trade,referral,2024-01-03,CO,Northline Build Co.,1
+CUST-00561,commercial,architect_referral,2024-05-26,PA,Union Construction,1
+CUST-00562,homeowner,trade_show,2024-01-11,TX,,1
+CUST-00563,trade,email_capture,2025-04-10,MI,Northline Design Studio,1
+CUST-00564,homeowner,email_capture,2025-02-16,PA,,1
+CUST-00565,trade,organic_search,2024-10-07,NJ,Ashford & Associates,1
+CUST-00566,homeowner,direct,2024-09-09,GA,,1
+CUST-00567,homeowner,paid_social,2025-06-19,OH,,1
+CUST-00568,homeowner,direct,2024-10-02,OR,,1
+CUST-00569,designer,trade_show,2024-01-09,MN,,1
+CUST-00570,homeowner,email_capture,2024-08-27,VA,,1
+CUST-00571,homeowner,organic_search,2024-01-01,IL,,1
+CUST-00572,trade,architect_referral,2024-04-08,FL,Cascade Studio,1
+CUST-00573,homeowner,paid_social,2024-01-02,CT,,1
+CUST-00574,homeowner,organic_search,2024-03-25,NC,,1
+CUST-00575,homeowner,paid_social,2025-04-29,AZ,,0
+CUST-00576,homeowner,organic_search,2025-08-27,MA,,1
+CUST-00577,homeowner,organic_search,2025-02-09,CO,,1
+CUST-00578,homeowner,referral,2025-06-20,MD,,1
+CUST-00579,homeowner,email_capture,2024-03-21,AZ,,1
+CUST-00580,homeowner,referral,2024-08-08,PA,,1
+CUST-00581,designer,trade_show,2024-12-02,NJ,,0
+CUST-00582,homeowner,email_capture,2025-01-13,GA,,1
+CUST-00583,homeowner,email_capture,2024-05-06,NY,,1
+CUST-00584,commercial,trade_show,2024-12-26,TX,Bramble Design + Build,1
+CUST-00585,homeowner,referral,2024-08-18,FL,,1
+CUST-00586,commercial,architect_referral,2025-02-22,CA,Meridian Build Co.,1
+CUST-00587,designer,showroom_walkin,2024-07-16,MN,,1
+CUST-00588,trade,direct,2024-09-07,OH,Northline Design Studio,1
+CUST-00589,homeowner,paid_social,2024-03-02,GA,,1
+CUST-00590,homeowner,direct,2024-04-16,IL,,1
+CUST-00591,homeowner,showroom_walkin,2024-12-04,OH,,1
+CUST-00592,homeowner,organic_search,2025-01-28,MA,,1
+CUST-00593,homeowner,referral,2025-01-22,MI,,0
+CUST-00594,trade,architect_referral,2025-06-20,CO,Ashford Design Studio,1
+CUST-00595,designer,paid_social,2024-09-19,MN,,1
+CUST-00596,trade,showroom_walkin,2024-03-15,TX,Union Architecture Group,1
+CUST-00597,homeowner,organic_search,2025-02-20,CT,,1
+CUST-00598,homeowner,paid_social,2025-06-05,MI,,1
+CUST-00599,homeowner,organic_search,2025-02-09,MN,,1
+CUST-00600,trade,referral,2024-09-26,MI,Bramble Design + Build,1
+CUST-00601,homeowner,organic_search,2024-07-26,TX,,1
+CUST-00602,commercial,direct,2025-02-03,MI,Coastal Design Studio,1
+CUST-00603,designer,showroom_walkin,2025-07-29,OR,,1
+CUST-00604,homeowner,architect_referral,2024-11-17,NC,,1
+CUST-00605,commercial,direct,2024-11-30,NJ,Ashford Architecture Group,1
+CUST-00606,trade,organic_search,2025-04-24,CT,Meridian Architecture Group,1
+CUST-00607,designer,organic_search,2025-08-12,AZ,,1
+CUST-00608,homeowner,direct,2025-08-13,IL,,1
+CUST-00609,homeowner,email_capture,2024-08-26,TX,,1
+CUST-00610,homeowner,trade_show,2024-05-03,MI,,1
+CUST-00611,trade,organic_search,2024-10-08,AZ,Meridian Build Co.,1
+CUST-00612,homeowner,paid_social,2024-06-04,MN,,0
+CUST-00613,homeowner,email_capture,2024-04-25,MI,,1
+CUST-00614,designer,referral,2025-08-07,TX,,1
+CUST-00615,homeowner,referral,2024-09-12,CO,,1
+CUST-00616,designer,architect_referral,2024-07-05,CA,,1
+CUST-00617,homeowner,direct,2025-05-14,NJ,,1
+CUST-00618,trade,direct,2025-06-07,TX,Meridian Design Studio,1
+CUST-00619,homeowner,referral,2024-08-19,IL,,0
+CUST-00620,homeowner,paid_social,2024-06-13,CO,,1
+CUST-00621,homeowner,paid_social,2024-04-30,VA,,1
+CUST-00622,designer,architect_referral,2024-10-25,CO,,1
+CUST-00623,trade,trade_show,2024-12-02,PA,Bramble Design + Build,1
+CUST-00624,designer,organic_search,2024-04-20,MD,,1
+CUST-00625,trade,trade_show,2025-06-19,WA,Coastal Design Studio,1
+CUST-00626,homeowner,showroom_walkin,2024-09-26,MN,,1
+CUST-00627,homeowner,email_capture,2024-04-02,FL,,1
+CUST-00628,homeowner,showroom_walkin,2024-07-22,OR,,1
+CUST-00629,homeowner,organic_search,2024-02-11,CO,,1
+CUST-00630,homeowner,showroom_walkin,2024-08-09,,,1
+CUST-00631,homeowner,paid_social,2024-08-28,AZ,,1
+CUST-00632,designer,organic_search,2025-06-03,MI,,1
+CUST-00633,homeowner,showroom_walkin,2024-03-06,NC,,1
+CUST-00634,designer,email_capture,2025-02-09,TX,,1
+CUST-00635,designer,paid_social,2024-07-02,,,0
+CUST-00636,designer,direct,2025-05-26,OR,,1
+CUST-00637,designer,referral,2024-03-12,MN,,1
+CUST-00638,commercial,architect_referral,2024-11-15,GA,Cascade Build Co.,0
+CUST-00639,trade,trade_show,2025-02-02,OH,Northline Design + Build,1
+CUST-00640,homeowner,paid_social,2024-11-24,VA,,1
+CUST-00641,homeowner,direct,2024-10-21,WA,,1
+CUST-00642,designer,architect_referral,2025-07-01,CA,,1
+CUST-00643,designer,organic_search,2025-01-25,TX,,1
+CUST-00644,homeowner,paid_social,2024-08-21,NC,,1
+CUST-00645,trade,referral,2025-05-14,MA,Coastal Design Studio,1
+CUST-00646,homeowner,referral,2024-04-21,NY,,0
+CUST-00647,trade,trade_show,2025-05-30,TX,Ashford Design Studio,1
+CUST-00648,homeowner,showroom_walkin,2025-02-04,FL,,1
+CUST-00649,homeowner,organic_search,2025-06-14,,,1
+CUST-00650,commercial,architect_referral,2024-10-16,CT,Meridian & Associates,1
+CUST-00651,homeowner,direct,2024-05-27,WA,,1
+CUST-00652,commercial,trade_show,2025-03-03,OH,Union Studio,1
+CUST-00653,homeowner,paid_social,2025-02-26,WA,,1
+CUST-00654,trade,trade_show,2025-06-27,WA,Northline Architecture Group,1
+CUST-00655,homeowner,email_capture,2025-02-23,MN,,1
+CUST-00656,homeowner,showroom_walkin,2025-01-06,OH,,1
+CUST-00657,trade,showroom_walkin,2025-05-21,CA,Coastal Build Co.,1
+CUST-00658,designer,referral,2024-02-02,IL,,0
+CUST-00659,homeowner,paid_social,2024-09-24,NJ,,1
+CUST-00660,trade,direct,2024-01-24,IL,Northline Interiors,1
+CUST-00661,homeowner,organic_search,2024-12-15,CT,,1
+CUST-00662,homeowner,referral,2024-07-16,MI,,1
+CUST-00663,trade,trade_show,2025-06-03,CA,Meridian Construction,1
+CUST-00664,homeowner,organic_search,2025-03-12,MA,,1
+CUST-00665,designer,paid_social,2025-01-05,CT,,1
+CUST-00666,homeowner,architect_referral,2024-11-16,NJ,,1
+CUST-00667,trade,trade_show,2024-06-01,FL,Coastal Build Co.,1
+CUST-00668,homeowner,email_capture,2024-06-12,MI,,1
+CUST-00669,homeowner,paid_social,2025-01-17,IL,,0
+CUST-00670,designer,referral,2024-07-18,IL,,1
+CUST-00671,homeowner,paid_social,2024-07-16,MA,,1
+CUST-00672,trade,trade_show,2024-05-03,GA,Meridian Construction,1
+CUST-00673,designer,showroom_walkin,2025-08-31,OH,,1
+CUST-00674,designer,referral,2025-08-05,WA,,1
+CUST-00675,homeowner,paid_social,2024-03-12,MI,,1
+CUST-00676,homeowner,trade_show,2024-06-05,IL,,1
+CUST-00677,homeowner,organic_search,2024-01-08,CT,,1
+CUST-00678,trade,trade_show,2025-08-30,GA,Harbor Interiors,1
+CUST-00679,designer,organic_search,2025-05-18,MI,,1
+CUST-00680,commercial,organic_search,2025-01-11,TX,Coastal Design + Build,1
+CUST-00681,homeowner,email_capture,2024-07-28,NY,,1
+CUST-00682,designer,organic_search,2024-06-05,TX,,1
+CUST-00683,trade,organic_search,2024-10-05,TX,Union Design Studio,0
+CUST-00684,homeowner,organic_search,2025-05-21,NJ,,0
+CUST-00685,trade,trade_show,2025-03-05,NY,Harbor Architecture Group,1
+CUST-00686,trade,trade_show,2024-11-29,NC,Coastal Studio,1
+CUST-00687,homeowner,organic_search,2024-04-08,,,1
+CUST-00688,homeowner,referral,2024-02-12,MI,,1
+CUST-00689,trade,trade_show,2025-08-24,CT,Union Design Studio,1
+CUST-00690,homeowner,paid_social,2024-03-11,VA,,1
+CUST-00691,homeowner,paid_social,2024-06-27,OH,,1
+CUST-00692,homeowner,direct,2025-08-20,MI,,1
+CUST-00693,homeowner,organic_search,2025-01-01,MI,,0
+CUST-00694,homeowner,trade_show,2025-02-04,CA,,1
+CUST-00695,trade,organic_search,2024-05-10,VA,Northline & Associates,1
+CUST-00696,trade,trade_show,2024-09-04,CT,Union Architecture Group,1
+CUST-00697,commercial,trade_show,2025-01-30,MD,Cascade & Associates,1
+CUST-00698,trade,trade_show,2024-12-22,GA,Ashford Studio,1
+CUST-00699,homeowner,paid_social,2025-04-18,MD,,1
+CUST-00700,homeowner,referral,2024-09-15,NY,,1
+CUST-00701,homeowner,organic_search,2024-04-20,NJ,,1
+CUST-00702,designer,showroom_walkin,2024-09-30,NJ,,1
+CUST-00703,homeowner,organic_search,2024-11-11,PA,,1
+CUST-00704,homeowner,paid_social,2025-02-01,OH,,1
+CUST-00705,homeowner,email_capture,2024-09-06,OR,,1
+CUST-00706,commercial,trade_show,2024-08-22,OR,Cascade Architecture Group,1
+CUST-00707,trade,direct,2024-06-29,GA,Coastal Build Co.,1
+CUST-00708,trade,showroom_walkin,2024-06-24,MA,Harbor Design Studio,1
+CUST-00709,homeowner,referral,2025-05-16,FL,,1
+CUST-00710,homeowner,organic_search,2024-03-16,CT,,1
+CUST-00711,designer,architect_referral,2024-11-05,FL,,1
+CUST-00712,homeowner,paid_social,2025-01-30,PA,,1
+CUST-00713,homeowner,referral,2024-12-21,CT,,1
+CUST-00714,homeowner,showroom_walkin,2025-07-15,MD,,0
+CUST-00715,trade,paid_social,2025-07-14,MD,Meridian Design Studio,0
+CUST-00716,trade,referral,2025-05-20,NY,Union Design + Build,1
+CUST-00717,homeowner,organic_search,2025-08-31,CO,,1
+CUST-00718,designer,showroom_walkin,2025-02-26,FL,,1
+CUST-00719,homeowner,paid_social,2024-11-11,CO,,0
+CUST-00720,homeowner,referral,2025-05-19,OR,,1
+CUST-00721,homeowner,organic_search,2025-08-19,OR,,1
+CUST-00722,homeowner,organic_search,2025-02-06,AZ,,1
+CUST-00723,homeowner,email_capture,2024-05-09,IL,,1
+CUST-00724,homeowner,paid_social,2024-12-19,OR,,1
+CUST-00725,trade,trade_show,2024-07-07,CA,Cascade Construction,1
+CUST-00726,homeowner,organic_search,2025-05-28,TX,,1
+CUST-00727,homeowner,email_capture,2025-08-28,NJ,,0
+CUST-00728,trade,architect_referral,2024-08-22,MD,Bramble Design Studio,1
+CUST-00729,designer,architect_referral,2024-11-09,CT,,1
+CUST-00730,trade,trade_show,2024-12-02,MN,Meridian Design Studio,1
+CUST-00731,trade,architect_referral,2024-01-04,CO,Bramble Build Co.,1
+CUST-00732,homeowner,showroom_walkin,2024-10-11,OR,,1
+CUST-00733,homeowner,direct,2025-03-18,NY,,1
+CUST-00734,trade,trade_show,2025-01-12,TX,Harbor & Associates,1
+CUST-00735,designer,architect_referral,2024-05-02,CT,,1
+CUST-00736,homeowner,paid_social,2024-11-03,,,0
+CUST-00737,trade,trade_show,2024-04-07,MA,Ashford Architecture Group,1
+CUST-00738,designer,direct,2025-07-13,GA,,1
+CUST-00739,homeowner,direct,2024-02-13,MI,,1
+CUST-00740,homeowner,organic_search,2025-08-05,NY,,1
+CUST-00741,homeowner,referral,2024-03-01,PA,,1
+CUST-00742,commercial,showroom_walkin,2024-02-11,CO,Harbor Architecture Group,1
+CUST-00743,designer,architect_referral,2024-01-15,PA,,1
+CUST-00744,homeowner,showroom_walkin,2024-10-08,OH,,1
+CUST-00745,homeowner,organic_search,2025-03-12,CA,,1
+CUST-00746,designer,organic_search,2024-10-01,NC,,1
+CUST-00747,designer,showroom_walkin,2025-08-11,VA,,1
+CUST-00748,commercial,architect_referral,2024-12-31,NY,Meridian Interiors,1
+CUST-00749,homeowner,referral,2024-03-19,NY,,1
+CUST-00750,commercial,architect_referral,2025-04-05,TX,Meridian Architecture Group,1
+CUST-00751,homeowner,organic_search,2024-06-20,CA,,1
+CUST-00752,homeowner,organic_search,2025-08-08,CA,,1
+CUST-00753,homeowner,email_capture,2024-07-28,NC,,0
+CUST-00754,homeowner,paid_social,2025-03-21,CO,,1
+CUST-00755,homeowner,organic_search,2025-07-02,OH,,0
+CUST-00756,homeowner,paid_social,2025-07-05,CO,,1
+CUST-00757,homeowner,referral,2024-03-14,PA,,1
+CUST-00758,trade,architect_referral,2025-08-22,OR,Meridian & Associates,0
+CUST-00759,homeowner,email_capture,2024-03-19,IL,,1
+CUST-00760,homeowner,paid_social,2025-06-26,IL,,1
+CUST-00761,homeowner,organic_search,2025-02-24,CT,,1
+CUST-00762,homeowner,organic_search,2024-05-05,FL,,1
+CUST-00763,homeowner,showroom_walkin,2025-02-13,MA,,1
+CUST-00764,designer,architect_referral,2024-11-10,PA,,1
+CUST-00765,homeowner,showroom_walkin,2024-10-27,TX,,0
+CUST-00766,homeowner,referral,2025-05-27,VA,,0
+CUST-00767,homeowner,architect_referral,2024-12-29,TX,,1
+CUST-00768,homeowner,organic_search,2025-02-18,AZ,,1
+CUST-00769,trade,organic_search,2024-07-08,TX,Harbor Architecture Group,1
+CUST-00770,designer,referral,2024-01-04,CT,,1
+CUST-00771,homeowner,showroom_walkin,2024-08-08,CT,,1
+CUST-00772,trade,showroom_walkin,2025-05-19,FL,Harbor Architecture Group,1
+CUST-00773,designer,organic_search,2024-08-05,NY,,1
+CUST-00774,commercial,architect_referral,2024-10-24,WA,Bramble Design Studio,1
+CUST-00775,designer,organic_search,2024-10-23,GA,,0
+CUST-00776,designer,architect_referral,2025-04-12,OR,,1
+CUST-00777,trade,referral,2024-05-24,PA,Harbor Studio,1
+CUST-00778,commercial,architect_referral,2024-12-18,PA,Northline Build Co.,0
+CUST-00779,designer,organic_search,2024-07-13,VA,,1
+CUST-00780,homeowner,referral,2024-11-14,VA,,0
+CUST-00781,homeowner,email_capture,2024-01-27,WA,,1
+CUST-00782,homeowner,referral,2025-02-04,MN,,0
+CUST-00783,trade,direct,2024-06-13,MD,Northline Construction,1
+CUST-00784,trade,trade_show,2025-04-23,NJ,Union Design Studio,1
+CUST-00785,designer,referral,2024-05-04,TX,,1
+CUST-00786,homeowner,organic_search,2024-04-06,PA,,0
+CUST-00787,homeowner,organic_search,2025-05-18,MD,,1
+CUST-00788,trade,direct,2025-07-06,CO,Cascade Design + Build,1
+CUST-00789,designer,showroom_walkin,2025-03-14,FL,,0
+CUST-00790,homeowner,showroom_walkin,2024-06-24,MN,,1
+CUST-00791,trade,trade_show,2025-04-03,NY,Coastal Build Co.,1
+CUST-00792,homeowner,referral,2024-01-17,MN,,0
+CUST-00793,trade,trade_show,2024-09-13,VA,Cascade Construction,0
+CUST-00794,homeowner,paid_social,2025-07-12,VA,,1
+CUST-00795,commercial,organic_search,2025-04-17,MI,Union Studio,1
+CUST-00796,trade,paid_social,2025-06-12,MD,Harbor Design + Build,1
+CUST-00797,designer,direct,2025-01-04,FL,,1
+CUST-00798,homeowner,direct,2024-10-28,MN,,1
+CUST-00799,homeowner,showroom_walkin,2024-12-01,MN,,1
+CUST-00800,commercial,trade_show,2024-09-26,FL,Ashford Design Studio,1
+CUST-00801,homeowner,paid_social,2024-02-18,TX,,1
+CUST-00802,commercial,organic_search,2025-03-12,OH,Harbor Design Studio,0
+CUST-00803,commercial,architect_referral,2025-06-20,MI,Cascade & Associates,1
+CUST-00804,homeowner,direct,2024-12-04,NJ,,1
+CUST-00805,designer,referral,2025-01-07,AZ,,1
+CUST-00806,commercial,organic_search,2024-02-10,WA,Bramble Design + Build,1
+CUST-00807,homeowner,organic_search,2024-11-27,AZ,,1
+CUST-00808,homeowner,paid_social,2025-01-27,FL,,0
+CUST-00809,homeowner,referral,2025-03-27,GA,,1
+CUST-00810,trade,architect_referral,2024-07-13,OR,Cascade Design Studio,1
+CUST-00811,homeowner,paid_social,2024-07-27,NJ,,1
+CUST-00812,commercial,trade_show,2024-04-02,VA,Union Studio,0
+CUST-00813,homeowner,organic_search,2025-04-25,MN,,1
+CUST-00814,commercial,direct,2024-01-30,AZ,Cascade Interiors,1
+CUST-00815,designer,architect_referral,2024-08-29,NJ,,1
+CUST-00816,designer,paid_social,2024-09-16,MD,,1
+CUST-00817,homeowner,email_capture,2025-06-15,CO,,1
+CUST-00818,homeowner,organic_search,2025-01-16,VA,,1
+CUST-00819,trade,organic_search,2024-01-18,MA,Meridian Studio,1
+CUST-00820,homeowner,email_capture,2025-08-23,NC,,1
+CUST-00821,homeowner,referral,2024-04-05,CT,,1
+CUST-00822,homeowner,referral,2024-02-02,OH,,1
+CUST-00823,trade,organic_search,2024-10-15,MN,Bramble Design Studio,1
+CUST-00824,trade,trade_show,2024-01-18,NY,Union Architecture Group,1
+CUST-00825,designer,paid_social,2024-06-19,CT,,1
+CUST-00826,trade,architect_referral,2024-01-08,CO,Bramble Design Studio,1
+CUST-00827,trade,showroom_walkin,2024-10-18,PA,Meridian Construction,1
+CUST-00828,trade,trade_show,2025-04-03,NY,Harbor Architecture Group,0
+CUST-00829,designer,referral,2025-03-15,CT,,1
+CUST-00830,homeowner,email_capture,2025-02-16,PA,,1
+CUST-00831,homeowner,email_capture,2024-03-10,MD,,1
+CUST-00832,trade,trade_show,2025-05-19,CO,Meridian & Associates,1
+CUST-00833,designer,trade_show,2024-04-26,CT,,1
+CUST-00834,homeowner,showroom_walkin,2024-01-29,MA,,0
+CUST-00835,trade,organic_search,2025-03-31,CA,Bramble Design Studio,1
+CUST-00836,homeowner,trade_show,2025-04-07,NC,,1
+CUST-00837,trade,trade_show,2024-06-10,VA,Bramble Build Co.,1
+CUST-00838,homeowner,referral,2024-08-22,NY,,1
+CUST-00839,homeowner,organic_search,2025-04-16,MD,,1
+CUST-00840,homeowner,showroom_walkin,2025-03-15,CA,,1
+CUST-00841,homeowner,paid_social,2024-02-12,PA,,1
+CUST-00842,homeowner,direct,2024-07-28,PA,,1
+CUST-00843,trade,trade_show,2024-09-25,NY,Coastal Design + Build,1
+CUST-00844,trade,trade_show,2025-05-10,OR,Cascade Construction,1
+CUST-00845,trade,trade_show,2025-02-07,FL,Coastal Interiors,1
+CUST-00846,homeowner,organic_search,2024-07-03,WA,,1
+CUST-00847,trade,trade_show,2025-02-08,TX,Meridian Studio,0
+CUST-00848,designer,referral,2025-05-24,PA,,1
+CUST-00849,homeowner,organic_search,2025-01-13,MA,,0
+CUST-00850,trade,trade_show,2025-04-30,GA,Ashford Architecture Group,1
+CUST-00851,homeowner,paid_social,2025-06-12,FL,,1
+CUST-00852,trade,organic_search,2024-10-06,OH,Coastal Construction,1
+CUST-00853,trade,referral,2024-09-28,VA,Cascade Architecture Group,1
+CUST-00854,homeowner,direct,2024-04-24,IL,,1
+CUST-00855,homeowner,organic_search,2025-07-22,NJ,,1
+CUST-00856,homeowner,paid_social,2024-08-23,AZ,,1
+CUST-00857,homeowner,organic_search,2025-03-11,NC,,1
+CUST-00858,trade,architect_referral,2024-11-24,CO,Northline Build Co.,1
+CUST-00859,commercial,trade_show,2025-08-15,IL,Northline Construction,1
+CUST-00860,commercial,trade_show,2025-01-25,MA,Cascade Interiors,1
+CUST-00861,designer,showroom_walkin,2024-08-05,MN,,1
+CUST-00862,trade,trade_show,2025-01-30,,Northline Construction,1
+CUST-00863,trade,trade_show,2024-07-18,AZ,Ashford Architecture Group,1
+CUST-00864,homeowner,organic_search,2025-02-06,NC,,1
+CUST-00865,homeowner,organic_search,2024-05-24,FL,,1
+CUST-00866,homeowner,referral,2025-06-16,MD,,1
+CUST-00867,designer,paid_social,2024-01-23,OR,,0
+CUST-00868,homeowner,organic_search,2024-03-15,OH,,1
+CUST-00869,homeowner,organic_search,2024-06-15,IL,,1
+CUST-00870,homeowner,referral,2024-02-20,OR,,1
+CUST-00871,designer,architect_referral,2024-01-06,WA,,1
+CUST-00872,designer,email_capture,2024-04-03,NY,,0
+CUST-00873,designer,organic_search,2025-05-10,MA,,1
+CUST-00874,commercial,architect_referral,2025-06-11,IL,Meridian Construction,1
+CUST-00875,homeowner,architect_referral,2024-09-04,AZ,,1
+CUST-00876,homeowner,paid_social,2024-06-30,AZ,,1
+CUST-00877,homeowner,organic_search,2024-07-06,CA,,1
+CUST-00878,designer,referral,2025-02-02,WA,,1
+CUST-00879,trade,referral,2024-03-26,MN,Northline Build Co.,1
+CUST-00880,homeowner,direct,2024-12-13,WA,,1
+CUST-00881,homeowner,trade_show,2024-03-08,,,1
+CUST-00882,homeowner,paid_social,2024-10-18,OR,,1
+CUST-00883,trade,referral,2025-01-17,MD,Harbor Design + Build,1
+CUST-00884,designer,referral,2024-02-15,CO,,1
+CUST-00885,homeowner,paid_social,2024-06-09,AZ,,1
+CUST-00886,homeowner,showroom_walkin,2024-02-02,,,0
+CUST-00887,trade,email_capture,2025-07-23,NJ,Cascade Architecture Group,1
+CUST-00888,trade,referral,2025-07-17,CA,Coastal Build Co.,1
+CUST-00889,homeowner,paid_social,2025-07-02,NC,,1
+CUST-00890,trade,organic_search,2025-01-19,CT,Union Build Co.,1
+CUST-00891,designer,direct,2025-06-21,NY,,0
+CUST-00892,designer,architect_referral,2024-05-10,WA,,0
+CUST-00893,homeowner,organic_search,2024-02-28,NC,,1
+CUST-00894,homeowner,direct,2024-03-16,MI,,0
+CUST-00895,commercial,organic_search,2024-09-10,NJ,Northline Studio,1
+CUST-00896,homeowner,organic_search,2025-02-19,NJ,,0
+CUST-00897,homeowner,organic_search,2025-02-07,IL,,1
+CUST-00898,homeowner,showroom_walkin,2025-01-20,MN,,1
+CUST-00899,designer,paid_social,2024-06-03,NY,,1
+CUST-00900,trade,architect_referral,2024-10-15,OH,Cascade Design + Build,1
+CUST-00901,designer,referral,2024-01-29,NC,,1
+CUST-00902,designer,email_capture,2025-01-04,CO,,1
+CUST-00903,homeowner,organic_search,2024-12-15,MN,,1
+CUST-00904,designer,trade_show,2024-09-10,MN,,1
+CUST-00905,designer,referral,2025-06-27,NC,,1
+CUST-00906,trade,trade_show,2025-06-01,OH,Union Design Studio,1
+CUST-00907,designer,referral,2024-12-15,IL,,1
+CUST-00908,homeowner,organic_search,2025-03-25,NJ,,0
+CUST-00909,homeowner,referral,2024-05-06,TX,,1
+CUST-00910,homeowner,referral,2024-12-25,IL,,1
+CUST-00911,designer,direct,2024-05-31,MN,,1
+CUST-00912,homeowner,organic_search,2025-04-30,CO,,1
+CUST-00913,homeowner,organic_search,2025-04-15,WA,,1
+CUST-00914,homeowner,organic_search,2024-01-15,MI,,1
+CUST-00915,homeowner,showroom_walkin,2024-09-25,NJ,,1
+CUST-00916,trade,trade_show,2024-07-07,MN,Ashford Studio,1
+CUST-00917,designer,showroom_walkin,2024-10-05,FL,,1
+CUST-00918,homeowner,organic_search,2024-10-10,MI,,1
+CUST-00919,homeowner,showroom_walkin,2024-03-14,OR,,0
+CUST-00920,homeowner,organic_search,2024-09-16,MN,,1
+CUST-00921,trade,email_capture,2024-07-08,IL,Coastal Design Studio,1
+CUST-00922,homeowner,organic_search,2024-07-31,MD,,1
+CUST-00923,homeowner,paid_social,2024-10-16,MD,,1
+CUST-00924,homeowner,paid_social,2025-08-09,OH,,0
+CUST-00925,homeowner,paid_social,2024-07-09,OH,,1
+CUST-00926,designer,direct,2025-07-27,MD,,1
+CUST-00927,trade,referral,2024-09-21,MA,Bramble Interiors,1
+CUST-00928,trade,trade_show,2024-03-03,MN,Union Design Studio,1
+CUST-00929,trade,paid_social,2024-12-30,NY,Northline Interiors,1
+CUST-00930,homeowner,referral,2024-08-11,OR,,1
+CUST-00931,homeowner,organic_search,2024-11-13,OH,,1
+CUST-00932,trade,email_capture,2024-11-17,IL,Bramble Studio,1
+CUST-00933,homeowner,paid_social,2024-07-04,OH,,1
+CUST-00934,homeowner,referral,2024-04-20,TX,,1
+CUST-00935,homeowner,referral,2024-11-18,CO,,1
+CUST-00936,homeowner,organic_search,2025-08-18,CA,,1
+CUST-00937,trade,organic_search,2025-05-02,MI,Bramble Studio,1
+CUST-00938,homeowner,paid_social,2024-03-06,MN,,1
+CUST-00939,homeowner,organic_search,2024-02-18,NY,,0
+CUST-00940,homeowner,referral,2024-09-14,NC,,1
+CUST-00941,designer,paid_social,2025-01-26,TX,,1
+CUST-00942,homeowner,organic_search,2025-01-18,CT,,1
+CUST-00943,homeowner,organic_search,2025-01-02,MD,,1
+CUST-00944,designer,referral,2025-03-22,CO,,1
+CUST-00945,commercial,organic_search,2025-01-21,OR,Bramble Design Studio,1
+CUST-00946,designer,organic_search,2024-06-04,NY,,1
+CUST-00947,homeowner,referral,2025-06-27,AZ,,1
+CUST-00948,homeowner,paid_social,2025-08-06,VA,,1
+CUST-00949,homeowner,organic_search,2024-01-18,GA,,1
+CUST-00950,homeowner,organic_search,2024-07-22,NY,,1
+CUST-00951,designer,organic_search,2024-12-22,TX,,1
+CUST-00952,designer,showroom_walkin,2024-03-04,WA,,1
+CUST-00953,homeowner,referral,2024-07-30,VA,,1
+CUST-00954,homeowner,paid_social,2024-09-10,PA,,0
+CUST-00955,homeowner,showroom_walkin,2024-03-05,VA,,1
+CUST-00956,homeowner,direct,2024-09-29,CO,,1
+CUST-00957,homeowner,paid_social,2024-01-18,IL,,1
+CUST-00958,homeowner,direct,2024-05-21,AZ,,1
+CUST-00959,trade,organic_search,2024-10-01,MI,Coastal Studio,1
+CUST-00960,designer,showroom_walkin,2025-04-13,GA,,1
+CUST-00961,homeowner,showroom_walkin,2025-07-03,NJ,,1
+CUST-00962,homeowner,referral,2024-03-03,CA,,1
+CUST-00963,designer,trade_show,2025-04-30,MA,,1
+CUST-00964,designer,organic_search,2025-01-01,FL,,1
+CUST-00965,homeowner,paid_social,2024-02-05,CA,,1
+CUST-00966,homeowner,paid_social,2024-12-17,PA,,0
+CUST-00967,homeowner,organic_search,2025-05-25,GA,,1
+CUST-00968,homeowner,organic_search,2024-05-10,MN,,0
+CUST-00969,designer,referral,2024-06-09,PA,,1
+CUST-00970,homeowner,referral,2025-01-06,GA,,1
+CUST-00971,homeowner,paid_social,2024-11-03,MD,,1
+CUST-00972,designer,direct,2024-07-05,PA,,1
+CUST-00973,homeowner,paid_social,2024-08-19,MI,,1
+CUST-00974,commercial,showroom_walkin,2025-02-09,IL,Bramble Studio,1
+CUST-00975,trade,trade_show,2024-04-24,WA,Ashford & Associates,1
+CUST-00976,homeowner,organic_search,2025-08-31,PA,,1
+CUST-00977,homeowner,referral,2025-04-13,MD,,1
+CUST-00978,designer,architect_referral,2024-03-16,IL,,1
+CUST-00979,homeowner,paid_social,2025-06-19,NY,,1
+CUST-00980,homeowner,organic_search,2024-09-08,CT,,1
+CUST-00981,homeowner,paid_social,2024-02-18,NC,,1
+CUST-00982,homeowner,showroom_walkin,2024-01-21,NY,,1
+CUST-00983,trade,architect_referral,2024-02-13,GA,Cascade Construction,1
+CUST-00984,homeowner,organic_search,2025-02-15,IL,,1
+CUST-00985,trade,email_capture,2024-04-02,NC,Bramble & Associates,1
+CUST-00986,commercial,architect_referral,2025-02-23,CA,Meridian Construction,1
+CUST-00987,homeowner,direct,2025-04-17,AZ,,1
+CUST-00988,commercial,trade_show,2024-04-14,MA,Bramble & Associates,1
+CUST-00989,designer,architect_referral,2024-01-04,MD,,1
+CUST-00990,trade,organic_search,2025-03-11,NJ,Northline Architecture Group,1
+CUST-00991,commercial,showroom_walkin,2024-08-27,TX,Union & Associates,1
+CUST-00992,trade,email_capture,2024-07-09,NJ,Cascade Design + Build,1
+CUST-00993,trade,organic_search,2024-02-27,MI,Bramble Architecture Group,1
+CUST-00994,homeowner,paid_social,2024-11-12,NY,,0
+CUST-00995,homeowner,organic_search,2025-06-30,CT,,1
+CUST-00996,homeowner,organic_search,2025-08-07,NC,,0
+CUST-00997,homeowner,paid_social,2025-04-17,OR,,1
+CUST-00998,trade,email_capture,2024-04-23,MD,Northline & Associates,1
+CUST-00999,homeowner,organic_search,2025-08-24,MA,,1
+CUST-01000,homeowner,organic_search,2025-04-21,CT,,1
+CUST-01001,designer,architect_referral,2025-07-02,PA,,1
+CUST-01002,homeowner,direct,2024-05-13,OR,,1
+CUST-01003,commercial,referral,2024-05-10,TX,Meridian Construction,1
+CUST-01004,trade,organic_search,2024-01-22,CA,Coastal Interiors,1
+CUST-01005,homeowner,referral,2025-08-04,OR,,1
+CUST-01006,trade,trade_show,2024-08-28,IL,Meridian & Associates,1
+CUST-01007,designer,referral,2025-07-08,AZ,,0
+CUST-01008,homeowner,organic_search,2024-03-28,AZ,,1
+CUST-01009,trade,organic_search,2025-01-06,TX,Meridian Construction,1
+CUST-01010,designer,architect_referral,2025-02-18,PA,,1
+CUST-01011,homeowner,showroom_walkin,2024-05-19,OH,,0
+CUST-01012,homeowner,referral,2025-03-04,OR,,1
+CUST-01013,trade,referral,2024-05-10,MD,Coastal Architecture Group,1
+CUST-01014,trade,trade_show,2024-05-27,OH,Meridian Construction,1
+CUST-01015,homeowner,paid_social,2025-02-23,NJ,,0
+CUST-01016,designer,referral,2024-12-25,FL,,1
+CUST-01017,homeowner,referral,2025-06-06,MA,,1
+CUST-01018,homeowner,paid_social,2025-03-05,FL,,0
+CUST-01019,trade,referral,2024-09-19,MD,Harbor Studio,1
+CUST-01020,homeowner,paid_social,2025-08-23,GA,,0
+CUST-01021,homeowner,organic_search,2025-02-15,WA,,1
+CUST-01022,homeowner,referral,2025-07-17,MD,,0
+CUST-01023,trade,direct,2024-06-08,NC,Harbor Construction,1
+CUST-01024,homeowner,organic_search,2024-05-03,OR,,1
+CUST-01025,trade,architect_referral,2025-04-24,NY,Northline Studio,1
+CUST-01026,homeowner,paid_social,2024-08-20,WA,,1
+CUST-01027,designer,paid_social,2024-05-18,TX,,0
+CUST-01028,designer,direct,2024-05-25,OR,,1
+CUST-01029,designer,paid_social,2024-10-26,VA,,1
+CUST-01030,designer,architect_referral,2025-07-17,FL,,1
+CUST-01031,trade,trade_show,2024-06-08,MI,Coastal Architecture Group,1
+CUST-01032,homeowner,paid_social,2024-06-07,FL,,1
+CUST-01033,homeowner,organic_search,2025-01-01,OR,,1
+CUST-01034,homeowner,email_capture,2025-06-26,CA,,0
+CUST-01035,homeowner,paid_social,2025-07-22,VA,,0
+CUST-01036,homeowner,organic_search,2024-07-30,AZ,,1
+CUST-01037,commercial,architect_referral,2024-08-27,MN,Ashford Design + Build,1
+CUST-01038,trade,trade_show,2025-04-05,PA,Harbor Design + Build,1
+CUST-01039,trade,trade_show,2024-12-13,NC,Coastal Architecture Group,1
+CUST-01040,designer,referral,2024-04-18,OR,,1
+CUST-01041,homeowner,paid_social,2024-04-16,PA,,1
+CUST-01042,trade,architect_referral,2024-08-09,OR,Meridian & Associates,0
+CUST-01043,commercial,organic_search,2025-02-11,AZ,Cascade Design + Build,1
+CUST-01044,designer,organic_search,2024-06-10,MI,,0
+CUST-01045,homeowner,showroom_walkin,2024-12-30,TX,,1
+CUST-01046,commercial,architect_referral,2024-01-23,MN,Harbor Architecture Group,1
+CUST-01047,designer,paid_social,2025-07-09,MD,,1
+CUST-01048,homeowner,direct,2024-03-01,NY,,1
+CUST-01049,trade,referral,2024-06-15,GA,Coastal Build Co.,1
+CUST-01050,designer,email_capture,2024-04-30,IL,,1
+CUST-01051,homeowner,paid_social,2025-02-14,IL,,1
+CUST-01052,trade,showroom_walkin,2024-05-20,MA,Cascade Architecture Group,1
+CUST-01053,homeowner,organic_search,2024-09-17,AZ,,1
+CUST-01054,trade,trade_show,2025-07-25,PA,Ashford Design Studio,1
+CUST-01055,designer,organic_search,2024-11-24,PA,,1
+CUST-01056,homeowner,referral,2024-06-25,MN,,1
+CUST-01057,homeowner,direct,2024-11-03,OH,,1
+CUST-01058,homeowner,direct,2025-03-30,WA,,1
+CUST-01059,homeowner,organic_search,2024-03-09,MI,,1
+CUST-01060,homeowner,organic_search,2024-04-23,PA,,1
+CUST-01061,designer,organic_search,2024-07-21,PA,,1
+CUST-01062,commercial,architect_referral,2025-02-02,NC,Bramble Architecture Group,0
+CUST-01063,homeowner,paid_social,2024-02-02,PA,,1
+CUST-01064,designer,organic_search,2024-06-21,GA,,1
+CUST-01065,homeowner,direct,2024-05-20,PA,,1
+CUST-01066,designer,email_capture,2024-01-04,CT,,1
+CUST-01067,homeowner,showroom_walkin,2024-02-21,GA,,1
+CUST-01068,trade,architect_referral,2024-05-14,FL,Coastal Architecture Group,1
+CUST-01069,designer,direct,2024-06-01,OH,,1
+CUST-01070,homeowner,organic_search,2025-05-09,OH,,1
+CUST-01071,homeowner,organic_search,2024-12-03,CT,,1
+CUST-01072,trade,trade_show,2024-01-23,GA,Cascade Architecture Group,1
+CUST-01073,homeowner,paid_social,2025-03-29,CA,,1
+CUST-01074,homeowner,referral,2025-03-04,AZ,,1
+CUST-01075,designer,paid_social,2024-11-30,GA,,1
+CUST-01076,homeowner,referral,2024-07-13,CA,,0
+CUST-01077,homeowner,referral,2025-02-28,MI,,0
+CUST-01078,homeowner,showroom_walkin,2025-08-16,WA,,1
+CUST-01079,designer,organic_search,2024-01-02,TX,,1
+CUST-01080,homeowner,organic_search,2024-10-30,GA,,1
+CUST-01081,homeowner,referral,2024-04-25,CT,,1
+CUST-01082,designer,referral,2025-06-18,MI,,1
+CUST-01083,homeowner,organic_search,2025-01-07,,,1
+CUST-01084,homeowner,architect_referral,2024-11-11,WA,,1
+CUST-01085,trade,architect_referral,2024-10-12,CA,Coastal Construction,1
+CUST-01086,homeowner,email_capture,2024-05-10,CO,,1
+CUST-01087,homeowner,trade_show,2024-09-19,MN,,1
+CUST-01088,designer,trade_show,2024-06-07,MD,,1
+CUST-01089,homeowner,organic_search,2025-06-19,MA,,1
+CUST-01090,commercial,direct,2024-11-08,CO,Bramble Architecture Group,1
+CUST-01091,trade,trade_show,2024-06-12,IL,Harbor Design + Build,1
+CUST-01092,designer,organic_search,2025-08-05,NJ,,0
+CUST-01093,designer,architect_referral,2024-10-24,CA,,1
+CUST-01094,homeowner,organic_search,2025-08-12,MN,,1
+CUST-01095,homeowner,organic_search,2025-07-01,PA,,1
+CUST-01096,homeowner,email_capture,2025-07-24,NC,,1
+CUST-01097,homeowner,paid_social,2024-03-21,NY,,1
+CUST-01098,designer,direct,2024-02-18,MI,,1
+CUST-01099,homeowner,paid_social,2025-07-06,MA,,0
+CUST-01100,commercial,architect_referral,2024-09-01,VA,Coastal Construction,1
+CUST-01101,designer,organic_search,2024-07-27,CO,,1
+CUST-01102,designer,trade_show,2025-07-07,GA,,1
+CUST-01103,designer,organic_search,2024-01-19,AZ,,0
+CUST-01104,trade,direct,2024-03-22,OH,Bramble Studio,1
+CUST-01105,homeowner,email_capture,2025-06-13,FL,,0
+CUST-01106,designer,email_capture,2024-03-01,CO,,1
+CUST-01107,commercial,architect_referral,2024-09-20,MA,Cascade Design Studio,1
+CUST-01108,homeowner,paid_social,2024-06-20,CT,,1
+CUST-01109,homeowner,email_capture,2025-01-09,VA,,1
+CUST-01110,homeowner,showroom_walkin,2024-09-27,NC,,1
+CUST-01111,homeowner,email_capture,2024-11-03,FL,,1
+CUST-01112,trade,organic_search,2024-09-28,CO,Northline Build Co.,1
+CUST-01113,designer,organic_search,2024-06-18,OH,,1
+CUST-01114,homeowner,organic_search,2024-07-05,CA,,1
+CUST-01115,trade,organic_search,2025-05-09,AZ,Northline Design + Build,1
+CUST-01116,homeowner,showroom_walkin,2024-03-12,TX,,1
+CUST-01117,homeowner,paid_social,2024-08-11,TX,,1
+CUST-01118,homeowner,paid_social,2024-08-31,FL,,1
+CUST-01119,homeowner,showroom_walkin,2025-03-20,MI,,1
+CUST-01120,designer,organic_search,2025-06-04,NC,,1
+CUST-01121,homeowner,paid_social,2024-11-18,CT,,1
+CUST-01122,homeowner,referral,2025-07-08,MA,,1
+CUST-01123,designer,architect_referral,2024-05-26,PA,,1
+CUST-01124,trade,organic_search,2024-10-22,NJ,Meridian Construction,1
+CUST-01125,trade,paid_social,2024-07-16,MD,Bramble & Associates,1
+CUST-01126,homeowner,paid_social,2024-12-03,NJ,,1
+CUST-01127,designer,showroom_walkin,2025-01-13,FL,,1
+CUST-01128,homeowner,organic_search,2024-05-02,WA,,1
+CUST-01129,designer,showroom_walkin,2025-02-12,AZ,,1
+CUST-01130,trade,referral,2025-06-08,MD,Bramble Design Studio,1
+CUST-01131,homeowner,architect_referral,2024-11-21,MI,,1
+CUST-01132,designer,architect_referral,2025-07-07,CT,,1
+CUST-01133,homeowner,paid_social,2024-10-03,,,1
+CUST-01134,homeowner,showroom_walkin,2025-03-18,CA,,1
+CUST-01135,homeowner,organic_search,2025-03-23,OH,,1
+CUST-01136,designer,direct,2025-06-10,MA,,1
+CUST-01137,designer,referral,2024-07-05,MD,,0
+CUST-01138,designer,paid_social,2025-04-30,NY,,1
+CUST-01139,designer,trade_show,2025-04-03,WA,,1
+CUST-01140,trade,trade_show,2024-02-10,OH,Union Architecture Group,1
+CUST-01141,homeowner,organic_search,2024-01-18,MI,,1
+CUST-01142,homeowner,organic_search,2024-01-28,,,1
+CUST-01143,designer,trade_show,2025-04-10,WA,,1
+CUST-01144,trade,organic_search,2024-12-03,AZ,Ashford & Associates,1
+CUST-01145,commercial,direct,2024-11-26,WA,Union Architecture Group,1
+CUST-01146,designer,referral,2025-04-06,CT,,1
+CUST-01147,homeowner,paid_social,2024-09-26,PA,,1
+CUST-01148,trade,direct,2024-01-23,OR,Cascade Design + Build,1
+CUST-01149,homeowner,direct,2024-12-05,NJ,,1
+CUST-01150,designer,architect_referral,2024-01-25,OH,,1
+CUST-01151,commercial,direct,2024-04-27,PA,Harbor Design + Build,1
+CUST-01152,homeowner,referral,2025-05-13,OH,,1
+CUST-01153,homeowner,referral,2024-07-12,PA,,1
+CUST-01154,homeowner,direct,2024-08-01,OH,,1
+CUST-01155,homeowner,paid_social,2025-02-08,NC,,1
+CUST-01156,designer,referral,2025-08-19,MN,,1
+CUST-01157,trade,architect_referral,2024-10-04,GA,Bramble Studio,1
+CUST-01158,trade,paid_social,2024-04-05,NY,Union & Associates,1
+CUST-01159,homeowner,organic_search,2024-03-27,AZ,,1
+CUST-01160,homeowner,direct,2024-03-20,NJ,,1
+CUST-01161,homeowner,showroom_walkin,2024-07-19,CA,,1
+CUST-01162,designer,referral,2024-01-20,AZ,,1
+CUST-01163,homeowner,direct,2024-10-11,,,1
+CUST-01164,homeowner,paid_social,2024-08-16,MD,,1
+CUST-01165,homeowner,showroom_walkin,2024-09-17,AZ,,1
+CUST-01166,homeowner,paid_social,2025-04-29,CO,,1
+CUST-01167,trade,organic_search,2024-06-30,FL,Coastal Design + Build,1
+CUST-01168,homeowner,organic_search,2025-06-07,WA,,1
+CUST-01169,homeowner,organic_search,2025-08-17,PA,,1
+CUST-01170,commercial,trade_show,2024-08-05,GA,Ashford Studio,1
+CUST-01171,homeowner,email_capture,2024-03-26,NY,,1
+CUST-01172,homeowner,paid_social,2025-05-08,NJ,,1
+CUST-01173,homeowner,organic_search,2025-08-15,MN,,1
+CUST-01174,homeowner,organic_search,2025-08-09,MA,,1
+CUST-01175,homeowner,paid_social,2025-02-23,OH,,1
+CUST-01176,homeowner,organic_search,2024-10-05,MA,,0
+CUST-01177,trade,referral,2025-07-30,NJ,Bramble Architecture Group,1
+CUST-01178,designer,architect_referral,2024-01-26,WA,,1
+CUST-01179,designer,referral,2025-07-20,MA,,0
+CUST-01180,trade,organic_search,2024-05-18,NY,Bramble Design Studio,0
+CUST-01181,commercial,trade_show,2025-06-06,NC,Bramble Studio,1
+CUST-01182,homeowner,organic_search,2024-02-19,OR,,1
+CUST-01183,homeowner,organic_search,2025-07-15,MA,,1
+CUST-01184,homeowner,referral,2024-10-16,MI,,1
+CUST-01185,designer,architect_referral,2025-03-19,OH,,1
+CUST-01186,trade,organic_search,2025-01-22,VA,Coastal Build Co.,1
+CUST-01187,homeowner,direct,2024-06-14,IL,,1
+CUST-01188,designer,showroom_walkin,2025-04-08,CT,,1
+CUST-01189,homeowner,direct,2025-03-23,GA,,1
+CUST-01190,homeowner,direct,2024-12-03,CO,,1
+CUST-01191,homeowner,organic_search,2024-03-28,VA,,0
+CUST-01192,designer,paid_social,2024-09-02,FL,,1
+CUST-01193,designer,paid_social,2024-01-22,NJ,,1
+CUST-01194,homeowner,organic_search,2024-06-05,VA,,1
+CUST-01195,homeowner,paid_social,2024-01-21,VA,,1
+CUST-01196,homeowner,architect_referral,2025-05-25,MN,,0
+CUST-01197,homeowner,direct,2025-07-30,,,1
+CUST-01198,homeowner,direct,2025-03-21,FL,,0
+CUST-01199,homeowner,referral,2024-06-30,NY,,1
+CUST-01200,trade,organic_search,2024-06-03,WA,Harbor Architecture Group,1
+CUST-01201,homeowner,email_capture,2024-11-12,CA,,1
+CUST-01202,homeowner,paid_social,2024-10-23,OH,,1
+CUST-01203,homeowner,paid_social,2025-04-27,PA,,1
+CUST-01204,homeowner,showroom_walkin,2024-03-02,IL,,1
+CUST-01205,designer,organic_search,2024-05-21,FL,,1
+CUST-01206,homeowner,trade_show,2025-08-01,IL,,1
+CUST-01207,homeowner,referral,2025-05-23,PA,,1
+CUST-01208,homeowner,direct,2025-05-14,MN,,1
+CUST-01209,designer,architect_referral,2024-05-03,CA,,1
+CUST-01210,homeowner,email_capture,2024-04-22,IL,,1
+CUST-01211,trade,referral,2024-07-19,GA,Union Design Studio,1
+CUST-01212,homeowner,showroom_walkin,2024-05-27,CO,,1
+CUST-01213,homeowner,email_capture,2025-05-14,FL,,1
+CUST-01214,homeowner,paid_social,2024-09-16,NJ,,0
+CUST-01215,homeowner,direct,2024-09-16,CT,,0
+CUST-01216,designer,direct,2024-01-01,OR,,1
+CUST-01217,homeowner,organic_search,2024-03-10,WA,,1
+CUST-01218,homeowner,paid_social,2024-10-15,OH,,1
+CUST-01219,homeowner,organic_search,2025-06-12,FL,,1
+CUST-01220,homeowner,paid_social,2024-01-29,AZ,,1
+CUST-01221,homeowner,organic_search,2025-04-24,MI,,1
+CUST-01222,designer,paid_social,2024-03-12,NC,,1
+CUST-01223,commercial,organic_search,2025-07-11,OH,Harbor & Associates,1
+CUST-01224,designer,organic_search,2025-05-10,MI,,0
+CUST-01225,homeowner,email_capture,2024-05-29,OR,,1
+CUST-01226,designer,direct,2025-03-13,NY,,1
+CUST-01227,homeowner,direct,2024-10-15,IL,,1
+CUST-01228,trade,trade_show,2024-03-25,,Northline Design Studio,1
+CUST-01229,designer,direct,2024-08-13,AZ,,1
+CUST-01230,trade,architect_referral,2024-01-24,TX,Union Build Co.,1
+CUST-01231,homeowner,showroom_walkin,2025-01-21,CA,,1
+CUST-01232,designer,architect_referral,2024-08-28,AZ,,1
+CUST-01233,homeowner,showroom_walkin,2024-11-13,NJ,,1
+CUST-01234,homeowner,email_capture,2024-01-26,VA,,1
+CUST-01235,designer,organic_search,2024-03-31,WA,,1
+CUST-01236,designer,organic_search,2025-03-08,CT,,0
+CUST-01237,homeowner,showroom_walkin,2025-01-01,CA,,1
+CUST-01238,designer,organic_search,2025-02-08,AZ,,1
+CUST-01239,homeowner,paid_social,2025-05-22,FL,,1
+CUST-01240,trade,showroom_walkin,2024-04-05,NJ,Northline Architecture Group,1
+CUST-01241,homeowner,paid_social,2024-02-20,CO,,1
+CUST-01242,homeowner,organic_search,2024-05-01,,,1
+CUST-01243,homeowner,organic_search,2024-11-30,MI,,1
+CUST-01244,homeowner,paid_social,2024-09-17,AZ,,1
+CUST-01245,trade,trade_show,2024-10-01,VA,Bramble Interiors,1
+CUST-01246,trade,referral,2025-02-05,GA,Meridian Build Co.,1
+CUST-01247,homeowner,organic_search,2025-03-16,CT,,0
+CUST-01248,trade,trade_show,2025-04-23,OH,Union Build Co.,1
+CUST-01249,trade,trade_show,2024-08-26,CO,Ashford Interiors,1
+CUST-01250,homeowner,organic_search,2024-12-18,NY,,1
+CUST-01251,homeowner,organic_search,2025-03-17,WA,,1
+CUST-01252,homeowner,organic_search,2024-04-20,PA,,1
+CUST-01253,trade,trade_show,2025-03-09,MN,Bramble Architecture Group,1
+CUST-01254,homeowner,paid_social,2024-12-03,CT,,1
+CUST-01255,designer,organic_search,2024-06-26,TX,,1
+CUST-01256,trade,referral,2024-09-09,MA,Ashford Design + Build,1
+CUST-01257,designer,referral,2024-04-19,,,1
+CUST-01258,homeowner,referral,2024-09-09,FL,,1
+CUST-01259,trade,organic_search,2024-07-20,WA,Ashford Design Studio,1
+CUST-01260,homeowner,showroom_walkin,2025-04-15,NC,,1
+CUST-01261,homeowner,organic_search,2024-08-28,NJ,,1
+CUST-01262,homeowner,trade_show,2025-01-31,VA,,1
+CUST-01263,designer,paid_social,2025-05-12,PA,,1
+CUST-01264,designer,direct,2024-01-29,NJ,,1
+CUST-01265,homeowner,organic_search,2025-03-25,OH,,1
+CUST-01266,homeowner,paid_social,2024-04-19,IL,,1
+CUST-01267,homeowner,paid_social,2024-07-19,NJ,,1
+CUST-01268,homeowner,organic_search,2024-10-30,NY,,1
+CUST-01269,homeowner,direct,2025-02-01,AZ,,0
+CUST-01270,designer,organic_search,2024-05-28,CT,,1
+CUST-01271,trade,direct,2024-02-24,MI,Union Construction,1
+CUST-01272,homeowner,showroom_walkin,2025-07-20,CT,,1
+CUST-01273,commercial,referral,2024-04-06,MN,Ashford Design + Build,1
+CUST-01274,homeowner,paid_social,2025-07-28,VA,,1
+CUST-01275,trade,trade_show,2024-01-14,MI,Union Design + Build,1
+CUST-01276,homeowner,organic_search,2024-09-04,OR,,0
+CUST-01277,homeowner,showroom_walkin,2024-08-28,CT,,1
+CUST-01278,designer,organic_search,2024-11-25,AZ,,1
+CUST-01279,designer,referral,2025-08-08,CT,,1
+CUST-01280,homeowner,referral,2024-11-09,NC,,1
+CUST-01281,trade,organic_search,2025-02-14,VA,Meridian Interiors,0
+CUST-01282,homeowner,direct,2025-02-25,CO,,1
+CUST-01283,homeowner,showroom_walkin,2024-09-07,,,1
+CUST-01284,designer,organic_search,2024-07-16,,,1
+CUST-01285,homeowner,paid_social,2024-09-30,MN,,1
+CUST-01286,homeowner,referral,2024-04-05,OR,,1
+CUST-01287,homeowner,organic_search,2024-08-31,MA,,1
+CUST-01288,homeowner,paid_social,2025-01-05,GA,,1
+CUST-01289,trade,trade_show,2025-06-19,CT,Bramble & Associates,1
+CUST-01290,homeowner,paid_social,2024-11-26,CT,,0
+CUST-01291,homeowner,architect_referral,2025-08-25,AZ,,1
+CUST-01292,designer,direct,2025-03-19,MD,,1
+CUST-01293,designer,referral,2024-10-26,MA,,1
+CUST-01294,homeowner,paid_social,2025-08-13,CO,,1
+CUST-01295,homeowner,paid_social,2025-07-03,MD,,1
+CUST-01296,designer,architect_referral,2024-11-04,VA,,1
+CUST-01297,designer,organic_search,2024-08-01,CA,,1
+CUST-01298,homeowner,paid_social,2025-05-01,WA,,1
+CUST-01299,homeowner,referral,2024-06-03,TX,,1
+CUST-01300,homeowner,organic_search,2025-04-02,GA,,1
+CUST-01301,commercial,trade_show,2024-11-16,WA,Union & Associates,1
+CUST-01302,trade,direct,2024-01-29,CO,Union Studio,1
+CUST-01303,trade,trade_show,2024-12-31,VA,Bramble Construction,1
+CUST-01304,homeowner,organic_search,2024-07-24,IL,,1
+CUST-01305,homeowner,paid_social,2025-08-07,OR,,1
+CUST-01306,homeowner,paid_social,2024-03-23,OR,,1
+CUST-01307,homeowner,paid_social,2024-11-09,MI,,0
+CUST-01308,trade,architect_referral,2024-01-17,NC,Ashford Studio,1
+CUST-01309,homeowner,organic_search,2024-08-25,CA,,1
+CUST-01310,homeowner,referral,2024-04-02,MA,,1
+CUST-01311,trade,trade_show,2024-08-19,NC,Coastal Studio,1
+CUST-01312,homeowner,organic_search,2025-07-17,CT,,0
+CUST-01313,homeowner,architect_referral,2025-08-08,OR,,1
+CUST-01314,trade,organic_search,2025-01-13,MD,Meridian Design Studio,1
+CUST-01315,homeowner,organic_search,2024-04-12,WA,,0
+CUST-01316,commercial,architect_referral,2024-04-10,IL,Bramble Design + Build,1
+CUST-01317,homeowner,email_capture,2025-01-26,FL,,1
+CUST-01318,homeowner,showroom_walkin,2024-05-17,NY,,1
+CUST-01319,homeowner,referral,2025-05-23,MD,,1
+CUST-01320,designer,direct,2024-09-30,NJ,,1
+CUST-01321,homeowner,direct,2024-02-14,GA,,1
+CUST-01322,commercial,organic_search,2025-08-16,CA,Northline Design + Build,1
+CUST-01323,homeowner,paid_social,2025-05-18,VA,,1
+CUST-01324,designer,paid_social,2024-07-29,FL,,1
+CUST-01325,trade,architect_referral,2024-01-16,TX,Meridian Design + Build,1
+CUST-01326,homeowner,organic_search,2024-06-21,MD,,1
+CUST-01327,homeowner,referral,2025-07-31,AZ,,1
+CUST-01328,commercial,trade_show,2024-07-09,MN,Cascade Design Studio,1
+CUST-01329,homeowner,referral,2025-02-12,MA,,1
+CUST-01330,designer,direct,2025-05-15,MA,,1
+CUST-01331,homeowner,architect_referral,2024-04-30,CT,,1
+CUST-01332,homeowner,email_capture,2024-01-09,WA,,1
+CUST-01333,homeowner,organic_search,2025-07-08,TX,,1
+CUST-01334,homeowner,organic_search,2024-01-09,TX,,1
+CUST-01335,homeowner,organic_search,2024-06-06,FL,,0
+CUST-01336,homeowner,organic_search,2024-12-06,TX,,1
+CUST-01337,homeowner,direct,2024-08-10,NJ,,1
+CUST-01338,homeowner,paid_social,2025-06-08,MA,,1
+CUST-01339,homeowner,direct,2025-07-30,MD,,1
+CUST-01340,homeowner,organic_search,2024-10-09,CT,,1
+CUST-01341,homeowner,paid_social,2024-09-26,TX,,1
+CUST-01342,homeowner,paid_social,2025-04-19,OH,,1
+CUST-01343,homeowner,paid_social,2025-01-09,OH,,1
+CUST-01344,homeowner,email_capture,2024-12-23,,,1
+CUST-01345,trade,architect_referral,2024-09-25,NY,Coastal Build Co.,1
+CUST-01346,commercial,architect_referral,2025-05-15,CO,Northline Design + Build,1
+CUST-01347,trade,referral,2024-02-04,MI,Cascade Design + Build,1
+CUST-01348,homeowner,paid_social,2024-09-12,NC,,1
+CUST-01349,designer,organic_search,2024-02-29,OH,,1
+CUST-01350,trade,showroom_walkin,2025-08-04,PA,Northline Construction,1
+CUST-01351,homeowner,direct,2025-02-03,CA,,0
+CUST-01352,homeowner,referral,2024-06-19,AZ,,1
+CUST-01353,commercial,architect_referral,2024-11-09,FL,Ashford & Associates,0
+CUST-01354,designer,paid_social,2024-10-20,OR,,1
+CUST-01355,homeowner,email_capture,2024-07-11,VA,,1
+CUST-01356,homeowner,showroom_walkin,2024-06-18,CA,,1
+CUST-01357,designer,referral,2024-04-21,NJ,,1
+CUST-01358,trade,trade_show,2025-02-14,MA,Union Construction,1
+CUST-01359,designer,organic_search,2024-09-13,,,1
+CUST-01360,designer,referral,2024-01-12,OH,,1
+CUST-01361,homeowner,paid_social,2024-10-09,,,0
+CUST-01362,trade,showroom_walkin,2024-03-27,MI,Bramble Studio,1
+CUST-01363,designer,organic_search,2024-12-19,PA,,0
+CUST-01364,trade,trade_show,2025-03-22,,Bramble Interiors,1
+CUST-01365,designer,architect_referral,2024-08-26,OR,,1
+CUST-01366,trade,showroom_walkin,2024-10-14,NJ,Bramble & Associates,1
+CUST-01367,homeowner,paid_social,2024-04-30,NY,,1
+CUST-01368,homeowner,paid_social,2024-10-01,CA,,1
+CUST-01369,designer,direct,2024-03-10,TX,,0
+CUST-01370,trade,trade_show,2025-01-18,OH,Meridian Studio,1
+CUST-01371,trade,referral,2024-06-16,CO,Meridian Design Studio,1
+CUST-01372,homeowner,referral,2024-05-13,TX,,1
+CUST-01373,designer,paid_social,2025-05-05,AZ,,1
+CUST-01374,homeowner,email_capture,2024-05-15,NC,,1
+CUST-01375,trade,organic_search,2024-04-05,CT,Ashford Studio,0
+CUST-01376,homeowner,referral,2025-05-10,MN,,1
+CUST-01377,homeowner,organic_search,2024-07-06,NJ,,1
+CUST-01378,homeowner,organic_search,2025-02-11,MA,,1
+CUST-01379,homeowner,referral,2024-12-15,GA,,0
+CUST-01380,designer,showroom_walkin,2025-05-27,NY,,1
+CUST-01381,commercial,trade_show,2024-01-04,MA,Meridian & Associates,1
+CUST-01382,homeowner,referral,2025-03-30,OR,,1
+CUST-01383,homeowner,organic_search,2025-07-12,CO,,1
+CUST-01384,homeowner,email_capture,2025-03-20,OH,,0
+CUST-01385,commercial,trade_show,2025-05-02,NY,Coastal Construction,1
+CUST-01386,homeowner,organic_search,2024-02-01,WA,,1
+CUST-01387,designer,direct,2024-08-14,PA,,1
+CUST-01388,homeowner,organic_search,2024-12-06,IL,,1
+CUST-01389,homeowner,organic_search,2024-08-16,TX,,1
+CUST-01390,trade,trade_show,2025-05-03,OR,Meridian Design Studio,1
+CUST-01391,homeowner,paid_social,2025-05-15,CO,,1
+CUST-01392,trade,referral,2025-08-07,CO,Bramble Interiors,1
+CUST-01393,homeowner,email_capture,2025-03-09,GA,,1
+CUST-01394,homeowner,referral,2025-05-25,WA,,0
+CUST-01395,homeowner,organic_search,2024-06-09,NC,,1
+CUST-01396,designer,trade_show,2024-09-17,OR,,0
+CUST-01397,trade,organic_search,2025-07-03,NC,Coastal Interiors,1
+CUST-01398,homeowner,organic_search,2025-07-29,FL,,1
+CUST-01399,homeowner,organic_search,2024-10-18,PA,,1
+CUST-01400,designer,organic_search,2024-12-27,PA,,1
+CUST-01401,commercial,trade_show,2024-06-07,TX,Ashford Studio,1
+CUST-01402,homeowner,architect_referral,2025-03-30,VA,,1
+CUST-01403,homeowner,direct,2024-12-11,MI,,1
+CUST-01404,homeowner,email_capture,2025-03-14,AZ,,1
+CUST-01405,homeowner,paid_social,2024-10-24,AZ,,1
+CUST-01406,homeowner,paid_social,2024-11-13,FL,,1
+CUST-01407,commercial,trade_show,2025-01-31,IL,Union Interiors,1
+CUST-01408,homeowner,organic_search,2025-06-12,MN,,1
+CUST-01409,homeowner,paid_social,2024-11-26,NJ,,1
+CUST-01410,homeowner,email_capture,2024-04-22,,,1
+CUST-01411,designer,paid_social,2025-08-10,,,1
+CUST-01412,designer,architect_referral,2025-08-17,CT,,1
+CUST-01413,homeowner,direct,2025-07-29,NY,,0
+CUST-01414,homeowner,organic_search,2025-05-30,OH,,1
+CUST-01415,homeowner,organic_search,2024-06-05,OH,,0
+CUST-01416,trade,trade_show,2024-11-03,,Coastal Design Studio,1
+CUST-01417,designer,referral,2025-02-10,CO,,1
+CUST-01418,commercial,trade_show,2024-11-03,NJ,Bramble Construction,1
+CUST-01419,homeowner,email_capture,2024-07-21,TX,,0
+CUST-01420,trade,trade_show,2024-10-13,CO,Bramble Studio,0
+CUST-01421,trade,trade_show,2025-01-28,FL,Meridian Studio,1
+CUST-01422,homeowner,email_capture,2025-07-27,NC,,1
+CUST-01423,designer,referral,2024-02-04,,,1
+CUST-01424,homeowner,referral,2024-01-16,NY,,1
+CUST-01425,designer,paid_social,2024-05-15,MI,,0
+CUST-01426,designer,organic_search,2024-11-30,PA,,1
+CUST-01427,designer,architect_referral,2025-07-28,FL,,1
+CUST-01428,homeowner,paid_social,2025-03-05,OR,,1
+CUST-01429,homeowner,referral,2024-08-16,CA,,1
+CUST-01430,designer,architect_referral,2024-07-02,AZ,,0
+CUST-01431,homeowner,direct,2024-09-03,OH,,1
+CUST-01432,trade,trade_show,2024-09-20,MA,Bramble Interiors,1
+CUST-01433,trade,trade_show,2024-02-23,MN,Northline Build Co.,1
+CUST-01434,homeowner,organic_search,2024-11-23,NC,,1
+CUST-01435,designer,email_capture,2025-04-11,CA,,1
+CUST-01436,homeowner,organic_search,2025-02-11,,,0
+CUST-01437,homeowner,organic_search,2024-06-24,OH,,1
+CUST-01438,homeowner,showroom_walkin,2024-08-02,FL,,1
+CUST-01439,trade,referral,2024-02-18,CA,Harbor & Associates,1
+CUST-01440,homeowner,organic_search,2025-03-21,MD,,0
+CUST-01441,homeowner,direct,2025-03-12,CT,,1
+CUST-01442,homeowner,showroom_walkin,2024-04-07,MI,,1
+CUST-01443,designer,organic_search,2025-07-19,WA,,1
+CUST-01444,homeowner,email_capture,2024-06-11,AZ,,1
+CUST-01445,trade,showroom_walkin,2025-06-30,,Union Architecture Group,1
+CUST-01446,homeowner,showroom_walkin,2024-07-04,WA,,1
+CUST-01447,homeowner,paid_social,2024-05-26,OH,,1
+CUST-01448,homeowner,showroom_walkin,2025-01-19,,,1
+CUST-01449,designer,showroom_walkin,2025-05-05,MD,,1
+CUST-01450,commercial,architect_referral,2025-06-08,FL,Northline Construction,1
+CUST-01451,homeowner,organic_search,2024-02-14,OH,,0
+CUST-01452,designer,paid_social,2025-04-07,NC,,1
+CUST-01453,commercial,trade_show,2024-11-17,OH,Meridian & Associates,1
+CUST-01454,trade,trade_show,2024-07-16,AZ,Harbor & Associates,1
+CUST-01455,designer,paid_social,2024-05-21,FL,,1
+CUST-01456,homeowner,organic_search,2024-02-24,TX,,1
+CUST-01457,designer,email_capture,2024-02-12,,,1
+CUST-01458,homeowner,paid_social,2025-02-18,NY,,1
+CUST-01459,homeowner,organic_search,2025-03-05,NJ,,1
+CUST-01460,homeowner,organic_search,2025-02-21,TX,,1
+CUST-01461,trade,referral,2024-05-20,MI,Meridian Design Studio,1
+CUST-01462,homeowner,paid_social,2024-05-25,PA,,1
+CUST-01463,homeowner,organic_search,2025-08-21,TX,,1
+CUST-01464,designer,showroom_walkin,2024-07-17,CO,,1
+CUST-01465,homeowner,organic_search,2025-07-26,IL,,1
+CUST-01466,designer,architect_referral,2024-03-22,MN,,1
+CUST-01467,designer,direct,2024-09-28,OH,,1
+CUST-01468,trade,organic_search,2025-03-20,OR,Union Build Co.,1
+CUST-01469,homeowner,showroom_walkin,2025-02-11,NJ,,1
+CUST-01470,designer,organic_search,2025-02-12,CA,,1
+CUST-01471,homeowner,paid_social,2024-04-15,WA,,1
+CUST-01472,homeowner,showroom_walkin,2024-02-22,NY,,1
+CUST-01473,homeowner,email_capture,2024-06-25,CT,,1
+CUST-01474,designer,direct,2024-12-07,CO,,1
+CUST-01475,homeowner,paid_social,2024-04-25,NC,,1
+CUST-01476,homeowner,referral,2025-04-03,FL,,1
+CUST-01477,homeowner,organic_search,2024-12-11,VA,,1
+CUST-01478,trade,direct,2025-07-01,MA,Coastal Design + Build,1
+CUST-01479,homeowner,trade_show,2024-06-08,IL,,1
+CUST-01480,trade,direct,2025-07-15,NY,Cascade Architecture Group,1
+CUST-01481,homeowner,paid_social,2024-10-28,MN,,0
+CUST-01482,trade,trade_show,2024-07-04,PA,Coastal & Associates,1
+CUST-01483,commercial,trade_show,2024-01-04,AZ,Coastal Build Co.,1
+CUST-01484,trade,trade_show,2024-01-28,NY,Bramble Construction,1
+CUST-01485,trade,organic_search,2025-01-03,PA,Coastal Build Co.,1
+CUST-01486,homeowner,paid_social,2024-09-15,,,1
+CUST-01487,trade,trade_show,2025-07-03,PA,Cascade Construction,1
+CUST-01488,trade,organic_search,2025-02-08,PA,Bramble Design + Build,1
+CUST-01489,homeowner,email_capture,2024-10-06,FL,,1
+CUST-01490,trade,email_capture,2025-04-04,WA,Harbor Interiors,1
+CUST-01491,designer,showroom_walkin,2024-05-19,PA,,1
+CUST-01492,designer,paid_social,2024-08-15,MA,,1
+CUST-01493,homeowner,paid_social,2024-07-16,IL,,1
+CUST-01494,homeowner,showroom_walkin,2024-09-17,WA,,0
+CUST-01495,homeowner,email_capture,2025-07-04,OR,,1
+CUST-01496,homeowner,direct,2024-12-17,FL,,1
+CUST-01497,homeowner,referral,2025-03-24,,,1
+CUST-01498,designer,direct,2024-06-12,PA,,1
+CUST-01499,homeowner,paid_social,2024-02-24,AZ,,1
+CUST-01500,homeowner,paid_social,2024-07-21,AZ,,1
+CUST-01501,homeowner,showroom_walkin,2025-08-18,GA,,1
+CUST-01502,homeowner,organic_search,2024-08-17,CT,,1
+CUST-01503,homeowner,direct,2024-07-08,OR,,0
+CUST-01504,trade,paid_social,2024-02-28,TX,Ashford Interiors,1
+CUST-01505,homeowner,referral,2024-01-28,GA,,1
+CUST-01506,homeowner,paid_social,2024-03-29,NJ,,1
+CUST-01507,homeowner,direct,2025-01-10,MI,,1
+CUST-01508,homeowner,organic_search,2024-09-01,GA,,1
+CUST-01509,designer,paid_social,2025-01-04,MN,,1
+CUST-01510,homeowner,architect_referral,2025-02-12,MI,,1
+CUST-01511,homeowner,organic_search,2024-01-31,NY,,1
+CUST-01512,designer,referral,2025-04-15,IL,,1
+CUST-01513,designer,referral,2024-02-01,TX,,1
+CUST-01514,trade,paid_social,2024-09-10,TX,Harbor Design Studio,1
+CUST-01515,trade,organic_search,2024-02-19,NJ,Meridian Build Co.,1
+CUST-01516,homeowner,showroom_walkin,2025-08-14,MI,,1
+CUST-01517,homeowner,architect_referral,2025-08-12,PA,,0
+CUST-01518,homeowner,email_capture,2025-06-28,,,1
+CUST-01519,homeowner,paid_social,2025-02-13,WA,,1
+CUST-01520,homeowner,paid_social,2024-06-19,FL,,1
+CUST-01521,designer,paid_social,2024-12-12,MD,,1
+CUST-01522,homeowner,referral,2024-09-30,IL,,1
+CUST-01523,homeowner,referral,2024-02-26,MD,,1
+CUST-01524,commercial,showroom_walkin,2025-06-24,MA,Meridian & Associates,1
+CUST-01525,designer,showroom_walkin,2024-05-07,GA,,1
+CUST-01526,trade,paid_social,2024-12-17,MN,Harbor Architecture Group,1
+CUST-01527,homeowner,showroom_walkin,2025-02-23,TX,,1
+CUST-01528,homeowner,showroom_walkin,2024-02-11,MA,,1
+CUST-01529,designer,showroom_walkin,2024-08-01,WA,,1
+CUST-01530,trade,email_capture,2024-02-08,VA,Bramble Architecture Group,0
+CUST-01531,homeowner,trade_show,2025-04-13,NC,,1
+CUST-01532,designer,direct,2024-12-10,MN,,0
+CUST-01533,homeowner,organic_search,2025-07-27,NJ,,1
+CUST-01534,designer,organic_search,2025-03-16,NC,,1
+CUST-01535,homeowner,paid_social,2025-06-26,IL,,1
+CUST-01536,homeowner,paid_social,2025-03-02,PA,,0
+CUST-01537,designer,direct,2025-06-11,CO,,1
+CUST-01538,trade,direct,2024-06-29,CT,Harbor & Associates,1
+CUST-01539,homeowner,paid_social,2024-12-24,CA,,1
+CUST-01540,homeowner,email_capture,2024-09-21,WA,,1
+CUST-01541,trade,trade_show,2025-02-21,CT,Meridian Build Co.,1
+CUST-01542,designer,organic_search,2024-08-26,CO,,1
+CUST-01543,homeowner,organic_search,2025-02-12,OR,,1
+CUST-01544,designer,referral,2024-01-17,FL,,1
+CUST-01545,commercial,architect_referral,2025-06-18,VA,Meridian Construction,1
+CUST-01546,designer,organic_search,2025-01-16,CA,,1
+CUST-01547,trade,trade_show,2025-04-13,CO,Union Studio,1
+CUST-01548,homeowner,showroom_walkin,2024-10-29,TX,,0
+CUST-01549,homeowner,referral,2024-11-24,GA,,1
+CUST-01550,homeowner,showroom_walkin,2024-06-20,NC,,1
+CUST-01551,trade,trade_show,2024-02-04,,Coastal Studio,1
+CUST-01552,commercial,organic_search,2025-03-17,WA,Harbor Interiors,1
+CUST-01553,designer,showroom_walkin,2024-01-15,GA,,1
+CUST-01554,homeowner,architect_referral,2024-11-29,IL,,1
+CUST-01555,homeowner,direct,2024-11-06,OH,,1
+CUST-01556,homeowner,organic_search,2024-02-16,VA,,1
+CUST-01557,homeowner,organic_search,2025-06-17,NJ,,1
+CUST-01558,trade,organic_search,2024-08-31,MD,Coastal Design + Build,0
+CUST-01559,homeowner,direct,2025-06-11,AZ,,1
+CUST-01560,homeowner,organic_search,2024-04-02,CT,,1
+CUST-01561,trade,showroom_walkin,2025-08-12,NY,Meridian Studio,1
+CUST-01562,trade,direct,2025-07-25,,Northline Studio,1
+CUST-01563,homeowner,organic_search,2025-02-13,NY,,0
+CUST-01564,homeowner,paid_social,2024-04-05,MN,,1
+CUST-01565,homeowner,showroom_walkin,2024-08-23,CT,,0
+CUST-01566,homeowner,showroom_walkin,2024-05-18,WA,,1
+CUST-01567,homeowner,organic_search,2025-02-18,NJ,,1
+CUST-01568,homeowner,direct,2025-02-20,WA,,1
+CUST-01569,trade,organic_search,2025-02-17,CA,Ashford Design Studio,1
+CUST-01570,commercial,organic_search,2024-05-26,CT,Bramble Design + Build,1
+CUST-01571,homeowner,paid_social,2024-10-19,MI,,0
+CUST-01572,trade,trade_show,2025-07-07,FL,Meridian Construction,1
+CUST-01573,homeowner,organic_search,2024-03-29,IL,,1
+CUST-01574,homeowner,paid_social,2025-06-19,CT,,1
+CUST-01575,homeowner,referral,2024-08-21,AZ,,1
+CUST-01576,homeowner,organic_search,2024-10-10,OR,,1
+CUST-01577,homeowner,organic_search,2024-04-27,PA,,1
+CUST-01578,homeowner,paid_social,2024-01-16,WA,,1
+CUST-01579,homeowner,organic_search,2024-11-03,VA,,1
+CUST-01580,homeowner,organic_search,2024-11-25,TX,,1
+CUST-01581,homeowner,paid_social,2025-01-22,WA,,1
+CUST-01582,designer,organic_search,2025-04-28,AZ,,1
+CUST-01583,homeowner,paid_social,2024-10-11,GA,,1
+CUST-01584,commercial,referral,2025-03-18,CT,Northline Design Studio,1
+CUST-01585,homeowner,organic_search,2025-05-02,VA,,0
+CUST-01586,homeowner,organic_search,2024-11-25,MA,,0
+CUST-01587,commercial,architect_referral,2025-02-15,,Union Studio,0
+CUST-01588,homeowner,referral,2024-09-24,OH,,1
+CUST-01589,commercial,organic_search,2024-10-06,NJ,Meridian Architecture Group,1
+CUST-01590,designer,referral,2024-03-31,MI,,1
+CUST-01591,homeowner,organic_search,2025-02-23,TX,,1
+CUST-01592,homeowner,organic_search,2024-03-15,MD,,1
+CUST-01593,homeowner,trade_show,2025-02-26,MA,,1
+CUST-01594,homeowner,direct,2025-08-07,OR,,0
+CUST-01595,homeowner,paid_social,2024-02-07,MD,,1
+CUST-01596,trade,trade_show,2025-04-25,NY,Ashford Design + Build,0
+CUST-01597,trade,trade_show,2025-06-04,AZ,Coastal Architecture Group,1
+CUST-01598,trade,email_capture,2025-02-24,MA,Union Design Studio,1
+CUST-01599,trade,showroom_walkin,2025-02-07,MA,Union Studio,1
+CUST-01600,homeowner,showroom_walkin,2025-06-20,CT,,0
+CUST-01601,homeowner,referral,2025-02-16,MD,,1
+CUST-01602,designer,paid_social,2024-01-30,MI,,1
+CUST-01603,designer,organic_search,2024-10-25,FL,,1
+CUST-01604,designer,paid_social,2024-05-19,MI,,1
+CUST-01605,homeowner,paid_social,2025-08-29,OH,,1
+CUST-01606,trade,trade_show,2024-07-06,,Union Design Studio,1
+CUST-01607,homeowner,organic_search,2024-08-11,MD,,1
+CUST-01608,homeowner,organic_search,2025-02-18,NC,,1
+CUST-01609,homeowner,architect_referral,2025-04-18,TX,,0
+CUST-01610,homeowner,email_capture,2024-09-08,OR,,1
+CUST-01611,trade,trade_show,2025-08-09,AZ,Meridian Design Studio,1
+CUST-01612,trade,architect_referral,2024-06-07,PA,Harbor Architecture Group,1
+CUST-01613,designer,trade_show,2025-01-25,TX,,0
+CUST-01614,trade,trade_show,2024-08-01,,Cascade Design + Build,1
+CUST-01615,homeowner,organic_search,2024-02-03,MD,,0
+CUST-01616,homeowner,paid_social,2025-05-12,CT,,1
+CUST-01617,homeowner,direct,2025-01-08,OH,,1
+CUST-01618,homeowner,paid_social,2024-12-12,CA,,1
+CUST-01619,designer,showroom_walkin,2024-05-19,MA,,1
+CUST-01620,commercial,trade_show,2024-12-06,VA,Harbor Build Co.,1
+CUST-01621,homeowner,paid_social,2025-01-16,MD,,1
+CUST-01622,homeowner,organic_search,2025-05-20,WA,,0
+CUST-01623,homeowner,paid_social,2024-08-14,AZ,,0
+CUST-01624,commercial,architect_referral,2024-04-25,TX,Union Design Studio,1
+CUST-01625,designer,referral,2025-01-07,PA,,0
+CUST-01626,homeowner,paid_social,2024-02-22,GA,,1
+CUST-01627,designer,referral,2025-06-20,MD,,0
+CUST-01628,homeowner,organic_search,2024-10-18,,,1
+CUST-01629,homeowner,organic_search,2024-01-03,CO,,1
+CUST-01630,trade,architect_referral,2024-01-09,NJ,Northline Build Co.,1
+CUST-01631,trade,trade_show,2025-03-28,CT,Ashford Architecture Group,1
+CUST-01632,trade,trade_show,2024-12-08,CO,Ashford Design + Build,1
+CUST-01633,trade,direct,2025-01-19,MA,Coastal Studio,1
+CUST-01634,trade,organic_search,2025-01-31,OR,Coastal & Associates,0
+CUST-01635,designer,architect_referral,2025-01-15,OH,,1
+CUST-01636,homeowner,organic_search,2024-06-03,OR,,1
+CUST-01637,homeowner,organic_search,2024-07-11,MN,,1
+CUST-01638,designer,referral,2024-02-09,NC,,1
+CUST-01639,trade,referral,2025-05-30,TX,Harbor & Associates,1
+CUST-01640,homeowner,organic_search,2025-02-27,PA,,1
+CUST-01641,homeowner,organic_search,2024-05-29,MA,,1
+CUST-01642,homeowner,organic_search,2025-08-15,CA,,0
+CUST-01643,designer,architect_referral,2024-09-03,NC,,1
+CUST-01644,trade,direct,2025-08-18,GA,Northline Interiors,1
+CUST-01645,designer,architect_referral,2024-04-23,,,1
+CUST-01646,homeowner,paid_social,2025-04-21,,,1
+CUST-01647,trade,showroom_walkin,2024-06-22,NJ,Meridian Interiors,0
+CUST-01648,commercial,architect_referral,2025-01-06,MD,Coastal Interiors,1
+CUST-01649,homeowner,paid_social,2024-09-20,GA,,1
+CUST-01650,commercial,trade_show,2024-07-26,NC,Union Studio,0
+CUST-01651,homeowner,showroom_walkin,2024-03-07,NY,,1
+CUST-01652,homeowner,organic_search,2024-01-25,NC,,1
+CUST-01653,homeowner,paid_social,2025-02-14,GA,,0
+CUST-01654,homeowner,organic_search,2025-08-05,OH,,1
+CUST-01655,designer,organic_search,2025-07-08,NY,,1
+CUST-01656,homeowner,organic_search,2024-12-07,NJ,,1
+CUST-01657,trade,organic_search,2024-04-01,MD,Meridian Interiors,1
+CUST-01658,homeowner,paid_social,2024-06-24,WA,,1
+CUST-01659,homeowner,paid_social,2024-01-09,CO,,1
+CUST-01660,homeowner,email_capture,2025-05-21,MI,,1
+CUST-01661,designer,organic_search,2024-09-10,VA,,1
+CUST-01662,homeowner,paid_social,2025-04-16,CA,,1
+CUST-01663,trade,paid_social,2024-01-02,NY,Northline Studio,1
+CUST-01664,homeowner,direct,2024-11-02,OH,,1
+CUST-01665,homeowner,organic_search,2024-12-08,AZ,,0
+CUST-01666,trade,referral,2024-02-20,WA,Meridian Architecture Group,1
+CUST-01667,homeowner,organic_search,2024-07-20,PA,,1
+CUST-01668,homeowner,paid_social,2024-06-23,MD,,1
+CUST-01669,designer,trade_show,2025-05-30,NY,,1
+CUST-01670,homeowner,referral,2025-06-02,GA,,1
+CUST-01671,designer,showroom_walkin,2024-11-16,TX,,1
+CUST-01672,homeowner,email_capture,2024-01-13,IL,,1
+CUST-01673,trade,trade_show,2024-07-21,MD,Union Studio,1
+CUST-01674,homeowner,direct,2024-03-17,WA,,1
+CUST-01675,trade,referral,2025-04-18,IL,Cascade Studio,1
+CUST-01676,homeowner,organic_search,2025-03-20,CO,,1
+CUST-01677,homeowner,organic_search,2024-08-25,NC,,1
+CUST-01678,homeowner,showroom_walkin,2024-02-28,,,1
+CUST-01679,homeowner,paid_social,2025-01-21,VA,,0
+CUST-01680,homeowner,paid_social,2024-12-06,AZ,,1
+CUST-01681,commercial,architect_referral,2025-03-15,CO,Ashford Design Studio,0
+CUST-01682,trade,trade_show,2025-05-29,OH,Harbor Interiors,0
+CUST-01683,commercial,trade_show,2025-03-29,AZ,Northline Architecture Group,0
+CUST-01684,homeowner,organic_search,2024-09-03,WA,,1
+CUST-01685,homeowner,paid_social,2024-04-04,WA,,1
+CUST-01686,homeowner,referral,2025-05-04,CA,,1
+CUST-01687,commercial,trade_show,2024-11-06,IL,Union Build Co.,1
+CUST-01688,designer,organic_search,2024-03-28,MI,,1
+CUST-01689,designer,architect_referral,2025-04-09,MI,,1
+CUST-01690,designer,paid_social,2025-05-28,PA,,1
+CUST-01691,homeowner,direct,2024-02-01,MI,,1
+CUST-01692,designer,organic_search,2024-10-12,GA,,1
+CUST-01693,homeowner,showroom_walkin,2024-12-20,NC,,1
+CUST-01694,designer,direct,2024-05-18,NY,,1
+CUST-01695,homeowner,paid_social,2025-05-18,NJ,,0
+CUST-01696,homeowner,organic_search,2025-07-15,PA,,1
+CUST-01697,homeowner,paid_social,2024-02-18,GA,,1
+CUST-01698,trade,trade_show,2025-05-27,MD,Bramble Studio,1
+CUST-01699,homeowner,paid_social,2025-01-15,NY,,1
+CUST-01700,trade,showroom_walkin,2025-01-24,IL,Cascade Interiors,1
+CUST-01701,homeowner,email_capture,2024-09-07,NC,,1
+CUST-01702,homeowner,showroom_walkin,2025-06-30,MA,,1
+CUST-01703,homeowner,paid_social,2025-01-14,MD,,1
+CUST-01704,designer,showroom_walkin,2024-01-31,,,1
+CUST-01705,homeowner,organic_search,2024-10-07,MD,,1
+CUST-01706,trade,architect_referral,2025-07-29,NC,Bramble Studio,1
+CUST-01707,homeowner,paid_social,2025-08-10,CT,,1
+CUST-01708,homeowner,showroom_walkin,2024-02-28,TX,,1
+CUST-01709,designer,trade_show,2025-06-27,MA,,0
+CUST-01710,homeowner,referral,2025-04-12,VA,,1
+CUST-01711,trade,architect_referral,2025-03-25,NY,Cascade Build Co.,0
+CUST-01712,trade,referral,2024-02-01,MA,Bramble Studio,1
+CUST-01713,homeowner,showroom_walkin,2024-12-12,MD,,1
+CUST-01714,designer,direct,2024-07-17,IL,,1
+CUST-01715,designer,architect_referral,2024-12-17,TX,,1
+CUST-01716,trade,trade_show,2024-08-21,NY,Union Interiors,0
+CUST-01717,homeowner,organic_search,2024-03-01,MI,,1
+CUST-01718,designer,architect_referral,2024-05-14,CO,,1
+CUST-01719,homeowner,organic_search,2024-10-13,NY,,0
+CUST-01720,designer,organic_search,2024-12-09,WA,,1
+CUST-01721,trade,trade_show,2024-09-22,FL,Union Studio,1
+CUST-01722,homeowner,direct,2025-01-21,OH,,1
+CUST-01723,designer,direct,2025-01-03,NJ,,1
+CUST-01724,homeowner,trade_show,2024-12-30,CT,,1
+CUST-01725,trade,trade_show,2025-08-16,MN,Cascade Design Studio,1
+CUST-01726,homeowner,organic_search,2025-02-02,MI,,0
+CUST-01727,homeowner,direct,2025-05-17,NJ,,1
+CUST-01728,trade,organic_search,2025-05-25,WA,Harbor & Associates,1
+CUST-01729,designer,trade_show,2025-01-25,CO,,1
+CUST-01730,trade,architect_referral,2024-11-28,MA,Coastal Studio,1
+CUST-01731,trade,architect_referral,2024-06-12,NY,Harbor Design Studio,1
+CUST-01732,homeowner,paid_social,2024-09-29,NY,,1
+CUST-01733,trade,architect_referral,2025-04-05,FL,Union Studio,1
+CUST-01734,homeowner,paid_social,2024-03-04,GA,,1
+CUST-01735,homeowner,showroom_walkin,2025-06-22,PA,,1
+CUST-01736,homeowner,organic_search,2025-06-04,MA,,1
+CUST-01737,homeowner,paid_social,2025-04-08,MD,,1
+CUST-01738,trade,showroom_walkin,2025-07-04,PA,Northline & Associates,1
+CUST-01739,designer,architect_referral,2024-04-23,PA,,0
+CUST-01740,trade,trade_show,2025-08-27,OH,Union Design Studio,1
+CUST-01741,homeowner,trade_show,2024-11-16,IL,,1
+CUST-01742,homeowner,email_capture,2024-10-04,PA,,1
+CUST-01743,homeowner,showroom_walkin,2024-02-07,VA,,1
+CUST-01744,homeowner,organic_search,2024-06-12,WA,,1
+CUST-01745,homeowner,organic_search,2025-07-24,MN,,1
+CUST-01746,homeowner,email_capture,2024-07-03,FL,,1
+CUST-01747,homeowner,organic_search,2024-03-01,NY,,1
+CUST-01748,homeowner,organic_search,2025-08-01,OR,,1
+CUST-01749,homeowner,paid_social,2024-03-30,GA,,1
+CUST-01750,homeowner,organic_search,2024-06-13,MD,,1
+CUST-01751,designer,referral,2024-06-02,MN,,0
+CUST-01752,homeowner,organic_search,2024-03-02,PA,,0
+CUST-01753,trade,referral,2025-01-13,NJ,Union Build Co.,1
+CUST-01754,homeowner,showroom_walkin,2025-02-27,VA,,1
+CUST-01755,trade,architect_referral,2025-05-26,FL,Coastal Design + Build,1
+CUST-01756,homeowner,organic_search,2024-09-19,IL,,1
+CUST-01757,homeowner,organic_search,2025-05-13,IL,,1
+CUST-01758,homeowner,direct,2025-08-28,AZ,,1
+CUST-01759,homeowner,email_capture,2024-01-05,MD,,1
+CUST-01760,homeowner,referral,2024-05-29,TX,,1
+CUST-01761,designer,architect_referral,2025-04-29,WA,,1
+CUST-01762,homeowner,trade_show,2025-06-16,VA,,0
+CUST-01763,designer,organic_search,2025-03-13,CT,,1
+CUST-01764,trade,referral,2025-05-20,CT,Meridian Design Studio,1
+CUST-01765,trade,referral,2024-03-09,GA,Cascade Architecture Group,1
+CUST-01766,homeowner,organic_search,2024-12-22,,,1
+CUST-01767,designer,architect_referral,2024-01-08,CA,,1
+CUST-01768,designer,organic_search,2024-02-29,NJ,,1
+CUST-01769,homeowner,referral,2025-08-04,NY,,1
+CUST-01770,designer,showroom_walkin,2024-05-22,NC,,1
+CUST-01771,homeowner,organic_search,2024-03-26,FL,,1
+CUST-01772,designer,email_capture,2024-01-08,MN,,1
+CUST-01773,homeowner,organic_search,2024-12-16,CA,,1
+CUST-01774,trade,showroom_walkin,2025-06-06,CO,Harbor Architecture Group,1
+CUST-01775,designer,showroom_walkin,2025-08-01,CA,,1
+CUST-01776,homeowner,showroom_walkin,2024-10-06,MI,,1
+CUST-01777,homeowner,showroom_walkin,2024-05-03,MD,,1
+CUST-01778,designer,organic_search,2024-02-09,MD,,1
+CUST-01779,homeowner,organic_search,2024-06-01,WA,,1
+CUST-01780,designer,direct,2024-01-17,MN,,1
+CUST-01781,trade,showroom_walkin,2024-09-02,CT,Coastal & Associates,1
+CUST-01782,trade,trade_show,2024-07-18,CO,Harbor Architecture Group,1
+CUST-01783,homeowner,organic_search,2024-10-09,MA,,1
+CUST-01784,homeowner,organic_search,2024-03-23,NJ,,1
+CUST-01785,homeowner,paid_social,2024-07-28,AZ,,0
+CUST-01786,homeowner,direct,2024-03-03,OH,,1
+CUST-01787,homeowner,paid_social,2025-04-21,NJ,,1
+CUST-01788,trade,trade_show,2024-01-14,PA,Coastal Architecture Group,1
+CUST-01789,homeowner,organic_search,2024-04-20,MN,,1
+CUST-01790,homeowner,email_capture,2024-03-02,NJ,,1
+CUST-01791,designer,email_capture,2025-06-01,MA,,0
+CUST-01792,homeowner,paid_social,2024-11-25,CT,,1
+CUST-01793,homeowner,paid_social,2024-01-17,MI,,1
+CUST-01794,homeowner,architect_referral,2024-08-23,MD,,1
+CUST-01795,homeowner,paid_social,2025-02-06,CA,,1
+CUST-01796,trade,showroom_walkin,2024-10-27,WA,Meridian Design + Build,1
+CUST-01797,homeowner,direct,2025-05-12,MA,,1
+CUST-01798,designer,organic_search,2025-05-18,AZ,,1
+CUST-01799,designer,direct,2024-02-24,IL,,1
+CUST-01800,homeowner,email_capture,2025-05-08,FL,,1
+CUST-01801,homeowner,showroom_walkin,2024-12-23,CT,,1
+CUST-01802,homeowner,organic_search,2025-06-25,GA,,1
+CUST-01803,trade,organic_search,2024-09-03,PA,Coastal & Associates,0
+CUST-01804,homeowner,direct,2024-09-13,TX,,1
+CUST-01805,commercial,organic_search,2025-01-08,OR,Ashford Design + Build,1
+CUST-01806,trade,trade_show,2024-09-12,WA,Bramble Design Studio,1
+CUST-01807,homeowner,referral,2025-07-26,CT,,1
+CUST-01808,designer,architect_referral,2024-10-09,AZ,,1
+CUST-01809,homeowner,referral,2024-12-04,MA,,1
+CUST-01810,homeowner,paid_social,2024-12-17,WA,,0
+CUST-01811,trade,organic_search,2025-05-22,CO,Coastal Design Studio,1
+CUST-01812,homeowner,showroom_walkin,2025-05-29,TX,,1
+CUST-01813,homeowner,showroom_walkin,2025-01-08,PA,,1
+CUST-01814,designer,referral,2024-07-11,MN,,0
+CUST-01815,designer,referral,2025-05-12,NJ,,1
+CUST-01816,designer,organic_search,2024-09-13,IL,,0
+CUST-01817,homeowner,email_capture,2024-01-18,VA,,1
+CUST-01818,homeowner,organic_search,2024-01-09,WA,,1
+CUST-01819,homeowner,paid_social,2024-06-03,CA,,1
+CUST-01820,designer,showroom_walkin,2025-02-26,IL,,1
+CUST-01821,designer,trade_show,2025-05-06,MN,,1
+CUST-01822,designer,organic_search,2024-07-24,IL,,1
+CUST-01823,homeowner,referral,2025-04-12,OR,,1
+CUST-01824,designer,showroom_walkin,2024-06-12,CT,,1
+CUST-01825,trade,trade_show,2025-08-04,AZ,Harbor Build Co.,1
+CUST-01826,designer,paid_social,2025-07-09,NJ,,1
+CUST-01827,designer,organic_search,2025-01-11,CT,,1
+CUST-01828,homeowner,direct,2024-03-30,IL,,1
+CUST-01829,commercial,referral,2025-08-14,CT,Union Studio,0
+CUST-01830,homeowner,organic_search,2025-01-19,NC,,1
+CUST-01831,homeowner,organic_search,2024-01-06,MD,,0
+CUST-01832,homeowner,email_capture,2024-05-19,MD,,1
+CUST-01833,homeowner,organic_search,2024-10-27,FL,,1
+CUST-01834,homeowner,email_capture,2024-09-20,FL,,1
+CUST-01835,homeowner,email_capture,2025-01-22,MI,,1
+CUST-01836,designer,paid_social,2024-07-04,AZ,,1
+CUST-01837,designer,architect_referral,2025-06-20,MD,,0
+CUST-01838,homeowner,referral,2025-06-06,TX,,1
+CUST-01839,designer,organic_search,2025-01-26,CO,,0
+CUST-01840,designer,architect_referral,2024-08-21,WA,,1
+CUST-01841,designer,organic_search,2024-11-27,AZ,,1
+CUST-01842,homeowner,organic_search,2024-11-26,IL,,1
+CUST-01843,homeowner,paid_social,2024-10-20,PA,,1
+CUST-01844,commercial,trade_show,2025-05-31,TX,Meridian Construction,1
+CUST-01845,homeowner,referral,2024-12-18,FL,,1
+CUST-01846,homeowner,paid_social,2024-12-11,MI,,0
+CUST-01847,homeowner,referral,2025-02-03,MN,,1
+CUST-01848,homeowner,direct,2024-08-08,,,1
+CUST-01849,designer,referral,2024-04-08,MD,,1
+CUST-01850,homeowner,paid_social,2024-10-08,AZ,,1
+CUST-01851,trade,organic_search,2025-04-02,MD,Coastal Design + Build,1
+CUST-01852,trade,trade_show,2024-08-03,CA,Ashford & Associates,1
+CUST-01853,homeowner,referral,2025-06-11,GA,,1
+CUST-01854,commercial,organic_search,2024-04-07,WA,Northline Studio,1
+CUST-01855,homeowner,paid_social,2024-03-15,GA,,1
+CUST-01856,designer,architect_referral,2024-03-02,MN,,0
+CUST-01857,designer,showroom_walkin,2024-10-21,AZ,,0
+CUST-01858,homeowner,direct,2025-04-16,OR,,1
+CUST-01859,homeowner,paid_social,2024-08-15,TX,,1
+CUST-01860,trade,organic_search,2024-07-04,WA,Ashford Build Co.,1
+CUST-01861,designer,paid_social,2024-10-29,CO,,1
+CUST-01862,designer,referral,2025-06-21,CA,,0
+CUST-01863,designer,referral,2024-01-29,AZ,,1
+CUST-01864,trade,organic_search,2024-07-24,MA,Bramble Studio,1
+CUST-01865,homeowner,email_capture,2025-03-29,IL,,1
+CUST-01866,designer,organic_search,2024-08-09,MD,,1
+CUST-01867,homeowner,organic_search,2025-03-16,PA,,0
+CUST-01868,homeowner,referral,2024-01-12,TX,,1
+CUST-01869,designer,referral,2024-12-02,MA,,1
+CUST-01870,trade,referral,2024-12-17,MI,Coastal Architecture Group,0
+CUST-01871,designer,referral,2025-08-13,MD,,1
+CUST-01872,trade,trade_show,2024-04-30,MN,Ashford Build Co.,1
+CUST-01873,homeowner,showroom_walkin,2024-10-11,TX,,1
+CUST-01874,homeowner,paid_social,2024-01-05,WA,,1
+CUST-01875,homeowner,showroom_walkin,2025-05-30,AZ,,1
+CUST-01876,homeowner,paid_social,2024-11-25,MA,,0
+CUST-01877,commercial,showroom_walkin,2025-05-10,OR,Ashford Interiors,0
+CUST-01878,designer,referral,2024-05-03,NJ,,1
+CUST-01879,homeowner,email_capture,2024-06-10,NC,,1
+CUST-01880,homeowner,direct,2024-10-29,MN,,1
+CUST-01881,homeowner,email_capture,2024-08-25,MD,,1
+CUST-01882,homeowner,direct,2025-02-06,OR,,1
+CUST-01883,commercial,trade_show,2024-12-08,CO,Coastal Architecture Group,1
+CUST-01884,homeowner,email_capture,2024-12-22,NC,,1
+CUST-01885,designer,trade_show,2025-02-12,CO,,1
+CUST-01886,homeowner,architect_referral,2024-09-14,AZ,,1
+CUST-01887,homeowner,showroom_walkin,2024-04-07,CA,,1
+CUST-01888,commercial,trade_show,2024-05-02,IL,Northline & Associates,1
+CUST-01889,homeowner,showroom_walkin,2024-01-26,AZ,,1
+CUST-01890,homeowner,showroom_walkin,2025-08-05,GA,,0
+CUST-01891,commercial,architect_referral,2024-09-21,IL,Cascade Design + Build,1
+CUST-01892,designer,architect_referral,2024-09-26,MD,,1
+CUST-01893,homeowner,organic_search,2024-01-24,GA,,1
+CUST-01894,designer,referral,2024-05-13,IL,,1
+CUST-01895,homeowner,organic_search,2024-07-09,PA,,1
+CUST-01896,homeowner,paid_social,2025-05-31,CA,,1
+CUST-01897,homeowner,referral,2024-07-01,NC,,1
+CUST-01898,designer,architect_referral,2024-12-18,AZ,,1
+CUST-01899,homeowner,email_capture,2024-05-16,FL,,1
+CUST-01900,homeowner,referral,2024-02-21,PA,,1
+CUST-01901,trade,trade_show,2025-04-02,MI,Ashford Interiors,1
+CUST-01902,homeowner,paid_social,2024-06-17,NY,,1
+CUST-01903,homeowner,direct,2024-01-17,GA,,0
+CUST-01904,homeowner,referral,2024-06-02,AZ,,1
+CUST-01905,homeowner,paid_social,2025-02-28,OR,,0
+CUST-01906,homeowner,paid_social,2024-07-20,VA,,1
+CUST-01907,homeowner,organic_search,2024-05-06,CA,,1
+CUST-01908,trade,organic_search,2025-02-11,OH,Harbor Design Studio,1
+CUST-01909,homeowner,showroom_walkin,2024-05-11,CT,,1
+CUST-01910,homeowner,email_capture,2024-05-13,FL,,1
+CUST-01911,trade,email_capture,2025-05-24,MA,Northline & Associates,1
+CUST-01912,trade,architect_referral,2025-05-26,MN,Meridian Construction,1
+CUST-01913,homeowner,showroom_walkin,2024-03-31,MA,,1
+CUST-01914,trade,trade_show,2025-02-14,TX,Harbor Studio,1
+CUST-01915,trade,architect_referral,2025-05-28,NY,Ashford Interiors,0
+CUST-01916,homeowner,email_capture,2025-05-09,MN,,1
+CUST-01917,designer,trade_show,2024-04-08,AZ,,1
+CUST-01918,homeowner,paid_social,2025-05-08,OR,,1
+CUST-01919,homeowner,showroom_walkin,2025-01-05,IL,,1
+CUST-01920,homeowner,organic_search,2025-03-25,VA,,1
+CUST-01921,trade,paid_social,2025-07-17,NC,Harbor Design Studio,0
+CUST-01922,homeowner,showroom_walkin,2025-07-09,NY,,1
+CUST-01923,homeowner,direct,2024-10-29,FL,,1
+CUST-01924,designer,direct,2024-06-23,VA,,0
+CUST-01925,trade,trade_show,2025-03-13,MN,Bramble Design + Build,0
+CUST-01926,homeowner,referral,2024-11-02,VA,,1
+CUST-01927,homeowner,paid_social,2024-08-30,OH,,1
+CUST-01928,designer,direct,2024-08-14,IL,,1
+CUST-01929,commercial,referral,2024-08-27,CO,Harbor Studio,1
+CUST-01930,homeowner,email_capture,2025-08-22,,,1
+CUST-01931,homeowner,referral,2025-04-25,OH,,1
+CUST-01932,trade,organic_search,2024-10-26,MA,Harbor & Associates,1
+CUST-01933,trade,organic_search,2024-03-24,CA,Meridian Build Co.,1
+CUST-01934,designer,direct,2025-07-20,OH,,0
+CUST-01935,designer,architect_referral,2025-01-08,TX,,1
+CUST-01936,homeowner,paid_social,2024-01-25,NC,,1
+CUST-01937,commercial,showroom_walkin,2025-08-05,NJ,Northline Construction,0
+CUST-01938,homeowner,organic_search,2025-05-28,TX,,1
+CUST-01939,trade,referral,2024-01-04,AZ,Union & Associates,0
+CUST-01940,homeowner,organic_search,2025-01-03,MI,,1
+CUST-01941,commercial,organic_search,2024-10-18,CA,Union Design + Build,1
+CUST-01942,homeowner,referral,2024-11-11,CT,,1
+CUST-01943,trade,referral,2025-02-07,TX,Coastal Construction,1
+CUST-01944,trade,architect_referral,2024-09-23,NC,Harbor Construction,1
+CUST-01945,trade,organic_search,2024-01-19,CO,Bramble Studio,1
+CUST-01946,homeowner,paid_social,2025-08-30,VA,,1
+CUST-01947,homeowner,organic_search,2024-12-10,MI,,1
+CUST-01948,trade,referral,2024-03-30,PA,Bramble Construction,1
+CUST-01949,designer,architect_referral,2024-04-27,CO,,1
+CUST-01950,designer,paid_social,2024-06-26,MI,,1
+CUST-01951,designer,architect_referral,2024-07-31,NJ,,1
+CUST-01952,homeowner,referral,2024-03-04,VA,,1
+CUST-01953,designer,paid_social,2025-02-20,MI,,1
+CUST-01954,homeowner,direct,2024-12-09,VA,,1
+CUST-01955,designer,referral,2025-02-16,PA,,1
+CUST-01956,trade,architect_referral,2024-07-30,NY,Harbor Design + Build,1
+CUST-01957,trade,referral,2025-06-25,CT,Ashford Interiors,1
+CUST-01958,trade,organic_search,2025-01-21,,Coastal Build Co.,1
+CUST-01959,commercial,referral,2024-05-26,GA,Union Build Co.,1
+CUST-01960,trade,direct,2024-04-11,CO,Coastal Build Co.,1
+CUST-01961,homeowner,paid_social,2025-03-08,VA,,0
+CUST-01962,trade,trade_show,2024-07-18,,Cascade Design Studio,0
+CUST-01963,designer,architect_referral,2025-06-26,CT,,1
+CUST-01964,homeowner,organic_search,2024-10-30,MD,,1
+CUST-01965,homeowner,paid_social,2025-08-10,MN,,1
+CUST-01966,trade,showroom_walkin,2025-01-09,CA,Ashford Interiors,1
+CUST-01967,designer,organic_search,2024-07-11,NY,,1
+CUST-01968,homeowner,organic_search,2025-03-21,MN,,1
+CUST-01969,homeowner,email_capture,2024-09-13,WA,,1
+CUST-01970,homeowner,paid_social,2024-08-19,NC,,1
+CUST-01971,homeowner,paid_social,2025-03-09,CA,,1
+CUST-01972,trade,trade_show,2025-05-20,NC,Northline Design + Build,1
+CUST-01973,trade,organic_search,2025-07-21,CO,Northline Design + Build,0
+CUST-01974,designer,organic_search,2024-03-17,MI,,0
+CUST-01975,commercial,trade_show,2024-04-01,,Northline Interiors,1
+CUST-01976,homeowner,organic_search,2025-02-12,WA,,0
+CUST-01977,commercial,trade_show,2024-10-25,FL,Cascade Construction,0
+CUST-01978,homeowner,organic_search,2025-05-22,GA,,1
+CUST-01979,trade,organic_search,2024-02-04,AZ,Bramble Architecture Group,1
+CUST-01980,designer,paid_social,2025-03-11,CO,,1
+CUST-01981,designer,email_capture,2024-10-17,MI,,1
+CUST-01982,trade,showroom_walkin,2024-09-17,CA,Meridian & Associates,1
+CUST-01983,homeowner,referral,2025-05-09,MD,,1
+CUST-01984,homeowner,paid_social,2024-01-27,VA,,0
+CUST-01985,trade,direct,2024-08-02,CO,Cascade Design + Build,1
+CUST-01986,trade,direct,2025-03-15,NY,Union Architecture Group,0
+CUST-01987,trade,architect_referral,2024-01-13,CT,Harbor & Associates,1
+CUST-01988,trade,referral,2024-01-03,MD,Union & Associates,1
+CUST-01989,homeowner,organic_search,2024-09-02,AZ,,1
+CUST-01990,trade,architect_referral,2024-04-16,MN,Cascade Build Co.,1
+CUST-01991,homeowner,paid_social,2025-06-23,NC,,1
+CUST-01992,homeowner,organic_search,2024-04-19,CT,,0
+CUST-01993,homeowner,organic_search,2024-03-03,MA,,1
+CUST-01994,trade,trade_show,2024-04-13,NY,Harbor Build Co.,1
+CUST-01995,homeowner,email_capture,2025-03-12,GA,,0
+CUST-01996,trade,organic_search,2025-08-09,OR,Northline Architecture Group,0
+CUST-01997,trade,referral,2025-08-08,,Northline Build Co.,0
+CUST-01998,homeowner,paid_social,2024-12-02,IL,,1
+CUST-01999,designer,organic_search,2025-04-06,MN,,1
+CUST-02000,trade,direct,2024-09-26,MA,Ashford & Associates,0
+CUST-02001,homeowner,organic_search,2024-11-18,MA,,0
+CUST-02002,homeowner,direct,2024-03-21,GA,,1
+CUST-02003,homeowner,paid_social,2025-06-25,TX,,0
+CUST-02004,designer,organic_search,2025-06-03,NY,,0
+CUST-02005,homeowner,direct,2025-01-31,TX,,1
+CUST-02006,designer,architect_referral,2024-09-14,GA,,1
+CUST-02007,trade,direct,2024-05-10,MA,Bramble & Associates,0
+CUST-02008,homeowner,email_capture,2025-08-16,IL,,1
+CUST-02009,designer,direct,2025-04-10,NY,,1
+CUST-02010,designer,organic_search,2025-03-21,MD,,0
+CUST-02011,homeowner,referral,2025-03-22,TX,,1
+CUST-02012,homeowner,direct,2024-02-26,IL,,0
+CUST-02013,homeowner,referral,2025-07-05,AZ,,1
+CUST-02014,designer,referral,2025-02-23,TX,,1
+CUST-02015,homeowner,referral,2024-05-26,MI,,1
+CUST-02016,commercial,architect_referral,2024-01-24,CO,Coastal Design Studio,1
+CUST-02017,homeowner,paid_social,2025-04-23,VA,,1
+CUST-02018,homeowner,referral,2025-06-26,WA,,1
+CUST-02019,designer,architect_referral,2024-12-26,CT,,1
+CUST-02020,trade,trade_show,2024-03-01,NC,Coastal Studio,1
+CUST-02021,homeowner,showroom_walkin,2024-09-04,GA,,1
+CUST-02022,trade,showroom_walkin,2024-06-10,PA,Cascade Construction,0
+CUST-02023,homeowner,direct,2025-08-31,OR,,1
+CUST-02024,homeowner,organic_search,2025-06-10,WA,,1
+CUST-02025,trade,referral,2025-02-09,CO,Ashford Design Studio,1
+CUST-02026,trade,direct,2024-04-03,CO,Harbor Architecture Group,0
+CUST-02027,homeowner,direct,2025-05-07,WA,,0
+CUST-02028,designer,paid_social,2024-01-01,PA,,1
+CUST-02029,trade,architect_referral,2024-03-26,OR,Harbor Design Studio,0
+CUST-02030,commercial,trade_show,2024-07-14,MA,Union & Associates,1
+CUST-02031,homeowner,paid_social,2024-12-24,CA,,1
+CUST-02032,trade,architect_referral,2024-06-12,MI,Northline Architecture Group,1
+CUST-02033,homeowner,referral,2024-11-29,WA,,1
+CUST-02034,trade,architect_referral,2025-02-18,MI,Harbor Design Studio,1
+CUST-02035,homeowner,organic_search,2025-02-24,MD,,1
+CUST-02036,homeowner,organic_search,2024-02-18,AZ,,0
+CUST-02037,homeowner,organic_search,2025-06-03,GA,,1
+CUST-02038,designer,organic_search,2024-07-29,CA,,1
+CUST-02039,homeowner,showroom_walkin,2024-02-16,NC,,1
+CUST-02040,trade,email_capture,2025-07-06,CA,Cascade Design + Build,1
+CUST-02041,designer,direct,2024-04-18,AZ,,1
+CUST-02042,homeowner,email_capture,2024-03-03,CT,,1
+CUST-02043,homeowner,organic_search,2025-07-02,TX,,1
+CUST-02044,homeowner,referral,2025-05-23,WA,,1
+CUST-02045,homeowner,referral,2024-02-22,AZ,,1
+CUST-02046,homeowner,paid_social,2025-07-09,VA,,1
+CUST-02047,homeowner,organic_search,2024-06-09,MA,,1
+CUST-02048,designer,organic_search,2024-05-03,VA,,1
+CUST-02049,designer,architect_referral,2025-01-26,NJ,,0
+CUST-02050,designer,paid_social,2024-03-29,IL,,1
+CUST-02051,homeowner,paid_social,2024-04-30,,,1
+CUST-02052,trade,paid_social,2024-01-09,MA,Meridian Interiors,1
+CUST-02053,homeowner,paid_social,2024-02-11,MI,,1
+CUST-02054,designer,showroom_walkin,2024-05-30,TX,,1
+CUST-02055,homeowner,paid_social,2025-04-22,NC,,1
+CUST-02056,designer,direct,2024-07-11,FL,,0
+CUST-02057,designer,organic_search,2025-01-22,FL,,1
+CUST-02058,commercial,trade_show,2024-08-10,NY,Harbor Interiors,1
+CUST-02059,homeowner,organic_search,2024-04-12,TX,,0
+CUST-02060,homeowner,referral,2025-08-14,MI,,1
+CUST-02061,homeowner,email_capture,2024-03-23,AZ,,1
+CUST-02062,homeowner,referral,2025-04-05,CO,,1
+CUST-02063,homeowner,organic_search,2025-05-12,VA,,1
+CUST-02064,homeowner,referral,2025-03-08,FL,,1
+CUST-02065,commercial,architect_referral,2024-07-26,NJ,Coastal Build Co.,1
+CUST-02066,homeowner,paid_social,2024-03-29,WA,,1
+CUST-02067,designer,organic_search,2025-03-20,OR,,1
+CUST-02068,designer,direct,2024-06-09,CA,,1
+CUST-02069,homeowner,referral,2025-02-17,OR,,1
+CUST-02070,homeowner,paid_social,2024-12-30,WA,,0
+CUST-02071,commercial,trade_show,2025-05-25,AZ,Union Design + Build,1
+CUST-02072,homeowner,direct,2025-06-26,MN,,1
+CUST-02073,designer,paid_social,2025-04-12,VA,,0
+CUST-02074,designer,referral,2024-10-07,CT,,1
+CUST-02075,designer,organic_search,2024-05-11,VA,,1
+CUST-02076,homeowner,email_capture,2024-05-30,CO,,0
+CUST-02077,trade,architect_referral,2024-01-22,MI,Northline Build Co.,1
+CUST-02078,commercial,organic_search,2024-02-29,NC,Union Design Studio,1
+CUST-02079,homeowner,paid_social,2024-07-02,MA,,0
+CUST-02080,homeowner,paid_social,2024-07-14,CT,,1
+CUST-02081,homeowner,organic_search,2025-08-23,NJ,,0
+CUST-02082,homeowner,direct,2025-07-10,MI,,1
+CUST-02083,homeowner,direct,2024-01-21,WA,,1
+CUST-02084,designer,architect_referral,2025-04-20,WA,,1
+CUST-02085,designer,referral,2025-08-12,MN,,0
+CUST-02086,designer,architect_referral,2024-07-30,NJ,,1
+CUST-02087,designer,paid_social,2024-10-01,NY,,1
+CUST-02088,designer,organic_search,2024-09-26,TX,,1
+CUST-02089,designer,direct,2025-04-06,CO,,1
+CUST-02090,homeowner,organic_search,2024-12-29,MD,,1
+CUST-02091,homeowner,email_capture,2024-03-24,CA,,1
+CUST-02092,designer,referral,2024-11-04,OR,,1
+CUST-02093,homeowner,direct,2025-04-18,CO,,1
+CUST-02094,homeowner,referral,2024-08-13,PA,,1
+CUST-02095,homeowner,organic_search,2025-03-06,OR,,1
+CUST-02096,homeowner,paid_social,2025-06-27,FL,,1
+CUST-02097,trade,referral,2025-04-08,IL,Northline Architecture Group,1
+CUST-02098,trade,architect_referral,2024-09-02,OH,Ashford Design Studio,1
+CUST-02099,designer,organic_search,2024-10-09,OH,,1
+CUST-02100,commercial,architect_referral,2024-03-15,CT,Cascade Studio,1
+CUST-02101,designer,architect_referral,2025-06-19,OR,,1
+CUST-02102,trade,trade_show,2025-07-24,CA,Ashford Build Co.,1
+CUST-02103,homeowner,referral,2025-03-21,MN,,1
+CUST-02104,designer,organic_search,2024-01-11,IL,,1
+CUST-02105,homeowner,organic_search,2025-07-05,MN,,1
+CUST-02106,trade,email_capture,2024-09-11,MN,Meridian & Associates,1
+CUST-02107,homeowner,organic_search,2024-07-21,CO,,1
+CUST-02108,homeowner,paid_social,2024-06-10,NC,,0
+CUST-02109,designer,referral,2024-01-26,TX,,1
+CUST-02110,homeowner,direct,2024-12-06,CO,,1
+CUST-02111,homeowner,showroom_walkin,2025-02-02,MA,,1
+CUST-02112,homeowner,paid_social,2025-04-03,OR,,0
+CUST-02113,homeowner,paid_social,2025-08-19,VA,,1
+CUST-02114,homeowner,organic_search,2025-03-07,TX,,1
+CUST-02115,homeowner,email_capture,2025-07-15,VA,,1
+CUST-02116,homeowner,direct,2024-10-05,TX,,1
+CUST-02117,commercial,architect_referral,2024-03-18,VA,Bramble Interiors,1
+CUST-02118,homeowner,email_capture,2025-01-19,VA,,1
+CUST-02119,homeowner,paid_social,2025-03-27,GA,,1
+CUST-02120,trade,trade_show,2024-06-19,CA,Harbor Construction,1
+CUST-02121,trade,organic_search,2025-02-10,MN,Harbor Architecture Group,1
+CUST-02122,homeowner,email_capture,2024-10-10,FL,,1
+CUST-02123,designer,direct,2024-12-25,CO,,1
+CUST-02124,homeowner,organic_search,2024-05-08,CA,,1
+CUST-02125,homeowner,organic_search,2024-11-12,OR,,1
+CUST-02126,homeowner,organic_search,2024-11-23,,,1
+CUST-02127,homeowner,showroom_walkin,2025-03-16,VA,,1
+CUST-02128,commercial,trade_show,2024-10-21,MN,Northline Design Studio,1
+CUST-02129,trade,trade_show,2025-04-17,MI,Harbor Construction,1
+CUST-02130,designer,paid_social,2024-07-19,CT,,1
+CUST-02131,trade,referral,2024-05-25,CA,Union Architecture Group,0
+CUST-02132,commercial,organic_search,2024-01-19,PA,Ashford Construction,1
+CUST-02133,homeowner,showroom_walkin,2024-10-31,OH,,1
+CUST-02134,homeowner,organic_search,2024-07-10,,,1
+CUST-02135,designer,referral,2024-07-28,TX,,1
+CUST-02136,homeowner,organic_search,2025-07-22,NC,,1
+CUST-02137,homeowner,organic_search,2024-05-27,VA,,1
+CUST-02138,homeowner,organic_search,2024-07-09,NJ,,1
+CUST-02139,trade,organic_search,2024-12-23,MN,Meridian Design Studio,1
+CUST-02140,homeowner,direct,2024-04-13,MD,,1
+CUST-02141,designer,referral,2025-05-22,PA,,1
+CUST-02142,designer,email_capture,2024-09-28,OR,,1
+CUST-02143,trade,trade_show,2025-08-20,NY,Harbor Build Co.,1
+CUST-02144,homeowner,organic_search,2024-10-20,OH,,0
+CUST-02145,trade,trade_show,2024-11-30,MD,Coastal Interiors,1
+CUST-02146,homeowner,email_capture,2024-01-11,VA,,1
+CUST-02147,trade,trade_show,2024-07-25,OR,Meridian Architecture Group,1
+CUST-02148,designer,organic_search,2024-12-13,CA,,1
+CUST-02149,homeowner,organic_search,2024-06-14,MI,,1
+CUST-02150,homeowner,referral,2025-02-17,CA,,1
+CUST-02151,homeowner,referral,2024-08-16,WA,,0
+CUST-02152,homeowner,referral,2024-09-12,MD,,1
+CUST-02153,homeowner,showroom_walkin,2024-10-13,FL,,0
+CUST-02154,homeowner,organic_search,2025-04-02,GA,,1
+CUST-02155,homeowner,direct,2024-12-05,OR,,1
+CUST-02156,designer,trade_show,2024-09-14,CO,,1
+CUST-02157,trade,referral,2024-10-25,GA,Cascade Interiors,1
+CUST-02158,homeowner,paid_social,2024-04-21,CA,,1
+CUST-02159,homeowner,paid_social,2024-04-14,CT,,1
+CUST-02160,trade,trade_show,2024-08-28,IL,Harbor Build Co.,1
+CUST-02161,homeowner,paid_social,2024-06-01,NJ,,1
+CUST-02162,homeowner,email_capture,2024-03-09,AZ,,1
+CUST-02163,homeowner,organic_search,2024-07-03,,,1
+CUST-02164,homeowner,organic_search,2024-04-20,GA,,1
+CUST-02165,homeowner,showroom_walkin,2024-08-01,CA,,1
+CUST-02166,homeowner,direct,2025-07-24,MI,,1
+CUST-02167,homeowner,paid_social,2025-08-16,TX,,1
+CUST-02168,trade,organic_search,2024-11-09,AZ,Harbor Build Co.,1
+CUST-02169,homeowner,organic_search,2024-03-21,GA,,1
+CUST-02170,designer,architect_referral,2024-09-23,OH,,1
+CUST-02171,homeowner,referral,2025-07-26,CA,,1
+CUST-02172,homeowner,paid_social,2025-04-07,CT,,0
+CUST-02173,homeowner,email_capture,2025-05-08,OR,,1
+CUST-02174,homeowner,direct,2025-06-12,PA,,1
+CUST-02175,homeowner,showroom_walkin,2025-01-24,MN,,1
+CUST-02176,designer,trade_show,2024-02-09,OR,,0
+CUST-02177,homeowner,showroom_walkin,2024-05-28,OH,,1
+CUST-02178,homeowner,paid_social,2024-11-14,,,1
+CUST-02179,homeowner,organic_search,2024-08-06,OR,,1
+CUST-02180,homeowner,email_capture,2025-04-10,MN,,1
+CUST-02181,designer,showroom_walkin,2024-04-27,GA,,1
+CUST-02182,designer,showroom_walkin,2024-09-11,VA,,1
+CUST-02183,homeowner,paid_social,2024-11-18,MA,,1
+CUST-02184,trade,architect_referral,2025-07-14,CA,Bramble Design Studio,1
+CUST-02185,trade,referral,2024-07-09,CT,Coastal Build Co.,1
+CUST-02186,designer,referral,2024-05-31,VA,,1
+CUST-02187,homeowner,referral,2024-07-10,VA,,1
+CUST-02188,trade,trade_show,2024-10-26,FL,Harbor & Associates,1
+CUST-02189,homeowner,direct,2024-06-09,OH,,1
+CUST-02190,trade,organic_search,2025-02-13,MD,Union Construction,1
+CUST-02191,homeowner,organic_search,2025-05-10,OR,,1
+CUST-02192,homeowner,referral,2025-02-05,PA,,1
+CUST-02193,trade,architect_referral,2024-07-16,CA,Northline Studio,1
+CUST-02194,homeowner,organic_search,2024-10-30,IL,,1
+CUST-02195,homeowner,referral,2025-05-30,MA,,1
+CUST-02196,designer,architect_referral,2024-10-04,OH,,1
+CUST-02197,homeowner,referral,2025-08-20,TX,,0
+CUST-02198,homeowner,organic_search,2025-04-24,NC,,1
+CUST-02199,homeowner,paid_social,2025-06-25,IL,,1
+CUST-02200,designer,email_capture,2024-01-14,NJ,,1
+CUST-02201,homeowner,organic_search,2024-04-19,FL,,1
+CUST-02202,homeowner,paid_social,2024-08-26,NC,,1
+CUST-02203,trade,trade_show,2025-08-05,AZ,Union Construction,0
+CUST-02204,homeowner,paid_social,2025-01-30,WA,,1
+CUST-02205,trade,showroom_walkin,2024-04-09,CT,Coastal Interiors,1
+CUST-02206,homeowner,direct,2025-06-01,GA,,1
+CUST-02207,homeowner,organic_search,2025-06-05,OR,,1
+CUST-02208,homeowner,referral,2025-02-21,CO,,1
+CUST-02209,homeowner,showroom_walkin,2024-05-23,FL,,1
+CUST-02210,homeowner,paid_social,2024-06-21,NJ,,1
+CUST-02211,homeowner,organic_search,2024-09-19,NY,,0
+CUST-02212,homeowner,paid_social,2024-03-14,OH,,1
+CUST-02213,homeowner,referral,2024-09-12,NY,,1
+CUST-02214,designer,referral,2025-02-21,NY,,1
+CUST-02215,trade,referral,2024-11-16,VA,Harbor Architecture Group,1
+CUST-02216,homeowner,paid_social,2024-09-15,CA,,1
+CUST-02217,homeowner,referral,2024-02-15,FL,,1
+CUST-02218,homeowner,organic_search,2025-02-27,WA,,1
+CUST-02219,homeowner,referral,2025-05-05,MN,,1
+CUST-02220,homeowner,paid_social,2024-03-11,NC,,1
+CUST-02221,trade,trade_show,2024-06-07,NJ,Ashford Interiors,1
+CUST-02222,designer,organic_search,2024-05-24,CO,,1
+CUST-02223,designer,paid_social,2024-08-08,VA,,1
+CUST-02224,homeowner,organic_search,2025-04-20,CT,,1
+CUST-02225,homeowner,referral,2025-06-13,FL,,1
+CUST-02226,designer,architect_referral,2024-12-30,OH,,1
+CUST-02227,homeowner,paid_social,2025-01-17,PA,,1
+CUST-02228,designer,architect_referral,2025-05-10,,,0
+CUST-02229,homeowner,direct,2024-02-25,NJ,,1
+CUST-02230,homeowner,organic_search,2024-07-18,CA,,0
+CUST-02231,homeowner,paid_social,2024-11-27,FL,,1
+CUST-02232,homeowner,showroom_walkin,2024-11-13,VA,,1
+CUST-02233,commercial,trade_show,2025-04-11,CA,Northline Construction,1
+CUST-02234,designer,paid_social,2024-06-04,GA,,1
+CUST-02235,homeowner,referral,2025-03-25,NY,,1
+CUST-02236,designer,architect_referral,2025-02-03,VA,,1
+CUST-02237,trade,trade_show,2025-07-31,WA,Harbor Design + Build,1
+CUST-02238,trade,email_capture,2025-06-28,GA,Ashford & Associates,1
+CUST-02239,homeowner,organic_search,2025-06-14,CO,,1
+CUST-02240,homeowner,email_capture,2024-07-04,GA,,1
+CUST-02241,commercial,referral,2024-03-17,WA,Harbor & Associates,1
+CUST-02242,designer,trade_show,2025-07-14,,,1
+CUST-02243,homeowner,organic_search,2024-02-22,IL,,0
+CUST-02244,homeowner,paid_social,2024-02-06,NC,,1
+CUST-02245,homeowner,referral,2025-02-02,MD,,1
+CUST-02246,homeowner,organic_search,2024-11-18,CA,,1
+CUST-02247,designer,architect_referral,2024-11-26,NJ,,0
+CUST-02248,designer,paid_social,2024-09-04,AZ,,1
+CUST-02249,trade,referral,2024-05-14,GA,Bramble Build Co.,1
+CUST-02250,homeowner,trade_show,2024-11-26,FL,,0
+CUST-02251,designer,referral,2025-01-19,OR,,1
+CUST-02252,homeowner,paid_social,2024-07-21,PA,,1
+CUST-02253,designer,organic_search,2024-06-13,VA,,1
+CUST-02254,trade,trade_show,2024-10-11,GA,Bramble Design + Build,0
+CUST-02255,homeowner,organic_search,2024-07-12,TX,,1
+CUST-02256,trade,trade_show,2024-12-14,CO,Bramble Design + Build,1
+CUST-02257,trade,paid_social,2024-07-05,,Union Design Studio,1
+CUST-02258,homeowner,showroom_walkin,2024-10-18,OH,,1
+CUST-02259,homeowner,organic_search,2025-01-12,MA,,1
+CUST-02260,homeowner,showroom_walkin,2024-03-14,IL,,1
+CUST-02261,homeowner,showroom_walkin,2024-08-18,IL,,1
+CUST-02262,trade,email_capture,2024-07-31,MI,Cascade Construction,1
+CUST-02263,homeowner,email_capture,2025-01-08,CO,,0
+CUST-02264,trade,organic_search,2024-01-31,OH,Harbor Architecture Group,1
+CUST-02265,homeowner,showroom_walkin,2024-03-14,GA,,1
+CUST-02266,trade,referral,2025-01-08,VA,Ashford Design Studio,1
+CUST-02267,trade,trade_show,2025-04-27,NY,Ashford Interiors,1
+CUST-02268,homeowner,paid_social,2024-03-17,MN,,1
+CUST-02269,homeowner,architect_referral,2024-08-23,CO,,1
+CUST-02270,designer,showroom_walkin,2024-06-17,CT,,1
+CUST-02271,homeowner,paid_social,2024-11-09,OR,,1
+CUST-02272,homeowner,organic_search,2024-03-26,WA,,0
+CUST-02273,homeowner,paid_social,2025-06-06,IL,,1
+CUST-02274,homeowner,trade_show,2024-04-09,NC,,1
+CUST-02275,homeowner,organic_search,2025-02-14,WA,,1
+CUST-02276,homeowner,referral,2024-12-20,WA,,1
+CUST-02277,designer,organic_search,2024-02-19,MD,,1
+CUST-02278,designer,organic_search,2025-02-12,OR,,1
+CUST-02279,trade,trade_show,2024-12-06,,Harbor Construction,1
+CUST-02280,homeowner,paid_social,2025-07-05,CO,,1
+CUST-02281,commercial,trade_show,2024-07-25,CT,Union Design Studio,1
+CUST-02282,trade,organic_search,2025-02-14,FL,Harbor & Associates,0
+CUST-02283,commercial,architect_referral,2025-03-30,IL,Harbor Design + Build,1
+CUST-02284,homeowner,paid_social,2024-05-25,OR,,1
+CUST-02285,designer,referral,2024-11-07,GA,,1
+CUST-02286,designer,organic_search,2024-03-04,VA,,1
+CUST-02287,homeowner,direct,2024-06-12,NY,,1
+CUST-02288,homeowner,organic_search,2025-08-13,TX,,1
+CUST-02289,homeowner,email_capture,2024-09-16,FL,,0
+CUST-02290,homeowner,organic_search,2024-07-25,CA,,1
+CUST-02291,designer,showroom_walkin,2024-01-24,OR,,1
+CUST-02292,trade,architect_referral,2024-05-28,,Bramble Interiors,1
+CUST-02293,homeowner,email_capture,2025-01-27,WA,,1
+CUST-02294,homeowner,architect_referral,2024-06-09,MA,,1
+CUST-02295,designer,referral,2024-03-02,FL,,0
+CUST-02296,homeowner,direct,2024-03-02,WA,,1
+CUST-02297,trade,trade_show,2025-03-12,IL,Meridian & Associates,1
+CUST-02298,trade,architect_referral,2025-03-17,AZ,Meridian Studio,1
+CUST-02299,designer,referral,2025-02-12,GA,,1
+CUST-02300,trade,organic_search,2025-07-29,OH,Cascade & Associates,1
+CUST-02301,homeowner,organic_search,2024-12-27,VA,,1
+CUST-02302,homeowner,showroom_walkin,2025-07-25,CT,,1
+CUST-02303,homeowner,direct,2024-05-05,FL,,1
+CUST-02304,homeowner,direct,2024-05-03,PA,,1
+CUST-02305,homeowner,direct,2025-02-06,MN,,1
+CUST-02306,homeowner,paid_social,2025-07-19,PA,,0
+CUST-02307,designer,referral,2024-05-24,AZ,,1
+CUST-02308,trade,email_capture,2024-12-20,AZ,Cascade Build Co.,0
+CUST-02309,homeowner,direct,2025-02-04,GA,,1
+CUST-02310,designer,email_capture,2024-03-31,WA,,1
+CUST-02311,trade,organic_search,2025-03-14,NJ,Cascade Design + Build,1
+CUST-02312,homeowner,direct,2024-07-16,FL,,1
+CUST-02313,trade,organic_search,2025-02-17,TX,Coastal & Associates,1
+CUST-02314,homeowner,direct,2024-09-29,OH,,1
+CUST-02315,designer,architect_referral,2024-02-11,NY,,1
+CUST-02316,homeowner,organic_search,2024-11-13,,,0
+CUST-02317,designer,architect_referral,2024-05-13,MD,,1
+CUST-02318,designer,architect_referral,2024-03-09,CO,,1
+CUST-02319,homeowner,paid_social,2024-08-03,CT,,1
+CUST-02320,designer,direct,2025-07-28,NJ,,1
+CUST-02321,designer,organic_search,2025-02-25,MA,,1
+CUST-02322,trade,organic_search,2025-08-02,TX,Northline Design Studio,1
+CUST-02323,homeowner,organic_search,2025-01-03,IL,,1
+CUST-02324,homeowner,referral,2025-05-10,VA,,1
+CUST-02325,homeowner,showroom_walkin,2025-04-12,MA,,0
+CUST-02326,designer,direct,2024-01-15,AZ,,1
+CUST-02327,designer,organic_search,2024-11-30,CO,,1
+CUST-02328,commercial,trade_show,2024-03-03,OR,Harbor Interiors,1
+CUST-02329,homeowner,direct,2024-11-11,VA,,1
+CUST-02330,designer,trade_show,2024-01-02,OR,,1
+CUST-02331,trade,referral,2025-06-01,CA,Bramble Design Studio,1
+CUST-02332,homeowner,showroom_walkin,2025-05-17,MN,,0
+CUST-02333,homeowner,paid_social,2024-12-31,NC,,1
+CUST-02334,homeowner,organic_search,2024-03-18,OH,,1
+CUST-02335,homeowner,organic_search,2024-01-17,CA,,1
+CUST-02336,designer,referral,2025-04-29,CT,,0
+CUST-02337,homeowner,email_capture,2025-03-29,NY,,1
+CUST-02338,homeowner,organic_search,2024-05-27,MI,,0
+CUST-02339,homeowner,paid_social,2025-04-27,GA,,0
+CUST-02340,homeowner,paid_social,2025-06-12,,,1
+CUST-02341,designer,referral,2024-01-27,VA,,1
+CUST-02342,homeowner,paid_social,2024-02-23,GA,,1
+CUST-02343,designer,paid_social,2024-04-14,VA,,0
+CUST-02344,homeowner,paid_social,2024-02-26,GA,,1
+CUST-02345,homeowner,direct,2024-06-15,AZ,,1
+CUST-02346,homeowner,paid_social,2024-06-09,WA,,0
+CUST-02347,homeowner,organic_search,2025-01-18,CA,,1
+CUST-02348,designer,referral,2024-02-04,GA,,1
+CUST-02349,homeowner,paid_social,2024-03-23,MA,,1
+CUST-02350,homeowner,organic_search,2025-07-07,,,1
+CUST-02351,commercial,direct,2025-06-12,WA,Northline Interiors,1
+CUST-02352,homeowner,email_capture,2024-05-31,TX,,1
+CUST-02353,homeowner,trade_show,2024-11-28,GA,,1
+CUST-02354,homeowner,organic_search,2025-03-13,NC,,1
+CUST-02355,homeowner,email_capture,2024-07-10,MA,,1
+CUST-02356,homeowner,paid_social,2024-12-10,NY,,1
+CUST-02357,homeowner,direct,2025-05-04,FL,,1
+CUST-02358,trade,direct,2025-06-16,CO,Harbor & Associates,1
+CUST-02359,homeowner,showroom_walkin,2024-01-25,NJ,,1
+CUST-02360,homeowner,organic_search,2024-08-15,OH,,1
+CUST-02361,homeowner,direct,2024-09-09,CO,,1
+CUST-02362,trade,trade_show,2024-01-27,MD,Harbor Design Studio,1
+CUST-02363,homeowner,paid_social,2024-04-08,FL,,1
+CUST-02364,homeowner,organic_search,2024-10-30,MD,,0
+CUST-02365,commercial,architect_referral,2024-11-27,IL,Coastal Studio,1
+CUST-02366,commercial,trade_show,2025-06-04,AZ,Northline Studio,1
+CUST-02367,homeowner,organic_search,2024-11-09,MD,,1
+CUST-02368,homeowner,architect_referral,2024-10-06,IL,,1
+CUST-02369,homeowner,organic_search,2025-04-09,AZ,,1
+CUST-02370,designer,architect_referral,2024-10-28,CO,,1
+CUST-02371,homeowner,organic_search,2025-02-24,NJ,,1
+CUST-02372,homeowner,organic_search,2025-07-24,PA,,1
+CUST-02373,homeowner,email_capture,2024-07-19,NY,,1
+CUST-02374,designer,architect_referral,2024-08-30,FL,,1
+CUST-02375,commercial,architect_referral,2024-06-27,NY,Bramble Design Studio,1
+CUST-02376,homeowner,organic_search,2024-04-01,NJ,,1
+CUST-02377,trade,organic_search,2024-05-27,NC,Northline & Associates,0
+CUST-02378,designer,organic_search,2024-05-12,NC,,1
+CUST-02379,homeowner,paid_social,2024-11-12,TX,,1
+CUST-02380,trade,trade_show,2025-06-08,NC,Coastal Build Co.,1
+CUST-02381,homeowner,organic_search,2024-10-02,NC,,1
+CUST-02382,homeowner,organic_search,2024-03-03,CT,,1
+CUST-02383,homeowner,organic_search,2024-03-13,NC,,1
+CUST-02384,homeowner,showroom_walkin,2024-01-21,TX,,0
+CUST-02385,trade,trade_show,2024-10-16,CA,Meridian Construction,0
+CUST-02386,homeowner,organic_search,2024-12-30,WA,,1
+CUST-02387,designer,organic_search,2025-05-21,NC,,1
+CUST-02388,homeowner,email_capture,2024-07-31,GA,,1
+CUST-02389,designer,trade_show,2024-07-18,TX,,1
+CUST-02390,trade,trade_show,2025-07-14,IL,Northline Build Co.,1
+CUST-02391,homeowner,direct,2024-01-28,NJ,,0
+CUST-02392,homeowner,showroom_walkin,2024-03-12,CT,,1
+CUST-02393,homeowner,organic_search,2024-11-24,CA,,1
+CUST-02394,trade,organic_search,2025-05-07,CO,Cascade & Associates,1
+CUST-02395,homeowner,paid_social,2024-12-05,,,1
+CUST-02396,designer,architect_referral,2024-11-06,GA,,1
+CUST-02397,designer,email_capture,2024-09-03,MD,,0
+CUST-02398,homeowner,showroom_walkin,2025-05-20,CT,,0
+CUST-02399,homeowner,organic_search,2024-11-06,NC,,1
+CUST-02400,homeowner,organic_search,2024-06-24,CT,,1
+CUST-02401,trade,direct,2024-06-28,NC,Bramble Design + Build,1
+CUST-02402,homeowner,paid_social,2024-01-05,AZ,,1
+CUST-02403,homeowner,referral,2024-12-31,WA,,1
+CUST-02404,designer,paid_social,2024-07-06,VA,,1
+CUST-02405,homeowner,direct,2024-05-17,MI,,1
+CUST-02406,commercial,showroom_walkin,2025-05-27,GA,Northline Studio,1
+CUST-02407,homeowner,referral,2025-04-29,AZ,,0
+CUST-02408,designer,referral,2024-04-14,CT,,0
+CUST-02409,homeowner,showroom_walkin,2024-06-15,CA,,0
+CUST-02410,homeowner,organic_search,2024-07-28,OH,,1
+CUST-02411,homeowner,direct,2024-07-28,FL,,1
+CUST-02412,trade,organic_search,2025-01-18,FL,Bramble Design Studio,1
+CUST-02413,trade,trade_show,2024-07-24,TX,Bramble Architecture Group,1
+CUST-02414,trade,trade_show,2024-06-12,TX,Bramble Interiors,1
+CUST-02415,designer,organic_search,2024-06-25,MN,,1
+CUST-02416,homeowner,organic_search,2024-05-24,AZ,,1
+CUST-02417,trade,architect_referral,2024-09-01,MI,Bramble Interiors,1
+CUST-02418,homeowner,paid_social,2025-01-11,GA,,1
+CUST-02419,designer,referral,2024-08-06,FL,,1
+CUST-02420,homeowner,showroom_walkin,2025-08-20,MA,,1
+CUST-02421,homeowner,paid_social,2025-01-06,MI,,1
+CUST-02422,homeowner,referral,2024-08-07,MI,,0
+CUST-02423,trade,referral,2025-05-01,IL,Union Build Co.,1
+CUST-02424,homeowner,showroom_walkin,2025-07-13,MN,,0
+CUST-02425,homeowner,organic_search,2024-03-03,NJ,,1
+CUST-02426,homeowner,organic_search,2025-08-25,AZ,,1
+CUST-02427,homeowner,referral,2024-10-03,WA,,0
+CUST-02428,designer,architect_referral,2024-06-23,GA,,1
+CUST-02429,commercial,organic_search,2024-11-06,NY,Cascade & Associates,1
+CUST-02430,trade,trade_show,2025-06-02,MD,Coastal Studio,1
+CUST-02431,homeowner,organic_search,2024-08-08,FL,,1
+CUST-02432,homeowner,organic_search,2024-07-17,MI,,1
+CUST-02433,homeowner,trade_show,2024-03-29,WA,,1
+CUST-02434,trade,architect_referral,2024-12-10,MA,Meridian Architecture Group,1
+CUST-02435,homeowner,paid_social,2025-01-28,IL,,0
+CUST-02436,trade,referral,2024-05-30,NC,Union Design Studio,1
+CUST-02437,homeowner,showroom_walkin,2024-10-24,VA,,0
+CUST-02438,trade,organic_search,2024-11-21,MA,Bramble Design Studio,1
+CUST-02439,trade,email_capture,2024-08-17,PA,Bramble & Associates,1
+CUST-02440,homeowner,organic_search,2024-06-14,MD,,1
+CUST-02441,trade,trade_show,2025-03-17,MI,Ashford Interiors,1
+CUST-02442,homeowner,paid_social,2025-07-30,CT,,1
+CUST-02443,homeowner,showroom_walkin,2025-01-20,OR,,1
+CUST-02444,homeowner,direct,2024-08-15,IL,,1
+CUST-02445,homeowner,paid_social,2024-02-28,NJ,,1
+CUST-02446,trade,trade_show,2024-06-22,MI,Harbor Architecture Group,1
+CUST-02447,homeowner,referral,2025-04-18,WA,,1
+CUST-02448,trade,direct,2024-02-12,AZ,Harbor Architecture Group,0
+CUST-02449,designer,architect_referral,2025-08-25,,,1
+CUST-02450,homeowner,organic_search,2024-06-02,IL,,1
+CUST-02451,homeowner,paid_social,2024-06-09,MA,,1
+CUST-02452,trade,referral,2025-06-21,WA,Union Design + Build,1
+CUST-02453,homeowner,paid_social,2025-05-30,OH,,1
+CUST-02454,homeowner,organic_search,2024-07-18,CT,,0
+CUST-02455,designer,direct,2024-02-12,MA,,1
+CUST-02456,homeowner,showroom_walkin,2025-04-06,NY,,1
+CUST-02457,homeowner,paid_social,2025-01-21,PA,,1
+CUST-02458,homeowner,paid_social,2025-01-28,PA,,1
+CUST-02459,trade,trade_show,2025-03-01,NC,Ashford Construction,1
+CUST-02460,designer,organic_search,2024-07-25,CO,,1
+CUST-02461,homeowner,organic_search,2025-01-01,NJ,,1
+CUST-02462,designer,organic_search,2024-02-01,MD,,1
+CUST-02463,homeowner,showroom_walkin,2024-03-30,GA,,1
+CUST-02464,homeowner,organic_search,2024-04-21,MA,,0
+CUST-02465,designer,referral,2024-11-03,IL,,1
+CUST-02466,homeowner,referral,2025-07-31,NJ,,1
+CUST-02467,homeowner,architect_referral,2025-04-29,OH,,1
+CUST-02468,trade,architect_referral,2024-01-09,WA,Cascade Design + Build,1
+CUST-02469,homeowner,referral,2025-05-16,WA,,0
+CUST-02470,homeowner,paid_social,2025-08-16,GA,,1
+CUST-02471,designer,direct,2024-12-24,MA,,1
+CUST-02472,designer,architect_referral,2025-07-25,GA,,1
+CUST-02473,homeowner,email_capture,2025-02-09,VA,,0
+CUST-02474,designer,organic_search,2025-06-14,WA,,1
+CUST-02475,trade,trade_show,2024-07-23,WA,Meridian & Associates,1
+CUST-02476,trade,organic_search,2025-04-20,GA,Union & Associates,1
+CUST-02477,homeowner,paid_social,2024-02-10,AZ,,1
+CUST-02478,homeowner,organic_search,2024-02-18,PA,,1
+CUST-02479,homeowner,organic_search,2024-03-09,NJ,,1
+CUST-02480,designer,architect_referral,2025-07-26,NY,,1
+CUST-02481,designer,trade_show,2024-06-21,VA,,1
+CUST-02482,designer,referral,2024-07-05,NC,,1
+CUST-02483,trade,email_capture,2024-07-18,GA,Ashford Design Studio,1
+CUST-02484,designer,showroom_walkin,2024-11-29,OH,,1
+CUST-02485,homeowner,paid_social,2024-11-29,VA,,1
+CUST-02486,designer,organic_search,2025-05-17,MA,,0
+CUST-02487,homeowner,paid_social,2025-03-07,MN,,1
+CUST-02488,homeowner,email_capture,2025-03-27,MI,,1
+CUST-02489,designer,direct,2024-04-24,VA,,1
+CUST-02490,homeowner,paid_social,2025-03-22,NC,,0
+CUST-02491,homeowner,organic_search,2024-03-29,OH,,1
+CUST-02492,homeowner,showroom_walkin,2024-07-28,IL,,1
+CUST-02493,homeowner,organic_search,2024-11-20,IL,,1
+CUST-02494,commercial,architect_referral,2025-03-03,OR,Bramble Build Co.,1
+CUST-02495,homeowner,organic_search,2024-08-20,NY,,1
+CUST-02496,homeowner,paid_social,2024-12-05,MD,,1
+CUST-02497,trade,trade_show,2025-05-08,FL,Northline & Associates,1
+CUST-02498,designer,email_capture,2024-06-30,,,1
+CUST-02499,homeowner,organic_search,2024-03-02,MA,,1
+CUST-02500,designer,architect_referral,2025-03-22,MN,,0
+CUST-02501,homeowner,showroom_walkin,2025-05-16,,,1
+CUST-02502,homeowner,paid_social,2024-10-24,,,0
+CUST-02503,trade,referral,2024-12-14,MD,Northline Studio,1
+CUST-02504,homeowner,direct,2024-12-01,MI,,0
+CUST-02505,designer,referral,2024-01-04,MD,,0
+CUST-02506,homeowner,organic_search,2024-02-20,IL,,1
+CUST-02507,designer,organic_search,2025-06-01,TX,,1
+CUST-02508,trade,trade_show,2024-08-29,MI,Union Interiors,1
+CUST-02509,homeowner,showroom_walkin,2025-03-20,MN,,0
+CUST-02510,commercial,architect_referral,2025-08-05,CO,Ashford Interiors,1
+CUST-02511,homeowner,organic_search,2025-01-08,MI,,1
+CUST-02512,designer,showroom_walkin,2024-02-05,CA,,1
+CUST-02513,trade,showroom_walkin,2024-01-17,AZ,Bramble Design Studio,1
+CUST-02514,homeowner,organic_search,2024-11-25,CO,,1
+CUST-02515,homeowner,paid_social,2024-05-19,OH,,1
+CUST-02516,homeowner,direct,2025-03-23,MD,,1
+CUST-02517,homeowner,direct,2024-02-25,CA,,1
+CUST-02518,commercial,trade_show,2024-08-05,MN,Bramble Construction,1
+CUST-02519,trade,trade_show,2024-07-22,TX,Meridian Architecture Group,1
+CUST-02520,designer,trade_show,2025-06-27,IL,,1
+CUST-02521,designer,showroom_walkin,2024-06-02,PA,,1
+CUST-02522,homeowner,referral,2024-07-10,MI,,0
+CUST-02523,homeowner,organic_search,2024-04-09,IL,,0
+CUST-02524,designer,architect_referral,2025-01-04,NC,,1
+CUST-02525,trade,organic_search,2024-05-07,CA,Coastal Construction,1
+CUST-02526,commercial,architect_referral,2024-01-08,CT,Meridian Architecture Group,0
+CUST-02527,homeowner,paid_social,2024-07-19,MN,,1
+CUST-02528,homeowner,paid_social,2025-01-16,WA,,1
+CUST-02529,homeowner,organic_search,2024-02-20,MI,,0
+CUST-02530,trade,email_capture,2024-04-27,NC,Northline Construction,1
+CUST-02531,homeowner,paid_social,2024-11-17,AZ,,0
+CUST-02532,homeowner,paid_social,2024-07-07,FL,,1
+CUST-02533,homeowner,paid_social,2024-07-23,OR,,1
+CUST-02534,homeowner,trade_show,2024-08-20,CT,,1
+CUST-02535,homeowner,organic_search,2025-06-18,NJ,,0
+CUST-02536,homeowner,referral,2024-06-04,MD,,1
+CUST-02537,homeowner,email_capture,2025-06-10,PA,,1
+CUST-02538,commercial,trade_show,2024-12-23,,Ashford Studio,1
+CUST-02539,trade,trade_show,2024-01-08,CT,Bramble Architecture Group,1
+CUST-02540,homeowner,referral,2024-07-12,NJ,,1
+CUST-02541,homeowner,referral,2025-04-24,MN,,1
+CUST-02542,homeowner,paid_social,2025-01-21,CO,,1
+CUST-02543,homeowner,organic_search,2024-05-24,MN,,1
+CUST-02544,homeowner,organic_search,2024-12-21,CT,,1
+CUST-02545,designer,referral,2025-04-23,MA,,1
+CUST-02546,trade,trade_show,2024-07-06,MN,Bramble Interiors,1
+CUST-02547,designer,referral,2025-03-22,TX,,1
+CUST-02548,trade,architect_referral,2024-07-01,OR,Meridian Design + Build,1
+CUST-02549,trade,referral,2024-07-15,AZ,Ashford Build Co.,0
+CUST-02550,commercial,direct,2024-09-18,MI,Ashford & Associates,1
+CUST-02551,commercial,paid_social,2024-04-08,PA,Meridian Build Co.,1
+CUST-02552,designer,architect_referral,2024-03-21,NY,,1
+CUST-02553,homeowner,paid_social,2024-06-29,TX,,1
+CUST-02554,homeowner,referral,2024-06-14,,,1
+CUST-02555,designer,referral,2025-08-05,FL,,1
+CUST-02556,homeowner,paid_social,2024-04-25,MI,,1
+CUST-02557,homeowner,organic_search,2025-04-29,WA,,1
+CUST-02558,homeowner,referral,2025-02-16,NC,,1
+CUST-02559,designer,trade_show,2025-08-15,AZ,,1
+CUST-02560,trade,direct,2024-04-20,NJ,Bramble Design Studio,1
+CUST-02561,designer,architect_referral,2025-05-05,MA,,0
+CUST-02562,trade,paid_social,2024-01-27,NJ,Union Construction,1
+CUST-02563,designer,showroom_walkin,2025-07-16,NY,,1
+CUST-02564,designer,organic_search,2024-12-15,TX,,1
+CUST-02565,homeowner,organic_search,2024-01-26,CA,,0
+CUST-02566,trade,showroom_walkin,2024-05-24,PA,Meridian Architecture Group,1
+CUST-02567,designer,architect_referral,2024-11-14,MD,,1
+CUST-02568,designer,architect_referral,2025-06-07,AZ,,1
+CUST-02569,homeowner,email_capture,2025-04-12,AZ,,0
+CUST-02570,homeowner,organic_search,2024-11-11,MA,,1
+CUST-02571,homeowner,paid_social,2025-01-24,CT,,1
+CUST-02572,designer,referral,2024-07-09,FL,,1
+CUST-02573,homeowner,referral,2024-03-13,GA,,1
+CUST-02574,homeowner,paid_social,2024-07-07,MN,,1
+CUST-02575,commercial,trade_show,2024-02-17,NJ,Harbor Studio,1
+CUST-02576,homeowner,direct,2025-01-06,MD,,1
+CUST-02577,homeowner,showroom_walkin,2024-09-03,CT,,1
+CUST-02578,homeowner,email_capture,2025-02-03,OH,,1
+CUST-02579,homeowner,paid_social,2024-12-12,OH,,1
+CUST-02580,homeowner,organic_search,2024-10-05,CO,,1
+CUST-02581,commercial,architect_referral,2024-10-13,MD,Harbor Construction,1
+CUST-02582,designer,trade_show,2025-02-22,MN,,1
+CUST-02583,homeowner,direct,2024-12-08,CT,,1
+CUST-02584,homeowner,paid_social,2024-07-13,MN,,1
+CUST-02585,trade,trade_show,2025-08-29,FL,Harbor Architecture Group,1
+CUST-02586,homeowner,organic_search,2025-05-22,FL,,1
+CUST-02587,homeowner,organic_search,2024-03-31,CA,,1
+CUST-02588,homeowner,paid_social,2024-04-06,TX,,1
+CUST-02589,trade,organic_search,2024-01-22,OR,Coastal Interiors,1
+CUST-02590,homeowner,showroom_walkin,2024-05-18,CA,,1
+CUST-02591,homeowner,email_capture,2025-05-25,OH,,1
+CUST-02592,designer,organic_search,2024-07-17,OR,,1
+CUST-02593,homeowner,organic_search,2025-01-09,OH,,0
+CUST-02594,homeowner,showroom_walkin,2024-01-19,AZ,,1
+CUST-02595,trade,direct,2024-07-05,NC,Ashford Build Co.,1
+CUST-02596,homeowner,paid_social,2025-06-09,MA,,1
+CUST-02597,designer,organic_search,2024-01-11,MA,,0
+CUST-02598,homeowner,paid_social,2025-08-03,CA,,1
+CUST-02599,designer,trade_show,2024-05-26,OH,,1
+CUST-02600,homeowner,referral,2025-02-28,OR,,1
+CUST-02601,designer,trade_show,2025-01-01,MA,,1
+CUST-02602,homeowner,referral,2025-04-28,AZ,,1
+CUST-02603,homeowner,email_capture,2025-01-11,CA,,0
+CUST-02604,homeowner,referral,2024-06-27,NJ,,0
+CUST-02605,homeowner,organic_search,2024-02-18,VA,,1
+CUST-02606,designer,organic_search,2025-04-28,MD,,1
+CUST-02607,homeowner,organic_search,2025-08-11,NC,,1
+CUST-02608,designer,organic_search,2024-02-28,,,1
+CUST-02609,homeowner,direct,2024-09-19,GA,,1
+CUST-02610,homeowner,showroom_walkin,2024-11-24,TX,,1
+CUST-02611,designer,organic_search,2024-08-09,IL,,1
+CUST-02612,homeowner,direct,2024-10-10,NY,,1
+CUST-02613,homeowner,showroom_walkin,2025-03-25,NJ,,1
+CUST-02614,homeowner,paid_social,2024-07-06,VA,,0
+CUST-02615,homeowner,paid_social,2024-07-02,MI,,1
+CUST-02616,designer,architect_referral,2024-11-28,MI,,1
+CUST-02617,homeowner,organic_search,2024-08-27,VA,,1
+CUST-02618,trade,architect_referral,2025-08-03,CO,Union Design Studio,1
+CUST-02619,designer,showroom_walkin,2024-07-19,AZ,,1
+CUST-02620,homeowner,showroom_walkin,2024-09-09,GA,,1
+CUST-02621,designer,showroom_walkin,2025-02-03,CT,,1
+CUST-02622,trade,trade_show,2025-04-30,NY,Meridian & Associates,1
+CUST-02623,designer,email_capture,2024-01-30,CT,,1
+CUST-02624,designer,organic_search,2024-06-25,OH,,1
+CUST-02625,homeowner,paid_social,2024-02-02,AZ,,1
+CUST-02626,homeowner,direct,2025-06-05,GA,,1
+CUST-02627,homeowner,organic_search,2025-04-02,PA,,1
+CUST-02628,homeowner,email_capture,2024-03-22,IL,,0
+CUST-02629,homeowner,showroom_walkin,2025-04-06,WA,,1
+CUST-02630,trade,referral,2024-12-17,GA,Union Design + Build,1
+CUST-02631,homeowner,showroom_walkin,2024-05-13,GA,,1
+CUST-02632,designer,showroom_walkin,2025-05-02,IL,,1
+CUST-02633,homeowner,paid_social,2024-11-10,MD,,1
+CUST-02634,designer,organic_search,2025-02-18,MA,,1
+CUST-02635,homeowner,referral,2024-05-23,MN,,1
+CUST-02636,trade,direct,2024-04-12,NY,Meridian Design Studio,1
+CUST-02637,trade,direct,2024-12-23,IL,Bramble Architecture Group,1
+CUST-02638,commercial,trade_show,2025-06-01,,Harbor Design Studio,1
+CUST-02639,designer,organic_search,2024-08-02,CO,,1
+CUST-02640,designer,organic_search,2024-11-04,VA,,1
+CUST-02641,homeowner,email_capture,2024-08-16,NJ,,1
+CUST-02642,commercial,trade_show,2024-03-08,MI,Union Interiors,1
+CUST-02643,designer,architect_referral,2024-01-01,PA,,1
+CUST-02644,designer,paid_social,2025-08-22,MI,,0
+CUST-02645,commercial,architect_referral,2024-06-22,,Cascade Design + Build,1
+CUST-02646,homeowner,email_capture,2025-07-13,CO,,0
+CUST-02647,trade,architect_referral,2025-03-29,VA,Bramble Design Studio,1
+CUST-02648,commercial,trade_show,2024-08-12,PA,Bramble Design + Build,1
+CUST-02649,homeowner,showroom_walkin,2024-09-10,MD,,1
+CUST-02650,trade,trade_show,2024-07-19,TX,Ashford & Associates,1
+CUST-02651,homeowner,email_capture,2024-05-01,CT,,1
+CUST-02652,homeowner,direct,2024-05-18,FL,,1
+CUST-02653,designer,email_capture,2025-04-08,CA,,1
+CUST-02654,designer,paid_social,2025-04-20,MI,,1
+CUST-02655,designer,direct,2024-06-28,PA,,1
+CUST-02656,trade,referral,2024-03-09,CO,Ashford & Associates,1
+CUST-02657,commercial,architect_referral,2024-06-09,MD,Ashford Design + Build,1
+CUST-02658,designer,architect_referral,2025-03-03,IL,,1
+CUST-02659,homeowner,referral,2024-09-02,MA,,1
+CUST-02660,homeowner,direct,2025-03-10,OH,,1
+CUST-02661,commercial,direct,2024-06-02,MN,Northline Studio,1
+CUST-02662,homeowner,organic_search,2025-05-09,MA,,1
+CUST-02663,homeowner,direct,2024-11-04,CT,,1
+CUST-02664,homeowner,organic_search,2024-01-21,FL,,1
+CUST-02665,designer,organic_search,2024-12-25,OR,,1
+CUST-02666,homeowner,paid_social,2025-04-28,CA,,1
+CUST-02667,homeowner,email_capture,2024-05-17,NJ,,1
+CUST-02668,homeowner,organic_search,2024-06-26,CO,,1
+CUST-02669,designer,paid_social,2024-08-02,NC,,0
+CUST-02670,homeowner,organic_search,2025-07-05,MN,,1
+CUST-02671,trade,email_capture,2025-03-25,CO,Cascade Interiors,0
+CUST-02672,homeowner,organic_search,2024-10-16,OR,,1
+CUST-02673,homeowner,organic_search,2025-07-17,CT,,1
+CUST-02674,designer,organic_search,2025-03-14,PA,,1
+CUST-02675,homeowner,email_capture,2024-08-31,CA,,1
+CUST-02676,homeowner,paid_social,2025-05-29,CA,,1
+CUST-02677,designer,trade_show,2025-08-17,CA,,1
+CUST-02678,homeowner,referral,2024-12-06,CT,,1
+CUST-02679,homeowner,paid_social,2024-12-01,IL,,1
+CUST-02680,trade,trade_show,2025-01-27,,Union Construction,1
+CUST-02681,trade,architect_referral,2024-04-18,IL,Coastal Construction,1
+CUST-02682,designer,showroom_walkin,2025-03-12,MI,,1
+CUST-02683,designer,architect_referral,2024-02-18,CO,,1
+CUST-02684,designer,showroom_walkin,2024-02-27,FL,,1
+CUST-02685,homeowner,organic_search,2024-08-16,OR,,1
+CUST-02686,homeowner,organic_search,2024-04-20,CA,,1
+CUST-02687,homeowner,showroom_walkin,2024-12-04,AZ,,1
+CUST-02688,homeowner,email_capture,2024-10-06,WA,,1
+CUST-02689,homeowner,organic_search,2024-12-21,CA,,1
+CUST-02690,homeowner,paid_social,2024-08-08,MI,,1
+CUST-02691,homeowner,direct,2025-02-24,VA,,1
+CUST-02692,commercial,architect_referral,2024-09-01,MN,Union Design Studio,1
+CUST-02693,designer,organic_search,2025-03-26,OH,,0
+CUST-02694,homeowner,direct,2025-07-12,GA,,1
+CUST-02695,homeowner,direct,2024-01-22,AZ,,1
+CUST-02696,designer,direct,2024-02-19,OH,,1
+CUST-02697,designer,referral,2024-12-01,WA,,1
+CUST-02698,homeowner,email_capture,2025-04-03,MN,,1
+CUST-02699,trade,paid_social,2024-07-26,IL,Harbor Design Studio,1
+CUST-02700,homeowner,paid_social,2024-11-27,PA,,1
+CUST-02701,homeowner,organic_search,2025-01-28,TX,,1
+CUST-02702,homeowner,direct,2024-03-30,IL,,1
+CUST-02703,homeowner,direct,2024-03-20,MI,,1
+CUST-02704,homeowner,organic_search,2025-05-12,NY,,1
+CUST-02705,homeowner,organic_search,2024-10-26,MN,,0
+CUST-02706,designer,trade_show,2024-06-12,OR,,1
+CUST-02707,commercial,direct,2025-08-15,TX,Coastal & Associates,1
+CUST-02708,homeowner,email_capture,2024-09-25,,,1
+CUST-02709,homeowner,direct,2025-01-01,TX,,1
+CUST-02710,designer,architect_referral,2025-03-22,NC,,1
+CUST-02711,homeowner,direct,2025-07-11,NY,,1
+CUST-02712,homeowner,direct,2024-11-05,NJ,,1
+CUST-02713,homeowner,showroom_walkin,2024-06-30,NY,,1
+CUST-02714,homeowner,paid_social,2024-05-30,AZ,,1
+CUST-02715,homeowner,paid_social,2024-08-05,MD,,1
+CUST-02716,designer,paid_social,2024-11-25,,,1
+CUST-02717,designer,referral,2024-06-14,OH,,1
+CUST-02718,homeowner,showroom_walkin,2024-05-23,OR,,0
+CUST-02719,designer,organic_search,2025-08-02,IL,,1
+CUST-02720,homeowner,showroom_walkin,2024-01-19,CA,,0
+CUST-02721,homeowner,email_capture,2024-02-23,NY,,1
+CUST-02722,homeowner,paid_social,2024-07-06,NY,,1
+CUST-02723,trade,showroom_walkin,2024-11-23,CO,Coastal Design + Build,0
+CUST-02724,homeowner,paid_social,2025-06-19,TX,,1
+CUST-02725,commercial,architect_referral,2025-06-28,NJ,Coastal Studio,1
+CUST-02726,trade,architect_referral,2025-06-26,NC,Bramble Interiors,1
+CUST-02727,designer,referral,2024-07-06,CT,,1
+CUST-02728,homeowner,referral,2024-11-11,NY,,1
+CUST-02729,homeowner,direct,2024-12-23,OR,,0
+CUST-02730,designer,direct,2024-11-13,MI,,1
+CUST-02731,homeowner,paid_social,2024-09-04,OH,,1
+CUST-02732,homeowner,paid_social,2024-08-30,FL,,0
+CUST-02733,homeowner,direct,2024-01-28,MN,,1
+CUST-02734,commercial,direct,2024-10-07,IL,Harbor Build Co.,1
+CUST-02735,homeowner,direct,2024-11-22,GA,,1
+CUST-02736,commercial,direct,2024-02-17,NJ,Harbor Interiors,0
+CUST-02737,designer,showroom_walkin,2024-10-09,CT,,1
+CUST-02738,trade,referral,2025-06-13,,Harbor Design Studio,1
+CUST-02739,trade,architect_referral,2024-06-27,IL,Union Build Co.,1
+CUST-02740,homeowner,referral,2024-03-24,MA,,1
+CUST-02741,commercial,paid_social,2025-08-20,MD,Harbor Architecture Group,1
+CUST-02742,trade,showroom_walkin,2024-12-31,GA,Cascade Build Co.,1
+CUST-02743,designer,email_capture,2024-09-26,MA,,1
+CUST-02744,commercial,trade_show,2024-01-05,NJ,Union & Associates,1
+CUST-02745,homeowner,referral,2025-08-29,GA,,1
+CUST-02746,homeowner,showroom_walkin,2025-04-10,AZ,,0
+CUST-02747,homeowner,paid_social,2024-10-31,MA,,1
+CUST-02748,homeowner,trade_show,2024-05-18,CO,,1
+CUST-02749,trade,organic_search,2024-07-19,CT,Harbor Interiors,1
+CUST-02750,designer,email_capture,2025-04-18,CO,,1
+CUST-02751,designer,trade_show,2025-03-05,,,0
+CUST-02752,homeowner,direct,2025-08-15,OR,,1
+CUST-02753,homeowner,email_capture,2024-11-26,AZ,,1
+CUST-02754,trade,architect_referral,2024-05-30,CO,Northline Construction,1
+CUST-02755,designer,referral,2024-12-26,TX,,1
+CUST-02756,homeowner,showroom_walkin,2025-02-14,MN,,1
+CUST-02757,homeowner,direct,2024-06-09,PA,,1
+CUST-02758,designer,paid_social,2024-10-16,MI,,1
+CUST-02759,homeowner,organic_search,2025-01-19,NY,,1
+CUST-02760,trade,trade_show,2024-01-30,CT,Northline Build Co.,0
+CUST-02761,homeowner,paid_social,2025-06-03,GA,,1
+CUST-02762,homeowner,email_capture,2025-07-07,MN,,1
+CUST-02763,trade,trade_show,2024-07-30,CA,Northline & Associates,1
+CUST-02764,homeowner,paid_social,2025-07-01,MA,,1
+CUST-02765,homeowner,email_capture,2025-07-06,GA,,1
+CUST-02766,homeowner,direct,2024-12-13,MI,,1
+CUST-02767,commercial,referral,2024-10-02,GA,Ashford Design + Build,1
+CUST-02768,trade,trade_show,2025-03-26,IL,Coastal & Associates,1
+CUST-02769,designer,direct,2024-02-09,OH,,1
+CUST-02770,homeowner,direct,2025-06-19,MA,,1
+CUST-02771,homeowner,showroom_walkin,2024-11-03,VA,,1
+CUST-02772,homeowner,paid_social,2024-07-15,OR,,1
+CUST-02773,homeowner,referral,2025-05-13,NC,,1
+CUST-02774,commercial,architect_referral,2025-03-12,PA,Harbor Studio,1
+CUST-02775,designer,architect_referral,2024-07-17,MN,,1
+CUST-02776,designer,paid_social,2025-01-17,PA,,0
+CUST-02777,homeowner,organic_search,2025-01-11,IL,,1
+CUST-02778,homeowner,referral,2024-08-18,CO,,1
+CUST-02779,trade,architect_referral,2024-02-05,,Cascade Architecture Group,1
+CUST-02780,trade,trade_show,2024-05-27,MI,Coastal Design + Build,1
+CUST-02781,trade,paid_social,2025-08-10,NY,Meridian Design + Build,1
+CUST-02782,homeowner,organic_search,2024-02-19,MI,,1
+CUST-02783,homeowner,paid_social,2024-08-19,MA,,1
+CUST-02784,designer,direct,2024-07-13,CT,,1
+CUST-02785,homeowner,showroom_walkin,2024-01-18,OR,,1
+CUST-02786,commercial,trade_show,2025-08-24,MD,Ashford Build Co.,1
+CUST-02787,trade,organic_search,2024-10-20,PA,Union Design + Build,1
+CUST-02788,homeowner,trade_show,2024-11-25,MA,,1
+CUST-02789,commercial,architect_referral,2024-09-14,VA,Cascade Interiors,1
+CUST-02790,designer,showroom_walkin,2024-12-07,OR,,1
+CUST-02791,homeowner,paid_social,2024-11-10,TX,,1
+CUST-02792,homeowner,direct,2025-02-24,MA,,1
+CUST-02793,designer,direct,2024-03-28,NJ,,1
+CUST-02794,homeowner,referral,2024-09-04,MA,,1
+CUST-02795,homeowner,organic_search,2025-06-23,FL,,1
+CUST-02796,homeowner,paid_social,2024-03-29,CT,,1
+CUST-02797,designer,organic_search,2024-01-23,CO,,1
+CUST-02798,homeowner,showroom_walkin,2024-07-23,GA,,0
+CUST-02799,commercial,trade_show,2024-05-26,OH,Coastal Design + Build,1
+CUST-02800,homeowner,showroom_walkin,2025-07-21,MD,,1
+CUST-02801,commercial,direct,2024-11-15,IL,Meridian Studio,1
+CUST-02802,designer,showroom_walkin,2025-07-29,VA,,1
+CUST-02803,homeowner,organic_search,2024-07-09,PA,,1
+CUST-02804,homeowner,organic_search,2024-09-29,CO,,1
+CUST-02805,homeowner,organic_search,2024-02-06,TX,,1
+CUST-02806,homeowner,email_capture,2024-08-02,OR,,1
+CUST-02807,homeowner,organic_search,2025-03-29,CA,,1
+CUST-02808,homeowner,referral,2025-01-28,IL,,1
+CUST-02809,homeowner,paid_social,2024-05-16,CA,,1
+CUST-02810,homeowner,paid_social,2024-06-30,IL,,1
+CUST-02811,homeowner,direct,2024-05-05,,,1
+CUST-02812,commercial,referral,2024-08-22,OH,Ashford Interiors,1
+CUST-02813,designer,showroom_walkin,2024-07-17,MN,,1
+CUST-02814,designer,architect_referral,2024-05-23,MN,,1
+CUST-02815,homeowner,organic_search,2024-02-25,IL,,1
+CUST-02816,trade,organic_search,2024-08-13,GA,Ashford Design + Build,1
+CUST-02817,homeowner,organic_search,2025-04-20,,,1
+CUST-02818,homeowner,direct,2024-12-22,NY,,1
+CUST-02819,homeowner,organic_search,2025-08-04,PA,,0
+CUST-02820,trade,organic_search,2024-10-20,CT,Union Interiors,1
+CUST-02821,trade,trade_show,2025-03-23,VA,Meridian Build Co.,1
+CUST-02822,designer,architect_referral,2024-12-17,CO,,1
+CUST-02823,homeowner,organic_search,2024-03-24,MN,,1
+CUST-02824,homeowner,organic_search,2024-05-03,IL,,1
+CUST-02825,homeowner,architect_referral,2024-08-21,NY,,1
+CUST-02826,designer,organic_search,2025-08-15,NC,,1
+CUST-02827,trade,trade_show,2024-03-21,NJ,Coastal Construction,0
+CUST-02828,homeowner,paid_social,2025-04-19,IL,,1
+CUST-02829,homeowner,showroom_walkin,2024-11-05,VA,,1
+CUST-02830,homeowner,direct,2025-05-30,AZ,,1
+CUST-02831,homeowner,referral,2025-07-30,TX,,1
+CUST-02832,designer,architect_referral,2024-10-19,IL,,1
+CUST-02833,homeowner,paid_social,2024-11-21,PA,,1
+CUST-02834,homeowner,organic_search,2025-08-31,MD,,1
+CUST-02835,homeowner,organic_search,2024-04-04,MN,,1
+CUST-02836,designer,architect_referral,2024-12-21,,,1
+CUST-02837,commercial,architect_referral,2024-03-21,OR,Cascade Build Co.,1
+CUST-02838,homeowner,paid_social,2024-08-17,OR,,1
+CUST-02839,designer,direct,2025-03-06,OR,,1
+CUST-02840,homeowner,referral,2025-05-31,MD,,0
+CUST-02841,trade,trade_show,2024-08-23,IL,Cascade & Associates,1
+CUST-02842,homeowner,organic_search,2024-11-03,OR,,1
+CUST-02843,designer,architect_referral,2024-09-02,GA,,1
+CUST-02844,trade,direct,2025-02-28,OR,Coastal & Associates,1
+CUST-02845,homeowner,organic_search,2025-05-05,PA,,1
+CUST-02846,homeowner,email_capture,2024-11-13,CT,,0
+CUST-02847,trade,paid_social,2024-02-20,GA,Harbor & Associates,1
+CUST-02848,trade,organic_search,2025-05-06,,Cascade Interiors,1
+CUST-02849,homeowner,paid_social,2025-06-27,TX,,0
+CUST-02850,homeowner,organic_search,2025-03-06,GA,,1
+CUST-02851,homeowner,referral,2025-01-04,NJ,,1
+CUST-02852,trade,architect_referral,2025-03-29,TX,Northline Build Co.,1
+CUST-02853,designer,referral,2025-01-13,OR,,1
+CUST-02854,homeowner,showroom_walkin,2025-03-07,WA,,1
+CUST-02855,homeowner,direct,2025-08-01,PA,,1
+CUST-02856,homeowner,paid_social,2025-07-13,FL,,1
+CUST-02857,designer,organic_search,2025-07-28,MI,,1
+CUST-02858,designer,architect_referral,2024-05-19,CO,,1
+CUST-02859,homeowner,paid_social,2024-05-22,NJ,,1
+CUST-02860,designer,referral,2024-09-14,NC,,1
+CUST-02861,homeowner,organic_search,2025-07-12,NY,,1
+CUST-02862,commercial,architect_referral,2025-05-05,AZ,Harbor Build Co.,0
+CUST-02863,homeowner,email_capture,2025-07-10,OH,,1
+CUST-02864,homeowner,showroom_walkin,2024-09-10,,,1
+CUST-02865,trade,direct,2024-02-17,MD,Bramble & Associates,0
+CUST-02866,designer,architect_referral,2024-05-27,GA,,1
+CUST-02867,homeowner,referral,2024-09-28,NY,,1
+CUST-02868,homeowner,referral,2025-01-09,NY,,1
+CUST-02869,homeowner,paid_social,2025-01-17,PA,,0
+CUST-02870,homeowner,organic_search,2024-03-02,WA,,1
+CUST-02871,homeowner,organic_search,2025-02-06,MI,,0
+CUST-02872,designer,architect_referral,2025-08-22,TX,,0
+CUST-02873,homeowner,direct,2024-06-10,PA,,1
+CUST-02874,trade,referral,2025-05-13,MI,Harbor Construction,1
+CUST-02875,commercial,architect_referral,2025-03-21,IL,Cascade Construction,1
+CUST-02876,homeowner,trade_show,2025-01-08,PA,,1
+CUST-02877,homeowner,showroom_walkin,2025-08-10,VA,,1
+CUST-02878,homeowner,organic_search,2024-09-24,OH,,1
+CUST-02879,trade,paid_social,2025-02-07,NJ,Coastal Interiors,1
+CUST-02880,homeowner,organic_search,2025-01-16,IL,,1
+CUST-02881,homeowner,organic_search,2025-07-11,,,0
+CUST-02882,designer,organic_search,2025-07-28,CA,,0
+CUST-02883,homeowner,organic_search,2025-08-07,MN,,0
+CUST-02884,homeowner,referral,2025-04-11,FL,,1
+CUST-02885,designer,direct,2024-11-03,OH,,1
+CUST-02886,homeowner,direct,2024-04-27,,,1
+CUST-02887,homeowner,paid_social,2024-05-24,CA,,1
+CUST-02888,homeowner,showroom_walkin,2024-04-09,OH,,1
+CUST-02889,homeowner,referral,2024-06-29,PA,,0
+CUST-02890,homeowner,organic_search,2025-08-19,CA,,1
+CUST-02891,homeowner,referral,2025-06-11,AZ,,1
+CUST-02892,trade,showroom_walkin,2025-07-08,MI,Ashford Interiors,1
+CUST-02893,homeowner,direct,2024-09-15,OR,,0
+CUST-02894,designer,trade_show,2024-11-15,GA,,1
+CUST-02895,homeowner,organic_search,2024-10-16,FL,,1
+CUST-02896,homeowner,organic_search,2024-10-07,WA,,1
+CUST-02897,homeowner,direct,2024-06-08,MI,,1
+CUST-02898,commercial,direct,2025-08-15,IL,Meridian Design Studio,1
+CUST-02899,homeowner,showroom_walkin,2024-08-09,VA,,1
+CUST-02900,designer,organic_search,2024-02-10,IL,,1
+CUST-02901,homeowner,organic_search,2024-02-06,CT,,1
+CUST-02902,designer,paid_social,2025-02-13,AZ,,1
+CUST-02903,homeowner,referral,2024-11-09,CO,,1
+CUST-02904,homeowner,paid_social,2024-12-19,IL,,1
+CUST-02905,homeowner,organic_search,2025-05-30,OR,,1
+CUST-02906,trade,trade_show,2024-04-16,CO,Meridian Interiors,1
+CUST-02907,homeowner,direct,2024-11-29,GA,,1
+CUST-02908,trade,trade_show,2025-08-17,MI,Ashford Architecture Group,1
+CUST-02909,homeowner,organic_search,2025-03-31,NJ,,1
+CUST-02910,homeowner,organic_search,2024-12-11,NC,,1
+CUST-02911,homeowner,paid_social,2025-05-28,TX,,1
+CUST-02912,trade,organic_search,2024-11-07,FL,Union Design Studio,1
+CUST-02913,homeowner,paid_social,2024-01-30,VA,,1
+CUST-02914,homeowner,referral,2024-11-08,OH,,1
+CUST-02915,homeowner,paid_social,2025-01-14,CA,,1
+CUST-02916,trade,trade_show,2024-02-18,MN,Coastal Build Co.,1
+CUST-02917,homeowner,organic_search,2024-01-28,OH,,1
+CUST-02918,designer,organic_search,2024-08-11,CT,,1
+CUST-02919,trade,architect_referral,2024-05-16,VA,Northline Build Co.,1
+CUST-02920,homeowner,organic_search,2025-03-11,MI,,1
+CUST-02921,homeowner,direct,2024-10-09,OH,,0
+CUST-02922,commercial,trade_show,2024-05-21,CA,Cascade Interiors,1
+CUST-02923,homeowner,direct,2025-07-07,MD,,1
+CUST-02924,homeowner,showroom_walkin,2024-12-28,CT,,1
+CUST-02925,homeowner,referral,2025-08-05,MN,,1
+CUST-02926,designer,showroom_walkin,2024-04-05,MA,,1
+CUST-02927,designer,organic_search,2025-01-28,OR,,1
+CUST-02928,homeowner,paid_social,2025-02-09,PA,,0
+CUST-02929,homeowner,organic_search,2024-03-18,MI,,1
+CUST-02930,designer,direct,2024-11-08,FL,,1
+CUST-02931,homeowner,paid_social,2025-04-22,MD,,1
+CUST-02932,homeowner,paid_social,2024-07-11,CA,,1
+CUST-02933,trade,trade_show,2024-10-17,CT,Union Studio,1
+CUST-02934,commercial,architect_referral,2025-03-27,NC,Union Design + Build,1
+CUST-02935,homeowner,paid_social,2025-04-10,VA,,1
+CUST-02936,designer,trade_show,2024-06-10,PA,,0
+CUST-02937,commercial,organic_search,2025-07-10,TX,Bramble Design + Build,1
+CUST-02938,trade,organic_search,2024-09-23,AZ,Coastal Design + Build,1
+CUST-02939,designer,paid_social,2024-05-18,WA,,1
+CUST-02940,commercial,architect_referral,2025-07-25,NY,Coastal Build Co.,1
+CUST-02941,homeowner,trade_show,2024-04-08,PA,,1
+CUST-02942,designer,referral,2025-08-07,FL,,1
+CUST-02943,homeowner,paid_social,2024-01-16,OH,,1
+CUST-02944,trade,trade_show,2024-07-09,OR,Meridian Build Co.,1
+CUST-02945,homeowner,architect_referral,2024-05-17,NY,,1
+CUST-02946,homeowner,direct,2024-07-10,CT,,1
+CUST-02947,designer,architect_referral,2025-06-12,GA,,1
+CUST-02948,homeowner,organic_search,2025-08-22,MN,,1
+CUST-02949,designer,referral,2024-12-11,MD,,1
+CUST-02950,trade,referral,2024-08-17,VA,Union Interiors,1
+CUST-02951,homeowner,organic_search,2025-01-07,MD,,1
+CUST-02952,designer,showroom_walkin,2024-01-02,MA,,1
+CUST-02953,homeowner,paid_social,2024-03-14,FL,,1
+CUST-02954,designer,architect_referral,2024-08-31,NJ,,0
+CUST-02955,trade,trade_show,2025-04-17,OR,Harbor Construction,1
+CUST-02956,homeowner,trade_show,2025-05-10,OH,,1
+CUST-02957,homeowner,showroom_walkin,2024-09-13,NJ,,1
+CUST-02958,trade,trade_show,2024-10-07,NJ,Northline Design + Build,1
+CUST-02959,commercial,paid_social,2025-04-05,PA,Ashford Interiors,1
+CUST-02960,homeowner,architect_referral,2024-07-25,OR,,1
+CUST-02961,trade,referral,2024-01-26,FL,Coastal Architecture Group,1
+CUST-02962,homeowner,email_capture,2024-10-30,MI,,1
+CUST-02963,designer,referral,2024-10-01,TX,,1
+CUST-02964,homeowner,organic_search,2025-04-21,NY,,1
+CUST-02965,homeowner,organic_search,2025-06-11,TX,,1
+CUST-02966,homeowner,organic_search,2024-01-30,NC,,1
+CUST-02967,commercial,trade_show,2024-10-04,WA,Ashford Design Studio,1
+CUST-02968,homeowner,paid_social,2024-08-16,CO,,1
+CUST-02969,homeowner,showroom_walkin,2024-03-30,MA,,0
+CUST-02970,homeowner,organic_search,2024-09-24,FL,,1
+CUST-02971,homeowner,showroom_walkin,2024-10-05,OH,,1
+CUST-02972,homeowner,trade_show,2024-04-21,OR,,1
+CUST-02973,homeowner,architect_referral,2025-04-11,NC,,1
+CUST-02974,homeowner,email_capture,2024-04-03,IL,,1
+CUST-02975,homeowner,paid_social,2024-10-05,CT,,0
+CUST-02976,homeowner,direct,2024-03-09,MN,,1
+CUST-02977,homeowner,organic_search,2024-01-26,VA,,1
+CUST-02978,designer,referral,2024-10-22,NY,,1
+CUST-02979,trade,trade_show,2024-06-15,AZ,Meridian Design + Build,1
+CUST-02980,homeowner,direct,2024-08-28,CA,,1
+CUST-02981,homeowner,direct,2024-12-05,MI,,1
+CUST-02982,homeowner,referral,2024-07-04,CT,,1
+CUST-02983,homeowner,organic_search,2025-05-17,WA,,1
+CUST-02984,homeowner,organic_search,2025-01-03,TX,,1
+CUST-02985,trade,referral,2024-08-04,OR,Northline Design Studio,1
+CUST-02986,trade,trade_show,2025-07-19,OH,Coastal Studio,0
+CUST-02987,homeowner,organic_search,2025-07-09,TX,,1
+CUST-02988,homeowner,direct,2024-09-11,MD,,1
+CUST-02989,homeowner,organic_search,2024-05-18,FL,,0
+CUST-02990,trade,direct,2024-04-03,GA,Coastal Build Co.,1
+CUST-02991,trade,email_capture,2025-08-29,NC,Bramble Build Co.,1
+CUST-02992,homeowner,email_capture,2024-07-15,GA,,1
+CUST-02993,homeowner,organic_search,2024-03-14,IL,,1
+CUST-02994,designer,email_capture,2025-05-12,MA,,0
+CUST-02995,designer,showroom_walkin,2025-08-03,CT,,1
+CUST-02996,designer,organic_search,2024-12-24,,,1
+CUST-02997,homeowner,organic_search,2024-03-01,GA,,1
+CUST-02998,designer,email_capture,2025-06-27,OR,,1
+CUST-02999,homeowner,showroom_walkin,2025-08-12,GA,,1
+CUST-03000,homeowner,organic_search,2024-03-21,MA,,1
+CUST-03001,trade,direct,2024-05-05,OH,Meridian Interiors,1
+CUST-03002,homeowner,architect_referral,2025-03-20,WA,,1
+CUST-03003,homeowner,direct,2024-03-24,FL,,1
+CUST-03004,trade,organic_search,2025-04-22,CT,Northline Design Studio,0
+CUST-03005,designer,referral,2024-09-24,MD,,1
+CUST-03006,homeowner,showroom_walkin,2025-01-09,OH,,1
+CUST-03007,designer,organic_search,2025-05-16,NJ,,1
+CUST-03008,designer,architect_referral,2025-01-26,MD,,1
+CUST-03009,trade,architect_referral,2025-07-02,CT,Meridian Design Studio,1
+CUST-03010,commercial,referral,2025-08-04,NC,Coastal Build Co.,1
+CUST-03011,trade,trade_show,2025-01-07,MD,Harbor Interiors,1
+CUST-03012,homeowner,referral,2025-03-05,MI,,1
+CUST-03013,designer,organic_search,2024-08-06,MD,,0
+CUST-03014,trade,showroom_walkin,2024-06-21,GA,Bramble Construction,1
+CUST-03015,designer,architect_referral,2024-09-26,IL,,1
+CUST-03016,homeowner,architect_referral,2024-07-11,CA,,1
+CUST-03017,designer,paid_social,2024-01-26,NJ,,1
+CUST-03018,commercial,organic_search,2025-05-20,MA,Bramble Studio,1
+CUST-03019,trade,referral,2024-02-24,PA,Northline Build Co.,1
+CUST-03020,designer,architect_referral,2024-06-15,PA,,1
+CUST-03021,designer,architect_referral,2024-10-31,CA,,1
+CUST-03022,homeowner,email_capture,2024-11-12,MA,,1
+CUST-03023,trade,email_capture,2025-01-24,GA,Harbor & Associates,1
+CUST-03024,homeowner,organic_search,2025-05-28,MD,,1
+CUST-03025,homeowner,paid_social,2025-05-20,NC,,1
+CUST-03026,homeowner,paid_social,2025-03-08,MI,,0
+CUST-03027,homeowner,organic_search,2024-04-23,PA,,1
+CUST-03028,homeowner,referral,2025-07-28,TX,,1
+CUST-03029,homeowner,email_capture,2024-08-09,MA,,1
+CUST-03030,designer,showroom_walkin,2025-08-22,,,1
+CUST-03031,trade,showroom_walkin,2025-01-12,MD,Bramble Architecture Group,1
+CUST-03032,trade,organic_search,2024-03-29,NY,Harbor Interiors,1
+CUST-03033,designer,referral,2024-11-15,NJ,,1
+CUST-03034,designer,direct,2024-08-17,OR,,1
+CUST-03035,designer,email_capture,2024-09-21,CA,,1
+CUST-03036,homeowner,organic_search,2024-09-07,PA,,1
+CUST-03037,homeowner,paid_social,2024-05-25,AZ,,1
+CUST-03038,trade,organic_search,2024-07-22,AZ,Union Design Studio,0
+CUST-03039,homeowner,email_capture,2025-02-18,MN,,1
+CUST-03040,homeowner,organic_search,2025-03-31,MN,,1
+CUST-03041,homeowner,referral,2024-06-11,CT,,1
+CUST-03042,designer,trade_show,2025-04-26,VA,,1
+CUST-03043,homeowner,paid_social,2024-06-29,CT,,1
+CUST-03044,homeowner,showroom_walkin,2024-12-21,CT,,1
+CUST-03045,homeowner,architect_referral,2024-01-02,NJ,,1
+CUST-03046,trade,trade_show,2025-01-16,NY,Union Construction,1
+CUST-03047,designer,organic_search,2025-04-09,NY,,1
+CUST-03048,commercial,architect_referral,2024-03-25,CT,Coastal Build Co.,1
+CUST-03049,homeowner,architect_referral,2024-03-05,MD,,1
+CUST-03050,homeowner,direct,2024-11-25,GA,,1
+CUST-03051,homeowner,paid_social,2025-07-30,FL,,1
+CUST-03052,homeowner,email_capture,2025-05-03,PA,,1
+CUST-03053,homeowner,showroom_walkin,2024-05-10,FL,,1
+CUST-03054,homeowner,referral,2025-02-03,NY,,1
+CUST-03055,designer,paid_social,2024-01-16,CA,,1
+CUST-03056,commercial,paid_social,2024-11-28,AZ,Cascade Construction,1
+CUST-03057,homeowner,referral,2024-04-27,CO,,0
+CUST-03058,trade,direct,2024-09-26,AZ,Harbor Studio,1
+CUST-03059,trade,direct,2025-01-28,CA,Ashford Design Studio,1
+CUST-03060,homeowner,organic_search,2024-07-13,IL,,1
+CUST-03061,designer,direct,2025-01-28,NC,,1
+CUST-03062,homeowner,direct,2025-03-25,WA,,1
+CUST-03063,designer,organic_search,2024-09-06,CT,,0
+CUST-03064,homeowner,direct,2025-04-30,NY,,1
+CUST-03065,designer,organic_search,2024-08-12,MI,,1
+CUST-03066,homeowner,showroom_walkin,2024-12-05,OR,,1
+CUST-03067,trade,trade_show,2024-05-15,OR,Ashford Architecture Group,1
+CUST-03068,trade,referral,2024-07-02,VA,Coastal Interiors,1
+CUST-03069,designer,organic_search,2025-04-03,MI,,1
+CUST-03070,designer,organic_search,2024-01-21,MI,,1
+CUST-03071,trade,trade_show,2025-04-19,WA,Ashford Interiors,1
+CUST-03072,homeowner,paid_social,2025-05-22,IL,,1
+CUST-03073,homeowner,paid_social,2024-01-04,FL,,1
+CUST-03074,homeowner,referral,2024-08-22,TX,,0
+CUST-03075,designer,architect_referral,2025-03-02,MA,,1
+CUST-03076,commercial,direct,2024-09-29,IL,Harbor Studio,1
+CUST-03077,designer,organic_search,2025-05-24,WA,,1
+CUST-03078,homeowner,email_capture,2025-03-22,WA,,1
+CUST-03079,commercial,trade_show,2025-02-19,OR,Coastal & Associates,1
+CUST-03080,homeowner,organic_search,2024-03-10,PA,,1
+CUST-03081,designer,referral,2024-04-27,AZ,,1
+CUST-03082,designer,showroom_walkin,2025-06-03,OR,,1
+CUST-03083,homeowner,organic_search,2024-12-13,OR,,1
+CUST-03084,commercial,architect_referral,2024-05-13,GA,Cascade Architecture Group,1
+CUST-03085,homeowner,organic_search,2025-01-30,WA,,1
+CUST-03086,homeowner,organic_search,2024-05-09,AZ,,1
+CUST-03087,designer,paid_social,2024-05-08,MN,,0
+CUST-03088,homeowner,direct,2025-06-24,PA,,1
+CUST-03089,homeowner,organic_search,2024-05-07,TX,,1
+CUST-03090,homeowner,direct,2024-03-25,CT,,0
+CUST-03091,trade,trade_show,2025-06-15,PA,Meridian Design + Build,1
+CUST-03092,designer,architect_referral,2025-03-22,,,1
+CUST-03093,designer,email_capture,2025-08-20,MN,,1
+CUST-03094,homeowner,paid_social,2025-07-07,MD,,1
+CUST-03095,homeowner,paid_social,2024-10-10,AZ,,1
+CUST-03096,commercial,direct,2025-01-21,PA,Bramble Construction,1
+CUST-03097,designer,direct,2024-12-24,MI,,1
+CUST-03098,homeowner,paid_social,2024-12-26,MN,,1
+CUST-03099,homeowner,architect_referral,2025-06-29,NY,,1
+CUST-03100,homeowner,showroom_walkin,2024-08-27,WA,,1
+CUST-03101,trade,email_capture,2024-04-01,MI,Union Construction,1
+CUST-03102,homeowner,email_capture,2024-02-17,OH,,1
+CUST-03103,homeowner,trade_show,2024-02-17,OR,,1
+CUST-03104,trade,direct,2024-07-17,NY,Cascade Build Co.,1
+CUST-03105,homeowner,email_capture,2025-04-22,GA,,1
+CUST-03106,homeowner,paid_social,2025-06-09,NY,,1
+CUST-03107,homeowner,showroom_walkin,2024-09-13,AZ,,1
+CUST-03108,homeowner,organic_search,2024-01-16,GA,,1
+CUST-03109,homeowner,email_capture,2024-07-18,FL,,1
+CUST-03110,homeowner,email_capture,2025-08-13,VA,,0
+CUST-03111,homeowner,direct,2024-11-25,PA,,1
+CUST-03112,homeowner,showroom_walkin,2025-04-22,VA,,1
+CUST-03113,trade,trade_show,2024-09-25,MI,Harbor Design Studio,1
+CUST-03114,designer,direct,2024-07-01,MA,,1
+CUST-03115,trade,showroom_walkin,2024-08-16,VA,Ashford Interiors,1
+CUST-03116,trade,organic_search,2025-02-01,NJ,Coastal Construction,0
+CUST-03117,homeowner,referral,2024-07-12,MN,,0
+CUST-03118,homeowner,referral,2025-02-21,,,1
+CUST-03119,homeowner,organic_search,2024-07-02,TX,,1
+CUST-03120,trade,organic_search,2024-04-05,WA,Northline Design + Build,1
+CUST-03121,trade,trade_show,2024-05-03,CT,Northline & Associates,0
+CUST-03122,homeowner,organic_search,2024-01-02,GA,,0
+CUST-03123,commercial,architect_referral,2024-05-13,NC,Cascade Design Studio,1
+CUST-03124,homeowner,architect_referral,2025-03-31,OR,,1
+CUST-03125,homeowner,organic_search,2025-08-13,OH,,1
+CUST-03126,homeowner,referral,2025-03-23,NY,,0
+CUST-03127,homeowner,organic_search,2024-03-03,NY,,1
+CUST-03128,designer,paid_social,2025-04-17,NY,,1
+CUST-03129,designer,showroom_walkin,2024-07-20,TX,,0
+CUST-03130,trade,trade_show,2025-01-08,OR,Union Construction,1
+CUST-03131,trade,organic_search,2025-01-15,MA,Bramble Architecture Group,1
+CUST-03132,homeowner,email_capture,2024-11-07,OH,,1
+CUST-03133,homeowner,organic_search,2024-05-03,VA,,0
+CUST-03134,homeowner,referral,2024-08-15,CA,,1
+CUST-03135,homeowner,organic_search,2025-02-03,OH,,1
+CUST-03136,homeowner,organic_search,2025-04-30,OH,,1
+CUST-03137,designer,architect_referral,2025-04-19,FL,,1
+CUST-03138,homeowner,paid_social,2024-06-25,VA,,1
+CUST-03139,homeowner,architect_referral,2024-02-16,NC,,1
+CUST-03140,homeowner,showroom_walkin,2025-01-06,GA,,0
+CUST-03141,homeowner,direct,2024-07-26,MN,,1
+CUST-03142,commercial,organic_search,2024-02-15,MI,Union & Associates,1
+CUST-03143,commercial,trade_show,2025-03-18,PA,Union Architecture Group,1
+CUST-03144,commercial,architect_referral,2024-09-18,MD,Ashford & Associates,1
+CUST-03145,homeowner,referral,2024-04-28,NC,,1
+CUST-03146,homeowner,direct,2024-03-29,CT,,1
+CUST-03147,homeowner,organic_search,2024-01-29,MA,,1
+CUST-03148,designer,organic_search,2025-05-04,MA,,1
+CUST-03149,designer,referral,2025-07-08,,,1
+CUST-03150,designer,organic_search,2024-03-17,MA,,1
+CUST-03151,homeowner,trade_show,2024-07-22,NJ,,1
+CUST-03152,homeowner,paid_social,2024-07-07,NY,,1
+CUST-03153,homeowner,organic_search,2025-04-06,IL,,1
+CUST-03154,homeowner,paid_social,2024-08-21,AZ,,1
+CUST-03155,homeowner,paid_social,2024-03-24,CA,,1
+CUST-03156,commercial,referral,2024-01-30,TX,Bramble Build Co.,1
+CUST-03157,designer,trade_show,2024-03-15,OR,,1
+CUST-03158,homeowner,organic_search,2025-05-14,TX,,1
+CUST-03159,homeowner,paid_social,2024-12-15,CA,,1
+CUST-03160,homeowner,referral,2024-12-22,GA,,1
+CUST-03161,trade,direct,2025-08-10,CO,Ashford Studio,1
+CUST-03162,trade,trade_show,2025-08-21,GA,Meridian Design Studio,0
+CUST-03163,homeowner,email_capture,2025-08-17,NY,,1
+CUST-03164,trade,architect_referral,2025-01-24,OR,Bramble Architecture Group,1
+CUST-03165,trade,referral,2024-12-14,MI,Coastal Design + Build,1
+CUST-03166,trade,referral,2024-09-28,NY,Ashford Architecture Group,1
+CUST-03167,commercial,referral,2024-07-13,MI,Northline Architecture Group,1
+CUST-03168,homeowner,organic_search,2025-01-12,OR,,1
+CUST-03169,homeowner,trade_show,2024-04-23,OR,,1
+CUST-03170,homeowner,referral,2025-07-09,MD,,1
+CUST-03171,homeowner,trade_show,2025-02-23,PA,,1
+CUST-03172,homeowner,organic_search,2025-08-07,WA,,1
+CUST-03173,homeowner,email_capture,2024-10-09,VA,,1
+CUST-03174,homeowner,organic_search,2025-04-17,PA,,1
+CUST-03175,homeowner,organic_search,2024-02-18,OR,,1
+CUST-03176,trade,showroom_walkin,2025-06-03,VA,Cascade Design + Build,1
+CUST-03177,homeowner,showroom_walkin,2025-07-13,OR,,1
+CUST-03178,homeowner,direct,2024-06-30,,,1
+CUST-03179,homeowner,paid_social,2024-01-05,NJ,,0
+CUST-03180,homeowner,organic_search,2024-10-08,,,1
+CUST-03181,designer,email_capture,2024-05-11,FL,,1
+CUST-03182,commercial,paid_social,2025-07-18,CA,Coastal Design + Build,1
+CUST-03183,homeowner,email_capture,2024-10-15,OH,,1
+CUST-03184,homeowner,organic_search,2025-05-18,IL,,1
+CUST-03185,homeowner,paid_social,2024-07-06,GA,,0
+CUST-03186,homeowner,trade_show,2024-07-27,FL,,1
+CUST-03187,homeowner,organic_search,2025-05-02,NY,,1
+CUST-03188,designer,architect_referral,2024-12-20,VA,,0
+CUST-03189,designer,paid_social,2025-04-28,CA,,1
+CUST-03190,homeowner,referral,2024-01-24,GA,,1
+CUST-03191,trade,email_capture,2025-01-07,CO,Northline & Associates,1
+CUST-03192,homeowner,direct,2025-04-17,CA,,1
+CUST-03193,commercial,trade_show,2024-07-10,TX,Union Design + Build,1
+CUST-03194,commercial,referral,2025-02-21,GA,Harbor Studio,1
+CUST-03195,designer,organic_search,2025-02-16,TX,,1
+CUST-03196,trade,architect_referral,2024-02-25,CO,Northline Build Co.,1
+CUST-03197,homeowner,email_capture,2024-07-07,NC,,1
+CUST-03198,commercial,organic_search,2024-05-25,MN,Bramble Interiors,1
+CUST-03199,homeowner,organic_search,2025-03-29,MA,,0
+CUST-03200,designer,architect_referral,2024-11-26,CA,,1

@@ -1,0 +1,157 @@
+{% comment %}
+  Sample Kit Builder — reads product.metafields.custom.companion_samples
+  (list.product_reference, defined in trade-signal/docs/shopify-setup.md)
+  and renders the companion-sample recommendation module. This is the
+  merchandising half of the feature: always-visible on a product page.
+  The day-21-no-activity email trigger described in
+  docs/visualizer-nurture-email.md is a separate, lifecycle-side concern
+  and does not live in this template.
+{% endcomment %}
+
+{% assign companions = product.metafields.custom.companion_samples.value %}
+
+{% if companions and companions.size > 0 %}
+<section class="ts-kit-builder" aria-labelledby="ts-kit-builder-heading-{{ section.id }}">
+  <div class="ts-kit-builder__inner">
+    <p class="ts-kit-builder__label" id="ts-kit-builder-heading-{{ section.id }}">
+      {{ section.settings.eyebrow | default: "Most often specified with" }} {{ product.title }}
+    </p>
+
+    <div class="ts-kit-builder__pairs">
+      {% for companion in companions %}
+        <a class="ts-kit-builder__pair" href="{{ companion.url }}">
+          {% if companion.featured_image %}
+            <img
+              class="ts-kit-builder__swatch"
+              src="{{ companion.featured_image | image_url: width: 96 }}"
+              alt="{{ companion.featured_image.alt | default: companion.title }}"
+              width="36" height="36" loading="lazy"
+            >
+          {% else %}
+            <span class="ts-kit-builder__swatch ts-kit-builder__swatch--placeholder" aria-hidden="true"></span>
+          {% endif %}
+          <span class="ts-kit-builder__pair-name">{{ companion.title }}</span>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="ts-kit-builder__actions">
+      <button
+        type="button"
+        class="ts-kit-builder__btn ts-kit-builder__btn--primary"
+        data-ts-add-companions
+        data-companion-ids="{{ companions | map: 'id' | join: ',' }}"
+      >
+        {{ section.settings.primary_cta | default: "Add companion samples to kit" }}
+      </button>
+      <a class="ts-kit-builder__btn ts-kit-builder__btn--ghost" href="{{ section.settings.skip_url | default: '/pages/trade' }}">
+        {{ section.settings.skip_cta | default: "Skip, start a project instead" }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("click", function (e) {
+    var trigger = e.target.closest("[data-ts-add-companions]");
+    if (!trigger) return;
+    var ids = trigger.getAttribute("data-companion-ids").split(",").filter(Boolean);
+    // Real implementation would resolve each product's first available
+    // variant via the Storefront/AJAX Cart API and POST to /cart/add.js.
+    // Left as a clear extension point rather than a fabricated cart call
+    // against variant IDs this template does not have on hand.
+    console.log("Trade Signal: would add companion product IDs to cart:", ids);
+  });
+</script>
+{% endif %}
+
+{% stylesheet %}
+  .ts-kit-builder {
+    --ts-ink: #211d1a;
+    --ts-paper-raised: #f6f6f1;
+    --ts-seaglass: #3f6f66;
+    --ts-seaglass-soft: #e2ebe8;
+    --ts-slate: #6b6862;
+    --ts-line: #c9c7bd;
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    margin-block: 1.5rem;
+  }
+  .ts-kit-builder__inner {
+    background: var(--ts-seaglass-soft);
+    border: 1px solid var(--ts-seaglass);
+    padding: 1rem 1.1rem;
+  }
+  .ts-kit-builder__label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ts-seaglass);
+    margin: 0 0 0.75rem;
+  }
+  .ts-kit-builder__pairs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+  .ts-kit-builder__pair {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    text-decoration: none;
+    color: var(--ts-ink);
+  }
+  .ts-kit-builder__swatch {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border: 1px solid var(--ts-line);
+    flex: none;
+  }
+  .ts-kit-builder__swatch--placeholder {
+    background: linear-gradient(135deg, #d8d3c4, #b9b09a);
+    display: inline-block;
+  }
+  .ts-kit-builder__pair-name {
+    font-size: 0.85rem;
+  }
+  .ts-kit-builder__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .ts-kit-builder__btn {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.6rem 0.9rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .ts-kit-builder__btn--primary {
+    background: var(--ts-seaglass);
+    color: var(--ts-paper-raised);
+  }
+  .ts-kit-builder__btn--ghost {
+    background: transparent;
+    color: var(--ts-slate);
+    border: 1px solid var(--ts-line);
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Sample Kit Builder",
+  "tag": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow prefix", "default": "Most often specified with" },
+    { "type": "text", "id": "primary_cta", "label": "Primary button label", "default": "Add companion samples to kit" },
+    { "type": "text", "id": "skip_cta", "label": "Secondary button label", "default": "Skip, start a project instead" },
+    { "type": "url", "id": "skip_url", "label": "Secondary button link" }
+  ],
+  "presets": [{ "name": "Sample Kit Builder" }]
+}
+{% endschema %}

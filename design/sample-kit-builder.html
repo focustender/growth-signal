@@ -1,0 +1,358 @@
+<title>Sample Kit Builder</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,wght@1,500&display=swap">
+<style>
+  :root{
+    --ink:#211d1a;
+    --paper:#edeee8;
+    --paper-raised:#f6f6f1;
+    --seaglass:#3f6f66;
+    --seaglass-soft:#e2ebe8;
+    --clay:#a15c3e;
+    --clay-soft:#f3e4dc;
+    --slate:#6b6862;
+    --slate-soft:#dcdbd3;
+    --moss:#5b7f3a;
+    --moss-soft:#e6ecdc;
+    --line:#c9c7bd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#ece9e2;
+      --paper:#1a1815;
+      --paper-raised:#242220;
+      --seaglass:#7fada2;
+      --seaglass-soft:#25332f;
+      --clay:#d08e6d;
+      --clay-soft:#3a2a22;
+      --slate:#a5a196;
+      --slate-soft:#332f29;
+      --moss:#93b76e;
+      --moss-soft:#2b3221;
+      --line:#3a372f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#ece9e2;
+    --paper:#1a1815;
+    --paper-raised:#242220;
+    --seaglass:#7fada2;
+    --seaglass-soft:#25332f;
+    --clay:#d08e6d;
+    --clay-soft:#3a2a22;
+    --slate:#a5a196;
+    --slate-soft:#332f29;
+    --moss:#93b76e;
+    --moss-soft:#2b3221;
+    --line:#3a372f;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"IBM Plex Sans", system-ui, sans-serif;
+    line-height:1.5;
+    padding:0 0 5rem;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding:0 1.5rem;}
+
+  header.top{
+    padding:2.75rem 0 2rem;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.72rem;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--slate);
+  }
+  h1{
+    font-size:1.65rem;
+    font-weight:600;
+    margin:.5rem 0 0;
+    text-wrap:balance;
+  }
+  .subhead{
+    color:var(--slate);
+    font-size:.95rem;
+    margin-top:.6rem;
+    max-width:60ch;
+  }
+
+  .finding{
+    display:flex;
+    gap:1.75rem;
+    align-items:baseline;
+    padding:2rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .finding .stat{
+    font-family:"Newsreader", serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:3.4rem;
+    color:var(--clay);
+    line-height:1;
+    white-space:nowrap;
+  }
+  .finding p{
+    margin:0;
+    font-size:.95rem;
+    color:var(--ink);
+    max-width:48ch;
+  }
+  .finding p strong{font-weight:600;}
+  .finding .src{
+    display:block;
+    margin-top:.4rem;
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.72rem;
+    color:var(--slate);
+  }
+
+  section.compare{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1.5rem;
+    margin-top:2.5rem;
+  }
+  @media (max-width:760px){
+    section.compare{grid-template-columns:1fr;}
+    .finding{flex-direction:column; gap:.5rem;}
+  }
+
+  .panel{
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+  }
+  .panel-head{
+    padding:1rem 1.25rem;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .panel-head .label{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.7rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--slate);
+  }
+  .pill{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.68rem;
+    letter-spacing:.04em;
+    padding:.2rem .55rem;
+    border-radius:2px;
+  }
+  .pill.stalled{background:var(--clay-soft); color:var(--clay);}
+  .pill.active{background:var(--moss-soft); color:var(--moss);}
+
+  .panel-body{padding:1.25rem;}
+
+  .account-strip{
+    display:flex;
+    justify-content:space-between;
+    font-size:.85rem;
+    color:var(--slate);
+    margin-bottom:1rem;
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.72rem;
+  }
+
+  .sample-row{
+    display:flex;
+    gap:.9rem;
+    align-items:center;
+    padding:.7rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .sample-row:last-of-type{border-bottom:none;}
+  .swatch{
+    width:2.6rem; height:2.6rem;
+    flex:none;
+    border:1px solid var(--line);
+  }
+  .swatch.aegean{background:linear-gradient(135deg,#7ea9a0,#4f7b72);}
+  .swatch.sable{background:linear-gradient(135deg,#8b7a68,#5c4c3d);}
+  .swatch.champagne{background:linear-gradient(135deg,#e4d3ab,#c7ab72);}
+  .sample-meta .name{font-weight:500; font-size:.88rem;}
+  .sample-meta .date{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.7rem;
+    color:var(--slate);
+  }
+
+  .dead-end{
+    margin-top:1rem;
+    padding:.9rem 1rem;
+    border:1px dashed var(--line);
+    color:var(--slate);
+    font-size:.82rem;
+    text-align:center;
+  }
+
+  .kit-suggest{
+    margin-top:1rem;
+    padding:1rem;
+    background:var(--seaglass-soft);
+    border:1px solid var(--seaglass);
+  }
+  .kit-suggest .kit-label{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.68rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--seaglass);
+    margin-bottom:.6rem;
+    display:block;
+  }
+  .kit-pair{
+    display:flex;
+    gap:.75rem;
+    align-items:center;
+    margin-bottom:.6rem;
+  }
+  .kit-pair .swatch{width:2rem; height:2rem;}
+  .kit-pair .name{font-size:.82rem;}
+  .kit-note{
+    font-size:.78rem;
+    color:var(--ink);
+    margin-top:.7rem;
+    border-top:1px solid var(--line);
+    padding-top:.6rem;
+  }
+  .kit-note b{color:var(--seaglass);}
+
+  .btn{
+    display:inline-block;
+    margin-top:.9rem;
+    padding:.6rem 1rem;
+    background:var(--seaglass);
+    color:var(--paper-raised);
+    font-size:.82rem;
+    font-weight:500;
+    text-decoration:none;
+    border:none;
+  }
+  .btn.ghost{
+    background:transparent;
+    color:var(--slate);
+    border:1px solid var(--line);
+  }
+
+  .rationale{
+    margin-top:2.5rem;
+    padding-top:1.75rem;
+    border-top:1px solid var(--line);
+  }
+  .rationale h2{
+    font-size:1rem;
+    font-weight:600;
+    margin-bottom:.75rem;
+  }
+  .rationale ol{
+    padding-left:1.2rem;
+    font-size:.9rem;
+    color:var(--ink);
+  }
+  .rationale li{margin-bottom:.6rem;}
+  .rationale li b{color:var(--seaglass);}
+
+  footer.meta{
+    margin-top:2.5rem;
+    padding-top:1.25rem;
+    border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono", monospace;
+    font-size:.7rem;
+    color:var(--slate);
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Trade Signal — Design Concept 01</div>
+    <h1>Sample Kit Builder: closing the single-sample dead end</h1>
+    <p class="subhead">A Trade Portal module that intervenes at the exact point trade-show-acquired accounts stall — after one sample, before a second request or a project upload.</p>
+  </header>
+
+  <div class="finding">
+    <div class="stat">73%</div>
+    <p><strong>of trade-show-acquired trade leads</strong> who request exactly one sample never advance to a project upload or purchase — more than double the stall rate of leads acquired via email capture (33%).
+      <span class="src">source: trade-signal/docs/measurement-foundation.md, n=115 single-sample trade-show leads</span>
+    </p>
+  </div>
+
+  <section class="compare">
+    <div class="panel">
+      <div class="panel-head">
+        <span class="label">Current state</span>
+        <span class="pill stalled">Stalled 34 days</span>
+      </div>
+      <div class="panel-body">
+        <div class="account-strip">
+          <span>Harbor Design + Build</span>
+          <span>Trade · Trade Show</span>
+        </div>
+        <div class="sample-row">
+          <div class="swatch aegean"></div>
+          <div class="sample-meta">
+            <div class="name">Original Ceramic — Aegean</div>
+            <div class="date">Requested Jun 12</div>
+          </div>
+        </div>
+        <div class="dead-end">No further activity on this account.<br>Portal shows nothing prompting a next step.</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <span class="label">Sample Kit Builder</span>
+        <span class="pill active">Reactivation sent</span>
+      </div>
+      <div class="panel-body">
+        <div class="account-strip">
+          <span>Harbor Design + Build</span>
+          <span>Trade · Trade Show</span>
+        </div>
+        <div class="sample-row">
+          <div class="swatch aegean"></div>
+          <div class="sample-meta">
+            <div class="name">Original Ceramic — Aegean</div>
+            <div class="date">Requested Jun 12</div>
+          </div>
+        </div>
+        <div class="kit-suggest">
+          <span class="kit-label">Most often specified with Aegean</span>
+          <div class="kit-pair">
+            <div class="swatch" style="background:linear-gradient(135deg,#d8d3c4,#b9b09a);"></div>
+            <div class="name">Natural Press — Oatmeal (trim)</div>
+          </div>
+          <div class="kit-pair">
+            <div class="swatch" style="background:linear-gradient(135deg,#e8e6df,#cfccc0);"></div>
+            <div class="name">Grout — Alabaster</div>
+          </div>
+          <a class="btn" href="#">Add companion samples to kit</a>
+          <a class="btn ghost" href="#">Skip, start a project instead</a>
+          <div class="kit-note">Triggered on day 21 of no activity — <b>day 5 and day 12</b> get a lighter-touch email nudge first (see experiment #1).</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rationale">
+    <h2>Why this is the intervention point, not a generic redesign</h2>
+    <ol>
+      <li><b>It targets the specific gap, not the whole funnel.</b> Trade-show leads already convert reasonably once they request a second sample or upload a project — the drop happens strictly between "one sample" and "anything after." The module only appears in that exact state, so it doesn't add friction for accounts already progressing normally.</li>
+      <li><b>It reduces the decision, it doesn't just remind.</b> Rather than a generic "still interested?" nudge, it surfaces the specific companion tile and grout combination most often specified alongside the customer's actual first pick — sourced from real specification co-occurrence, not a generic upsell.</li>
+      <li><b>It has an explicit exit ramp.</b> "Skip, start a project instead" is given equal visual weight to the kit suggestion — for accounts that don't need a second sample and are ready to scope a project, the module doesn't force an unnecessary step.</li>
+      <li><b>It's measurable on arrival.</b> Second-sample-request rate and project-upload rate for prompted vs. unprompted trade-show accounts is the direct read, matching experiment #2 in the measurement foundation.</li>
+    </ol>
+  </div>
+
+  <footer class="meta">
+    Fireclay Tile — AI-First UI/UX Designer application · concept prototype, not affiliated with or endorsed by Fireclay Tile · built on the Trade Signal synthetic dataset
+  </footer>
+</div>

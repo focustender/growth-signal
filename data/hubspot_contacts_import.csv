@@ -1,0 +1,751 @@
+Email,First Name,Last Name,Company Name,Trade Signal Segment,Trade Signal Source Channel,Trade Signal Signup Date,Trade Signal Region,Trade Signal Customer ID
+cust-01752@example.com,Nancy,Wright,,homeowner,organic_search,2024-03-02,PA,CUST-01752
+cust-02898@example.com,Karen,Lee,Meridian Design Studio,commercial,direct,2025-08-15,IL,CUST-02898
+cust-02011@example.com,Hiroshi,Chen,,homeowner,referral,2025-03-22,TX,CUST-02011
+cust-00875@example.com,Carlos,Perez,,homeowner,architect_referral,2024-09-04,AZ,CUST-00875
+cust-01148@example.com,Maria,Johnson,Cascade Design + Build,trade,direct,2024-01-23,OR,CUST-01148
+cust-02152@example.com,Sarah,Martinez,,homeowner,referral,2024-09-12,MD,CUST-02152
+cust-00460@example.com,Nancy,Haddad,Cascade Studio,commercial,referral,2024-10-15,CA,CUST-00460
+cust-02129@example.com,Hiroshi,Lewis,Harbor Construction,trade,trade_show,2025-04-17,MI,CUST-02129
+cust-03172@example.com,Ashley,King,,homeowner,organic_search,2025-08-07,WA,CUST-03172
+cust-01839@example.com,Anthony,Williams,,designer,organic_search,2025-01-26,CO,CUST-01839
+cust-01128@example.com,Elizabeth,Allen,,homeowner,organic_search,2024-05-02,WA,CUST-01128
+cust-01948@example.com,Sarah,Haddad,Bramble Construction,trade,referral,2024-03-30,PA,CUST-01948
+cust-00946@example.com,Elena,Johnson,,designer,organic_search,2024-06-04,NY,CUST-00946
+cust-02754@example.com,James,Williams,Northline Construction,trade,architect_referral,2024-05-30,CO,CUST-02754
+cust-01234@example.com,Maria,Kim,,homeowner,email_capture,2024-01-26,VA,CUST-01234
+cust-02582@example.com,Betty,Lee,,designer,trade_show,2025-02-22,MN,CUST-02582
+cust-01701@example.com,Jennifer,Wright,,homeowner,email_capture,2024-09-07,NC,CUST-01701
+cust-02028@example.com,Betty,Nguyen,,designer,paid_social,2024-01-01,PA,CUST-02028
+cust-00438@example.com,Sarah,Ramirez,Bramble Interiors,commercial,referral,2024-07-27,OR,CUST-00438
+cust-00600@example.com,Fatima,Lee,Bramble Design + Build,trade,referral,2024-09-26,MI,CUST-00600
+cust-00431@example.com,Fatima,Rodriguez,,homeowner,email_capture,2024-07-02,WA,CUST-00431
+cust-02123@example.com,Joseph,Harris,,designer,direct,2024-12-25,CO,CUST-02123
+cust-00536@example.com,Aisha,Young,,homeowner,paid_social,2025-01-05,MI,CUST-00536
+cust-01963@example.com,Susan,Rodriguez,,designer,architect_referral,2025-06-26,CT,CUST-01963
+cust-00123@example.com,Maria,Taylor,,designer,trade_show,2024-12-22,NC,CUST-00123
+cust-00018@example.com,David,Robinson,,homeowner,paid_social,2025-06-16,NJ,CUST-00018
+cust-01734@example.com,Jennifer,Brown,,homeowner,paid_social,2024-03-04,GA,CUST-01734
+cust-00281@example.com,Hiroshi,Martinez,Cascade Studio,trade,direct,2024-05-04,NY,CUST-00281
+cust-00443@example.com,Carlos,Jackson,,homeowner,showroom_walkin,2025-05-06,MI,CUST-00443
+cust-00192@example.com,Mark,Moore,,homeowner,referral,2024-08-06,PA,CUST-00192
+cust-01129@example.com,Maria,Williams,,designer,showroom_walkin,2025-02-12,AZ,CUST-01129
+cust-02425@example.com,Elena,Patel,,homeowner,organic_search,2024-03-03,NJ,CUST-02425
+cust-00228@example.com,Betty,Okafor,,homeowner,paid_social,2025-05-25,NC,CUST-00228
+cust-00610@example.com,Elena,Chen,,homeowner,trade_show,2024-05-03,MI,CUST-00610
+cust-02779@example.com,Kimberly,Okafor,Cascade Architecture Group,trade,architect_referral,2024-02-05,unknown,CUST-02779
+cust-01781@example.com,Kenneth,Allen,Coastal & Associates,trade,showroom_walkin,2024-09-02,CT,CUST-01781
+cust-01125@example.com,Thomas,Hernandez,Bramble & Associates,trade,paid_social,2024-07-16,MD,CUST-01125
+cust-01996@example.com,Maria,Johnson,Northline Architecture Group,trade,organic_search,2025-08-09,OR,CUST-01996
+cust-00844@example.com,Robert,Nguyen,Cascade Construction,trade,trade_show,2025-05-10,OR,CUST-00844
+cust-01920@example.com,James,Clark,,homeowner,organic_search,2025-03-25,VA,CUST-01920
+cust-01081@example.com,Richard,Taylor,,homeowner,referral,2024-04-25,CT,CUST-01081
+cust-01445@example.com,Susan,Williams,Union Architecture Group,trade,showroom_walkin,2025-06-30,unknown,CUST-01445
+cust-00087@example.com,Jennifer,Garcia,,homeowner,organic_search,2024-02-09,IL,CUST-00087
+cust-02604@example.com,Aisha,Patel,,homeowner,referral,2024-06-27,NJ,CUST-02604
+cust-03096@example.com,Carlos,Wilson,Bramble Construction,commercial,direct,2025-01-21,PA,CUST-03096
+cust-02530@example.com,David,Ramirez,Northline Construction,trade,email_capture,2024-04-27,NC,CUST-02530
+cust-00299@example.com,Jessica,Wright,,homeowner,referral,2024-03-13,FL,CUST-00299
+cust-01080@example.com,Diego,King,,homeowner,organic_search,2024-10-30,GA,CUST-01080
+cust-03043@example.com,Elena,Ramirez,,homeowner,paid_social,2024-06-29,CT,CUST-03043
+cust-01232@example.com,Aisha,Lopez,,designer,architect_referral,2024-08-28,AZ,CUST-01232
+cust-02269@example.com,Donna,Lee,,homeowner,architect_referral,2024-08-23,CO,CUST-02269
+cust-02272@example.com,Patricia,Lee,,homeowner,organic_search,2024-03-26,WA,CUST-02272
+cust-00069@example.com,Hiroshi,Williams,Northline Interiors,trade,referral,2025-06-09,IL,CUST-00069
+cust-02239@example.com,Emily,Nguyen,,homeowner,organic_search,2025-06-14,CO,CUST-02239
+cust-02967@example.com,Maria,Sanchez,Ashford Design Studio,commercial,trade_show,2024-10-04,WA,CUST-02967
+cust-01036@example.com,Paul,Walker,,homeowner,organic_search,2024-07-30,AZ,CUST-01036
+cust-01115@example.com,John,Robinson,Northline Design + Build,trade,organic_search,2025-05-09,AZ,CUST-01115
+cust-02612@example.com,Richard,Thomas,,homeowner,direct,2024-10-10,NY,CUST-02612
+cust-01680@example.com,Jennifer,Moore,,homeowner,paid_social,2024-12-06,AZ,CUST-01680
+cust-02333@example.com,Sarah,Johnson,,homeowner,paid_social,2024-12-31,NC,CUST-02333
+cust-02444@example.com,Michael,Thompson,,homeowner,direct,2024-08-15,IL,CUST-02444
+cust-02577@example.com,Amara,Moore,,homeowner,showroom_walkin,2024-09-03,CT,CUST-02577
+cust-01811@example.com,Robert,Jackson,Coastal Design Studio,trade,organic_search,2025-05-22,CO,CUST-01811
+cust-02291@example.com,Hiroshi,Patel,,designer,showroom_walkin,2024-01-24,OR,CUST-02291
+cust-02066@example.com,Yuki,Lewis,,homeowner,paid_social,2024-03-29,WA,CUST-02066
+cust-00591@example.com,Yuki,Wright,,homeowner,showroom_walkin,2024-12-04,OH,CUST-00591
+cust-01671@example.com,Karen,Martin,,designer,showroom_walkin,2024-11-16,TX,CUST-01671
+cust-00235@example.com,Elena,Anderson,,homeowner,referral,2024-03-13,CA,CUST-00235
+cust-03072@example.com,John,King,,homeowner,paid_social,2025-05-22,IL,CUST-03072
+cust-00142@example.com,Maria,Hernandez,,homeowner,organic_search,2025-04-22,AZ,CUST-00142
+cust-02442@example.com,Karen,Taylor,,homeowner,paid_social,2025-07-30,CT,CUST-02442
+cust-00669@example.com,Jessica,Hernandez,,homeowner,paid_social,2025-01-17,IL,CUST-00669
+cust-00002@example.com,Lisa,Wilson,,homeowner,organic_search,2024-12-10,NY,CUST-00002
+cust-03027@example.com,Sandra,Thompson,,homeowner,organic_search,2024-04-23,PA,CUST-03027
+cust-01682@example.com,Diego,Taylor,Harbor Interiors,trade,trade_show,2025-05-29,OH,CUST-01682
+cust-03045@example.com,Sandra,Nguyen,,homeowner,architect_referral,2024-01-02,NJ,CUST-03045
+cust-02564@example.com,Emily,Young,,designer,organic_search,2024-12-15,TX,CUST-02564
+cust-01961@example.com,Kenneth,Garcia,,homeowner,paid_social,2025-03-08,VA,CUST-01961
+cust-01993@example.com,James,Lewis,,homeowner,organic_search,2024-03-03,MA,CUST-01993
+cust-01305@example.com,Sarah,Kim,,homeowner,paid_social,2025-08-07,OR,CUST-01305
+cust-00113@example.com,Daniel,Anderson,Ashford Studio,commercial,trade_show,2024-10-06,OH,CUST-00113
+cust-03080@example.com,Mark,Haddad,,homeowner,organic_search,2024-03-10,PA,CUST-03080
+cust-01349@example.com,Fatima,Brown,,designer,organic_search,2024-02-29,OH,CUST-01349
+cust-00266@example.com,Wei,Hernandez,,homeowner,paid_social,2024-12-12,NJ,CUST-00266
+cust-02568@example.com,David,Johnson,,designer,architect_referral,2025-06-07,AZ,CUST-02568
+cust-00506@example.com,James,Davis,,homeowner,organic_search,2024-12-23,AZ,CUST-00506
+cust-01756@example.com,Jennifer,Haddad,,homeowner,organic_search,2024-09-19,IL,CUST-01756
+cust-01272@example.com,Susan,White,,homeowner,showroom_walkin,2025-07-20,CT,CUST-01272
+cust-00608@example.com,David,Smith,,homeowner,direct,2025-08-13,IL,CUST-00608
+cust-00594@example.com,James,Johnson,Ashford Design Studio,trade,architect_referral,2025-06-20,CO,CUST-00594
+cust-00803@example.com,Elizabeth,Johnson,Cascade & Associates,commercial,architect_referral,2025-06-20,MI,CUST-00803
+cust-02146@example.com,Amara,Brown,,homeowner,email_capture,2024-01-11,VA,CUST-02146
+cust-02121@example.com,Linda,Brown,Harbor Architecture Group,trade,organic_search,2025-02-10,MN,CUST-02121
+cust-00737@example.com,Fatima,Harris,Ashford Architecture Group,trade,trade_show,2024-04-07,MA,CUST-00737
+cust-00717@example.com,Jessica,Nguyen,,homeowner,organic_search,2025-08-31,CO,CUST-00717
+cust-01854@example.com,Carlos,Brown,Northline Studio,commercial,organic_search,2024-04-07,WA,CUST-01854
+cust-00229@example.com,Sandra,Miller,,homeowner,email_capture,2024-07-22,OH,CUST-00229
+cust-01627@example.com,Thomas,Anderson,,designer,referral,2025-06-20,MD,CUST-01627
+cust-02055@example.com,Joseph,Davis,,homeowner,paid_social,2025-04-22,NC,CUST-02055
+cust-02411@example.com,Linda,Johnson,,homeowner,direct,2024-07-28,FL,CUST-02411
+cust-01344@example.com,Hiroshi,Jones,,homeowner,email_capture,2024-12-23,unknown,CUST-01344
+cust-02848@example.com,Hiroshi,Martin,Cascade Interiors,trade,organic_search,2025-05-06,unknown,CUST-02848
+cust-01307@example.com,Emily,Miller,,homeowner,paid_social,2024-11-09,MI,CUST-01307
+cust-01411@example.com,Elizabeth,Miller,,designer,paid_social,2025-08-10,unknown,CUST-01411
+cust-02651@example.com,Elena,Anderson,,homeowner,email_capture,2024-05-01,CT,CUST-02651
+cust-01420@example.com,Nancy,Perez,Bramble Studio,trade,trade_show,2024-10-13,CO,CUST-01420
+cust-01174@example.com,Matthew,Lewis,,homeowner,organic_search,2025-08-09,MA,CUST-01174
+cust-02961@example.com,Karen,Smith,Coastal Architecture Group,trade,referral,2024-01-26,FL,CUST-02961
+cust-00579@example.com,Betty,Moore,,homeowner,email_capture,2024-03-21,AZ,CUST-00579
+cust-00427@example.com,Nancy,Williams,,designer,paid_social,2024-05-06,MA,CUST-00427
+cust-02101@example.com,Anthony,Perez,,designer,architect_referral,2025-06-19,OR,CUST-02101
+cust-00756@example.com,Diego,King,,homeowner,paid_social,2025-07-05,CO,CUST-00756
+cust-03061@example.com,Emily,Martin,,designer,direct,2025-01-28,NC,CUST-03061
+cust-01050@example.com,Aisha,Smith,,designer,email_capture,2024-04-30,IL,CUST-01050
+cust-00469@example.com,Ashley,Smith,,designer,referral,2024-02-27,CO,CUST-00469
+cust-03019@example.com,Paul,Wright,Northline Build Co.,trade,referral,2024-02-24,PA,CUST-03019
+cust-02084@example.com,Jennifer,White,,designer,architect_referral,2025-04-20,WA,CUST-02084
+cust-00321@example.com,Emily,Williams,,designer,referral,2024-09-24,NJ,CUST-00321
+cust-01723@example.com,Michelle,Kim,,designer,direct,2025-01-03,NJ,CUST-01723
+cust-02007@example.com,Joseph,Jones,Bramble & Associates,trade,direct,2024-05-10,MA,CUST-02007
+cust-01243@example.com,Wei,Martin,,homeowner,organic_search,2024-11-30,MI,CUST-01243
+cust-00147@example.com,Susan,Lewis,Meridian Construction,trade,email_capture,2024-06-12,NY,CUST-00147
+cust-02126@example.com,Maria,Wright,,homeowner,organic_search,2024-11-23,unknown,CUST-02126
+cust-03044@example.com,Jessica,Martin,,homeowner,showroom_walkin,2024-12-21,CT,CUST-03044
+cust-03090@example.com,Robert,Garcia,,homeowner,direct,2024-03-25,CT,CUST-03090
+cust-01257@example.com,Betty,Allen,,designer,referral,2024-04-19,unknown,CUST-01257
+cust-01184@example.com,Jennifer,Allen,,homeowner,referral,2024-10-16,MI,CUST-01184
+cust-02956@example.com,Amara,Lopez,,homeowner,trade_show,2025-05-10,OH,CUST-02956
+cust-02972@example.com,Andrew,Chen,,homeowner,trade_show,2024-04-21,OR,CUST-02972
+cust-03032@example.com,Betty,King,Harbor Interiors,trade,organic_search,2024-03-29,NY,CUST-03032
+cust-01473@example.com,Karen,Kim,,homeowner,email_capture,2024-06-25,CT,CUST-01473
+cust-00559@example.com,Susan,Martin,,designer,referral,2025-02-16,MA,CUST-00559
+cust-02938@example.com,Joseph,Thomas,Coastal Design + Build,trade,organic_search,2024-09-23,AZ,CUST-02938
+cust-01547@example.com,Andrew,Hernandez,Union Studio,trade,trade_show,2025-04-13,CO,CUST-01547
+cust-02545@example.com,Michael,Jones,,designer,referral,2025-04-23,MA,CUST-02545
+cust-02587@example.com,Andrew,Patel,,homeowner,organic_search,2024-03-31,CA,CUST-02587
+cust-02873@example.com,Jennifer,Perez,,homeowner,direct,2024-06-10,PA,CUST-02873
+cust-01489@example.com,Betty,Miller,,homeowner,email_capture,2024-10-06,FL,CUST-01489
+cust-00499@example.com,Mark,Clark,,homeowner,direct,2024-07-11,OR,CUST-00499
+cust-02911@example.com,John,Lewis,,homeowner,paid_social,2025-05-28,TX,CUST-02911
+cust-01656@example.com,Elena,Smith,,homeowner,organic_search,2024-12-07,NJ,CUST-01656
+cust-02644@example.com,Anthony,Anderson,,designer,paid_social,2025-08-22,MI,CUST-02644
+cust-00926@example.com,Daniel,Moore,,designer,direct,2025-07-27,MD,CUST-00926
+cust-00052@example.com,Paul,Nguyen,,designer,organic_search,2024-09-28,WA,CUST-00052
+cust-00796@example.com,Donna,Hernandez,Harbor Design + Build,trade,paid_social,2025-06-12,MD,CUST-00796
+cust-01165@example.com,Sandra,Thomas,,homeowner,showroom_walkin,2024-09-17,AZ,CUST-01165
+cust-01977@example.com,Steven,Rodriguez,Cascade Construction,commercial,trade_show,2024-10-25,FL,CUST-01977
+cust-02646@example.com,Michelle,Okafor,,homeowner,email_capture,2025-07-13,CO,CUST-02646
+cust-01282@example.com,Amara,Okafor,,homeowner,direct,2025-02-25,CO,CUST-01282
+cust-00542@example.com,Elena,Johnson,,designer,organic_search,2024-07-30,NJ,CUST-00542
+cust-02809@example.com,Betty,Chen,,homeowner,paid_social,2024-05-16,CA,CUST-02809
+cust-00869@example.com,Lisa,Wright,,homeowner,organic_search,2024-06-15,IL,CUST-00869
+cust-00971@example.com,David,Robinson,,homeowner,paid_social,2024-11-03,MD,CUST-00971
+cust-02201@example.com,Carlos,Patel,,homeowner,organic_search,2024-04-19,FL,CUST-02201
+cust-02891@example.com,Lisa,Hernandez,,homeowner,referral,2025-06-11,AZ,CUST-02891
+cust-00761@example.com,Steven,Robinson,,homeowner,organic_search,2025-02-24,CT,CUST-00761
+cust-00213@example.com,Amara,Moore,,homeowner,organic_search,2024-12-13,OH,CUST-00213
+cust-00072@example.com,Fatima,Thomas,,homeowner,referral,2024-12-06,IL,CUST-00072
+cust-00441@example.com,Elizabeth,Thompson,,designer,organic_search,2024-12-28,OH,CUST-00441
+cust-02616@example.com,Steven,Taylor,,designer,architect_referral,2024-11-28,MI,CUST-02616
+cust-02498@example.com,Donna,Wilson,,designer,email_capture,2024-06-30,unknown,CUST-02498
+cust-03148@example.com,Charles,Lee,,designer,organic_search,2025-05-04,MA,CUST-03148
+cust-00062@example.com,Aisha,Martinez,,designer,direct,2024-11-19,IL,CUST-00062
+cust-00620@example.com,David,Taylor,,homeowner,paid_social,2024-06-13,CO,CUST-00620
+cust-00080@example.com,Lisa,Okafor,,designer,referral,2025-07-18,MD,CUST-00080
+cust-00104@example.com,Kenneth,White,,homeowner,email_capture,2025-01-25,VA,CUST-00104
+cust-01060@example.com,Susan,Taylor,,homeowner,organic_search,2024-04-23,PA,CUST-01060
+cust-01779@example.com,Lisa,Wilson,,homeowner,organic_search,2024-06-01,WA,CUST-01779
+cust-01667@example.com,Karen,Miller,,homeowner,organic_search,2024-07-20,PA,CUST-01667
+cust-00182@example.com,Susan,Miller,,homeowner,direct,2024-12-12,NY,CUST-00182
+cust-01776@example.com,Jessica,Sanchez,,homeowner,showroom_walkin,2024-10-06,MI,CUST-01776
+cust-02403@example.com,David,Martinez,,homeowner,referral,2024-12-31,WA,CUST-02403
+cust-00624@example.com,Daniel,Lee,,designer,organic_search,2024-04-20,MD,CUST-00624
+cust-00376@example.com,Paul,Jackson,,designer,architect_referral,2025-07-05,OR,CUST-00376
+cust-00808@example.com,Jessica,Miller,,homeowner,paid_social,2025-01-27,FL,CUST-00808
+cust-00589@example.com,Hiroshi,Miller,,homeowner,paid_social,2024-03-02,GA,CUST-00589
+cust-00392@example.com,Charles,Anderson,,homeowner,organic_search,2025-01-03,WA,CUST-00392
+cust-00202@example.com,Sandra,Walker,,homeowner,organic_search,2024-10-14,TX,CUST-00202
+cust-02364@example.com,Linda,Garcia,,homeowner,organic_search,2024-10-30,MD,CUST-02364
+cust-01354@example.com,Mark,Lewis,,designer,paid_social,2024-10-20,OR,CUST-01354
+cust-01784@example.com,Amara,Thomas,,homeowner,organic_search,2024-03-23,NJ,CUST-01784
+cust-01144@example.com,Donna,Martin,Ashford & Associates,trade,organic_search,2024-12-03,AZ,CUST-01144
+cust-01480@example.com,Steven,Smith,Cascade Architecture Group,trade,direct,2025-07-15,NY,CUST-01480
+cust-00308@example.com,David,Moore,,homeowner,paid_social,2025-06-21,AZ,CUST-00308
+cust-01695@example.com,Diego,Clark,,homeowner,paid_social,2025-05-18,NJ,CUST-01695
+cust-02435@example.com,Maria,Taylor,,homeowner,paid_social,2025-01-28,IL,CUST-02435
+cust-02855@example.com,Paul,Kim,,homeowner,direct,2025-08-01,PA,CUST-02855
+cust-02303@example.com,Fatima,Ramirez,,homeowner,direct,2024-05-05,FL,CUST-02303
+cust-02253@example.com,Sarah,Chen,,designer,organic_search,2024-06-13,VA,CUST-02253
+cust-00252@example.com,Sarah,Lopez,,designer,showroom_walkin,2025-06-12,WA,CUST-00252
+cust-02921@example.com,Elena,Davis,,homeowner,direct,2024-10-09,OH,CUST-02921
+cust-02219@example.com,Steven,Lewis,,homeowner,referral,2025-05-05,MN,CUST-02219
+cust-00152@example.com,Lisa,Moore,Cascade Design + Build,trade,trade_show,2025-08-02,NY,CUST-00152
+cust-01381@example.com,Hiroshi,Miller,Meridian & Associates,commercial,trade_show,2024-01-04,MA,CUST-01381
+cust-01891@example.com,Ashley,Taylor,Cascade Design + Build,commercial,architect_referral,2024-09-21,IL,CUST-01891
+cust-02479@example.com,Mark,Hernandez,,homeowner,organic_search,2024-03-09,NJ,CUST-02479
+cust-03119@example.com,Karen,Lewis,,homeowner,organic_search,2024-07-02,TX,CUST-03119
+cust-00493@example.com,Emily,Walker,,designer,paid_social,2024-01-22,unknown,CUST-00493
+cust-01982@example.com,James,Haddad,Meridian & Associates,trade,showroom_walkin,2024-09-17,CA,CUST-01982
+cust-01048@example.com,Ashley,Wright,,homeowner,direct,2024-03-01,NY,CUST-01048
+cust-01968@example.com,Yuki,Lopez,,homeowner,organic_search,2025-03-21,MN,CUST-01968
+cust-00170@example.com,Elena,Perez,,designer,referral,2024-05-12,NY,CUST-00170
+cust-00366@example.com,Maria,Sanchez,,homeowner,paid_social,2025-01-18,GA,CUST-00366
+cust-01888@example.com,Andrew,Miller,Northline & Associates,commercial,trade_show,2024-05-02,IL,CUST-01888
+cust-02714@example.com,Linda,Moore,,homeowner,paid_social,2024-05-30,AZ,CUST-02714
+cust-02858@example.com,Michelle,Anderson,,designer,architect_referral,2024-05-19,CO,CUST-02858
+cust-03143@example.com,Susan,Wilson,Union Architecture Group,commercial,trade_show,2025-03-18,PA,CUST-03143
+cust-02380@example.com,Kenneth,White,Coastal Build Co.,trade,trade_show,2025-06-08,NC,CUST-02380
+cust-01491@example.com,Jennifer,Kim,,designer,showroom_walkin,2024-05-19,PA,CUST-01491
+cust-00792@example.com,Steven,Nguyen,,homeowner,referral,2024-01-17,MN,CUST-00792
+cust-00967@example.com,Joseph,Young,,homeowner,organic_search,2025-05-25,GA,CUST-00967
+cust-00713@example.com,Donna,Smith,,homeowner,referral,2024-12-21,CT,CUST-00713
+cust-00865@example.com,Hiroshi,Harris,,homeowner,organic_search,2024-05-24,FL,CUST-00865
+cust-00523@example.com,Kenneth,Thompson,,designer,architect_referral,2025-07-19,MI,CUST-00523
+cust-00507@example.com,Ashley,Walker,Cascade Construction,trade,paid_social,2024-06-02,VA,CUST-00507
+cust-02884@example.com,Joseph,Lopez,,homeowner,referral,2025-04-11,FL,CUST-02884
+cust-01788@example.com,Mark,King,Coastal Architecture Group,trade,trade_show,2024-01-14,PA,CUST-01788
+cust-02236@example.com,Michael,Haddad,,designer,architect_referral,2025-02-03,VA,CUST-02236
+cust-00421@example.com,Betty,Williams,,designer,architect_referral,2025-06-16,MD,CUST-00421
+cust-01053@example.com,Karen,Jackson,,homeowner,organic_search,2024-09-17,AZ,CUST-01053
+cust-00217@example.com,Sandra,Clark,,homeowner,paid_social,2024-06-27,OH,CUST-00217
+cust-02485@example.com,Robert,Garcia,,homeowner,paid_social,2024-11-29,VA,CUST-02485
+cust-00573@example.com,Patricia,Ramirez,,homeowner,paid_social,2024-01-02,CT,CUST-00573
+cust-00487@example.com,Ashley,White,,homeowner,showroom_walkin,2024-08-15,GA,CUST-00487
+cust-03047@example.com,Fatima,Moore,,designer,organic_search,2025-04-09,NY,CUST-03047
+cust-02423@example.com,Jennifer,Thomas,Union Build Co.,trade,referral,2025-05-01,IL,CUST-02423
+cust-01351@example.com,Daniel,Clark,,homeowner,direct,2025-02-03,CA,CUST-01351
+cust-00550@example.com,Kenneth,Thomas,,homeowner,organic_search,2024-11-04,CA,CUST-00550
+cust-01367@example.com,Mark,Walker,,homeowner,paid_social,2024-04-30,NY,CUST-01367
+cust-01311@example.com,Joseph,Hernandez,Coastal Studio,trade,trade_show,2024-08-19,NC,CUST-01311
+cust-01216@example.com,Elizabeth,Brown,,designer,direct,2024-01-01,OR,CUST-01216
+cust-02661@example.com,Hiroshi,Wilson,Northline Studio,commercial,direct,2024-06-02,MN,CUST-02661
+cust-01323@example.com,Emily,Patel,,homeowner,paid_social,2025-05-18,VA,CUST-01323
+cust-01660@example.com,Sarah,Martinez,,homeowner,email_capture,2025-05-21,MI,CUST-01660
+cust-01460@example.com,Betty,Ramirez,,homeowner,organic_search,2025-02-21,TX,CUST-01460
+cust-00332@example.com,Steven,Martin,,homeowner,email_capture,2024-11-20,NJ,CUST-00332
+cust-01694@example.com,Priya,Rodriguez,,designer,direct,2024-05-18,NY,CUST-01694
+cust-01971@example.com,Emily,White,,homeowner,paid_social,2025-03-09,CA,CUST-01971
+cust-02596@example.com,Sarah,Jackson,,homeowner,paid_social,2025-06-09,MA,CUST-02596
+cust-02939@example.com,Sandra,Moore,,designer,paid_social,2024-05-18,WA,CUST-02939
+cust-02108@example.com,Paul,Lopez,,homeowner,paid_social,2024-06-10,NC,CUST-02108
+cust-01287@example.com,Emily,Garcia,,homeowner,organic_search,2024-08-31,MA,CUST-01287
+cust-01612@example.com,Charles,White,Harbor Architecture Group,trade,architect_referral,2024-06-07,PA,CUST-01612
+cust-02451@example.com,Thomas,Lee,,homeowner,paid_social,2024-06-09,MA,CUST-02451
+cust-01360@example.com,Lisa,Young,,designer,referral,2024-01-12,OH,CUST-01360
+cust-02360@example.com,Andrew,Lewis,,homeowner,organic_search,2024-08-15,OH,CUST-02360
+cust-01529@example.com,Aisha,Jones,,designer,showroom_walkin,2024-08-01,WA,CUST-01529
+cust-00307@example.com,Carlos,Harris,Harbor Design + Build,commercial,direct,2025-02-07,TX,CUST-00307
+cust-02287@example.com,David,Lee,,homeowner,direct,2024-06-12,NY,CUST-02287
+cust-02744@example.com,Sandra,Williams,Union & Associates,commercial,trade_show,2024-01-05,NJ,CUST-02744
+cust-00458@example.com,John,Kim,,homeowner,organic_search,2024-01-11,NC,CUST-00458
+cust-02003@example.com,Lisa,Rodriguez,,homeowner,paid_social,2025-06-25,TX,CUST-02003
+cust-01456@example.com,Kenneth,White,,homeowner,organic_search,2024-02-24,TX,CUST-01456
+cust-01355@example.com,Hiroshi,Chen,,homeowner,email_capture,2024-07-11,VA,CUST-01355
+cust-01843@example.com,Maria,Garcia,,homeowner,paid_social,2024-10-20,PA,CUST-01843
+cust-00372@example.com,Joseph,Brown,Meridian & Associates,trade,paid_social,2024-07-26,CO,CUST-00372
+cust-01565@example.com,Elena,Martin,,homeowner,showroom_walkin,2024-08-23,CT,CUST-01565
+cust-02088@example.com,Karen,Okafor,,designer,organic_search,2024-09-26,TX,CUST-02088
+cust-01782@example.com,Jennifer,Chen,Harbor Architecture Group,trade,trade_show,2024-07-18,CO,CUST-01782
+cust-01377@example.com,David,Thomas,,homeowner,organic_search,2024-07-06,NJ,CUST-01377
+cust-00908@example.com,Richard,Robinson,,homeowner,organic_search,2025-03-25,NJ,CUST-00908
+cust-02266@example.com,Betty,Martinez,Ashford Design Studio,trade,referral,2025-01-08,VA,CUST-02266
+cust-00622@example.com,Joseph,Clark,,designer,architect_referral,2024-10-25,CO,CUST-00622
+cust-00952@example.com,Michelle,Hernandez,,designer,showroom_walkin,2024-03-04,WA,CUST-00952
+cust-02215@example.com,Aisha,Okafor,Harbor Architecture Group,trade,referral,2024-11-16,VA,CUST-02215
+cust-02214@example.com,John,Patel,,designer,referral,2025-02-21,NY,CUST-02214
+cust-01873@example.com,Hiroshi,Lee,,homeowner,showroom_walkin,2024-10-11,TX,CUST-01873
+cust-02271@example.com,Jessica,Allen,,homeowner,paid_social,2024-11-09,OR,CUST-02271
+cust-02276@example.com,Amara,Anderson,,homeowner,referral,2024-12-20,WA,CUST-02276
+cust-02759@example.com,Kenneth,Jones,,homeowner,organic_search,2025-01-19,NY,CUST-02759
+cust-01967@example.com,Kimberly,Davis,,designer,organic_search,2024-07-11,NY,CUST-01967
+cust-01373@example.com,Priya,Davis,,designer,paid_social,2025-05-05,AZ,CUST-01373
+cust-00805@example.com,Karen,Ramirez,,designer,referral,2025-01-07,AZ,CUST-00805
+cust-01852@example.com,Sarah,Rodriguez,Ashford & Associates,trade,trade_show,2024-08-03,CA,CUST-01852
+cust-02118@example.com,Emily,Allen,,homeowner,email_capture,2025-01-19,VA,CUST-02118
+cust-01286@example.com,Priya,Williams,,homeowner,referral,2024-04-05,OR,CUST-01286
+cust-02940@example.com,Emily,Walker,Coastal Build Co.,commercial,architect_referral,2025-07-25,NY,CUST-02940
+cust-01003@example.com,David,Allen,Meridian Construction,commercial,referral,2024-05-10,TX,CUST-01003
+cust-02257@example.com,Thomas,Allen,Union Design Studio,trade,paid_social,2024-07-05,unknown,CUST-02257
+cust-00134@example.com,Susan,Nguyen,Meridian & Associates,trade,architect_referral,2024-09-02,MI,CUST-00134
+cust-02934@example.com,Diego,Garcia,Union Design + Build,commercial,architect_referral,2025-03-27,NC,CUST-02934
+cust-01099@example.com,Susan,Perez,,homeowner,paid_social,2025-07-06,MA,CUST-01099
+cust-01471@example.com,Steven,Kim,,homeowner,paid_social,2024-04-15,WA,CUST-01471
+cust-01023@example.com,Andrew,Martin,Harbor Construction,trade,direct,2024-06-08,NC,CUST-01023
+cust-00260@example.com,Steven,Harris,,homeowner,organic_search,2024-05-19,MI,CUST-00260
+cust-01324@example.com,Paul,Ramirez,,designer,paid_social,2024-07-29,FL,CUST-01324
+cust-00367@example.com,Yuki,Brown,,homeowner,organic_search,2025-05-15,CA,CUST-00367
+cust-00837@example.com,Richard,Harris,Bramble Build Co.,trade,trade_show,2024-06-10,VA,CUST-00837
+cust-00325@example.com,Hiroshi,Smith,,homeowner,paid_social,2024-12-13,MN,CUST-00325
+cust-03023@example.com,James,Haddad,Harbor & Associates,trade,email_capture,2025-01-24,GA,CUST-03023
+cust-02258@example.com,Linda,Thompson,,homeowner,showroom_walkin,2024-10-18,OH,CUST-02258
+cust-02685@example.com,Jennifer,King,,homeowner,organic_search,2024-08-16,OR,CUST-02685
+cust-02105@example.com,Emily,Allen,,homeowner,organic_search,2025-07-05,MN,CUST-02105
+cust-00105@example.com,David,Johnson,,homeowner,showroom_walkin,2024-07-14,WA,CUST-00105
+cust-00863@example.com,Joseph,Ramirez,Ashford Architecture Group,trade,trade_show,2024-07-18,AZ,CUST-00863
+cust-00599@example.com,Hiroshi,Rodriguez,,homeowner,organic_search,2025-02-09,MN,CUST-00599
+cust-01844@example.com,Matthew,Miller,Meridian Construction,commercial,trade_show,2025-05-31,TX,CUST-01844
+cust-02636@example.com,Carlos,Harris,Meridian Design Studio,trade,direct,2024-04-12,NY,CUST-02636
+cust-02947@example.com,Matthew,Young,,designer,architect_referral,2025-06-12,GA,CUST-02947
+cust-00220@example.com,Kenneth,Patel,,homeowner,direct,2024-07-22,MD,CUST-00220
+cust-01487@example.com,Joseph,Martin,Cascade Construction,trade,trade_show,2025-07-03,PA,CUST-01487
+cust-01561@example.com,Paul,Thompson,Meridian Studio,trade,showroom_walkin,2025-08-12,NY,CUST-01561
+cust-02888@example.com,Paul,Moore,,homeowner,showroom_walkin,2024-04-09,OH,CUST-02888
+cust-00541@example.com,Priya,Williams,,homeowner,paid_social,2024-11-22,MN,CUST-00541
+cust-01071@example.com,Nancy,Martin,,homeowner,organic_search,2024-12-03,CT,CUST-01071
+cust-02630@example.com,Betty,Allen,Union Design + Build,trade,referral,2024-12-17,GA,CUST-02630
+cust-02222@example.com,Mark,Thompson,,designer,organic_search,2024-05-24,CO,CUST-02222
+cust-01295@example.com,Donna,Jackson,,homeowner,paid_social,2025-07-03,MD,CUST-01295
+cust-01831@example.com,Donna,White,,homeowner,organic_search,2024-01-06,MD,CUST-01831
+cust-01236@example.com,Joseph,Allen,,designer,organic_search,2025-03-08,CT,CUST-01236
+cust-03069@example.com,Michael,Thompson,,designer,organic_search,2025-04-03,MI,CUST-03069
+cust-02747@example.com,Jessica,Perez,,homeowner,paid_social,2024-10-31,MA,CUST-02747
+cust-00218@example.com,Daniel,Rodriguez,,homeowner,direct,2024-10-13,OH,CUST-00218
+cust-02550@example.com,Fatima,Jones,Ashford & Associates,commercial,direct,2024-09-18,MI,CUST-02550
+cust-02781@example.com,Linda,Clark,Meridian Design + Build,trade,paid_social,2025-08-10,NY,CUST-02781
+cust-02989@example.com,Priya,Clark,,homeowner,organic_search,2024-05-18,FL,CUST-02989
+cust-00514@example.com,Michelle,Kim,Coastal Design Studio,trade,paid_social,2024-10-17,OH,CUST-00514
+cust-01583@example.com,Robert,Clark,,homeowner,paid_social,2024-10-11,GA,CUST-01583
+cust-03169@example.com,Daniel,Miller,,homeowner,trade_show,2024-04-23,OR,CUST-03169
+cust-02711@example.com,Maria,Johnson,,homeowner,direct,2025-07-11,NY,CUST-02711
+cust-00027@example.com,Jessica,Young,Ashford Studio,trade,trade_show,2024-05-03,MD,CUST-00027
+cust-00136@example.com,Diego,Williams,Cascade Architecture Group,trade,organic_search,2024-02-26,GA,CUST-00136
+cust-02639@example.com,Donna,Nguyen,,designer,organic_search,2024-08-02,CO,CUST-02639
+cust-02548@example.com,Aisha,Sanchez,Meridian Design + Build,trade,architect_referral,2024-07-01,OR,CUST-02548
+cust-01958@example.com,Aisha,Martinez,Coastal Build Co.,trade,organic_search,2025-01-21,unknown,CUST-01958
+cust-02031@example.com,Hiroshi,Okafor,,homeowner,paid_social,2024-12-24,CA,CUST-02031
+cust-01590@example.com,Yuki,Jones,,designer,referral,2024-03-31,MI,CUST-01590
+cust-00186@example.com,Joseph,Johnson,,designer,architect_referral,2024-02-18,FL,CUST-00186
+cust-00820@example.com,Carlos,Walker,,homeowner,email_capture,2025-08-23,NC,CUST-00820
+cust-03124@example.com,Hiroshi,Lopez,,homeowner,architect_referral,2025-03-31,OR,CUST-03124
+cust-02993@example.com,Jennifer,Lopez,,homeowner,organic_search,2024-03-14,IL,CUST-02993
+cust-02656@example.com,Linda,Ramirez,Ashford & Associates,trade,referral,2024-03-09,CO,CUST-02656
+cust-01548@example.com,Jennifer,Garcia,,homeowner,showroom_walkin,2024-10-29,TX,CUST-01548
+cust-02035@example.com,Anthony,Rodriguez,,homeowner,organic_search,2025-02-24,MD,CUST-02035
+cust-02709@example.com,Daniel,Patel,,homeowner,direct,2025-01-01,TX,CUST-02709
+cust-01793@example.com,Karen,Lee,,homeowner,paid_social,2024-01-17,MI,CUST-01793
+cust-00517@example.com,Richard,Ramirez,,homeowner,organic_search,2024-08-30,NY,CUST-00517
+cust-00778@example.com,Linda,Perez,Northline Build Co.,commercial,architect_referral,2024-12-18,PA,CUST-00778
+cust-02870@example.com,James,Lewis,,homeowner,organic_search,2024-03-02,WA,CUST-02870
+cust-02297@example.com,Wei,Chen,Meridian & Associates,trade,trade_show,2025-03-12,IL,CUST-02297
+cust-00560@example.com,Robert,Allen,Northline Build Co.,trade,referral,2024-01-03,CO,CUST-00560
+cust-00918@example.com,Wei,Wright,,homeowner,organic_search,2024-10-10,MI,CUST-00918
+cust-01325@example.com,Linda,Davis,Meridian Design + Build,trade,architect_referral,2024-01-16,TX,CUST-01325
+cust-00209@example.com,Ashley,Kim,,designer,architect_referral,2024-05-01,CO,CUST-00209
+cust-00543@example.com,Amara,Clark,,homeowner,paid_social,2024-09-26,OR,CUST-00543
+cust-00290@example.com,Kimberly,Brown,,designer,referral,2025-08-12,NJ,CUST-00290
+cust-00729@example.com,Maria,Sanchez,,designer,architect_referral,2024-11-09,CT,CUST-00729
+cust-00557@example.com,Diego,Chen,,homeowner,referral,2024-07-28,CT,CUST-00557
+cust-02830@example.com,Carlos,Martinez,,homeowner,direct,2025-05-30,AZ,CUST-02830
+cust-02063@example.com,Emily,Ramirez,,homeowner,organic_search,2025-05-12,VA,CUST-02063
+cust-01334@example.com,Priya,Miller,,homeowner,organic_search,2024-01-09,TX,CUST-01334
+cust-01008@example.com,John,Young,,homeowner,organic_search,2024-03-28,AZ,CUST-01008
+cust-01897@example.com,Joseph,Martinez,,homeowner,referral,2024-07-01,NC,CUST-01897
+cust-02943@example.com,Hiroshi,Garcia,,homeowner,paid_social,2024-01-16,OH,CUST-02943
+cust-00059@example.com,Paul,Garcia,,homeowner,paid_social,2024-08-04,IL,CUST-00059
+cust-00384@example.com,Maria,Davis,Union & Associates,trade,paid_social,2025-06-05,MA,CUST-00384
+cust-00187@example.com,John,Anderson,,homeowner,referral,2024-07-20,TX,CUST-00187
+cust-00096@example.com,Michael,Rodriguez,Northline Studio,trade,referral,2025-02-19,PA,CUST-00096
+cust-01485@example.com,Emily,Smith,Coastal Build Co.,trade,organic_search,2025-01-03,PA,CUST-01485
+cust-01992@example.com,Charles,Kim,,homeowner,organic_search,2024-04-19,CT,CUST-01992
+cust-02790@example.com,Thomas,Robinson,,designer,showroom_walkin,2024-12-07,OR,CUST-02790
+cust-00199@example.com,Richard,Williams,,homeowner,organic_search,2025-08-02,MD,CUST-00199
+cust-01102@example.com,Anthony,Martinez,,designer,trade_show,2025-07-07,GA,CUST-01102
+cust-01675@example.com,John,Martin,Cascade Studio,trade,referral,2025-04-18,IL,CUST-01675
+cust-01365@example.com,Hiroshi,Patel,,designer,architect_referral,2024-08-26,OR,CUST-01365
+cust-01809@example.com,Andrew,Walker,,homeowner,referral,2024-12-04,MA,CUST-01809
+cust-02373@example.com,Carlos,Moore,,homeowner,email_capture,2024-07-19,NY,CUST-02373
+cust-00331@example.com,Robert,Johnson,,homeowner,organic_search,2025-08-17,VA,CUST-00331
+cust-01877@example.com,Maria,Williams,Ashford Interiors,commercial,showroom_walkin,2025-05-10,OR,CUST-01877
+cust-00313@example.com,Maria,Haddad,Northline Studio,trade,trade_show,2025-06-22,NJ,CUST-00313
+cust-00733@example.com,John,Sanchez,,homeowner,direct,2025-03-18,NY,CUST-00733
+cust-02717@example.com,Daniel,Lee,,designer,referral,2024-06-14,OH,CUST-02717
+cust-00166@example.com,Diego,Hernandez,Harbor & Associates,trade,architect_referral,2025-02-17,AZ,CUST-00166
+cust-01296@example.com,Andrew,Okafor,,designer,architect_referral,2024-11-04,VA,CUST-01296
+cust-02908@example.com,Robert,Perez,Ashford Architecture Group,trade,trade_show,2025-08-17,MI,CUST-02908
+cust-00482@example.com,Anthony,Kim,Harbor Studio,trade,architect_referral,2024-03-30,NY,CUST-00482
+cust-00652@example.com,Kimberly,Young,Union Studio,commercial,trade_show,2025-03-03,OH,CUST-00652
+cust-00082@example.com,Yuki,Hernandez,,homeowner,showroom_walkin,2025-08-13,MA,CUST-00082
+cust-01865@example.com,David,Davis,,homeowner,email_capture,2025-03-29,IL,CUST-01865
+cust-02668@example.com,Anthony,Hernandez,,homeowner,organic_search,2024-06-26,CO,CUST-02668
+cust-01205@example.com,Hiroshi,Ramirez,,designer,organic_search,2024-05-21,FL,CUST-01205
+cust-00008@example.com,Emily,Sanchez,,homeowner,paid_social,2025-01-17,OH,CUST-00008
+cust-00928@example.com,Kimberly,Jackson,Union Design Studio,trade,trade_show,2024-03-03,MN,CUST-00928
+cust-01713@example.com,Wei,Thompson,,homeowner,showroom_walkin,2024-12-12,MD,CUST-01713
+cust-00540@example.com,Nancy,Jackson,,homeowner,organic_search,2024-01-08,MD,CUST-00540
+cust-00646@example.com,Robert,Haddad,,homeowner,referral,2024-04-21,NY,CUST-00646
+cust-01265@example.com,Elena,Okafor,,homeowner,organic_search,2025-03-25,OH,CUST-01265
+cust-02091@example.com,Matthew,Okafor,,homeowner,email_capture,2024-03-24,CA,CUST-02091
+cust-00708@example.com,Maria,Martinez,Harbor Design Studio,trade,showroom_walkin,2024-06-24,MA,CUST-00708
+cust-02089@example.com,Diego,Lee,,designer,direct,2025-04-06,CO,CUST-02089
+cust-02142@example.com,Fatima,Lewis,,designer,email_capture,2024-09-28,OR,CUST-02142
+cust-00224@example.com,Thomas,Sanchez,,homeowner,direct,2024-10-05,NJ,CUST-00224
+cust-02163@example.com,Sandra,Sanchez,,homeowner,organic_search,2024-07-03,unknown,CUST-02163
+cust-01298@example.com,Diego,Thomas,,homeowner,paid_social,2025-05-01,WA,CUST-01298
+cust-01883@example.com,Kimberly,Martin,Coastal Architecture Group,commercial,trade_show,2024-12-08,CO,CUST-01883
+cust-00451@example.com,Amara,Garcia,,homeowner,direct,2024-04-15,VA,CUST-00451
+cust-01538@example.com,Lisa,Moore,Harbor & Associates,trade,direct,2024-06-29,CT,CUST-01538
+cust-00369@example.com,Charles,Lewis,,homeowner,organic_search,2024-11-12,NJ,CUST-00369
+cust-02292@example.com,Susan,Chen,Bramble Interiors,trade,architect_referral,2024-05-28,unknown,CUST-02292
+cust-00303@example.com,Linda,Martin,,homeowner,paid_social,2024-11-30,MI,CUST-00303
+cust-02715@example.com,David,Kim,,homeowner,paid_social,2024-08-05,MD,CUST-02715
+cust-01495@example.com,David,Jackson,,homeowner,email_capture,2025-07-04,OR,CUST-01495
+cust-01066@example.com,Priya,Allen,,designer,email_capture,2024-01-04,CT,CUST-01066
+cust-00306@example.com,Betty,Nguyen,,homeowner,referral,2025-03-28,AZ,CUST-00306
+cust-02524@example.com,John,Nguyen,,designer,architect_referral,2025-01-04,NC,CUST-02524
+cust-03104@example.com,Priya,Allen,Cascade Build Co.,trade,direct,2024-07-17,NY,CUST-03104
+cust-03132@example.com,Sandra,Wilson,,homeowner,email_capture,2024-11-07,OH,CUST-03132
+cust-02157@example.com,Sarah,Lee,Cascade Interiors,trade,referral,2024-10-25,GA,CUST-02157
+cust-01280@example.com,Diego,Williams,,homeowner,referral,2024-11-09,NC,CUST-01280
+cust-00239@example.com,Yuki,Clark,Harbor & Associates,trade,trade_show,2025-08-07,MD,CUST-00239
+cust-01911@example.com,Steven,Anderson,Northline & Associates,trade,email_capture,2025-05-24,MA,CUST-01911
+cust-02125@example.com,Karen,Chen,,homeowner,organic_search,2024-11-12,OR,CUST-02125
+cust-01812@example.com,Maria,Sanchez,,homeowner,showroom_walkin,2025-05-29,TX,CUST-01812
+cust-00411@example.com,Steven,Nguyen,,homeowner,direct,2025-01-18,MI,CUST-00411
+cust-00771@example.com,John,Nguyen,,homeowner,showroom_walkin,2024-08-08,CT,CUST-00771
+cust-00774@example.com,Betty,Brown,Bramble Design Studio,commercial,architect_referral,2024-10-24,WA,CUST-00774
+cust-00423@example.com,Sarah,Clark,,homeowner,paid_social,2024-05-06,IL,CUST-00423
+cust-01432@example.com,Fatima,Wright,Bramble Interiors,trade,trade_show,2024-09-20,MA,CUST-01432
+cust-00160@example.com,Karen,Wright,,homeowner,direct,2024-08-31,WA,CUST-00160
+cust-00788@example.com,Lisa,Young,Cascade Design + Build,trade,direct,2025-07-06,CO,CUST-00788
+cust-02589@example.com,Donna,Chen,Coastal Interiors,trade,organic_search,2024-01-22,OR,CUST-02589
+cust-01530@example.com,Jessica,Wilson,Bramble Architecture Group,trade,email_capture,2024-02-08,VA,CUST-01530
+cust-00979@example.com,Joseph,Wilson,,homeowner,paid_social,2025-06-19,NY,CUST-00979
+cust-01956@example.com,John,Lopez,Harbor Design + Build,trade,architect_referral,2024-07-30,NY,CUST-01956
+cust-02095@example.com,Amara,Martin,,homeowner,organic_search,2025-03-06,OR,CUST-02095
+cust-01636@example.com,Anthony,Kim,,homeowner,organic_search,2024-06-03,OR,CUST-01636
+cust-01054@example.com,Wei,White,Ashford Design Studio,trade,trade_show,2025-07-25,PA,CUST-01054
+cust-03120@example.com,Mark,Wright,Northline Design + Build,trade,organic_search,2024-04-05,WA,CUST-03120
+cust-02944@example.com,David,Taylor,Meridian Build Co.,trade,trade_show,2024-07-09,OR,CUST-02944
+cust-01797@example.com,Linda,Allen,,homeowner,direct,2025-05-12,MA,CUST-01797
+cust-01560@example.com,Anthony,Miller,,homeowner,organic_search,2024-04-02,CT,CUST-01560
+cust-00419@example.com,Anthony,Walker,,homeowner,organic_search,2025-06-27,MA,CUST-00419
+cust-01270@example.com,John,Martinez,,designer,organic_search,2024-05-28,CT,CUST-01270
+cust-02234@example.com,Lisa,Okafor,,designer,paid_social,2024-06-04,GA,CUST-02234
+cust-00520@example.com,James,White,,designer,direct,2025-08-05,OR,CUST-00520
+cust-01835@example.com,Charles,Wright,,homeowner,email_capture,2025-01-22,MI,CUST-01835
+cust-00362@example.com,Diego,Smith,,homeowner,organic_search,2025-06-07,NJ,CUST-00362
+cust-01413@example.com,Jennifer,Johnson,,homeowner,direct,2025-07-29,NY,CUST-01413
+cust-01198@example.com,Joseph,Kim,,homeowner,direct,2025-03-21,FL,CUST-01198
+cust-02387@example.com,Andrew,Chen,,designer,organic_search,2025-05-21,NC,CUST-02387
+cust-02571@example.com,Wei,Anderson,,homeowner,paid_social,2025-01-24,CT,CUST-02571
+cust-01526@example.com,Karen,Jackson,Harbor Architecture Group,trade,paid_social,2024-12-17,MN,CUST-01526
+cust-02875@example.com,Paul,Miller,Cascade Construction,commercial,architect_referral,2025-03-21,IL,CUST-02875
+cust-00775@example.com,Kimberly,Chen,,designer,organic_search,2024-10-23,GA,CUST-00775
+cust-01608@example.com,Diego,Rodriguez,,homeowner,organic_search,2025-02-18,NC,CUST-01608
+cust-01348@example.com,Karen,Johnson,,homeowner,paid_social,2024-09-12,NC,CUST-01348
+cust-01994@example.com,Matthew,Wilson,Harbor Build Co.,trade,trade_show,2024-04-13,NY,CUST-01994
+cust-02642@example.com,Richard,Sanchez,Union Interiors,commercial,trade_show,2024-03-08,MI,CUST-02642
+cust-02626@example.com,John,Smith,,homeowner,direct,2025-06-05,GA,CUST-02626
+cust-00861@example.com,Robert,Johnson,,designer,showroom_walkin,2024-08-05,MN,CUST-00861
+cust-02815@example.com,Priya,Harris,,homeowner,organic_search,2024-02-25,IL,CUST-02815
+cust-02535@example.com,Steven,Allen,,homeowner,organic_search,2025-06-18,NJ,CUST-02535
+cust-01131@example.com,Patricia,Okafor,,homeowner,architect_referral,2024-11-21,MI,CUST-01131
+cust-01761@example.com,Hiroshi,Clark,,designer,architect_referral,2025-04-29,WA,CUST-01761
+cust-00346@example.com,Michael,Jones,,homeowner,showroom_walkin,2024-05-14,NC,CUST-00346
+cust-01318@example.com,Karen,Perez,,homeowner,showroom_walkin,2024-05-17,NY,CUST-01318
+cust-01045@example.com,Wei,Thomas,,homeowner,showroom_walkin,2024-12-30,TX,CUST-01045
+cust-00743@example.com,Elena,Jones,,designer,architect_referral,2024-01-15,PA,CUST-00743
+cust-00782@example.com,Carlos,King,,homeowner,referral,2025-02-04,MN,CUST-00782
+cust-00858@example.com,Mark,Lopez,Northline Build Co.,trade,architect_referral,2024-11-24,CO,CUST-00858
+cust-00261@example.com,Kimberly,Hernandez,,homeowner,referral,2025-08-01,AZ,CUST-00261
+cust-00085@example.com,Anthony,Taylor,,designer,direct,2025-04-26,GA,CUST-00085
+cust-01038@example.com,Sarah,Lopez,Harbor Design + Build,trade,trade_show,2025-04-05,PA,CUST-01038
+cust-03179@example.com,Linda,Moore,,homeowner,paid_social,2024-01-05,NJ,CUST-03179
+cust-00942@example.com,Betty,Williams,,homeowner,organic_search,2025-01-18,CT,CUST-00942
+cust-00446@example.com,Priya,Smith,,homeowner,paid_social,2025-05-14,WA,CUST-00446
+cust-01712@example.com,Robert,Moore,Bramble Studio,trade,referral,2024-02-01,MA,CUST-01712
+cust-03137@example.com,Donna,Young,,designer,architect_referral,2025-04-19,FL,CUST-03137
+cust-00818@example.com,Robert,Miller,,homeowner,organic_search,2025-01-16,VA,CUST-00818
+cust-03001@example.com,David,Perez,Meridian Interiors,trade,direct,2024-05-05,OH,CUST-03001
+cust-01183@example.com,Maria,Wilson,,homeowner,organic_search,2025-07-15,MA,CUST-01183
+cust-00834@example.com,Yuki,Lee,,homeowner,showroom_walkin,2024-01-29,MA,CUST-00834
+cust-03089@example.com,Fatima,Chen,,homeowner,organic_search,2024-05-07,TX,CUST-03089
+cust-03007@example.com,Kimberly,Miller,,designer,organic_search,2025-05-16,NJ,CUST-03007
+cust-02147@example.com,Emily,Perez,Meridian Architecture Group,trade,trade_show,2024-07-25,OR,CUST-02147
+cust-02322@example.com,Anthony,Moore,Northline Design Studio,trade,organic_search,2025-08-02,TX,CUST-02322
+cust-02350@example.com,Sandra,Davis,,homeowner,organic_search,2025-07-07,unknown,CUST-02350
+cust-00522@example.com,Anthony,Young,Harbor Design + Build,trade,organic_search,2025-05-20,OR,CUST-00522
+cust-01729@example.com,Sandra,Hernandez,,designer,trade_show,2025-01-25,CO,CUST-01729
+cust-00244@example.com,Kimberly,Taylor,,homeowner,direct,2024-11-08,OH,CUST-00244
+cust-01997@example.com,David,Garcia,Northline Build Co.,trade,referral,2025-08-08,unknown,CUST-01997
+cust-02370@example.com,Steven,Wilson,,designer,architect_referral,2024-10-28,CO,CUST-02370
+cust-02004@example.com,Linda,Hernandez,,designer,organic_search,2025-06-03,NY,CUST-02004
+cust-03171@example.com,Sarah,Brown,,homeowner,trade_show,2025-02-23,PA,CUST-03171
+cust-01790@example.com,Aisha,Harris,,homeowner,email_capture,2024-03-02,NJ,CUST-01790
+cust-01631@example.com,Elizabeth,Robinson,Ashford Architecture Group,trade,trade_show,2025-03-28,CT,CUST-01631
+cust-00900@example.com,Jennifer,Sanchez,Cascade Design + Build,trade,architect_referral,2024-10-15,OH,CUST-00900
+cust-00692@example.com,James,Brown,,homeowner,direct,2025-08-20,MI,CUST-00692
+cust-00931@example.com,Kimberly,Thompson,,homeowner,organic_search,2024-11-13,OH,CUST-00931
+cust-02321@example.com,Lisa,Thomas,,designer,organic_search,2025-02-25,MA,CUST-02321
+cust-00675@example.com,Emily,Davis,,homeowner,paid_social,2024-03-12,MI,CUST-00675
+cust-02526@example.com,Hiroshi,Harris,Meridian Architecture Group,commercial,architect_referral,2024-01-08,CT,CUST-02526
+cust-02216@example.com,David,Thompson,,homeowner,paid_social,2024-09-15,CA,CUST-02216
+cust-01544@example.com,Sarah,Williams,,designer,referral,2024-01-17,FL,CUST-01544
+cust-00253@example.com,Richard,Robinson,,homeowner,direct,2024-07-25,OH,CUST-00253
+cust-00558@example.com,Priya,Martinez,,homeowner,paid_social,2024-03-03,CT,CUST-00558
+cust-01669@example.com,Kimberly,Martinez,,designer,trade_show,2025-05-30,NY,CUST-01669
+cust-00043@example.com,Charles,Ramirez,Union Design Studio,trade,architect_referral,2025-01-24,AZ,CUST-00043
+cust-02062@example.com,Ashley,Taylor,,homeowner,referral,2025-04-05,CO,CUST-02062
+cust-00150@example.com,David,Smith,,homeowner,email_capture,2025-02-09,MD,CUST-00150
+cust-01293@example.com,Charles,Kim,,designer,referral,2024-10-26,MA,CUST-01293
+cust-00984@example.com,Nancy,Thompson,,homeowner,organic_search,2025-02-15,IL,CUST-00984
+cust-02840@example.com,Susan,Moore,,homeowner,referral,2025-05-31,MD,CUST-02840
+cust-01755@example.com,Andrew,Miller,Coastal Design + Build,trade,architect_referral,2025-05-26,FL,CUST-01755
+cust-00088@example.com,Lisa,Walker,,homeowner,showroom_walkin,2025-03-02,MD,CUST-00088
+cust-02601@example.com,Emily,Davis,,designer,trade_show,2025-01-01,MA,CUST-02601
+cust-02179@example.com,David,King,,homeowner,organic_search,2024-08-06,OR,CUST-02179
+cust-00470@example.com,Robert,Anderson,,homeowner,architect_referral,2024-12-09,CA,CUST-00470
+cust-03066@example.com,Priya,Young,,homeowner,showroom_walkin,2024-12-05,OR,CUST-03066
+cust-03010@example.com,Nancy,Davis,Coastal Build Co.,commercial,referral,2025-08-04,NC,CUST-03010
+cust-00989@example.com,Karen,Wilson,,designer,architect_referral,2024-01-04,MD,CUST-00989
+cust-00378@example.com,Anthony,Lewis,,homeowner,organic_search,2025-05-27,MI,CUST-00378
+cust-02043@example.com,Karen,Taylor,,homeowner,organic_search,2025-07-02,TX,CUST-02043
+cust-02699@example.com,Thomas,Miller,Harbor Design Studio,trade,paid_social,2024-07-26,IL,CUST-02699
+cust-00551@example.com,Sandra,Martin,Coastal Interiors,trade,trade_show,2024-06-04,NY,CUST-00551
+cust-01476@example.com,Ashley,Hernandez,,homeowner,referral,2025-04-03,FL,CUST-01476
+cust-01417@example.com,Robert,Martin,,designer,referral,2025-02-10,CO,CUST-01417
+cust-02289@example.com,David,Smith,,homeowner,email_capture,2024-09-16,FL,CUST-02289
+cust-01918@example.com,Kimberly,King,,homeowner,paid_social,2025-05-08,OR,CUST-01918
+cust-02743@example.com,Matthew,King,,designer,email_capture,2024-09-26,MA,CUST-02743
+cust-01399@example.com,Elizabeth,Robinson,,homeowner,organic_search,2024-10-18,PA,CUST-01399
+cust-02570@example.com,Maria,Wright,,homeowner,organic_search,2024-11-11,MA,CUST-02570
+cust-02155@example.com,Nancy,Lopez,,homeowner,direct,2024-12-05,OR,CUST-02155
+cust-03195@example.com,Anthony,Lewis,,designer,organic_search,2025-02-16,TX,CUST-03195
+cust-01933@example.com,Linda,Ramirez,Meridian Build Co.,trade,organic_search,2024-03-24,CA,CUST-01933
+cust-02753@example.com,Joseph,Jackson,,homeowner,email_capture,2024-11-26,AZ,CUST-02753
+cust-01042@example.com,Wei,Lopez,Meridian & Associates,trade,architect_referral,2024-08-09,OR,CUST-01042
+cust-01386@example.com,Elizabeth,Lopez,,homeowner,organic_search,2024-02-01,WA,CUST-01386
+cust-02273@example.com,Kenneth,Thomas,,homeowner,paid_social,2025-06-06,IL,CUST-02273
+cust-02520@example.com,Richard,Wilson,,designer,trade_show,2025-06-27,IL,CUST-02520
+cust-02847@example.com,Diego,Jones,Harbor & Associates,trade,paid_social,2024-02-20,GA,CUST-02847
+cust-02756@example.com,John,Okafor,,homeowner,showroom_walkin,2025-02-14,MN,CUST-02756
+cust-01758@example.com,Andrew,Jackson,,homeowner,direct,2025-08-28,AZ,CUST-01758
+cust-01146@example.com,Richard,Anderson,,designer,referral,2025-04-06,CT,CUST-01146
+cust-00305@example.com,Elizabeth,Haddad,,homeowner,organic_search,2025-07-13,VA,CUST-00305
+cust-01966@example.com,Carlos,Wilson,Ashford Interiors,trade,showroom_walkin,2025-01-09,CA,CUST-01966
+cust-00898@example.com,Fatima,Lee,,homeowner,showroom_walkin,2025-01-20,MN,CUST-00898
+cust-00466@example.com,Jessica,Garcia,,designer,paid_social,2024-01-03,TX,CUST-00466
+cust-02022@example.com,Patricia,Wright,Cascade Construction,trade,showroom_walkin,2024-06-10,PA,CUST-02022
+cust-02178@example.com,Ashley,Williams,,homeowner,paid_social,2024-11-14,unknown,CUST-02178
+cust-01150@example.com,Kenneth,White,,designer,architect_referral,2024-01-25,OH,CUST-01150
+cust-02288@example.com,Matthew,Martin,,homeowner,organic_search,2025-08-13,TX,CUST-02288
+cust-01121@example.com,Hiroshi,Allen,,homeowner,paid_social,2024-11-18,CT,CUST-01121
+cust-00434@example.com,John,Garcia,,homeowner,referral,2024-05-07,TX,CUST-00434
+cust-02432@example.com,Ashley,Young,,homeowner,organic_search,2024-07-17,MI,CUST-02432
+cust-02228@example.com,Elizabeth,Jackson,,designer,architect_referral,2025-05-10,unknown,CUST-02228
+cust-02691@example.com,Thomas,Lopez,,homeowner,direct,2025-02-24,VA,CUST-02691
+cust-03141@example.com,Wei,Harris,,homeowner,direct,2024-07-26,MN,CUST-03141
+cust-01567@example.com,Linda,Hernandez,,homeowner,organic_search,2025-02-18,NJ,CUST-01567
+cust-01845@example.com,Amara,Harris,,homeowner,referral,2024-12-18,FL,CUST-01845
+cust-01093@example.com,Wei,Okafor,,designer,architect_referral,2024-10-24,CA,CUST-01093
+cust-00386@example.com,Maria,White,Harbor Design + Build,trade,trade_show,2025-02-13,MN,CUST-00386
+cust-01916@example.com,Kenneth,Robinson,,homeowner,email_capture,2025-05-09,MN,CUST-01916
+cust-02532@example.com,Kenneth,Brown,,homeowner,paid_social,2024-07-07,FL,CUST-02532
+cust-00753@example.com,Michael,White,,homeowner,email_capture,2024-07-28,NC,CUST-00753
+cust-02093@example.com,Thomas,Perez,,homeowner,direct,2025-04-18,CO,CUST-02093
+cust-02244@example.com,Sandra,Kim,,homeowner,paid_social,2024-02-06,NC,CUST-02244
+cust-01259@example.com,Robert,Martin,Ashford Design Studio,trade,organic_search,2024-07-20,WA,CUST-01259
+cust-02071@example.com,Jennifer,Allen,Union Design + Build,commercial,trade_show,2025-05-25,AZ,CUST-02071
+cust-01087@example.com,Kimberly,King,,homeowner,trade_show,2024-09-19,MN,CUST-01087
+cust-00342@example.com,James,Wright,Union Design Studio,commercial,architect_referral,2024-06-03,NJ,CUST-00342
+cust-01028@example.com,Michelle,Rodriguez,,designer,direct,2024-05-25,OR,CUST-01028
+cust-00068@example.com,James,Taylor,Bramble Studio,trade,trade_show,2025-08-07,OH,CUST-00068
+cust-01534@example.com,John,Thomas,,designer,organic_search,2025-03-16,NC,CUST-01534
+cust-00292@example.com,Aisha,Lopez,,homeowner,organic_search,2024-10-04,VA,CUST-00292
+cust-01497@example.com,Susan,Miller,,homeowner,referral,2025-03-24,unknown,CUST-01497
+cust-00100@example.com,Daniel,Moore,,homeowner,organic_search,2024-03-11,unknown,CUST-00100
+cust-02584@example.com,Priya,Smith,,homeowner,paid_social,2024-07-13,MN,CUST-02584
+cust-02026@example.com,James,Miller,Harbor Architecture Group,trade,direct,2024-04-03,CO,CUST-02026
+cust-02449@example.com,Amara,Wilson,,designer,architect_referral,2025-08-25,unknown,CUST-02449
+cust-01928@example.com,Karen,Smith,,designer,direct,2024-08-14,IL,CUST-01928
+cust-01369@example.com,Diego,Kim,,designer,direct,2024-03-10,TX,CUST-01369
+cust-02536@example.com,Steven,Wright,,homeowner,referral,2024-06-04,MD,CUST-02536
+cust-01340@example.com,Thomas,Robinson,,homeowner,organic_search,2024-10-09,CT,CUST-01340
+cust-01213@example.com,Jennifer,White,,homeowner,email_capture,2025-05-14,FL,CUST-01213
+cust-02480@example.com,Jennifer,Lopez,,designer,architect_referral,2025-07-26,NY,CUST-02480
+cust-00859@example.com,Linda,Jackson,Northline Construction,commercial,trade_show,2025-08-15,IL,CUST-00859
+cust-01055@example.com,Michael,Walker,,designer,organic_search,2024-11-24,PA,CUST-01055
+cust-02191@example.com,Andrew,Chen,,homeowner,organic_search,2025-05-10,OR,CUST-02191
+cust-01248@example.com,Donna,Jackson,Union Build Co.,trade,trade_show,2025-04-23,OH,CUST-01248
+cust-01576@example.com,Michael,Davis,,homeowner,organic_search,2024-10-10,OR,CUST-01576
+cust-00706@example.com,Michael,Clark,Cascade Architecture Group,commercial,trade_show,2024-08-22,OR,CUST-00706
+cust-01613@example.com,Elizabeth,Nguyen,,designer,trade_show,2025-01-25,TX,CUST-01613
+cust-01120@example.com,Fatima,Thomas,,designer,organic_search,2025-06-04,NC,CUST-01120
+cust-02331@example.com,Sarah,Martinez,Bramble Design Studio,trade,referral,2025-06-01,CA,CUST-02331
+cust-00628@example.com,Carlos,Kim,,homeowner,showroom_walkin,2024-07-22,OR,CUST-00628
+cust-01777@example.com,Steven,Clark,,homeowner,showroom_walkin,2024-05-03,MD,CUST-01777
+cust-01995@example.com,Susan,Smith,,homeowner,email_capture,2025-03-12,GA,CUST-01995
+cust-01902@example.com,Hiroshi,Sanchez,,homeowner,paid_social,2024-06-17,NY,CUST-01902
+cust-00365@example.com,Amara,Ramirez,,homeowner,paid_social,2025-05-16,PA,CUST-00365
+cust-01772@example.com,Diego,Okafor,,designer,email_capture,2024-01-08,MN,CUST-01772
+cust-00348@example.com,Kenneth,Johnson,,designer,direct,2025-06-09,NY,CUST-00348
+cust-01169@example.com,Mark,Williams,,homeowner,organic_search,2025-08-17,PA,CUST-01169
+cust-02575@example.com,Anthony,Thompson,Harbor Studio,commercial,trade_show,2024-02-17,NJ,CUST-02575
+cust-01864@example.com,Mark,Taylor,Bramble Studio,trade,organic_search,2024-07-24,MA,CUST-01864
+cust-00719@example.com,Matthew,Lewis,,homeowner,paid_social,2024-11-11,CO,CUST-00719
+cust-00077@example.com,Wei,Perez,,designer,email_capture,2024-07-23,NY,CUST-00077
+cust-02306@example.com,Mark,Patel,,homeowner,paid_social,2025-07-19,PA,CUST-02306
+cust-02120@example.com,Robert,Perez,Harbor Construction,trade,trade_show,2024-06-19,CA,CUST-02120
+cust-00831@example.com,Kenneth,Martinez,,homeowner,email_capture,2024-03-10,MD,CUST-00831
+cust-00185@example.com,Yuki,White,Coastal Design Studio,commercial,architect_referral,2025-06-30,GA,CUST-00185
+cust-00806@example.com,Thomas,Lewis,Bramble Design + Build,commercial,organic_search,2024-02-10,WA,CUST-00806
+cust-00638@example.com,Carlos,Garcia,Cascade Build Co.,commercial,architect_referral,2024-11-15,GA,CUST-00638
+cust-02559@example.com,Anthony,Miller,,designer,trade_show,2025-08-15,AZ,CUST-02559
+cust-00553@example.com,Kenneth,Lopez,,homeowner,organic_search,2024-11-14,AZ,CUST-00553
+cust-02998@example.com,Patricia,Perez,,designer,email_capture,2025-06-27,OR,CUST-02998
+cust-00324@example.com,Paul,Wilson,,homeowner,paid_social,2024-09-07,CO,CUST-00324
+cust-01469@example.com,Donna,Smith,,homeowner,showroom_walkin,2025-02-11,NJ,CUST-01469
+cust-02525@example.com,Sarah,Rodriguez,Coastal Construction,trade,organic_search,2024-05-07,CA,CUST-02525
+cust-02039@example.com,Ashley,Clark,,homeowner,showroom_walkin,2024-02-16,NC,CUST-02039
+cust-02457@example.com,Steven,Johnson,,homeowner,paid_social,2025-01-21,PA,CUST-02457
+cust-03014@example.com,Linda,Johnson,Bramble Construction,trade,showroom_walkin,2024-06-21,GA,CUST-03014
+cust-00655@example.com,Elena,Haddad,,homeowner,email_capture,2025-02-23,MN,CUST-00655
+cust-03125@example.com,Charles,Haddad,,homeowner,organic_search,2025-08-13,OH,CUST-03125
+cust-02439@example.com,Charles,Nguyen,Bramble & Associates,trade,email_capture,2024-08-17,PA,CUST-02439
+cust-02060@example.com,Linda,Haddad,,homeowner,referral,2025-08-14,MI,CUST-02060
+cust-00047@example.com,Jennifer,Moore,,homeowner,paid_social,2024-10-06,MN,CUST-00047
+cust-02429@example.com,Michael,Wright,Cascade & Associates,commercial,organic_search,2024-11-06,NY,CUST-02429
+cust-03127@example.com,Maria,Lewis,,homeowner,organic_search,2024-03-03,NY,CUST-03127
+cust-02511@example.com,Thomas,Johnson,,homeowner,organic_search,2025-01-08,MI,CUST-02511
+cust-01040@example.com,Nancy,Davis,,designer,referral,2024-04-18,OR,CUST-01040
+cust-02275@example.com,Daniel,White,,homeowner,organic_search,2025-02-14,WA,CUST-02275
+cust-00702@example.com,Elena,Hernandez,,designer,showroom_walkin,2024-09-30,NJ,CUST-00702
+cust-02281@example.com,Michael,Williams,Union Design Studio,commercial,trade_show,2024-07-25,CT,CUST-02281
+cust-02206@example.com,Diego,King,,homeowner,direct,2025-06-01,GA,CUST-02206
+cust-02141@example.com,Charles,Jones,,designer,referral,2025-05-22,PA,CUST-02141
+cust-02012@example.com,Steven,Chen,,homeowner,direct,2024-02-26,IL,CUST-02012
+cust-00459@example.com,Michelle,Martinez,Meridian & Associates,trade,organic_search,2025-01-26,MA,CUST-00459
+cust-01683@example.com,Kimberly,Davis,Northline Architecture Group,commercial,trade_show,2025-03-29,AZ,CUST-01683
+cust-01297@example.com,Donna,Rodriguez,,designer,organic_search,2024-08-01,CA,CUST-01297
+cust-00703@example.com,Nancy,Ramirez,,homeowner,organic_search,2024-11-11,PA,CUST-00703
+cust-01107@example.com,Wei,Martin,Cascade Design Studio,commercial,architect_referral,2024-09-20,MA,CUST-01107
+cust-02620@example.com,Charles,Taylor,,homeowner,showroom_walkin,2024-09-09,GA,CUST-02620
+cust-00556@example.com,John,Nguyen,,homeowner,organic_search,2024-01-14,MN,CUST-00556
+cust-02508@example.com,Nancy,Walker,Union Interiors,trade,trade_show,2024-08-29,MI,CUST-02508
+cust-02937@example.com,Aisha,Kim,Bramble Design + Build,commercial,organic_search,2025-07-10,TX,CUST-02937
+cust-00929@example.com,Sarah,Sanchez,Northline Interiors,trade,paid_social,2024-12-30,NY,CUST-00929
+cust-00643@example.com,Jessica,Patel,,designer,organic_search,2025-01-25,TX,CUST-00643
+cust-01746@example.com,Anthony,Walker,,homeowner,email_capture,2024-07-03,FL,CUST-01746
+cust-01735@example.com,Priya,Lee,,homeowner,showroom_walkin,2025-06-22,PA,CUST-01735
+cust-00264@example.com,Aisha,Young,Union Studio,commercial,trade_show,2024-05-15,TX,CUST-00264
+cust-02735@example.com,Emily,Lee,,homeowner,direct,2024-11-22,GA,CUST-02735
+cust-03073@example.com,James,Taylor,,homeowner,paid_social,2024-01-04,FL,CUST-03073
+cust-00288@example.com,Matthew,Thomas,,homeowner,referral,2024-03-14,WA,CUST-00288
+cust-00736@example.com,Jessica,King,,homeowner,paid_social,2024-11-03,unknown,CUST-00736
+cust-02059@example.com,Michelle,Sanchez,,homeowner,organic_search,2024-04-12,TX,CUST-02059
+cust-01044@example.com,Fatima,Clark,,designer,organic_search,2024-06-10,MI,CUST-01044
+cust-03128@example.com,Maria,White,,designer,paid_social,2025-04-17,NY,CUST-03128
+cust-03057@example.com,Susan,Taylor,,homeowner,referral,2024-04-27,CO,CUST-03057
+cust-02165@example.com,Lisa,Patel,,homeowner,showroom_walkin,2024-08-01,CA,CUST-02165
+cust-01972@example.com,Lisa,Allen,Northline Design + Build,trade,trade_show,2025-05-20,NC,CUST-01972
+cust-01634@example.com,Charles,Martin,Coastal & Associates,trade,organic_search,2025-01-31,OR,CUST-01634
+cust-02648@example.com,Joseph,Martin,Bramble Design + Build,commercial,trade_show,2024-08-12,PA,CUST-02648
+cust-00106@example.com,Robert,Smith,,homeowner,email_capture,2025-05-05,CO,CUST-00106
+cust-00613@example.com,Susan,Patel,,homeowner,email_capture,2024-04-25,MI,CUST-00613
+cust-02483@example.com,Patricia,Okafor,Ashford Design Studio,trade,email_capture,2024-07-18,GA,CUST-02483
+cust-00814@example.com,Betty,Robinson,Cascade Interiors,commercial,direct,2024-01-30,AZ,CUST-00814
+cust-03020@example.com,Carlos,Williams,,designer,architect_referral,2024-06-15,PA,CUST-03020
+cust-00664@example.com,Kenneth,Sanchez,,homeowner,organic_search,2025-03-12,MA,CUST-00664
+cust-00294@example.com,Kimberly,White,,homeowner,paid_social,2024-08-02,PA,CUST-00294
+cust-01787@example.com,Jennifer,Wright,,homeowner,paid_social,2025-04-21,NJ,CUST-01787
+cust-00986@example.com,Sarah,Martinez,Meridian Construction,commercial,architect_referral,2025-02-23,CA,CUST-00986
+cust-00483@example.com,Ashley,Thompson,Union Studio,trade,trade_show,2025-03-06,TX,CUST-00483
+cust-00704@example.com,Carlos,White,,homeowner,paid_social,2025-02-01,OH,CUST-00704
+cust-00974@example.com,Elizabeth,Wilson,Bramble Studio,commercial,showroom_walkin,2025-02-09,IL,CUST-00974
+cust-02340@example.com,Aisha,Haddad,,homeowner,paid_social,2025-06-12,unknown,CUST-02340
+cust-02979@example.com,Charles,Wright,Meridian Design + Build,trade,trade_show,2024-06-15,AZ,CUST-02979
+cust-00476@example.com,Jennifer,Young,,homeowner,paid_social,2024-11-20,AZ,CUST-00476
+cust-01910@example.com,Charles,Rodriguez,,homeowner,email_capture,2024-05-13,FL,CUST-01910
+cust-02030@example.com,Ashley,Miller,Union & Associates,commercial,trade_show,2024-07-14,MA,CUST-02030
+cust-02776@example.com,Maria,Ramirez,,designer,paid_social,2025-01-17,PA,CUST-02776
+cust-03033@example.com,Priya,Chen,,designer,referral,2024-11-15,NJ,CUST-03033
+cust-01922@example.com,Michael,Allen,,homeowner,showroom_walkin,2025-07-09,NY,CUST-01922
+cust-02576@example.com,Mark,Kim,,homeowner,direct,2025-01-06,MD,CUST-02576
+cust-01479@example.com,David,Ramirez,,homeowner,trade_show,2024-06-08,IL,CUST-01479
+cust-02034@example.com,Charles,Haddad,Harbor Design Studio,trade,architect_referral,2025-02-18,MI,CUST-02034
+cust-00109@example.com,Diego,Davis,,homeowner,referral,2024-10-08,NJ,CUST-00109
+cust-02175@example.com,Sandra,Robinson,,homeowner,showroom_walkin,2025-01-24,MN,CUST-02175
+cust-00282@example.com,Amara,Walker,,homeowner,paid_social,2024-03-18,OH,CUST-00282
+cust-00846@example.com,Nancy,White,,homeowner,organic_search,2024-07-03,WA,CUST-00846
+cust-02533@example.com,Nancy,White,,homeowner,paid_social,2024-07-23,OR,CUST-02533
+cust-02367@example.com,Mark,Wright,,homeowner,organic_search,2024-11-09,MD,CUST-02367
+cust-02075@example.com,Priya,Okafor,,designer,organic_search,2024-05-11,VA,CUST-02075
+cust-01218@example.com,Sandra,Perez,,homeowner,paid_social,2024-10-15,OH,CUST-01218
+cust-00032@example.com,Maria,Allen,Coastal & Associates,commercial,showroom_walkin,2025-05-04,NY,CUST-00032
+cust-01454@example.com,Sandra,Robinson,Harbor & Associates,trade,trade_show,2024-07-16,AZ,CUST-01454
+cust-03146@example.com,Daniel,Lopez,,homeowner,direct,2024-03-29,CT,CUST-03146
+cust-01989@example.com,Michelle,Lee,,homeowner,organic_search,2024-09-02,AZ,CUST-01989
+cust-02529@example.com,David,Lewis,,homeowner,organic_search,2024-02-20,MI,CUST-02529
+cust-01867@example.com,Wei,Sanchez,,homeowner,organic_search,2025-03-16,PA,CUST-01867
+cust-00755@example.com,Fatima,Thomas,,homeowner,organic_search,2025-07-02,OH,CUST-00755
+cust-00178@example.com,John,Thompson,Union Build Co.,commercial,organic_search,2024-06-09,VA,CUST-00178
+cust-01887@example.com,Lisa,Okafor,,homeowner,showroom_walkin,2024-04-07,CA,CUST-01887
+cust-01696@example.com,Thomas,Perez,,homeowner,organic_search,2025-07-15,PA,CUST-01696
+cust-02590@example.com,Joseph,Lewis,,homeowner,showroom_walkin,2024-05-18,CA,CUST-02590
+cust-00211@example.com,Maria,Smith,,homeowner,organic_search,2024-02-06,NC,CUST-00211
+cust-02777@example.com,Robert,Moore,,homeowner,organic_search,2025-01-11,IL,CUST-02777
+cust-01722@example.com,Wei,Allen,,homeowner,direct,2025-01-21,OH,CUST-01722
+cust-00555@example.com,Daniel,Nguyen,,homeowner,paid_social,2024-08-29,AZ,CUST-00555
+cust-02806@example.com,Daniel,Nguyen,,homeowner,email_capture,2024-08-02,OR,CUST-02806
+cust-02464@example.com,Aisha,Lewis,,homeowner,organic_search,2024-04-21,MA,CUST-02464
+cust-01444@example.com,Kenneth,Wright,,homeowner,email_capture,2024-06-11,AZ,CUST-01444
+cust-01947@example.com,Yuki,Lewis,,homeowner,organic_search,2024-12-10,MI,CUST-01947
+cust-00478@example.com,Sandra,Walker,,homeowner,showroom_walkin,2024-12-29,MD,CUST-00478
+cust-03189@example.com,Betty,Johnson,,designer,paid_social,2025-04-28,CA,CUST-03189
+cust-01833@example.com,Diego,White,,homeowner,organic_search,2024-10-27,FL,CUST-01833
+cust-00722@example.com,Kimberly,Garcia,,homeowner,organic_search,2025-02-06,AZ,CUST-00722
+cust-02755@example.com,Yuki,Brown,,designer,referral,2024-12-26,TX,CUST-02755
+cust-01136@example.com,Kenneth,Thomas,,designer,direct,2025-06-10,MA,CUST-01136
+cust-01937@example.com,Jennifer,Ramirez,Northline Construction,commercial,showroom_walkin,2025-08-05,NJ,CUST-01937
+cust-00456@example.com,Anthony,King,,designer,organic_search,2024-01-04,MN,CUST-00456
+cust-02420@example.com,Mark,Patel,,homeowner,showroom_walkin,2025-08-20,MA,CUST-02420
+cust-01593@example.com,Wei,Martinez,,homeowner,trade_show,2025-02-26,MA,CUST-01593
+cust-02124@example.com,Jessica,Ramirez,,homeowner,organic_search,2024-05-08,CA,CUST-02124
+cust-02083@example.com,Andrew,Clark,,homeowner,direct,2024-01-21,WA,CUST-02083
+cust-02041@example.com,Kimberly,Haddad,,designer,direct,2024-04-18,AZ,CUST-02041
+cust-01363@example.com,Fatima,Thompson,,designer,organic_search,2024-12-19,PA,CUST-01363
+cust-00943@example.com,Amara,Wright,,homeowner,organic_search,2025-01-02,MD,CUST-00943
+cust-02574@example.com,John,Hernandez,,homeowner,paid_social,2024-07-07,MN,CUST-02574
+cust-02171@example.com,Anthony,Perez,,homeowner,referral,2025-07-26,CA,CUST-02171
+cust-02829@example.com,Anthony,Brown,,homeowner,showroom_walkin,2024-11-05,VA,CUST-02829
+cust-02930@example.com,Daniel,King,,designer,direct,2024-11-08,FL,CUST-02930
+cust-03059@example.com,Richard,Davis,Ashford Design Studio,trade,direct,2025-01-28,CA,CUST-03059
+cust-00716@example.com,Elena,Martin,Union Design + Build,trade,referral,2025-05-20,NY,CUST-00716
+cust-01437@example.com,Amara,Thompson,,homeowner,organic_search,2024-06-24,OH,CUST-01437
+cust-02194@example.com,Donna,Ramirez,,homeowner,organic_search,2024-10-30,IL,CUST-02194
+cust-02388@example.com,Hiroshi,Hernandez,,homeowner,email_capture,2024-07-31,GA,CUST-02388
+cust-01457@example.com,Kenneth,Martin,,designer,email_capture,2024-02-12,unknown,CUST-01457
+cust-00215@example.com,Donna,Anderson,,homeowner,showroom_walkin,2024-09-28,TX,CUST-00215
+cust-00267@example.com,Donna,Wilson,,homeowner,trade_show,2025-06-30,OR,CUST-00267
+cust-00014@example.com,Ashley,Lopez,Coastal Construction,trade,trade_show,2024-09-14,WA,CUST-00014
+cust-00933@example.com,Robert,Kim,,homeowner,paid_social,2024-07-04,OH,CUST-00933
+cust-01637@example.com,Diego,Miller,,homeowner,organic_search,2024-07-11,MN,CUST-01637
+cust-00763@example.com,Betty,Kim,,homeowner,showroom_walkin,2025-02-13,MA,CUST-00763
+cust-03095@example.com,Hiroshi,Johnson,,homeowner,paid_social,2024-10-10,AZ,CUST-03095
+cust-01326@example.com,Amara,Ramirez,,homeowner,organic_search,2024-06-21,MD,CUST-01326
+cust-00867@example.com,Maria,Garcia,,designer,paid_social,2024-01-23,OR,CUST-00867
+cust-02270@example.com,Daniel,Patel,,designer,showroom_walkin,2024-06-17,CT,CUST-02270
+cust-00661@example.com,Maria,Lee,,homeowner,organic_search,2024-12-15,CT,CUST-00661
+cust-01816@example.com,Mark,Miller,,designer,organic_search,2024-09-13,IL,CUST-01816
+cust-00966@example.com,Fatima,Garcia,,homeowner,paid_social,2024-12-17,PA,CUST-00966
+cust-01557@example.com,Carlos,Smith,,homeowner,organic_search,2025-06-17,NJ,CUST-01557
+cust-00322@example.com,Jessica,Lopez,,designer,referral,2024-04-22,MD,CUST-00322
+cust-01285@example.com,Andrew,Patel,,homeowner,paid_social,2024-09-30,MN,CUST-01285
+cust-02391@example.com,Wei,Jackson,,homeowner,direct,2024-01-28,NJ,CUST-02391
+cust-01481@example.com,Elena,Nguyen,,homeowner,paid_social,2024-10-28,MN,CUST-01481
+cust-02282@example.com,Donna,Martinez,Harbor & Associates,trade,organic_search,2025-02-14,FL,CUST-02282
+cust-01757@example.com,Wei,Wilson,,homeowner,organic_search,2025-05-13,IL,CUST-01757
+cust-01687@example.com,Ashley,Okafor,Union Build Co.,commercial,trade_show,2024-11-06,IL,CUST-01687
+cust-02200@example.com,Michael,Martinez,,designer,email_capture,2024-01-14,NJ,CUST-02200

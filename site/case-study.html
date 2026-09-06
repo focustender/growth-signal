@@ -1,0 +1,242 @@
+<title>Trade Signal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,wght@1,500&display=swap">
+<style>
+  :root{
+    --ink:#211d1a; --paper:#edeee8; --paper-raised:#f6f6f1;
+    --seaglass:#3f6f66; --seaglass-soft:#e2ebe8;
+    --clay:#a15c3e; --clay-soft:#f3e4dc;
+    --slate:#6b6862; --slate-soft:#dcdbd3;
+    --moss:#5b7f3a; --moss-soft:#e6ecdc; --line:#c9c7bd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#ece9e2; --paper:#1a1815; --paper-raised:#242220;
+      --seaglass:#7fada2; --seaglass-soft:#25332f;
+      --clay:#d08e6d; --clay-soft:#3a2a22;
+      --slate:#a5a196; --slate-soft:#332f29;
+      --moss:#93b76e; --moss-soft:#2b3221; --line:#3a372f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#ece9e2; --paper:#1a1815; --paper-raised:#242220;
+    --seaglass:#7fada2; --seaglass-soft:#25332f;
+    --clay:#d08e6d; --clay-soft:#3a2a22;
+    --slate:#a5a196; --slate-soft:#332f29;
+    --moss:#93b76e; --moss-soft:#2b3221; --line:#3a372f;
+  }
+  *{box-sizing:border-box;}
+  body{background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.6;}
+  .wrap{max-width:920px; margin:0 auto; padding:0 1.75rem 5rem;}
+
+  header.hero{padding:4rem 0 2.5rem; border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:var(--slate);}
+  h1{font-size:2.4rem; font-weight:700; margin:.6rem 0 0; text-wrap:balance; letter-spacing:-.01em;}
+  .lede{font-size:1.05rem; color:var(--slate); max-width:64ch; margin-top:1rem;}
+  .roles{display:flex; gap:.6rem; margin-top:1.5rem; flex-wrap:wrap;}
+  .role-tag{font-family:"IBM Plex Mono",monospace; font-size:.72rem; padding:.35rem .7rem; border:1px solid var(--line); background:var(--paper-raised);}
+
+  section{padding:3rem 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:1.3rem; font-weight:600; margin:0 0 .5rem;}
+  .section-sub{color:var(--slate); font-size:.9rem; margin-bottom:1.75rem; max-width:64ch;}
+
+  .stat-block{display:flex; gap:1.75rem; align-items:baseline; margin-bottom:2rem;}
+  .stat-block .stat{font-family:"Newsreader",serif; font-style:italic; font-weight:500; font-size:3.2rem; color:var(--clay); line-height:1; white-space:nowrap;}
+  .stat-block p{margin:0; font-size:.95rem; max-width:50ch;}
+
+  figure.diagram{margin:0 0 2rem; padding:1.5rem; background:var(--paper-raised); border:1px solid var(--line);}
+  figure.diagram svg{width:100%; height:auto; display:block;}
+  figcaption{font-size:.8rem; color:var(--slate); margin-top:1rem; max-width:60ch;}
+
+  .grid-two{display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;}
+  @media (max-width:700px){.grid-two{grid-template-columns:1fr;} .stat-block{flex-direction:column; gap:.5rem;}}
+
+  .deliverable{background:var(--paper-raised); border:1px solid var(--line); padding:1.5rem;}
+  .deliverable .kicker{font-family:"IBM Plex Mono",monospace; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--seaglass); margin-bottom:.5rem; display:block;}
+  .deliverable h3{font-size:1.05rem; font-weight:600; margin:0 0 .6rem;}
+  .deliverable p{font-size:.88rem; color:var(--ink); margin-bottom:1rem;}
+  .link-btn{display:inline-block; font-size:.82rem; font-weight:500; padding:.55rem .9rem; background:var(--seaglass); color:var(--paper-raised); text-decoration:none;}
+
+  table.mapping{width:100%; border-collapse:collapse; font-size:.85rem;}
+  table.mapping th{text-align:left; font-family:"IBM Plex Mono",monospace; font-size:.68rem; text-transform:uppercase; letter-spacing:.05em; color:var(--slate); padding:.5rem .75rem; border-bottom:1px solid var(--line);}
+  table.mapping td{padding:.75rem; border-bottom:1px solid var(--line); vertical-align:top;}
+  table.mapping td:first-child{color:var(--ink); font-weight:500; width:38%;}
+  table.mapping td:last-child{color:var(--slate);}
+
+  .role-heading{display:flex; align-items:center; gap:.6rem; margin-bottom:1rem;}
+  .role-pill{font-family:"IBM Plex Mono",monospace; font-size:.7rem; padding:.25rem .6rem; background:var(--moss-soft); color:var(--moss);}
+  .role-pill.ux{background:var(--seaglass-soft); color:var(--seaglass);}
+
+  .stack-list{display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.5rem;}
+  .stack-item{font-family:"IBM Plex Mono",monospace; font-size:.72rem; padding:.35rem .65rem; border:1px solid var(--line); background:var(--paper-raised);}
+  .stack-item.done{border-color:var(--moss); color:var(--moss);}
+  .stack-item.pending{border-color:var(--clay); color:var(--clay);}
+
+  footer.meta{padding:2.5rem 0 0; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--slate); line-height:1.8;}
+  code{font-family:"IBM Plex Mono",monospace; font-size:.85em; background:var(--slate-soft); padding:.05rem .3rem;}
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Fireclay Tile — work sample</div>
+    <h1>Trade Signal</h1>
+    <p class="lede">One system built to show how a Lifecycle Growth &amp; Analytics Manager and an AI-First UI/UX Designer would actually hand work back and forth at Fireclay — not two separate portfolio pieces, but a single loop: a real friction point found in the data motivates a real interface change, and a new on-site feature closes the loop by feeding a new signal back into the data.</p>
+    <div class="roles">
+      <span class="role-tag">Lifecycle Growth &amp; Analytics Manager</span>
+      <span class="role-tag">AI-First UI/UX Designer — Shopify</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>The finding that started it</h2>
+    <p class="section-sub">From a 3,200-customer synthetic dataset modeled on Fireclay's own funnel language (interest → sample → project → purchase → repeat → advocacy), analyzed directly with Claude Code against a local SQLite store.</p>
+    <div class="stat-block">
+      <div class="stat">73%</div>
+      <p>of trade leads acquired at trade shows who request exactly one sample never advance to a project upload or purchase — more than double the stall rate of leads acquired through email capture (33%). The single strongest predictor of eventual purchase in this segment is requesting a <em>second</em> sample, which trade-show leads do at less than half the rate of the trade segment overall.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>How the three pieces close the loop</h2>
+    <p class="section-sub">The friction finding motivates the interface change. The interface change ships a new feature. The new feature generates a new signal back into the same dataset.</p>
+    <figure class="diagram">
+      <svg viewBox="0 0 760 320" role="img" aria-label="Trade Signal dataset finds a friction point that motivates the Trade Portal redesign; the Room Visualizer, a separate on-site feature, generates a visualize-without-follow-up event that feeds back into the dataset, which triggers an AI nurture email closing the loop.">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+          </marker>
+          <marker id="arrow-accent" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="#3f6f66"/>
+          </marker>
+        </defs>
+        <style>
+          text{ font-family:"IBM Plex Mono",monospace; font-size:11px; fill:currentColor; }
+          .box{ fill:none; stroke:currentColor; stroke-width:1.4; }
+          .lbl{ font-size:10px; }
+        </style>
+
+        <!-- Dataset (left) -->
+        <rect class="box" x="20" y="120" width="160" height="80" rx="2"/>
+        <text x="100" y="155" text-anchor="middle">Trade Signal</text>
+        <text x="100" y="170" text-anchor="middle">dataset</text>
+        <text x="100" y="185" text-anchor="middle" class="lbl" opacity="0.7">HubSpot + SQLite</text>
+
+        <!-- Trade Portal (top right) -->
+        <rect class="box" x="560" y="20" width="180" height="80" rx="2"/>
+        <text x="650" y="55" text-anchor="middle">Trade Portal /</text>
+        <text x="650" y="70" text-anchor="middle">Sample Kit Builder</text>
+        <text x="650" y="85" text-anchor="middle" class="lbl" opacity="0.7">Figma → Shopify</text>
+
+        <!-- Visualizer (bottom right) -->
+        <rect class="box" x="560" y="220" width="180" height="80" rx="2"/>
+        <text x="650" y="255" text-anchor="middle">Room Visualizer</text>
+        <text x="650" y="270" text-anchor="middle">(on-site feature)</text>
+        <text x="650" y="285" text-anchor="middle" class="lbl" opacity="0.7">perspective texture-map</text>
+
+        <!-- Nurture email (bottom left) -->
+        <rect class="box" x="20" y="220" width="160" height="80" rx="2"/>
+        <text x="100" y="255" text-anchor="middle">AI nurture</text>
+        <text x="100" y="270" text-anchor="middle">email</text>
+        <text x="100" y="285" text-anchor="middle" class="lbl" opacity="0.7">personalized send</text>
+
+        <!-- arrow: dataset -> trade portal (accent, the founding insight) -->
+        <path d="M 180 145 C 380 130, 420 90, 558 65" fill="none" stroke="#3f6f66" stroke-width="2" marker-end="url(#arrow-accent)"/>
+        <text x="360" y="105" text-anchor="middle" fill="#3f6f66" font-weight="600">73% trade-show stall finding</text>
+
+        <!-- arrow: visualizer -> dataset (feedback) -->
+        <path d="M 558 245 C 380 220, 280 210, 182 190" fill="none" class="box" marker-end="url(#arrow)"/>
+        <text x="370" y="215" text-anchor="middle" class="lbl">visualize, no sample in 3 days</text>
+
+        <!-- arrow: dataset -> nurture email -->
+        <path d="M 100 200 L 100 218" fill="none" class="box" marker-end="url(#arrow)"/>
+        <text x="150" y="212" class="lbl" opacity="0.7">triggers</text>
+
+        <!-- arrow: nurture email -> visualizer (dashed, closes the loop back to the customer) -->
+        <path d="M 180 255 C 350 320, 480 320, 558 270" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+        <text x="370" y="318" text-anchor="middle" class="lbl" opacity="0.7">customer returns to visualize again</text>
+      </svg>
+      <figcaption>The dataset's friction finding informs a one-time design decision (the Sample Kit Builder). The visualizer is an ongoing loop: every session either converts or generates a new lifecycle event, which is the actual point of building both pieces as one system instead of two.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="role-heading"><span class="role-pill">Role 1</span><h2 style="margin:0;">Lifecycle Growth &amp; Analytics Manager</h2></div>
+    <p class="section-sub">Reporting to Samantha Grow, Senior Manager, Integrated Marketing.</p>
+    <table class="mapping">
+      <tr><th>What the JD asks for</th><th>What this shows</th></tr>
+      <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and the experimentation backlog with explicit decision thresholds</td></tr>
+      <tr><td>Analytically strong, works from imperfect data, reconciles sources</td><td>A deliberately messy raw CRM export (669 rows, mixed casing, split partial records) reconciled down to 600 customers with 34 <code>source_channel</code> values recovered by coalescing sibling rows rather than dropped</td></tr>
+      <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>HubSpot MCP integration (free tier) seeded with the synthetic dataset — see stack status below</td></tr>
+      <tr><td>AI-first working style, has built skills/projects/agents</td><td>The entire analysis was run inside Claude Code against the SQLite store, not described after the fact — the queries and their outputs are in <code>docs/measurement-foundation.md</code></td></tr>
+      <tr><td>Serves both consumer and trade/commercial customers in a considered-purchase category</td><td>All four segments (homeowner, designer, trade, commercial) modeled with segment-specific conversion behavior</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <div class="role-heading"><span class="role-pill ux">Role 2</span><h2 style="margin:0;">AI-First UI/UX Designer — Shopify</h2></div>
+    <p class="section-sub">Reporting to Dave Meagher, VP of Technology.</p>
+    <table class="mapping">
+      <tr><th>What the JD asks for</th><th>What this shows</th></tr>
+      <tr><td>Robust AI workflow, must demo current AI usage</td><td>Every artifact here — the dataset, the analysis, the design, the visualizer code — was built with Claude Code end to end; the walkthrough shows the actual sessions, not a finished result presented cold</td></tr>
+      <tr><td>Expert in Figma, produces build-ready specs</td><td>Sample Kit Builder taken to a build-ready spec (see the artifact linked below), motivated by a specific, cited data finding rather than a generic redesign</td></tr>
+      <tr><td>Shopify Plus admin fluency, HTML/CSS/Liquid literacy</td><td>Prototype ported into a real Shopify Development Store — see stack status below</td></tr>
+      <tr><td>Home category, sample-driven purchase journeys, long consideration cycles</td><td>The entire concept is built around exactly this: the point where a sample-driven journey stalls</td></tr>
+      <tr><td>Self-directed, conversion/speed/mobile-first instincts</td><td>The visualizer prototype states its own CRO hypothesis and honestly scopes what a production version would still need (real product photography, a segmentation model for the wall region) rather than overclaiming polish</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>The two design artifacts</h2>
+    <p class="section-sub">Both are live, interactive Claude artifacts — not screenshots.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Concept 01</span>
+        <h3>Sample Kit Builder</h3>
+        <p>The Trade Portal module that closes the single-sample dead end, with the before/after states and the design rationale for why it targets this exact point in the funnel.</p>
+        <a class="link-btn" href="https://claude.ai/code/artifact/ab73786b-f081-44f6-8d8e-625854e2515d">Open the artifact →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Concept 02</span>
+        <h3>Room Visualizer</h3>
+        <p>A working perspective texture-mapping demo with a before/after toggle and three glaze colorways, plus an explanation of why no paid image-generation model is needed.</p>
+        <a class="link-btn" href="https://claude.ai/code/artifact/5224f126-1319-4e71-906c-33a9097ca8f6">Open the artifact →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Figma</span>
+        <h3>Build-ready spec file</h3>
+        <p>The Sample Kit Builder rebuilt in Figma with real bound color/text variables and auto-layout — not a flat mockup, a file a developer can inspect in Dev Mode.</p>
+        <a class="link-btn" href="https://www.figma.com/design/hpXw6uV7Noke53bJTOdcW5?node-id=3-2">Open in Figma →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Shopify</span>
+        <h3>Live theme preview</h3>
+        <p>The section running for real on the dev store's product page, reading the live <code>custom.companion_samples</code> metafield — not a static screenshot.</p>
+        <a class="link-btn" href="https://fireclaytile-project.myshopify.com/products/original-ceramic-aegean?preview_theme_id=148365705269">Open the preview →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Build status</h2>
+    <p class="section-sub">Honest about what's real integration versus what's designed and documented, pending an account this project depends on someone else creating.</p>
+    <div class="stack-list">
+      <span class="stack-item done">Synthetic dataset + SQLite — built</span>
+      <span class="stack-item done">Measurement foundation + experiment backlog — built</span>
+      <span class="stack-item done">CRM reconciliation script — built</span>
+      <span class="stack-item done">Sample Kit Builder design — built</span>
+      <span class="stack-item done">Visualizer texture-mapping engine — built</span>
+      <span class="stack-item done">Nurture email copy — written</span>
+      <span class="stack-item done">HubSpot MCP — connected, Contacts/Companies/Deals read-write</span>
+      <span class="stack-item done">Shopify Dev Store — connected, live products/collections/metafield/discount configured</span>
+      <span class="stack-item done">HubSpot seeded — 750 contacts, proportional segments, live-verified via MCP query</span>
+      <span class="stack-item done">Sample Kit Builder ported into a real theme section, reading the live metafield</span>
+      <span class="stack-item done">Figma file built — real bound variables, text styles, and auto-layout</span>
+    </div>
+  </section>
+
+  <footer class="meta">
+    Trade Signal — a work sample built for the Fireclay Tile Lifecycle Growth &amp; Analytics Manager and AI-First UI/UX Designer roles.<br>
+    Not affiliated with or endorsed by Fireclay Tile. All customer data is synthetic; the trade-show stall finding is a property of the generated dataset, not a real Fireclay statistic.<br>
+    Built with Claude Code, Python, Pillow, numpy, and SQLite.
+  </footer>
+</div>
