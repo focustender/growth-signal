@@ -5,3 +5,7 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# Salesforce JWT bearer auth keypair (regenerate locally, never commit)
+analysis/crm-reconciliation/salesforce_jwt.key
+analysis/crm-reconciliation/salesforce_jwt.crt

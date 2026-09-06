@@ -531,10 +531,11 @@ if __name__ == "__main__":
     print(f"Created {result['created_count']} Salesforce Lead records.")
 ```
 
-- [ ] **Step 3: Run for real (requires Ian's `.env` to be filled in)**
+- [ ] **Step 3: Run for real — DONE, via JWT Bearer flow, not the OAuth-password approach drafted above**
 
-Run: `cd analysis/crm-reconciliation && python3 salesforce_seed_ingest.py`
-Expected: prints a created count matching the seed's `salesforce_only` + `cross_system` lengths. If this fails with `INVALID_OPERATION: SOAP API login() is disabled by default in this org`, that confirms `salesforce_client.py` needs the OAuth Connected App fix documented above (this was the actual failure hit during execution) — not a credential typo. For any other auth error, use `superpowers:systematic-debugging`: check the exact `simple_salesforce` exception message first before guessing at a fix.
+What actually happened, in order, each a distinct Salesforce platform default rather than a credential mistake: (1) plain SOAP login failed (`SOAP API login() is disabled by default`); (2) the OAuth username-password flow drafted in Step 1's code above also failed (`invalid_grant`) — that flow is *also* blocked by default on orgs created Summer '23+, and the org-level re-enable toggle was itself locked out; (3) switched to OAuth 2.0 **JWT Bearer** flow (self-signed cert, no password grant), which needed two more fixes before it worked: the running user had to be explicitly pre-authorized (Connected App → Manage → Edit Policies → "Admin approved users are pre-authorized" → Manage Profiles → add System Administrator), and the app's OAuth scopes had to include "Perform requests at any time (refresh_token, offline_access)" alongside "api". `salesforce_client.py` now authenticates via `username` + `consumer_key` + `privatekey_file` only — see its module docstring for the full dispatch-order explanation of why `password`/`security_token` must be omitted entirely, not just left falsy. Full narrative in `docs/salesforce-setup.md`.
+
+Live-verified result: `python3 salesforce_seed_ingest.py` created exactly 385 Lead records (300 `salesforce_only` + 85 `cross_system`), confirmed via `SELECT COUNT() FROM Lead WHERE Email LIKE '%@example.com'` returning 385, not assumed from the script's own return value.
 
 - [ ] **Step 4: Verify live, read back through the org** (same discipline as `docs/hubspot-setup.md`)
 
