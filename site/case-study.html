@@ -34,6 +34,7 @@
   .lede{font-size:1.05rem; color:var(--slate); max-width:64ch; margin-top:1rem;}
   .roles{display:flex; gap:.6rem; margin-top:1.5rem; flex-wrap:wrap;}
   .role-tag{font-family:"IBM Plex Mono",monospace; font-size:.72rem; padding:.35rem .7rem; border:1px solid var(--line); background:var(--paper-raised);}
+  .role-tag.secondary{opacity:.65; border-style:dashed;}
 
   section{padding:3rem 0; border-bottom:1px solid var(--line);}
   section:last-of-type{border-bottom:none;}
@@ -72,6 +73,9 @@
   .stack-item.done{border-color:var(--moss); color:var(--moss);}
   .stack-item.pending{border-color:var(--clay); color:var(--clay);}
 
+  .supplementary{padding-top:1rem;}
+  .supplementary .eyebrow{margin-bottom:.5rem; display:block;}
+
   footer.meta{padding:2.5rem 0 0; font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--slate); line-height:1.8;}
   code{font-family:"IBM Plex Mono",monospace; font-size:.85em; background:var(--slate-soft); padding:.05rem .3rem;}
 </style>
@@ -80,10 +84,10 @@
   <header class="hero">
     <div class="eyebrow">Fireclay Tile — work sample</div>
     <h1>Trade Signal</h1>
-    <p class="lede">One system built to show how a Lifecycle Growth &amp; Analytics Manager and an AI-First UI/UX Designer would actually hand work back and forth at Fireclay — not two separate portfolio pieces, but a single loop: a real friction point found in the data motivates a real interface change, and a new on-site feature closes the loop by feeding a new signal back into the data.</p>
+    <p class="lede">A live lifecycle-analytics system built to show, not describe, what this role's own job description asks for: a friction point diagnosed from real data, two live CRMs reconciled against each other with a scoped fix, and a reusable Claude Code skill that keeps the analysis running instead of living in a one-time export. The same system also produced a Shopify prototype and design spec relevant to a parallel UI/UX opening, included further down for completeness.</p>
     <div class="roles">
       <span class="role-tag">Lifecycle Growth &amp; Analytics Manager</span>
-      <span class="role-tag">AI-First UI/UX Designer — Shopify</span>
+      <span class="role-tag secondary">AI-First UI/UX Designer — Shopify (supplementary)</span>
     </div>
   </header>
 
@@ -97,8 +101,83 @@
   </section>
 
   <section>
-    <h2>How the three pieces close the loop</h2>
-    <p class="section-sub">The friction finding motivates the interface change. The interface change ships a new feature. The new feature generates a new signal back into the same dataset.</p>
+    <div class="role-heading"><span class="role-pill">Role</span><h2 style="margin:0;">Lifecycle Growth &amp; Analytics Manager</h2></div>
+    <p class="section-sub">Reports to the Senior Manager, Integrated Marketing.</p>
+    <table class="mapping">
+      <tr><th>What the JD asks for</th><th>What this shows</th></tr>
+      <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and the experimentation backlog with explicit decision thresholds</td></tr>
+      <tr><td>Analytically strong, works from imperfect data, reconciles sources</td><td>A deliberately messy raw CRM export (669 rows, mixed casing, split partial records) reconciled down to 600 customers with 34 <code>source_channel</code> values recovered by coalescing sibling rows rather than dropped</td></tr>
+      <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>Both live: a free HubSpot account (750 contacts, MCP-connected) and a free Salesforce Developer Edition org (385 Leads, JWT Bearer OAuth) — see stack status below</td></tr>
+      <tr><td>Partner with Technology on HubSpot–Salesforce data quality, lifecycle-stage alignment, and the systems requirements needed for better growth decisions</td><td>A live reconciliation of both systems found <strong>100% of the 85 genuine cross-system contacts</strong> show HubSpot's <code>lifecyclestage</code> still reading "lead" while Salesforce shows "Closed - Converted" — HubSpot's field was never written to after import. See the reconciliation section below for the findings, taxonomy, and a scoped systems-requirements memo (a Salesforce Flow + one HubSpot API call, not a platform purchase)</td></tr>
+      <tr><td>AI-first working style, has built skills/projects/agents</td><td>The entire analysis was run inside Claude Code against the SQLite store, not described after the fact — the queries and their outputs are in <code>docs/measurement-foundation.md</code>. A real, git-committed Claude Code skill (Lifecycle Pulse, below) is a literal, runnable extension of that same working style</td></tr>
+      <tr><td>Serves both consumer and trade/commercial customers in a considered-purchase category</td><td>All four segments (homeowner, designer, trade, commercial) modeled with segment-specific conversion behavior</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>HubSpot ↔ Salesforce reconciliation</h2>
+    <p class="section-sub">A live, config-driven reconciliation of both real accounts — not a mockup of one. The methodology is generic (<code>analysis/crm-reconciliation/reconcile.py</code> has no Fireclay-specific field names); the findings below are from actually running it.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Finding</span>
+        <h3>100% lifecycle-stage disagreement</h3>
+        <p>Of 85 contacts genuinely live in both systems, all 85 show HubSpot's <code>lifecyclestage</code> stuck at "lead" while Salesforce's <code>Lead.Status</code> already reads "Closed - Converted" — one mechanism (a field never written to after import), not scattered noise.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/output/reconciliation_findings.md">Read the findings →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Systems memo</span>
+        <h3>What would actually fix it</h3>
+        <p>A scoped recommendation grounded in the real data: one Salesforce Flow plus one HubSpot API call, not a platform purchase — answering the JD's own "systems requirements" phrase directly.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/systems-requirements-memo.md">Read the memo →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Methodology</span>
+        <h3>Reusable reconciliation tool</h3>
+        <p>Config-driven matching (exact email, then fuzzy name+company) and a stage taxonomy, built to be adapted to any two CRMs by editing <code>config.yaml</code> — not one-off glue code.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/README.md">Read the README →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lifecycle Pulse</h2>
+    <p class="section-sub">A real, git-committed Claude Code skill living at <code>.claude/skills/lifecycle-pulse/</code> — not a described one. A repo clone auto-discovers it.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Claude Code skill</span>
+        <h3>Lifecycle Pulse funnel digest</h3>
+        <p>Generates a week-over-week lifecycle/funnel digest — interest, sample, project, purchase, repeat, advocacy — by segment, with anomaly flags where a stage's count drops past a configurable threshold, plus a live HubSpot/Salesforce cross-reference. Three snapshots are backdated re-derivations of real data (simulated cadence, real counts); the digest below is one genuinely live-executed run, pulling real numbers from both the local funnel database and the live Salesforce org.</p>
+        <a class="link-btn" href="../.claude/skills/lifecycle-pulse/README.md">Read the skill's README →</a>
+        <a class="link-btn" href="../.claude/skills/lifecycle-pulse/digest_output/2026-09-05-digest.md">Open a real digest →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Build status</h2>
+    <p class="section-sub">Honest about what's real integration versus what's designed and documented.</p>
+    <div class="stack-list">
+      <span class="stack-item done">Synthetic dataset + SQLite — built</span>
+      <span class="stack-item done">Measurement foundation + experiment backlog — built</span>
+      <span class="stack-item done">CRM reconciliation script — built</span>
+      <span class="stack-item done">HubSpot MCP — connected, Contacts/Companies/Deals read-write</span>
+      <span class="stack-item done">HubSpot seeded — 750 contacts, proportional segments, live-verified via MCP query</span>
+      <span class="stack-item done">Salesforce Developer Edition org — connected via OAuth JWT Bearer, 385 Leads live-verified</span>
+      <span class="stack-item done">HubSpot ↔ Salesforce reconciliation — run against real live extracts from both systems</span>
+      <span class="stack-item done">Lifecycle Pulse Claude Code skill — built, tested, one live-executed digest committed</span>
+      <span class="stack-item done">Sample Kit Builder design — built</span>
+      <span class="stack-item done">Visualizer texture-mapping engine — built</span>
+      <span class="stack-item done">Nurture email copy — written</span>
+      <span class="stack-item done">Shopify Dev Store — connected, live products/collections/metafield/discount configured</span>
+      <span class="stack-item done">Sample Kit Builder ported into a real theme section, reading the live metafield</span>
+      <span class="stack-item done">Figma file built — real bound variables, text styles, and auto-layout</span>
+    </div>
+  </section>
+
+  <section class="supplementary">
+    <span class="eyebrow">Supplementary — not the target role</span>
+    <h2>How the visualizer loop closes (Shopify / UI-UX work)</h2>
+    <p class="section-sub">The friction finding above also motivated a Trade Portal redesign and an on-site visualizer, built for a parallel AI-First UI/UX Designer opening. Kept here for completeness, not the focus of this application.</p>
     <figure class="diagram">
       <svg viewBox="0 0 760 320" role="img" aria-label="Trade Signal dataset finds a friction point that motivates the Trade Portal redesign; the Room Visualizer, a separate on-site feature, generates a visualize-without-follow-up event that feeds back into the dataset, which triggers an AI nurture email closing the loop.">
         <defs>
@@ -155,38 +234,24 @@
         <path d="M 180 255 C 350 320, 480 320, 558 270" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
         <text x="370" y="318" text-anchor="middle" class="lbl" opacity="0.7">customer returns to visualize again</text>
       </svg>
-      <figcaption>The dataset's friction finding informs a one-time design decision (the Sample Kit Builder). The visualizer is an ongoing loop: every session either converts or generates a new lifecycle event, which is the actual point of building both pieces as one system instead of two.</figcaption>
+      <figcaption>The dataset's friction finding informs a one-time design decision (the Sample Kit Builder). The visualizer is an ongoing loop: every session either converts or generates a new lifecycle event.</figcaption>
     </figure>
   </section>
 
-  <section>
-    <div class="role-heading"><span class="role-pill">Role 1</span><h2 style="margin:0;">Lifecycle Growth &amp; Analytics Manager</h2></div>
-    <p class="section-sub">Reports to the Senior Manager, Integrated Marketing.</p>
-    <table class="mapping">
-      <tr><th>What the JD asks for</th><th>What this shows</th></tr>
-      <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and the experimentation backlog with explicit decision thresholds</td></tr>
-      <tr><td>Analytically strong, works from imperfect data, reconciles sources</td><td>A deliberately messy raw CRM export (669 rows, mixed casing, split partial records) reconciled down to 600 customers with 34 <code>source_channel</code> values recovered by coalescing sibling rows rather than dropped</td></tr>
-      <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>Both live: a free HubSpot account (750 contacts, MCP-connected) and a free Salesforce Developer Edition org (385 Leads, JWT Bearer OAuth) — see stack status below</td></tr>
-      <tr><td>Partner with Technology on HubSpot–Salesforce data quality, lifecycle-stage alignment, and the systems requirements needed for better growth decisions</td><td>A live reconciliation of both systems found <strong>100% of the 85 genuine cross-system contacts</strong> show HubSpot's <code>lifecyclestage</code> still reading "lead" while Salesforce shows "Closed - Converted" — HubSpot's field was never written to after import. See the reconciliation section below for the findings, taxonomy, and a scoped systems-requirements memo (a Salesforce Flow + one HubSpot API call, not a platform purchase)</td></tr>
-      <tr><td>AI-first working style, has built skills/projects/agents</td><td>The entire analysis was run inside Claude Code against the SQLite store, not described after the fact — the queries and their outputs are in <code>docs/measurement-foundation.md</code>. A real, git-committed Claude Code skill (Lifecycle Pulse, below) is a literal, runnable extension of that same working style</td></tr>
-      <tr><td>Serves both consumer and trade/commercial customers in a considered-purchase category</td><td>All four segments (homeowner, designer, trade, commercial) modeled with segment-specific conversion behavior</td></tr>
-    </table>
-  </section>
-
-  <section>
-    <div class="role-heading"><span class="role-pill ux">Role 2</span><h2 style="margin:0;">AI-First UI/UX Designer — Shopify</h2></div>
-    <p class="section-sub">Reports to the VP of Technology.</p>
+  <section class="supplementary">
+    <div class="role-heading"><span class="role-pill ux">Supplementary</span><h2 style="margin:0;">AI-First UI/UX Designer — Shopify</h2></div>
+    <p class="section-sub">Reports to the VP of Technology. Not the role this application targets — included for completeness since the same system produced this work.</p>
     <table class="mapping">
       <tr><th>What the JD asks for</th><th>What this shows</th></tr>
       <tr><td>Robust AI workflow, must demo current AI usage</td><td>Every artifact here — the dataset, the analysis, the design, the visualizer code — was built with Claude Code end to end; the walkthrough shows the actual sessions, not a finished result presented cold</td></tr>
       <tr><td>Expert in Figma, produces build-ready specs</td><td>Sample Kit Builder taken to a build-ready spec (see the artifact linked below), motivated by a specific, cited data finding rather than a generic redesign</td></tr>
-      <tr><td>Shopify Plus admin fluency, HTML/CSS/Liquid literacy</td><td>Prototype ported into a real Shopify Development Store — see stack status below</td></tr>
+      <tr><td>Shopify Plus admin fluency, HTML/CSS/Liquid literacy</td><td>Prototype ported into a real Shopify Development Store — see stack status above</td></tr>
       <tr><td>Home category, sample-driven purchase journeys, long consideration cycles</td><td>The entire concept is built around exactly this: the point where a sample-driven journey stalls</td></tr>
       <tr><td>Self-directed, conversion/speed/mobile-first instincts</td><td>The visualizer prototype states its own CRO hypothesis and honestly scopes what a production version would still need (real product photography, a segmentation model for the wall region) rather than overclaiming polish</td></tr>
     </table>
   </section>
 
-  <section>
+  <section class="supplementary">
     <h2>The two design artifacts</h2>
     <p class="section-sub">Both are live, interactive Claude artifacts — not screenshots.</p>
     <div class="grid-two">
@@ -217,68 +282,8 @@
     </div>
   </section>
 
-  <section>
-    <h2>HubSpot ↔ Salesforce reconciliation</h2>
-    <p class="section-sub">A live, config-driven reconciliation of both real accounts — not a mockup of one. The methodology is generic (<code>analysis/crm-reconciliation/reconcile.py</code> has no Fireclay-specific field names); the findings below are from actually running it.</p>
-    <div class="grid-two">
-      <div class="deliverable">
-        <span class="kicker">Finding</span>
-        <h3>100% lifecycle-stage disagreement</h3>
-        <p>Of 85 contacts genuinely live in both systems, all 85 show HubSpot's <code>lifecyclestage</code> stuck at "lead" while Salesforce's <code>Lead.Status</code> already reads "Closed - Converted" — one mechanism (a field never written to after import), not scattered noise.</p>
-        <a class="link-btn" href="../analysis/crm-reconciliation/output/reconciliation_findings.md">Read the findings →</a>
-      </div>
-      <div class="deliverable">
-        <span class="kicker">Systems memo</span>
-        <h3>What would actually fix it</h3>
-        <p>A scoped recommendation grounded in the real data: one Salesforce Flow plus one HubSpot API call, not a platform purchase — answering the JD's own "systems requirements" phrase directly.</p>
-        <a class="link-btn" href="../analysis/crm-reconciliation/systems-requirements-memo.md">Read the memo →</a>
-      </div>
-      <div class="deliverable">
-        <span class="kicker">Methodology</span>
-        <h3>Reusable reconciliation tool</h3>
-        <p>Config-driven matching (exact email, then fuzzy name+company) and a stage taxonomy, built to be adapted to any two CRMs by editing <code>config.yaml</code> — not one-off glue code.</p>
-        <a class="link-btn" href="../analysis/crm-reconciliation/README.md">Read the README →</a>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Lifecycle Pulse</h2>
-    <p class="section-sub">A real, git-committed Claude Code skill living at <code>.claude/skills/lifecycle-pulse/</code> — not a described one. A repo clone auto-discovers it.</p>
-    <div class="grid-two">
-      <div class="deliverable">
-        <span class="kicker">Claude Code skill</span>
-        <h3>Lifecycle Pulse funnel digest</h3>
-        <p>Generates a week-over-week lifecycle/funnel digest — interest, sample, project, purchase, repeat, advocacy — by segment, with anomaly flags where a stage's count drops past a configurable threshold, plus a live HubSpot/Salesforce cross-reference. Three snapshots are backdated re-derivations of real data (simulated cadence, real counts); the digest below is one genuinely live-executed run, pulling real numbers from both the local funnel database and the live Salesforce org.</p>
-        <a class="link-btn" href="../.claude/skills/lifecycle-pulse/README.md">Read the skill's README →</a>
-        <a class="link-btn" href="../.claude/skills/lifecycle-pulse/digest_output/2026-09-05-digest.md">Open a real digest →</a>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Build status</h2>
-    <p class="section-sub">Honest about what's real integration versus what's designed and documented, pending an account this project depends on someone else creating.</p>
-    <div class="stack-list">
-      <span class="stack-item done">Synthetic dataset + SQLite — built</span>
-      <span class="stack-item done">Measurement foundation + experiment backlog — built</span>
-      <span class="stack-item done">CRM reconciliation script — built</span>
-      <span class="stack-item done">Sample Kit Builder design — built</span>
-      <span class="stack-item done">Visualizer texture-mapping engine — built</span>
-      <span class="stack-item done">Nurture email copy — written</span>
-      <span class="stack-item done">HubSpot MCP — connected, Contacts/Companies/Deals read-write</span>
-      <span class="stack-item done">Shopify Dev Store — connected, live products/collections/metafield/discount configured</span>
-      <span class="stack-item done">HubSpot seeded — 750 contacts, proportional segments, live-verified via MCP query</span>
-      <span class="stack-item done">Sample Kit Builder ported into a real theme section, reading the live metafield</span>
-      <span class="stack-item done">Figma file built — real bound variables, text styles, and auto-layout</span>
-      <span class="stack-item done">Salesforce Developer Edition org — connected via OAuth JWT Bearer, 385 Leads live-verified</span>
-      <span class="stack-item done">HubSpot ↔ Salesforce reconciliation — run against real live extracts from both systems</span>
-      <span class="stack-item done">Lifecycle Pulse Claude Code skill — built, tested, one live-executed digest committed</span>
-    </div>
-  </section>
-
   <footer class="meta">
-    Trade Signal — a work sample built for the Fireclay Tile Lifecycle Growth &amp; Analytics Manager and AI-First UI/UX Designer roles.<br>
+    Trade Signal — a work sample built for Fireclay Tile's Lifecycle Growth &amp; Analytics Manager role.<br>
     Not affiliated with or endorsed by Fireclay Tile. All customer data is synthetic; the trade-show stall finding is a property of the generated dataset, not a real Fireclay statistic.<br>
     Built with Claude Code, Python, Pillow, numpy, and SQLite.
   </footer>
