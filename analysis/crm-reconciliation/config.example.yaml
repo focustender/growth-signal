@@ -1,0 +1,31 @@
+# Generic field-mapping config. Copy to config.yaml and adjust the right-hand
+# side to match your own CRMs' actual field/property names.
+hubspot:
+  email: "email"
+  full_name: "firstname+lastname"   # special token: concatenate two properties
+  company: "company"
+  lifecycle_stage: "trade_signal_segment_stage"   # your own lifecycle property
+  created_date: "trade_signal_signup_date"
+salesforce:
+  email: "Email"
+  full_name: "Name"
+  company: "Company"
+  lifecycle_stage: "Status"      # Lead.Status — Task 3 ingests as Leads, not Opportunities
+  created_date: "CreatedDate"
+matching:
+  fuzzy_threshold: 85   # rapidfuzz token_sort_ratio, 0-100
+lifecycle_stage_map:
+  # Canonical stage -> [HubSpot values], [Salesforce values]
+  # Salesforce values here are Lead.Status's real default picklist values
+  # (Developer Edition, uncustomized) since Task 3 ingests as Leads, not
+  # Opportunities. Verify with sf.Lead.describe() before relying on these.
+  "lead":        {hubspot: ["subscriber", "lead"], salesforce: ["Open - Not Contacted"]}
+  "qualified":   {hubspot: ["marketingqualifiedlead", "salesqualifiedlead"], salesforce: ["Working - Contacted"]}
+  "opportunity": {hubspot: ["opportunity"], salesforce: []}
+  "customer":    {hubspot: ["customer"], salesforce: ["Closed - Converted"]}
+  # Note: a plain Lead object cannot distinguish "opportunity" from
+  # "customer" (Salesforce's own data model converts a Lead into an
+  # Account+Contact+Opportunity rather than tracking finer-grained status)
+  # -- this is a real system limitation, not a config gap, and belongs in
+  # systems-requirements-memo.md (Task 5, Step 7), not something to paper
+  # over by inventing a Status value that doesn't exist in the org.

@@ -1,0 +1,5 @@
+[
+  {"id": "hs-1", "email": "jon.smith@example.com", "firstname": "Jon", "lastname": "Smith", "company": "Smith Tile Co", "trade_signal_segment_stage": "opportunity", "trade_signal_signup_date": "2025-03-01"},
+  {"id": "hs-2", "email": "no.match@example.com", "firstname": "Pat", "lastname": "Nguyen", "company": "Nguyen Design", "trade_signal_segment_stage": "lead", "trade_signal_signup_date": "2025-05-10"},
+  {"id": "hs-3", "email": "", "firstname": "Alexandra", "lastname": "Reyes-Park", "company": "Reyes Park Studio", "trade_signal_segment_stage": "qualified", "trade_signal_signup_date": "2025-06-02"}
+]

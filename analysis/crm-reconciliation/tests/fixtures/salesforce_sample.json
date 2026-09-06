@@ -1,0 +1,5 @@
+[
+  {"Id": "sf-1", "Email": "jon.smith@example.com", "Name": "John Smith", "Company": "Smith Tile Co.", "Status": "Closed - Converted", "CreatedDate": "2025-03-04"},
+  {"Id": "sf-2", "Email": "only.sf@example.com", "Name": "Priya Raman", "Company": "Raman Contracting", "Status": "Working - Contacted", "CreatedDate": "2025-04-11"},
+  {"Id": "sf-3", "Email": "", "Name": "Alex Reyes-Park", "Company": "Reyes Park Studio", "Status": "Working - Contacted", "CreatedDate": "2025-06-05"}
+]
