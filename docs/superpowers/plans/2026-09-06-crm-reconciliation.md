@@ -443,7 +443,16 @@ git commit -m "Add deterministic HubSpot/Salesforce seed split generator"
 - [ ] **Step 1: Write `salesforce_client.py`**
 
 ```python
-"""Thin simple_salesforce wrapper reading credentials from environment."""
+"""Thin simple_salesforce wrapper reading credentials from environment.
+
+Uses the OAuth 2.0 username-password flow via a Connected App
+(consumer_key/consumer_secret), not plain SOAP login() -- new Salesforce
+orgs disable SOAP API login() by default as part of its phased retirement
+(fully gone by Summer '27), so the OAuth flow is the durable choice here,
+not just a workaround. (Correction from an earlier draft of this plan,
+which assumed plain username+password+security_token would work -- it
+does not on a fresh Developer Edition org; discovered live during
+execution, not anticipated during planning.)"""
 import os
 from dotenv import load_dotenv
 from simple_salesforce import Salesforce
@@ -454,10 +463,21 @@ load_dotenv()
 def get_client() -> Salesforce:
     username = os.environ["SALESFORCE_USERNAME"]
     password = os.environ["SALESFORCE_PASSWORD"]
-    token = os.environ["SALESFORCE_SECURITY_TOKEN"]
+    token = os.environ.get("SALESFORCE_SECURITY_TOKEN", "")
+    consumer_key = os.environ["SALESFORCE_CONSUMER_KEY"]
+    consumer_secret = os.environ["SALESFORCE_CONSUMER_SECRET"]
     domain = os.environ.get("SALESFORCE_DOMAIN", "login")
-    return Salesforce(username=username, password=password, security_token=token, domain=domain)
+    return Salesforce(
+        username=username,
+        password=password,
+        security_token=token,
+        consumer_key=consumer_key,
+        consumer_secret=consumer_secret,
+        domain=domain,
+    )
 ```
+
+Requires `.env` to also set `SALESFORCE_CONSUMER_KEY`/`SALESFORCE_CONSUMER_SECRET`, from a Connected App (Setup > App Manager > New Connected App > Enable OAuth Settings > Manage Consumer Details) with at least the "api" OAuth scope. `.env.example` documents this.
 
 - [ ] **Step 2: Write `salesforce_seed_ingest.py`**
 
@@ -514,7 +534,7 @@ if __name__ == "__main__":
 - [ ] **Step 3: Run for real (requires Ian's `.env` to be filled in)**
 
 Run: `cd analysis/crm-reconciliation && python3 salesforce_seed_ingest.py`
-Expected: prints a created count matching the seed's `salesforce_only` + `cross_system` lengths. If this fails with an auth error, use `superpowers:systematic-debugging` rather than guessing — check the exact `simple_salesforce` exception message first (most common causes: security token needs to be appended to the password with no space in some auth flows — `simple_salesforce` handles this internally when passed separately, so a raw auth failure usually means the token was reset by a recent password change, requiring a fresh token from Salesforce Setup > My Personal Information > Reset My Security Token).
+Expected: prints a created count matching the seed's `salesforce_only` + `cross_system` lengths. If this fails with `INVALID_OPERATION: SOAP API login() is disabled by default in this org`, that confirms `salesforce_client.py` needs the OAuth Connected App fix documented above (this was the actual failure hit during execution) — not a credential typo. For any other auth error, use `superpowers:systematic-debugging`: check the exact `simple_salesforce` exception message first before guessing at a fix.
 
 - [ ] **Step 4: Verify live, read back through the org** (same discipline as `docs/hubspot-setup.md`)
 
