@@ -1,0 +1,10 @@
+# Copy to config.yaml. anomaly_threshold_pp is in percentage points of
+# decline (e.g. 5.0 means "flag any segment/stage whose count dropped
+# 5%+ versus the prior snapshot").
+anomaly_threshold_pp: 5.0
+segments: [homeowner, designer, trade, commercial]
+stages: [interest, sample, project, purchase, repeat, advocacy]
+# Optional live CRM cross-reference section (Build A's connections).
+# If either block's credentials aren't set, that block is skipped, not an error.
+live_crm_section:
+  enabled: true
