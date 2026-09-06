@@ -159,6 +159,25 @@
   </section>
 
   <section>
+    <h2>Reactivation: the mechanism, made real</h2>
+    <p class="section-sub">The JD names "activation, education, nurture, <strong>reactivation</strong>" as the lifecycle side of the Trade Program. The backlog's reactivation hypothesis (Hypothesis 2 — the Trade Portal single-sample re-entry flow) couldn't be evaluated for a real conversion rate, since the prototype has no production traffic yet. So instead of leaving it there, this round tested whether the mechanism itself actually works against the live store — and it didn't, until a real bug was found and fixed.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Live systems check</span>
+        <h3>A bug only a live test would catch</h3>
+        <p>The three companion sample products backing the Sample Kit Builder had zero real inventory with a deny-oversell policy — meaning the reactivation prompt would have failed silently the moment a real lead clicked it, with no error anywhere a merchandising owner would notice.</p>
+        <a class="link-btn" href="../docs/reactivation-flow.md">Read the finding →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Fixed, live + in code</span>
+        <h3>From console.log stub to a real cart action</h3>
+        <p>Restocked all three SKUs live (verified via each API call's response, not assumed) and rebuilt the button's handler to resolve real variant IDs in Liquid and POST an actual <code>/cart/add.js</code> call, with honest success/error states in place of the old stub.</p>
+        <a class="link-btn" href="../docs/reactivation-flow.md">Read the write-up →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <h2>Lifecycle Pulse</h2>
     <p class="section-sub">A real, git-committed Claude Code skill living at <code>.claude/skills/lifecycle-pulse/</code> — not a described one. A repo clone auto-discovers it.</p>
     <div class="grid-two">
@@ -190,6 +209,8 @@
       <span class="stack-item done">Nurture email copy — written</span>
       <span class="stack-item done">Shopify Dev Store — connected, live products/collections/metafield/discount configured</span>
       <span class="stack-item done">Sample Kit Builder ported into a real theme section, reading the live metafield</span>
+      <span class="stack-item done">Live inventory data-quality bug found and fixed — 3 companion SKUs restocked live, were 0 units / deny-oversell</span>
+      <span class="stack-item pending">Sample Kit Builder cart-add — rebuilt as a real Ajax Cart API call, written and ready, pending push to the live dev theme</span>
       <span class="stack-item done">Figma file built — real bound variables, text styles, and auto-layout</span>
     </div>
   </section>
@@ -296,7 +317,7 @@
       <div class="deliverable">
         <span class="kicker">Shopify</span>
         <h3>Live theme preview</h3>
-        <p>The section running for real on the dev store's product page, reading the live <code>custom.companion_samples</code> metafield — not a static screenshot.</p>
+        <p>The section running for real on the dev store's product page, reading the live <code>custom.companion_samples</code> metafield — not a static screenshot. The rebuilt real-cart-add version is written and committed but not yet pushed to this preview; see the reactivation write-up above.</p>
         <a class="link-btn" href="https://fireclaytile-project.myshopify.com/products/original-ceramic-aegean?preview_theme_id=148365705269">Open the preview →</a>
       </div>
     </div>
