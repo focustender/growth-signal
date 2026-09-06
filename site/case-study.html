@@ -105,7 +105,7 @@
     <p class="section-sub">Reports to the Senior Manager, Integrated Marketing.</p>
     <table class="mapping">
       <tr><th>What the JD asks for</th><th>What this shows</th></tr>
-      <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and the experimentation backlog with explicit decision thresholds</td></tr>
+      <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and a real experimentation decision: a power analysis found the backlog's own proposed test was structurally infeasible (would take 5+ years to reach its threshold), leading to an actual stop-and-redesign call, not just a list of hypotheses — see the experimentation section below</td></tr>
       <tr><td>Analytically strong, works from imperfect data, reconciles sources</td><td>A deliberately messy raw CRM export (669 rows, mixed casing, split partial records) reconciled down to 600 customers with 34 <code>source_channel</code> values recovered by coalescing sibling rows rather than dropped</td></tr>
       <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>Both live: a free HubSpot account (750 contacts, MCP-connected) and a free Salesforce Developer Edition org (385 Leads, JWT Bearer OAuth) — see stack status below</td></tr>
       <tr><td>Partner with Technology on HubSpot–Salesforce data quality, lifecycle-stage alignment, and the systems requirements needed for better growth decisions</td><td>A live reconciliation of both systems found <strong>100% of the 85 genuine cross-system contacts</strong> show HubSpot's <code>lifecyclestage</code> still reading "lead" while Salesforce shows "Closed - Converted" — HubSpot's field was never written to after import. See the reconciliation section below for the findings, taxonomy, and a scoped systems-requirements memo (a Salesforce Flow + one HubSpot API call, not a platform purchase)</td></tr>
@@ -140,6 +140,25 @@
   </section>
 
   <section>
+    <h2>Experimentation: a real stop-and-redesign decision</h2>
+    <p class="section-sub">Real analysis against real historical volume, not a simulated experiment result. The question asked before spending any runway: can the backlog's own proposed test actually work?</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Finding</span>
+        <h3>The test as specified can't work</h3>
+        <p>A power analysis shows the backlog's Hypothesis 1 test (90-day holdout, 8pp scale threshold) needs 623 trade-show leads. The channel produces ~10/month — 62 months to get there. Checked whether a faster-arriving proxy metric would fix it; it doesn't, confirming a real population ceiling, not a fixable test design.</p>
+        <a class="link-btn" href="../analysis/experimentation/feasibility_findings.md">Read the findings →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Decision memo</span>
+        <h3>Stop, learn, redesign</h3>
+        <p>Kills the randomized-holdout design, not the hypothesis: full rollout, directional monitoring over two quarters, and an explicit reversal bar — the JD's own "scale, stop, or learn next" language, answered with an actual call instead of a backlog entry.</p>
+        <a class="link-btn" href="../analysis/experimentation/decision_memo.md">Read the memo →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <h2>Lifecycle Pulse</h2>
     <p class="section-sub">A real, git-committed Claude Code skill living at <code>.claude/skills/lifecycle-pulse/</code> — not a described one. A repo clone auto-discovers it.</p>
     <div class="grid-two">
@@ -164,6 +183,7 @@
       <span class="stack-item done">HubSpot seeded — 750 contacts, proportional segments, live-verified via MCP query</span>
       <span class="stack-item done">Salesforce Developer Edition org — connected via OAuth JWT Bearer, 385 Leads live-verified</span>
       <span class="stack-item done">HubSpot ↔ Salesforce reconciliation — run against real live extracts from both systems</span>
+      <span class="stack-item done">Experimentation power analysis — real feasibility check, real stop-and-redesign decision</span>
       <span class="stack-item done">Lifecycle Pulse Claude Code skill — built, tested, one live-executed digest committed</span>
       <span class="stack-item done">Sample Kit Builder design — built</span>
       <span class="stack-item done">Visualizer texture-mapping engine — built</span>
