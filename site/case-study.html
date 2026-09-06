@@ -166,8 +166,9 @@
       <tr><th>What the JD asks for</th><th>What this shows</th></tr>
       <tr><td>Personally diagnosed and led a lifecycle/growth initiative with measurable gains, explainable as problem → data → action → outcome → learning</td><td>The trade-show stall finding, the Sample Kit Builder intervention it motivated, and the experimentation backlog with explicit decision thresholds</td></tr>
       <tr><td>Analytically strong, works from imperfect data, reconciles sources</td><td>A deliberately messy raw CRM export (669 rows, mixed casing, split partial records) reconciled down to 600 customers with 34 <code>source_channel</code> values recovered by coalescing sibling rows rather than dropped</td></tr>
-      <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>HubSpot MCP integration (free tier) seeded with the synthetic dataset — see stack status below</td></tr>
-      <tr><td>AI-first working style, has built skills/projects/agents</td><td>The entire analysis was run inside Claude Code against the SQLite store, not described after the fact — the queries and their outputs are in <code>docs/measurement-foundation.md</code></td></tr>
+      <tr><td>Hands-on HubSpot + Salesforce experience essential</td><td>Both live: a free HubSpot account (750 contacts, MCP-connected) and a free Salesforce Developer Edition org (385 Leads, JWT Bearer OAuth) — see stack status below</td></tr>
+      <tr><td>Partner with Technology on HubSpot–Salesforce data quality, lifecycle-stage alignment, and the systems requirements needed for better growth decisions</td><td>A live reconciliation of both systems found <strong>100% of the 85 genuine cross-system contacts</strong> show HubSpot's <code>lifecyclestage</code> still reading "lead" while Salesforce shows "Closed - Converted" — HubSpot's field was never written to after import. See the reconciliation section below for the findings, taxonomy, and a scoped systems-requirements memo (a Salesforce Flow + one HubSpot API call, not a platform purchase)</td></tr>
+      <tr><td>AI-first working style, has built skills/projects/agents</td><td>The entire analysis was run inside Claude Code against the SQLite store, not described after the fact — the queries and their outputs are in <code>docs/measurement-foundation.md</code>. A real, git-committed Claude Code skill (Lifecycle Pulse, below) is a literal, runnable extension of that same working style</td></tr>
       <tr><td>Serves both consumer and trade/commercial customers in a considered-purchase category</td><td>All four segments (homeowner, designer, trade, commercial) modeled with segment-specific conversion behavior</td></tr>
     </table>
   </section>
@@ -217,13 +218,38 @@
   </section>
 
   <section>
+    <h2>HubSpot ↔ Salesforce reconciliation</h2>
+    <p class="section-sub">A live, config-driven reconciliation of both real accounts — not a mockup of one. The methodology is generic (<code>analysis/crm-reconciliation/reconcile.py</code> has no Fireclay-specific field names); the findings below are from actually running it.</p>
+    <div class="grid-two">
+      <div class="deliverable">
+        <span class="kicker">Finding</span>
+        <h3>100% lifecycle-stage disagreement</h3>
+        <p>Of 85 contacts genuinely live in both systems, all 85 show HubSpot's <code>lifecyclestage</code> stuck at "lead" while Salesforce's <code>Lead.Status</code> already reads "Closed - Converted" — one mechanism (a field never written to after import), not scattered noise.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/output/reconciliation_findings.md">Read the findings →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Systems memo</span>
+        <h3>What would actually fix it</h3>
+        <p>A scoped recommendation grounded in the real data: one Salesforce Flow plus one HubSpot API call, not a platform purchase — answering the JD's own "systems requirements" phrase directly.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/systems-requirements-memo.md">Read the memo →</a>
+      </div>
+      <div class="deliverable">
+        <span class="kicker">Methodology</span>
+        <h3>Reusable reconciliation tool</h3>
+        <p>Config-driven matching (exact email, then fuzzy name+company) and a stage taxonomy, built to be adapted to any two CRMs by editing <code>config.yaml</code> — not one-off glue code.</p>
+        <a class="link-btn" href="../analysis/crm-reconciliation/README.md">Read the README →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <h2>Lifecycle Pulse</h2>
     <p class="section-sub">A real, git-committed Claude Code skill living at <code>.claude/skills/lifecycle-pulse/</code> — not a described one. A repo clone auto-discovers it.</p>
     <div class="grid-two">
       <div class="deliverable">
         <span class="kicker">Claude Code skill</span>
         <h3>Lifecycle Pulse funnel digest</h3>
-        <p>Generates a week-over-week lifecycle/funnel digest — interest, sample, project, purchase, repeat, advocacy — by segment, with anomaly flags where a stage's count drops past a configurable threshold, plus an optional live HubSpot/Salesforce cross-reference. Three snapshots are backdated re-derivations of real data (simulated cadence, real counts); one digest is a genuinely live-executed run against the real database and a real (currently failing) Salesforce call, left in rather than hidden.</p>
+        <p>Generates a week-over-week lifecycle/funnel digest — interest, sample, project, purchase, repeat, advocacy — by segment, with anomaly flags where a stage's count drops past a configurable threshold, plus a live HubSpot/Salesforce cross-reference. Three snapshots are backdated re-derivations of real data (simulated cadence, real counts); the digest below is one genuinely live-executed run, pulling real numbers from both the local funnel database and the live Salesforce org.</p>
         <a class="link-btn" href="../.claude/skills/lifecycle-pulse/README.md">Read the skill's README →</a>
         <a class="link-btn" href="../.claude/skills/lifecycle-pulse/digest_output/2026-09-05-digest.md">Open a real digest →</a>
       </div>
@@ -245,6 +271,9 @@
       <span class="stack-item done">HubSpot seeded — 750 contacts, proportional segments, live-verified via MCP query</span>
       <span class="stack-item done">Sample Kit Builder ported into a real theme section, reading the live metafield</span>
       <span class="stack-item done">Figma file built — real bound variables, text styles, and auto-layout</span>
+      <span class="stack-item done">Salesforce Developer Edition org — connected via OAuth JWT Bearer, 385 Leads live-verified</span>
+      <span class="stack-item done">HubSpot ↔ Salesforce reconciliation — run against real live extracts from both systems</span>
+      <span class="stack-item done">Lifecycle Pulse Claude Code skill — built, tested, one live-executed digest committed</span>
     </div>
   </section>
 
