@@ -6,6 +6,13 @@
   The day-21-no-activity email trigger described in
   docs/visualizer-nurture-email.md is a separate, lifecycle-side concern
   and does not live in this template.
+
+  Cart-add: resolves each companion's first available variant server-side
+  (Liquid's product_reference metafields already return full Product
+  objects, so selected_or_first_available_variant.id is on hand with no
+  client-side lookup) and posts to the real /cart/add.js Ajax Cart API.
+  See docs/reactivation-flow.md for the live verification and the
+  zero-inventory data-quality gap this surfaced.
 {% endcomment %}
 
 {% assign companions = product.metafields.custom.companion_samples.value %}
@@ -40,13 +47,18 @@
         type="button"
         class="ts-kit-builder__btn ts-kit-builder__btn--primary"
         data-ts-add-companions
-        data-companion-ids="{{ companions | map: 'id' | join: ',' }}"
+        data-companion-variant-ids="{{ companions | map: 'selected_or_first_available_variant' | map: 'id' | join: ',' }}"
+        data-label-default="{{ section.settings.primary_cta | default: 'Add companion samples to kit' }}"
+        data-label-loading="Adding…"
+        data-label-success="Added to kit ✓"
+        data-label-error="Couldn't add — retry"
       >
         {{ section.settings.primary_cta | default: "Add companion samples to kit" }}
       </button>
       <a class="ts-kit-builder__btn ts-kit-builder__btn--ghost" href="{{ section.settings.skip_url | default: '/pages/trade' }}">
         {{ section.settings.skip_cta | default: "Skip, start a project instead" }}
       </a>
+      <p class="ts-kit-builder__status" data-ts-status role="status" aria-live="polite" hidden></p>
     </div>
   </div>
 </section>
@@ -55,12 +67,43 @@
   document.addEventListener("click", function (e) {
     var trigger = e.target.closest("[data-ts-add-companions]");
     if (!trigger) return;
-    var ids = trigger.getAttribute("data-companion-ids").split(",").filter(Boolean);
-    // Real implementation would resolve each product's first available
-    // variant via the Storefront/AJAX Cart API and POST to /cart/add.js.
-    // Left as a clear extension point rather than a fabricated cart call
-    // against variant IDs this template does not have on hand.
-    console.log("Trade Signal: would add companion product IDs to cart:", ids);
+
+    var section = trigger.closest(".ts-kit-builder");
+    var status = section.querySelector("[data-ts-status]");
+    var variantIds = trigger.getAttribute("data-companion-variant-ids").split(",").filter(Boolean);
+    if (!variantIds.length) return;
+
+    trigger.disabled = true;
+    trigger.textContent = trigger.getAttribute("data-label-loading");
+
+    fetch("/cart/add.js", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({
+        items: variantIds.map(function (id) {
+          return { id: parseInt(id, 10), quantity: 1 };
+        })
+      })
+    })
+      .then(function (res) {
+        return res.json().then(function (body) {
+          if (!res.ok) throw new Error(body.description || body.message || "Cart add failed");
+          return body;
+        });
+      })
+      .then(function () {
+        trigger.textContent = trigger.getAttribute("data-label-success");
+        status.textContent = variantIds.length + " companion sample" + (variantIds.length === 1 ? "" : "s") + " added to your cart.";
+        status.hidden = false;
+        document.dispatchEvent(new CustomEvent("cart:refresh"));
+      })
+      .catch(function (err) {
+        trigger.disabled = false;
+        trigger.textContent = trigger.getAttribute("data-label-error");
+        status.textContent = "Sample Kit Builder: " + err.message;
+        status.hidden = false;
+        console.error("Trade Signal Sample Kit Builder — cart add failed:", err);
+      });
   });
 </script>
 {% endif %}
@@ -73,6 +116,7 @@
     --ts-seaglass-soft: #e2ebe8;
     --ts-slate: #6b6862;
     --ts-line: #c9c7bd;
+    --ts-rust: #a4502f;
     font-family: "IBM Plex Sans", system-ui, sans-serif;
     margin-block: 1.5rem;
   }
@@ -135,10 +179,20 @@
     background: var(--ts-seaglass);
     color: var(--ts-paper-raised);
   }
+  .ts-kit-builder__btn--primary:disabled {
+    opacity: 0.75;
+    cursor: wait;
+  }
   .ts-kit-builder__btn--ghost {
     background: transparent;
     color: var(--ts-slate);
     border: 1px solid var(--ts-line);
+  }
+  .ts-kit-builder__status {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--ts-seaglass);
+    margin: 0.2rem 0 0;
   }
 {% endstylesheet %}
 
