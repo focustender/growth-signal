@@ -4,7 +4,7 @@ hubspot:
   email: "email"
   full_name: "firstname+lastname"   # special token: concatenate two properties
   company: "company"
-  lifecycle_stage: "trade_signal_segment_stage"   # your own lifecycle property
+  lifecycle_stage: "lifecyclestage"   # HubSpot's own standard property, not custom
   created_date: "trade_signal_signup_date"
 salesforce:
   email: "Email"
@@ -16,7 +16,13 @@ matching:
   fuzzy_threshold: 85   # rapidfuzz token_sort_ratio, 0-100
 lifecycle_stage_map:
   # Canonical stage -> [HubSpot values], [Salesforce values]
-  # Salesforce values here are Lead.Status's real default picklist values
+  # HubSpot values are its own standard lifecyclestage picklist (subscriber,
+  # lead, marketingqualifiedlead, salesqualifiedlead, opportunity, customer,
+  # evangelist, other) -- live-verified during planning: every sampled trade
+  # contact currently shows "lead" (docs/hubspot-setup.md's import only set
+  # 5 named custom properties, never touching lifecyclestage, so it's still
+  # sitting at HubSpot's own default months later -- itself a real finding).
+  # Salesforce values are Lead.Status's real default picklist values
   # (Developer Edition, uncustomized) since Task 3 ingests as Leads, not
   # Opportunities. Verify with sf.Lead.describe() before relying on these.
   "lead":        {hubspot: ["subscriber", "lead"], salesforce: ["Open - Not Contacted"]}

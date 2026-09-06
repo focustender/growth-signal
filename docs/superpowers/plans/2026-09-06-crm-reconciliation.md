@@ -43,7 +43,7 @@ hubspot:
   email: "email"
   full_name: "firstname+lastname"   # special token: concatenate two properties
   company: "company"
-  lifecycle_stage: "trade_signal_segment_stage"   # your own lifecycle property
+  lifecycle_stage: "lifecyclestage"   # HubSpot's own standard property, not custom
   created_date: "trade_signal_signup_date"
 salesforce:
   email: "Email"
@@ -55,7 +55,13 @@ matching:
   fuzzy_threshold: 85   # rapidfuzz token_sort_ratio, 0-100
 lifecycle_stage_map:
   # Canonical stage -> [HubSpot values], [Salesforce values]
-  # Salesforce values here are Lead.Status's real default picklist values
+  # HubSpot values are its own standard lifecyclestage picklist (subscriber,
+  # lead, marketingqualifiedlead, salesqualifiedlead, opportunity, customer,
+  # evangelist, other) -- live-verified during planning: every sampled trade
+  # contact currently shows "lead" (docs/hubspot-setup.md's import only set
+  # 5 named custom properties, never touching lifecyclestage, so it's still
+  # sitting at HubSpot's own default months later -- itself a real finding).
+  # Salesforce values are Lead.Status's real default picklist values
   # (Developer Edition, uncustomized) since Task 3 ingests as Leads, not
   # Opportunities. Verify with sf.Lead.describe() before relying on these.
   "lead":        {hubspot: ["subscriber", "lead"], salesforce: ["Open - Not Contacted"]}
@@ -325,15 +331,20 @@ git commit -m "Add CRM reconciliation engine with passing test suite"
 - Create: `data/generate_salesforce_seed.py`
 - Test: `analysis/crm-reconciliation/tests/test_generate_salesforce_seed.py`
 
+**Design note — why the split works this way:** cross-system "duplicate" records must actually exist live in both systems, or the real reconciliation run in Task 5 will never find them (a record only in a local JSON file is invisible to a live extract). HubSpot's own MCP write surface is deliberately restricted (see `docs/hubspot-setup.md`), and re-importing more contacts isn't worth the friction anyway — the 188 trade/commercial contacts already live in HubSpot (from the original 750-contact seed) are reused as-is for both `hubspot_only` and `cross_system`. Only Salesforce gets new writes (Task 3): some `cross_system` entries get a *new* Salesforce Lead created that intentionally drifts from its already-live HubSpot counterpart, and `salesforce_only` entries are fabricated identities for trade/commercial customers with no HubSpot presence at all, also written only to Salesforce.
+
 **Interfaces:**
-- Consumes: `trade_signal.db`'s `customers` table (already has `segment` column with values `homeowner|designer|trade|commercial`, and presumably `customer_id`, `full_name`/`first_name`/`last_name`, `email`, `company`, `signup_date` — confirm exact schema by running `sqlite3 data/trade_signal.db ".schema customers"` before writing this task's implementation, since prior tasks assumed but did not verify this schema).
-- Produces: `generate_salesforce_seed(db_path: str, seed: int = 42) -> dict` returning `{"salesforce_only": [...], "hubspot_only_ids": [...], "cross_system": [...]}` where each `cross_system` entry has a `hubspot_record` and a `salesforce_record` with deliberately injected drift (name casing/typo, company suffix drift, missing phone, signup-date +/- a few days, and a stage mismatch consistent with `config.example.yaml`'s `lifecycle_stage_map`).
+- Consumes: `data/hubspot_contacts_import.csv` (real confirmed columns: `Email, First Name, Last Name, Company Name, Trade Signal Segment, Trade Signal Source Channel, Trade Signal Signup Date, Trade Signal Region, Trade Signal Customer ID`) filtered to `Trade Signal Segment` in `{trade, commercial}` — exactly 188 rows (135 trade + 53 commercial, per `docs/hubspot-setup.md`), all genuinely live in HubSpot today. Also consumes `trade_signal.db`'s `customers` table (schema: `customer_id, segment, source_channel, signup_date, region, company_name, email_opt_in`, no name/email columns) filtered to `segment` in `{trade, commercial}` and `customer_id` NOT in the 188 above, for `salesforce_only`'s source pool (581 candidates) — fabricate identity for these the same way `data/generate_hubspot_import.py` already does, by importing its `FIRST_NAMES`/`LAST_NAMES` lists directly (do not duplicate the name pool) via `sys.path.insert(0, str(Path(__file__).parent)); from generate_hubspot_import import FIRST_NAMES, LAST_NAMES`, seeded independently of that module's own `random.seed(7)` module-level side effect (use a local `random.Random(42)` instance, never the bare `random` module, so the two generators' state never interacts).
+- Produces: `generate_salesforce_seed(db_path: str, hubspot_csv_path: str, seed: int = 42) -> dict` returning `{"salesforce_only": [...], "hubspot_only": [...], "cross_system": [...]}`:
+  - `salesforce_only`: `{customer_id, first_name, last_name, company, email, segment, salesforce_stage}` — fabricated identity, no HubSpot presence, written only to Salesforce (Task 3).
+  - `hubspot_only`: `{customer_id, email, first_name, last_name}` taken directly from the real `hubspot_contacts_import.csv` rows — these need no new writes anywhere; they're already live in HubSpot and deliberately never get a Salesforce counterpart.
+  - `cross_system`: `{customer_id, hubspot_record: {...the real hubspot_contacts_import.csv row...}, salesforce_record: {Email, Name, Company, Status, CreatedDate, Phone}}` — `salesforce_record` is a *new* record (written in Task 3) deliberately drifted from the real, already-live `hubspot_record` (name casing/typo, company-suffix drift, missing `Phone`, signup-date +/- a few days, and a stage mismatch consistent with `config.example.yaml`'s `lifecycle_stage_map`).
 
-- [ ] **Step 1: Inspect the real schema first**
+- [ ] **Step 1: Confirm the schemas above are still current**
 
-Run: `sqlite3 /Users/iancastorillo/fireclayTile/trade-signal/data/trade_signal.db ".schema customers"`
+Run: `sqlite3 /Users/iancastorillo/fireclayTile/trade-signal/data/trade_signal.db ".schema customers"` and `head -3 /Users/iancastorillo/fireclayTile/trade-signal/data/hubspot_contacts_import.csv`
 
-Use the actual column names returned here in every step below — do not assume names not confirmed by this output.
+These were already verified during planning (column names above are real, not assumed) — this step is a final sanity check before writing code, not fresh discovery. If either has changed, use the real output over what's written here.
 
 - [ ] **Step 2: Write the failing test** (adapt field names to Step 1's real schema)
 
@@ -345,29 +356,48 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "data"))
 import generate_salesforce_seed as gss
 
 DB_PATH = str(Path(__file__).resolve().parents[2] / "data" / "trade_signal.db")
+HUBSPOT_CSV_PATH = str(Path(__file__).resolve().parents[2] / "data" / "hubspot_contacts_import.csv")
 
 def test_seed_only_includes_trade_and_commercial():
-    seed = gss.generate_salesforce_seed(DB_PATH, seed=42)
-    all_segments = set()
-    for entry in seed["salesforce_only"]:
-        all_segments.add(entry["segment"])
+    seed = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
+    # salesforce_only draws from customers.db, which does carry a segment column
+    all_segments = {entry["segment"] for entry in seed["salesforce_only"]}
     assert all_segments <= {"trade", "commercial"}
 
+def test_seed_counts_match_design():
+    seed = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
+    assert len(seed["salesforce_only"]) == 300
+    assert len(seed["hubspot_only"]) == 103
+    assert len(seed["cross_system"]) == 85
+
 def test_seed_is_deterministic():
-    seed_a = gss.generate_salesforce_seed(DB_PATH, seed=42)
-    seed_b = gss.generate_salesforce_seed(DB_PATH, seed=42)
+    seed_a = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
+    seed_b = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
     assert seed_a == seed_b
 
+def test_hubspot_only_entries_are_real_hubspot_rows():
+    seed = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
+    with open(HUBSPOT_CSV_PATH) as f:
+        real_emails = {row["Email"] for row in csv.DictReader(f)}
+    for entry in seed["hubspot_only"]:
+        assert entry["email"] in real_emails
+
 def test_cross_system_entries_have_injected_drift():
-    seed = gss.generate_salesforce_seed(DB_PATH, seed=42)
+    seed = gss.generate_salesforce_seed(DB_PATH, HUBSPOT_CSV_PATH, seed=42)
     assert len(seed["cross_system"]) > 0
     entry = seed["cross_system"][0]
     assert "hubspot_record" in entry and "salesforce_record" in entry
-    # names should differ in at least one cross-system entry (drift was injected)
+    assert entry["salesforce_record"]["Status"] == "Closed - Converted"
+    # every cross-system entry's Salesforce Name should trace back to its
+    # real HubSpot row's name, but at least one entry must actually differ
+    # (drift was injected, not just copied through)
     drifted = [e for e in seed["cross_system"]
-               if e["hubspot_record"]["full_name"] != e["salesforce_record"]["Name"]]
+               if e["salesforce_record"]["Name"] !=
+                  f"{e['hubspot_record']['First Name']} {e['hubspot_record']['Last Name']}"]
     assert len(drifted) > 0
 ```
+
+(Add `import csv` to this test file's imports alongside `sys`/`Path`.)
 
 - [ ] **Step 3: Run to verify failure**
 
@@ -376,12 +406,17 @@ Expected: FAIL — module not found.
 
 - [ ] **Step 4: Implement `data/generate_salesforce_seed.py`**
 
-Implementer note (fill in with real column names from Step 1): read all `trade` and `commercial` rows from `customers`, `random.seed(42)`, shuffle deterministically, split ~40% Salesforce-only / ~30% HubSpot-only (matching customer IDs already in `hubspot_contacts_import.csv`) / ~30% cross-system. For cross-system entries, build a `hubspot_record` dict shaped like `hubspot_contacts_import.csv`'s columns and a `salesforce_record` dict shaped like `{Id, Email, Name, Company, Status, CreatedDate, Phone}` where `Status` is one of Salesforce Lead's real default picklist values — `"Open - Not Contacted"`, `"Working - Contacted"`, or `"Closed - Converted"` (matching `config.example.yaml`'s `lifecycle_stage_map`; do not invent values not in that list) — then apply one deterministic drift function per entry chosen from: name-casing/typo, company-suffix (add/remove "Inc"/"LLC"), drop `Phone`, shift `CreatedDate` by a random 1-5 days, and set `Status`/`trade_signal_segment_stage` to a canonical-stage pair that intentionally disagree (e.g. HubSpot still shows `"opportunity"` while Salesforce's `Status` already reads `"Closed - Converted"`), for a realistic "sales closed it before marketing's record caught up" story. `salesforce_only` entries follow the same `Status` constraint. Write the full seed to `data/salesforce_seed.json` for manual review before Task 3 ingests it live.
+Implementer note:
+1. Load `hubspot_contacts_import.csv`, filter to `Trade Signal Segment` in `{trade, commercial}` — 188 rows. Shuffle deterministically with one `random.Random(42)` instance; split into `cross_system_hubspot_rows` (first 85) and `hubspot_only` (remaining 103) — these exact counts (85/103) come from this one shuffle+slice, not a re-derived proportion, so re-running with the same seed always reproduces them.
+2. Read `trade`/`commercial` rows from `customers` (`customer_id, segment, source_channel, signup_date, region, company_name`) where `customer_id` is NOT one of the 188 from Step 1. Using a *second*, separately-seeded `random.Random(42)` instance (separate instance, same seed value is fine — they're independent objects with independent state, unlike reusing one instance or the bare `random` module which would let the two steps' draws interfere with each other), sample 300 of these for `salesforce_only`.
+3. For `salesforce_only`'s 300, fabricate identity: `import sys; sys.path.insert(0, str(Path(__file__).parent)); from generate_hubspot_import import FIRST_NAMES, LAST_NAMES` (same directory, `data/generate_hubspot_import.py`), pick `first`/`last` deterministically via a *third* `random.Random(42)` instance, and build an email as `f"{first}.{last}.{customer_id.lower()}@example.com"` (the `customer_id` suffix guarantees uniqueness). Assign each a `salesforce_stage` from `{"Open - Not Contacted", "Working - Contacted", "Closed - Converted"}` (Salesforce Lead's real default picklist values, matching `config.example.yaml`'s `lifecycle_stage_map` — never invent a value not in that list) via a *fourth* `random.Random(42)` instance's `.choice(...)`.
+4. For each of the 85 `cross_system_hubspot_rows` from Step 1, build a `salesforce_record` dict `{Email, Name, Company, Status, CreatedDate, Phone}` (`Name` = `f"{First Name} {Last Name}"` from the real HubSpot row) deliberately drifted from that same real row: apply one drift function chosen deterministically (a *fifth* `random.Random(42)` instance) from: name-casing/typo, company-suffix add/remove ("Inc"/"LLC"), omit `Phone` entirely, shift `CreatedDate` (derived from the row's `Trade Signal Signup Date`) by 1-5 days. Independently, set `Status` to a value that deliberately disagrees with the HubSpot row's own `Trade Signal Segment` (there's no per-row lifecycle-stage column in `hubspot_contacts_import.csv` itself — treat every HubSpot row here as canonical-stage `"opportunity"` for this exercise, matching `config.example.yaml`'s `hubspot.lifecycle_stage` mapping's intent, and set the new Salesforce `Status` to `"Closed - Converted"` for every cross-system entry, for one consistent, explainable "sales closed it before marketing's HubSpot record caught up" story rather than a mix of different mismatch types).
+5. Write `{"salesforce_only": [...300 fabricated dicts...], "hubspot_only": [...103 real dicts, {customer_id, email, first_name, last_name}...], "cross_system": [...85 dicts, {customer_id, hubspot_record: {...the real row...}, salesforce_record: {...drifted...}}...]}` to `data/salesforce_seed.json` for manual review before Task 3 ingests it live. Multiple independent `random.Random(42)` instances across Steps 1-4 is intentional (each responsibility gets its own reproducible stream); do not consolidate them into one shared instance, which would make each step's output order-dependent on the others.
 
 - [ ] **Step 5: Run to verify pass**
 
 Run: `cd analysis/crm-reconciliation && python3 -m pytest tests/test_generate_salesforce_seed.py -v`
-Expected: 3 passed.
+Expected: 5 passed.
 
 - [ ] **Step 6: Commit**
 
@@ -464,7 +499,7 @@ def ingest(seed_path: str = "../../data/salesforce_seed.json") -> dict:
             "FirstName": " ".join(sf_rec["Name"].split()[:-1]),
             "Company": sf_rec["Company"],
             "Email": sf_rec["Email"],
-            "Status": sf_rec["StageName"],
+            "Status": sf_rec["Status"],
         })
         created_ids.append(rec["id"])
 
@@ -486,9 +521,13 @@ Expected: prints a created count matching the seed's `salesforce_only` + `cross_
 ```python
 from salesforce_client import get_client
 sf = get_client()
-result = sf.query("SELECT Id, Email, Status FROM Lead LIMIT 5")
-print(result["records"])
+result = sf.query("SELECT COUNT() FROM Lead WHERE Email LIKE '%@example.com'")
+print(result["totalSize"])  # expect exactly 385 (300 salesforce_only + 85 cross_system)
+sample = sf.query("SELECT Id, Email, Status FROM Lead WHERE Email LIKE '%@example.com' LIMIT 5")
+print(sample["records"])
 ```
+
+A fresh Developer Edition org also ships with a handful of pre-loaded sample Leads (e.g. "Edna Frank") — the `@example.com` filter excludes those, matching the same convention `extract_salesforce.py` uses in Task 5.
 
 - [ ] **Step 5: Write `docs/salesforce-setup.md`**, mirroring `docs/hubspot-setup.md`'s structure: what was seeded, exact counts (live-verified via Step 4's query, not assumed from the ingest script's return value), and any tooling gaps encountered.
 
@@ -580,7 +619,7 @@ if __name__ == "__main__":
 
 - [ ] **Step 3: Capture the live extract for this repo**
 
-In this Claude Code session (not via the script above, per the architecture note): use the `mcp__hubspot__search_crm_objects` or `mcp__hubspot__query_crm_data` tool to pull all contacts where `trade_signal_segment` is `trade` or `commercial`, with the same properties `PROPERTIES` lists above. Write the result to `analysis/crm-reconciliation/data/hubspot_extract.json`. Confirm the count matches `docs/hubspot-setup.md`'s documented 135 trade + 53 commercial = 188 (minus however many were deliberately left HubSpot-only vs. duplicated into Salesforce per Task 2's split — reconcile the exact expected count against `data/salesforce_seed.json`'s `hubspot_only_ids` length plus the cross-system count before treating a mismatch as a bug).
+In this Claude Code session (not via the script above, per the architecture note): use the `mcp__hubspot__search_crm_objects` or `mcp__hubspot__query_crm_data` tool to pull all contacts where `trade_signal_segment` is `trade` or `commercial`, with the same properties `PROPERTIES` lists above. Write the result to `analysis/crm-reconciliation/data/hubspot_extract.json`. Confirm the count is exactly **188** — all of it, both the `hubspot_only` (103) and `cross_system` (85) portions, since Task 2's design never removes anything from HubSpot; it only decides which of the 188 also get a Salesforce counterpart. A count other than 188 means something changed in the live HubSpot account since `docs/hubspot-setup.md` was written — investigate before treating the reconciliation output as trustworthy.
 
 - [ ] **Step 4: Commit**
 
@@ -618,8 +657,13 @@ from salesforce_client import get_client
 
 def extract() -> list[dict]:
     sf = get_client()
+    # A fresh Developer Edition org ships with ~15-20 pre-loaded sample Leads
+    # (e.g. "Edna Frank", "Rose Gonzalez"). Filter to only the synthetic data
+    # this project seeded, using the same @example.com convention (RFC 2606)
+    # already established throughout the rest of the project.
     result = sf.query_all(
-        "SELECT Id, Email, Name, Company, Status, CreatedDate FROM Lead"
+        "SELECT Id, Email, Name, Company, Status, CreatedDate FROM Lead "
+        "WHERE Email LIKE '%@example.com'"
     )
     return [{k: v for k, v in r.items() if k != "attributes"} for r in result["records"]]
 
