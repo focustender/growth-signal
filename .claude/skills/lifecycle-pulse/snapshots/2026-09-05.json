@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-05",
+  "segments": {
+    "homeowner": {
+      "interest": 1769,
+      "sample": 1252,
+      "project": 0,
+      "purchase": 768,
+      "repeat": 83,
+      "advocacy": 282
+    },
+    "designer": {
+      "interest": 662,
+      "sample": 498,
+      "project": 0,
+      "purchase": 402,
+      "repeat": 80,
+      "advocacy": 117
+    },
+    "trade": {
+      "interest": 558,
+      "sample": 352,
+      "project": 115,
+      "purchase": 191,
+      "repeat": 45,
+      "advocacy": 60
+    },
+    "commercial": {
+      "interest": 211,
+      "sample": 88,
+      "project": 34,
+      "purchase": 72,
+      "repeat": 13,
+      "advocacy": 15
+    }
+  }
+}
