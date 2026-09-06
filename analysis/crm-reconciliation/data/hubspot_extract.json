@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "546340622028",
+    "email": "cust-02979@example.com",
+    "firstname": "Charles",
+    "lastname": "Wright",
+    "company": "Meridian Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-15"
+  },
+  {
+    "id": "546301048568",
+    "email": "cust-01972@example.com",
+    "firstname": "Lisa",
+    "lastname": "Allen",
+    "company": "Northline Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-20"
+  },
+  {
+    "id": "546270451431",
+    "email": "cust-03059@example.com",
+    "firstname": "Richard",
+    "lastname": "Davis",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-28"
+  },
+  {
+    "id": "546394457821",
+    "email": "cust-02282@example.com",
+    "firstname": "Donna",
+    "lastname": "Martinez",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-14"
+  },
+  {
+    "id": "546288449252",
+    "email": "cust-01634@example.com",
+    "firstname": "Charles",
+    "lastname": "Martin",
+    "company": "Coastal & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-31"
+  },
+  {
+    "id": "546394457822",
+    "email": "cust-02034@example.com",
+    "firstname": "Charles",
+    "lastname": "Haddad",
+    "company": "Harbor Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-18"
+  },
+  {
+    "id": "546394457825",
+    "email": "cust-00459@example.com",
+    "firstname": "Michelle",
+    "lastname": "Martinez",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-26"
+  },
+  {
+    "id": "546344309440",
+    "email": "cust-00929@example.com",
+    "firstname": "Sarah",
+    "lastname": "Sanchez",
+    "company": "Northline Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-30"
+  },
+  {
+    "id": "546399891159",
+    "email": "cust-03120@example.com",
+    "firstname": "Mark",
+    "lastname": "Wright",
+    "company": "Northline Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-05"
+  },
+  {
+    "id": "546266876603",
+    "email": "cust-01933@example.com",
+    "firstname": "Linda",
+    "lastname": "Ramirez",
+    "company": "Meridian Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-24"
+  },
+  {
+    "id": "546386893504",
+    "email": "cust-02026@example.com",
+    "firstname": "James",
+    "lastname": "Miller",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-03"
+  },
+  {
+    "id": "546392630007",
+    "email": "cust-02331@example.com",
+    "firstname": "Sarah",
+    "lastname": "Martinez",
+    "company": "Bramble Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-01"
+  },
+  {
+    "id": "546426970823",
+    "email": "cust-01259@example.com",
+    "firstname": "Robert",
+    "lastname": "Martin",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-20"
+  },
+  {
+    "id": "546299179768",
+    "email": "cust-00522@example.com",
+    "firstname": "Anthony",
+    "lastname": "Young",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-20"
+  },
+  {
+    "id": "546264989375",
+    "email": "cust-00043@example.com",
+    "firstname": "Charles",
+    "lastname": "Ramirez",
+    "company": "Union Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-24"
+  },
+  {
+    "id": "546273991356",
+    "email": "cust-02120@example.com",
+    "firstname": "Robert",
+    "lastname": "Perez",
+    "company": "Harbor Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-19"
+  },
+  {
+    "id": "546367995581",
+    "email": "cust-02847@example.com",
+    "firstname": "Diego",
+    "lastname": "Jones",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-20"
+  },
+  {
+    "id": "546299179767",
+    "email": "cust-02508@example.com",
+    "firstname": "Nancy",
+    "lastname": "Walker",
+    "company": "Union Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-29"
+  },
+  {
+    "id": "546340622024",
+    "email": "cust-02439@example.com",
+    "firstname": "Charles",
+    "lastname": "Nguyen",
+    "company": "Bramble & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-17"
+  },
+  {
+    "id": "546373393136",
+    "email": "cust-01248@example.com",
+    "firstname": "Donna",
+    "lastname": "Jackson",
+    "company": "Union Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-04-23"
+  },
+  {
+    "id": "546367995580",
+    "email": "cust-00483@example.com",
+    "firstname": "Ashley",
+    "lastname": "Thompson",
+    "company": "Union Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-06"
+  },
+  {
+    "id": "546434105059",
+    "email": "cust-00928@example.com",
+    "firstname": "Kimberly",
+    "lastname": "Jackson",
+    "company": "Union Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-03"
+  },
+  {
+    "id": "546264989372",
+    "email": "cust-00068@example.com",
+    "firstname": "James",
+    "lastname": "Taylor",
+    "company": "Bramble Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-07"
+  },
+  {
+    "id": "546293787363",
+    "email": "cust-01997@example.com",
+    "firstname": "David",
+    "lastname": "Garcia",
+    "company": "Northline Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-08"
+  },
+  {
+    "id": "546373393134",
+    "email": "cust-02022@example.com",
+    "firstname": "Patricia",
+    "lastname": "Wright",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-10"
+  },
+  {
+    "id": "546362605276",
+    "email": "cust-02322@example.com",
+    "firstname": "Anthony",
+    "lastname": "Moore",
+    "company": "Northline Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-02"
+  },
+  {
+    "id": "546351798972",
+    "email": "cust-01864@example.com",
+    "firstname": "Mark",
+    "lastname": "Taylor",
+    "company": "Bramble Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-24"
+  },
+  {
+    "id": "546367994617",
+    "email": "cust-03014@example.com",
+    "firstname": "Linda",
+    "lastname": "Johnson",
+    "company": "Bramble Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-21"
+  },
+  {
+    "id": "546386893498",
+    "email": "cust-01042@example.com",
+    "firstname": "Wei",
+    "lastname": "Lopez",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-09"
+  },
+  {
+    "id": "546425161420",
+    "email": "cust-00716@example.com",
+    "firstname": "Elena",
+    "lastname": "Martin",
+    "company": "Union Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-20"
+  },
+  {
+    "id": "546353654462",
+    "email": "cust-00014@example.com",
+    "firstname": "Ashley",
+    "lastname": "Lopez",
+    "company": "Coastal Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-14"
+  },
+  {
+    "id": "546398078664",
+    "email": "cust-02525@example.com",
+    "firstname": "Sarah",
+    "lastname": "Rodriguez",
+    "company": "Coastal Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-07"
+  },
+  {
+    "id": "546428767931",
+    "email": "cust-01755@example.com",
+    "firstname": "Andrew",
+    "lastname": "Miller",
+    "company": "Coastal Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-26"
+  },
+  {
+    "id": "546396247770",
+    "email": "cust-01454@example.com",
+    "firstname": "Sandra",
+    "lastname": "Robinson",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-16"
+  },
+  {
+    "id": "546396247769",
+    "email": "cust-02483@example.com",
+    "firstname": "Patricia",
+    "lastname": "Okafor",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-18"
+  },
+  {
+    "id": "546385154771",
+    "email": "cust-02699@example.com",
+    "firstname": "Thomas",
+    "lastname": "Miller",
+    "company": "Harbor Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-26"
+  },
+  {
+    "id": "546266875638",
+    "email": "cust-00147@example.com",
+    "firstname": "Susan",
+    "lastname": "Lewis",
+    "company": "Meridian Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-12"
+  },
+  {
+    "id": "546266875636",
+    "email": "cust-02380@example.com",
+    "firstname": "Kenneth",
+    "lastname": "White",
+    "company": "Coastal Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-08"
+  },
+  {
+    "id": "546439443144",
+    "email": "cust-00372@example.com",
+    "firstname": "Joseph",
+    "lastname": "Brown",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-26"
+  },
+  {
+    "id": "546392630001",
+    "email": "cust-01311@example.com",
+    "firstname": "Joseph",
+    "lastname": "Hernandez",
+    "company": "Coastal Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-19"
+  },
+  {
+    "id": "546439443143",
+    "email": "cust-03001@example.com",
+    "firstname": "David",
+    "lastname": "Perez",
+    "company": "Meridian Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-05"
+  },
+  {
+    "id": "546288449242",
+    "email": "cust-00313@example.com",
+    "firstname": "Maria",
+    "lastname": "Haddad",
+    "company": "Northline Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-22"
+  },
+  {
+    "id": "546399891152",
+    "email": "cust-00560@example.com",
+    "firstname": "Robert",
+    "lastname": "Allen",
+    "company": "Northline Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-03"
+  },
+  {
+    "id": "546288449247",
+    "email": "cust-00858@example.com",
+    "firstname": "Mark",
+    "lastname": "Lopez",
+    "company": "Northline Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-11-24"
+  },
+  {
+    "id": "546261227245",
+    "email": "cust-03019@example.com",
+    "firstname": "Paul",
+    "lastname": "Wright",
+    "company": "Northline Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-24"
+  },
+  {
+    "id": "546394457816",
+    "email": "cust-00482@example.com",
+    "firstname": "Anthony",
+    "lastname": "Kim",
+    "company": "Harbor Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-30"
+  },
+  {
+    "id": "546392630000",
+    "email": "cust-01038@example.com",
+    "firstname": "Sarah",
+    "lastname": "Lopez",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-04-05"
+  },
+  {
+    "id": "546426970816",
+    "email": "cust-00900@example.com",
+    "firstname": "Jennifer",
+    "lastname": "Sanchez",
+    "company": "Cascade Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-15"
+  },
+  {
+    "id": "546344308473",
+    "email": "cust-02548@example.com",
+    "firstname": "Aisha",
+    "lastname": "Sanchez",
+    "company": "Meridian Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-01"
+  },
+  {
+    "id": "546430582471",
+    "email": "cust-01547@example.com",
+    "firstname": "Andrew",
+    "lastname": "Hernandez",
+    "company": "Union Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-04-13"
+  },
+  {
+    "id": "546394457815",
+    "email": "cust-01966@example.com",
+    "firstname": "Carlos",
+    "lastname": "Wilson",
+    "company": "Ashford Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-09"
+  },
+  {
+    "id": "546344308468",
+    "email": "cust-02297@example.com",
+    "firstname": "Wei",
+    "lastname": "Chen",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-12"
+  },
+  {
+    "id": "546288449243",
+    "email": "cust-01994@example.com",
+    "firstname": "Matthew",
+    "lastname": "Wilson",
+    "company": "Harbor Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-13"
+  },
+  {
+    "id": "546430582467",
+    "email": "cust-01023@example.com",
+    "firstname": "Andrew",
+    "lastname": "Martin",
+    "company": "Harbor Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-08"
+  },
+  {
+    "id": "546426970813",
+    "email": "cust-01432@example.com",
+    "firstname": "Fatima",
+    "lastname": "Wright",
+    "company": "Bramble Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-20"
+  },
+  {
+    "id": "546430582466",
+    "email": "cust-02157@example.com",
+    "firstname": "Sarah",
+    "lastname": "Lee",
+    "company": "Cascade Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-25"
+  },
+  {
+    "id": "546297450223",
+    "email": "cust-00796@example.com",
+    "firstname": "Donna",
+    "lastname": "Hernandez",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-12"
+  },
+  {
+    "id": "546288449246",
+    "email": "cust-02215@example.com",
+    "firstname": "Aisha",
+    "lastname": "Okafor",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-11-16"
+  },
+  {
+    "id": "546399891148",
+    "email": "cust-01115@example.com",
+    "firstname": "John",
+    "lastname": "Robinson",
+    "company": "Northline Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-09"
+  },
+  {
+    "id": "546302838489",
+    "email": "cust-00551@example.com",
+    "firstname": "Sandra",
+    "lastname": "Martin",
+    "company": "Coastal Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-04"
+  },
+  {
+    "id": "546401643205",
+    "email": "cust-01530@example.com",
+    "firstname": "Jessica",
+    "lastname": "Wilson",
+    "company": "Bramble Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-08"
+  },
+  {
+    "id": "546304642786",
+    "email": "cust-01631@example.com",
+    "firstname": "Elizabeth",
+    "lastname": "Robinson",
+    "company": "Ashford Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-28"
+  },
+  {
+    "id": "546353653497",
+    "email": "cust-02908@example.com",
+    "firstname": "Robert",
+    "lastname": "Perez",
+    "company": "Ashford Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-17"
+  },
+  {
+    "id": "546437652157",
+    "email": "cust-02589@example.com",
+    "firstname": "Donna",
+    "lastname": "Chen",
+    "company": "Coastal Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-22"
+  },
+  {
+    "id": "546302838488",
+    "email": "cust-02630@example.com",
+    "firstname": "Betty",
+    "lastname": "Allen",
+    "company": "Union Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-17"
+  },
+  {
+    "id": "546302838486",
+    "email": "cust-01852@example.com",
+    "firstname": "Sarah",
+    "lastname": "Rodriguez",
+    "company": "Ashford & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-03"
+  },
+  {
+    "id": "546268656367",
+    "email": "cust-00096@example.com",
+    "firstname": "Michael",
+    "lastname": "Rodriguez",
+    "company": "Northline Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-19"
+  },
+  {
+    "id": "546396247763",
+    "email": "cust-02292@example.com",
+    "firstname": "Susan",
+    "lastname": "Chen",
+    "company": "Bramble Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-28"
+  },
+  {
+    "id": "546428766964",
+    "email": "cust-00386@example.com",
+    "firstname": "Maria",
+    "lastname": "White",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-13"
+  },
+  {
+    "id": "546270451422",
+    "email": "cust-03104@example.com",
+    "firstname": "Priya",
+    "lastname": "Allen",
+    "company": "Cascade Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-17"
+  },
+  {
+    "id": "546268656365",
+    "email": "cust-00708@example.com",
+    "firstname": "Maria",
+    "lastname": "Martinez",
+    "company": "Harbor Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-24"
+  },
+  {
+    "id": "546401643204",
+    "email": "cust-01612@example.com",
+    "firstname": "Charles",
+    "lastname": "White",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-07"
+  },
+  {
+    "id": "546270451420",
+    "email": "cust-01956@example.com",
+    "firstname": "John",
+    "lastname": "Lopez",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-30"
+  },
+  {
+    "id": "546353653493",
+    "email": "cust-01538@example.com",
+    "firstname": "Lisa",
+    "lastname": "Moore",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-29"
+  },
+  {
+    "id": "546396247760",
+    "email": "cust-00239@example.com",
+    "firstname": "Yuki",
+    "lastname": "Clark",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-07"
+  },
+  {
+    "id": "546304642782",
+    "email": "cust-00788@example.com",
+    "firstname": "Lisa",
+    "lastname": "Young",
+    "company": "Cascade Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-06"
+  },
+  {
+    "id": "546398078654",
+    "email": "cust-01054@example.com",
+    "firstname": "Wei",
+    "lastname": "White",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-25"
+  },
+  {
+    "id": "546362605274",
+    "email": "cust-00027@example.com",
+    "firstname": "Jessica",
+    "lastname": "Young",
+    "company": "Ashford Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-03"
+  },
+  {
+    "id": "546434105056",
+    "email": "cust-02656@example.com",
+    "firstname": "Linda",
+    "lastname": "Ramirez",
+    "company": "Ashford & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-09"
+  },
+  {
+    "id": "546273990389",
+    "email": "cust-02266@example.com",
+    "firstname": "Betty",
+    "lastname": "Martinez",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-08"
+  },
+  {
+    "id": "546264988409",
+    "email": "cust-02147@example.com",
+    "firstname": "Emily",
+    "lastname": "Perez",
+    "company": "Meridian Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-25"
+  },
+  {
+    "id": "546386892532",
+    "email": "cust-01485@example.com",
+    "firstname": "Emily",
+    "lastname": "Smith",
+    "company": "Coastal Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-03"
+  },
+  {
+    "id": "546273990386",
+    "email": "cust-01526@example.com",
+    "firstname": "Karen",
+    "lastname": "Jackson",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-17"
+  },
+  {
+    "id": "546434105053",
+    "email": "cust-00134@example.com",
+    "firstname": "Susan",
+    "lastname": "Nguyen",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-02"
+  },
+  {
+    "id": "546340622015",
+    "email": "cust-01911@example.com",
+    "firstname": "Steven",
+    "lastname": "Anderson",
+    "company": "Northline & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-24"
+  },
+  {
+    "id": "546367994613",
+    "email": "cust-01325@example.com",
+    "firstname": "Linda",
+    "lastname": "Davis",
+    "company": "Meridian Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-16"
+  },
+  {
+    "id": "546342413040",
+    "email": "cust-02781@example.com",
+    "firstname": "Linda",
+    "lastname": "Clark",
+    "company": "Meridian Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-10"
+  },
+  {
+    "id": "546379692745",
+    "email": "cust-00166@example.com",
+    "firstname": "Diego",
+    "lastname": "Hernandez",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-17"
+  },
+  {
+    "id": "546264988407",
+    "email": "cust-03023@example.com",
+    "firstname": "James",
+    "lastname": "Haddad",
+    "company": "Harbor & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-24"
+  },
+  {
+    "id": "546437651193",
+    "email": "cust-01782@example.com",
+    "firstname": "Jennifer",
+    "lastname": "Chen",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-18"
+  },
+  {
+    "id": "546398078653",
+    "email": "cust-01125@example.com",
+    "firstname": "Thomas",
+    "lastname": "Hernandez",
+    "company": "Bramble & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-16"
+  },
+  {
+    "id": "546270451416",
+    "email": "cust-00514@example.com",
+    "firstname": "Michelle",
+    "lastname": "Kim",
+    "company": "Coastal Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-17"
+  },
+  {
+    "id": "546385154761",
+    "email": "cust-02636@example.com",
+    "firstname": "Carlos",
+    "lastname": "Harris",
+    "company": "Meridian Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-12"
+  },
+  {
+    "id": "546304642779",
+    "email": "cust-02944@example.com",
+    "firstname": "David",
+    "lastname": "Taylor",
+    "company": "Meridian Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-09"
+  },
+  {
+    "id": "546437651188",
+    "email": "cust-01712@example.com",
+    "firstname": "Robert",
+    "lastname": "Moore",
+    "company": "Bramble Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-01"
+  },
+  {
+    "id": "546304642777",
+    "email": "cust-00737@example.com",
+    "firstname": "Fatima",
+    "lastname": "Harris",
+    "company": "Ashford Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-07"
+  },
+  {
+    "id": "546401643199",
+    "email": "cust-00069@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Williams",
+    "company": "Northline Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-09"
+  },
+  {
+    "id": "546389034703",
+    "email": "cust-00152@example.com",
+    "firstname": "Lisa",
+    "lastname": "Moore",
+    "company": "Cascade Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-02"
+  },
+  {
+    "id": "546437651186",
+    "email": "cust-02007@example.com",
+    "firstname": "Joseph",
+    "lastname": "Jones",
+    "company": "Bramble & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-10"
+  },
+  {
+    "id": "546428766956",
+    "email": "cust-02848@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Martin",
+    "company": "Cascade Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-06"
+  },
+  {
+    "id": "546385154756",
+    "email": "cust-01781@example.com",
+    "firstname": "Kenneth",
+    "lastname": "Allen",
+    "company": "Coastal & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-02"
+  },
+  {
+    "id": "546398078651",
+    "email": "cust-01948@example.com",
+    "firstname": "Sarah",
+    "lastname": "Haddad",
+    "company": "Bramble Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-30"
+  },
+  {
+    "id": "546350048988",
+    "email": "cust-02530@example.com",
+    "firstname": "David",
+    "lastname": "Ramirez",
+    "company": "Northline Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-27"
+  },
+  {
+    "id": "546437651183",
+    "email": "cust-01148@example.com",
+    "firstname": "Maria",
+    "lastname": "Johnson",
+    "company": "Cascade Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-23"
+  },
+  {
+    "id": "546351798007",
+    "email": "cust-00384@example.com",
+    "firstname": "Maria",
+    "lastname": "Davis",
+    "company": "Union & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-05"
+  },
+  {
+    "id": "546366197469",
+    "email": "cust-02961@example.com",
+    "firstname": "Karen",
+    "lastname": "Smith",
+    "company": "Coastal Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-26"
+  },
+  {
+    "id": "546340622011",
+    "email": "cust-01487@example.com",
+    "firstname": "Joseph",
+    "lastname": "Martin",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-03"
+  },
+  {
+    "id": "546273990384",
+    "email": "cust-00863@example.com",
+    "firstname": "Joseph",
+    "lastname": "Ramirez",
+    "company": "Ashford Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-18"
+  },
+  {
+    "id": "546362605271",
+    "email": "cust-01675@example.com",
+    "firstname": "John",
+    "lastname": "Martin",
+    "company": "Cascade Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-04-18"
+  },
+  {
+    "id": "546351798006",
+    "email": "cust-02423@example.com",
+    "firstname": "Jennifer",
+    "lastname": "Thomas",
+    "company": "Union Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-01"
+  },
+  {
+    "id": "546299179761",
+    "email": "cust-01561@example.com",
+    "firstname": "Paul",
+    "lastname": "Thompson",
+    "company": "Meridian Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-12"
+  },
+  {
+    "id": "546366197466",
+    "email": "cust-00136@example.com",
+    "firstname": "Diego",
+    "lastname": "Williams",
+    "company": "Cascade Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-26"
+  },
+  {
+    "id": "546386892528",
+    "email": "cust-01420@example.com",
+    "firstname": "Nancy",
+    "lastname": "Perez",
+    "company": "Bramble Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-13"
+  },
+  {
+    "id": "546379692742",
+    "email": "cust-02257@example.com",
+    "firstname": "Thomas",
+    "lastname": "Allen",
+    "company": "Union Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-05"
+  },
+  {
+    "id": "546373393122",
+    "email": "cust-00837@example.com",
+    "firstname": "Richard",
+    "lastname": "Harris",
+    "company": "Bramble Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-10"
+  },
+  {
+    "id": "546351798003",
+    "email": "cust-01788@example.com",
+    "firstname": "Mark",
+    "lastname": "King",
+    "company": "Coastal Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-14"
+  },
+  {
+    "id": "546273990381",
+    "email": "cust-00600@example.com",
+    "firstname": "Fatima",
+    "lastname": "Lee",
+    "company": "Bramble Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-26"
+  },
+  {
+    "id": "546373393118",
+    "email": "cust-01958@example.com",
+    "firstname": "Aisha",
+    "lastname": "Martinez",
+    "company": "Coastal Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-21"
+  },
+  {
+    "id": "546366197464",
+    "email": "cust-02779@example.com",
+    "firstname": "Kimberly",
+    "lastname": "Okafor",
+    "company": "Cascade Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-05"
+  },
+  {
+    "id": "546439443136",
+    "email": "cust-01445@example.com",
+    "firstname": "Susan",
+    "lastname": "Williams",
+    "company": "Union Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-30"
+  },
+  {
+    "id": "546299179758",
+    "email": "cust-00281@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Martinez",
+    "company": "Cascade Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-04"
+  },
+  {
+    "id": "546297450220",
+    "email": "cust-02754@example.com",
+    "firstname": "James",
+    "lastname": "Williams",
+    "company": "Northline Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-30"
+  },
+  {
+    "id": "546434105047",
+    "email": "cust-00844@example.com",
+    "firstname": "Robert",
+    "lastname": "Nguyen",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-10"
+  },
+  {
+    "id": "546390837948",
+    "email": "cust-01144@example.com",
+    "firstname": "Donna",
+    "lastname": "Martin",
+    "company": "Ashford & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-03"
+  },
+  {
+    "id": "546426970812",
+    "email": "cust-03032@example.com",
+    "firstname": "Betty",
+    "lastname": "King",
+    "company": "Harbor Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-29"
+  },
+  {
+    "id": "546288449239",
+    "email": "cust-00507@example.com",
+    "firstname": "Ashley",
+    "lastname": "Walker",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-02"
+  },
+  {
+    "id": "546264988405",
+    "email": "cust-01682@example.com",
+    "firstname": "Diego",
+    "lastname": "Taylor",
+    "company": "Harbor Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-29"
+  },
+  {
+    "id": "546366197462",
+    "email": "cust-01811@example.com",
+    "firstname": "Robert",
+    "lastname": "Jackson",
+    "company": "Coastal Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-22"
+  },
+  {
+    "id": "546344308465",
+    "email": "cust-01982@example.com",
+    "firstname": "James",
+    "lastname": "Haddad",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-17"
+  },
+  {
+    "id": "546392628936",
+    "email": "cust-02121@example.com",
+    "firstname": "Linda",
+    "lastname": "Brown",
+    "company": "Harbor Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-10"
+  },
+  {
+    "id": "546351798001",
+    "email": "cust-02938@example.com",
+    "firstname": "Joseph",
+    "lastname": "Thomas",
+    "company": "Coastal Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-23"
+  },
+  {
+    "id": "546301048554",
+    "email": "cust-01996@example.com",
+    "firstname": "Maria",
+    "lastname": "Johnson",
+    "company": "Northline Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-09"
+  },
+  {
+    "id": "546399891144",
+    "email": "cust-00594@example.com",
+    "firstname": "James",
+    "lastname": "Johnson",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-20"
+  },
+  {
+    "id": "546288449237",
+    "email": "cust-02129@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Lewis",
+    "company": "Harbor Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-04-17"
+  },
+  {
+    "id": "546266875627",
+    "email": "cust-01480@example.com",
+    "firstname": "Steven",
+    "lastname": "Smith",
+    "company": "Cascade Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-15"
+  },
+  {
+    "id": "546293787366",
+    "email": "cust-00032@example.com",
+    "firstname": "Maria",
+    "lastname": "Allen",
+    "company": "Coastal & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-04"
+  },
+  {
+    "id": "546392630009",
+    "email": "cust-01687@example.com",
+    "firstname": "Ashley",
+    "lastname": "Okafor",
+    "company": "Union Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-11-06"
+  },
+  {
+    "id": "546297451196",
+    "email": "cust-02281@example.com",
+    "firstname": "Michael",
+    "lastname": "Williams",
+    "company": "Union Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-25"
+  },
+  {
+    "id": "546288449248",
+    "email": "cust-02030@example.com",
+    "firstname": "Ashley",
+    "lastname": "Miller",
+    "company": "Union & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-14"
+  },
+  {
+    "id": "546301048567",
+    "email": "cust-00342@example.com",
+    "firstname": "James",
+    "lastname": "Wright",
+    "company": "Union Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-03"
+  },
+  {
+    "id": "546295656178",
+    "email": "cust-03010@example.com",
+    "firstname": "Nancy",
+    "lastname": "Davis",
+    "company": "Coastal Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-04"
+  },
+  {
+    "id": "546340622026",
+    "email": "cust-01683@example.com",
+    "firstname": "Kimberly",
+    "lastname": "Davis",
+    "company": "Northline Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-29"
+  },
+  {
+    "id": "546301048563",
+    "email": "cust-00706@example.com",
+    "firstname": "Michael",
+    "lastname": "Clark",
+    "company": "Cascade Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-22"
+  },
+  {
+    "id": "546392630005",
+    "email": "cust-02875@example.com",
+    "firstname": "Paul",
+    "lastname": "Miller",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-21"
+  },
+  {
+    "id": "546293787365",
+    "email": "cust-02575@example.com",
+    "firstname": "Anthony",
+    "lastname": "Thompson",
+    "company": "Harbor Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-17"
+  },
+  {
+    "id": "546390837955",
+    "email": "cust-02429@example.com",
+    "firstname": "Michael",
+    "lastname": "Wright",
+    "company": "Cascade & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-11-06"
+  },
+  {
+    "id": "546432304833",
+    "email": "cust-01937@example.com",
+    "firstname": "Jennifer",
+    "lastname": "Ramirez",
+    "company": "Northline Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-05"
+  },
+  {
+    "id": "546426970821",
+    "email": "cust-02526@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Harris",
+    "company": "Meridian Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-08"
+  },
+  {
+    "id": "546434105061",
+    "email": "cust-00814@example.com",
+    "firstname": "Betty",
+    "lastname": "Robinson",
+    "company": "Cascade Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-30"
+  },
+  {
+    "id": "546261227250",
+    "email": "cust-02648@example.com",
+    "firstname": "Joseph",
+    "lastname": "Martin",
+    "company": "Bramble Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-08-12"
+  },
+  {
+    "id": "546430582473",
+    "email": "cust-00185@example.com",
+    "firstname": "Yuki",
+    "lastname": "White",
+    "company": "Coastal Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-30"
+  },
+  {
+    "id": "546342413046",
+    "email": "cust-01107@example.com",
+    "firstname": "Wei",
+    "lastname": "Martin",
+    "company": "Cascade Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-20"
+  },
+  {
+    "id": "546439443148",
+    "email": "cust-02071@example.com",
+    "firstname": "Jennifer",
+    "lastname": "Allen",
+    "company": "Union Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-25"
+  },
+  {
+    "id": "546342413044",
+    "email": "cust-00974@example.com",
+    "firstname": "Elizabeth",
+    "lastname": "Wilson",
+    "company": "Bramble Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-09"
+  },
+  {
+    "id": "546398078665",
+    "email": "cust-02937@example.com",
+    "firstname": "Aisha",
+    "lastname": "Kim",
+    "company": "Bramble Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-10"
+  },
+  {
+    "id": "546304642791",
+    "email": "cust-00178@example.com",
+    "firstname": "John",
+    "lastname": "Thompson",
+    "company": "Union Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-09"
+  },
+  {
+    "id": "546385154772",
+    "email": "cust-00638@example.com",
+    "firstname": "Carlos",
+    "lastname": "Garcia",
+    "company": "Cascade Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-11-15"
+  },
+  {
+    "id": "546266875632",
+    "email": "cust-01877@example.com",
+    "firstname": "Maria",
+    "lastname": "Williams",
+    "company": "Ashford Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-10"
+  },
+  {
+    "id": "546297450225",
+    "email": "cust-01003@example.com",
+    "firstname": "David",
+    "lastname": "Allen",
+    "company": "Meridian Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-10"
+  },
+  {
+    "id": "546394457813",
+    "email": "cust-01844@example.com",
+    "firstname": "Matthew",
+    "lastname": "Miller",
+    "company": "Meridian Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-05-31"
+  },
+  {
+    "id": "546301048556",
+    "email": "cust-00774@example.com",
+    "firstname": "Betty",
+    "lastname": "Brown",
+    "company": "Bramble Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-24"
+  },
+  {
+    "id": "546432303865",
+    "email": "cust-02550@example.com",
+    "firstname": "Fatima",
+    "lastname": "Jones",
+    "company": "Ashford & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-18"
+  },
+  {
+    "id": "546304642788",
+    "email": "cust-00806@example.com",
+    "firstname": "Thomas",
+    "lastname": "Lewis",
+    "company": "Bramble Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-02-10"
+  },
+  {
+    "id": "546398078659",
+    "email": "cust-00986@example.com",
+    "firstname": "Sarah",
+    "lastname": "Martinez",
+    "company": "Meridian Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-23"
+  },
+  {
+    "id": "546304642787",
+    "email": "cust-00859@example.com",
+    "firstname": "Linda",
+    "lastname": "Jackson",
+    "company": "Northline Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-15"
+  },
+  {
+    "id": "546353653495",
+    "email": "cust-00778@example.com",
+    "firstname": "Linda",
+    "lastname": "Perez",
+    "company": "Northline Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-18"
+  },
+  {
+    "id": "546398078658",
+    "email": "cust-00264@example.com",
+    "firstname": "Aisha",
+    "lastname": "Young",
+    "company": "Union Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-15"
+  },
+  {
+    "id": "546428766965",
+    "email": "cust-02642@example.com",
+    "firstname": "Richard",
+    "lastname": "Sanchez",
+    "company": "Union Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-03-08"
+  },
+  {
+    "id": "546437652155",
+    "email": "cust-02940@example.com",
+    "firstname": "Emily",
+    "lastname": "Walker",
+    "company": "Coastal Build Co.",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-07-25"
+  },
+  {
+    "id": "546398078655",
+    "email": "cust-01854@example.com",
+    "firstname": "Carlos",
+    "lastname": "Brown",
+    "company": "Northline Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-04-07"
+  },
+  {
+    "id": "546340622017",
+    "email": "cust-00307@example.com",
+    "firstname": "Carlos",
+    "lastname": "Harris",
+    "company": "Harbor Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-02-07"
+  },
+  {
+    "id": "546293787360",
+    "email": "cust-00652@example.com",
+    "firstname": "Kimberly",
+    "lastname": "Young",
+    "company": "Union Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-03"
+  },
+  {
+    "id": "546302838482",
+    "email": "cust-01891@example.com",
+    "firstname": "Ashley",
+    "lastname": "Taylor",
+    "company": "Cascade Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-09-21"
+  },
+  {
+    "id": "546304642781",
+    "email": "cust-02967@example.com",
+    "firstname": "Maria",
+    "lastname": "Sanchez",
+    "company": "Ashford Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-04"
+  },
+  {
+    "id": "546353653491",
+    "email": "cust-03096@example.com",
+    "firstname": "Carlos",
+    "lastname": "Wilson",
+    "company": "Bramble Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-01-21"
+  },
+  {
+    "id": "546270451417",
+    "email": "cust-02934@example.com",
+    "firstname": "Diego",
+    "lastname": "Garcia",
+    "company": "Union Design + Build",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-27"
+  },
+  {
+    "id": "546396247758",
+    "email": "cust-01888@example.com",
+    "firstname": "Andrew",
+    "lastname": "Miller",
+    "company": "Northline & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-05-02"
+  },
+  {
+    "id": "546270451406",
+    "email": "cust-03143@example.com",
+    "firstname": "Susan",
+    "lastname": "Wilson",
+    "company": "Union Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-03-18"
+  },
+  {
+    "id": "546340622013",
+    "email": "cust-02744@example.com",
+    "firstname": "Sandra",
+    "lastname": "Williams",
+    "company": "Union & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-05"
+  },
+  {
+    "id": "546362605268",
+    "email": "cust-01883@example.com",
+    "firstname": "Kimberly",
+    "lastname": "Martin",
+    "company": "Coastal Architecture Group",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-12-08"
+  },
+  {
+    "id": "546366197465",
+    "email": "cust-01381@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Miller",
+    "company": "Meridian & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-01-04"
+  },
+  {
+    "id": "546299179760",
+    "email": "cust-00113@example.com",
+    "firstname": "Daniel",
+    "lastname": "Anderson",
+    "company": "Ashford Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-06"
+  },
+  {
+    "id": "546261227241",
+    "email": "cust-02898@example.com",
+    "firstname": "Karen",
+    "lastname": "Lee",
+    "company": "Meridian Design Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-08-15"
+  },
+  {
+    "id": "546299179756",
+    "email": "cust-00460@example.com",
+    "firstname": "Nancy",
+    "lastname": "Haddad",
+    "company": "Cascade Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-15"
+  },
+  {
+    "id": "546439443135",
+    "email": "cust-00803@example.com",
+    "firstname": "Elizabeth",
+    "lastname": "Johnson",
+    "company": "Cascade & Associates",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2025-06-20"
+  },
+  {
+    "id": "546366197461",
+    "email": "cust-00438@example.com",
+    "firstname": "Sarah",
+    "lastname": "Ramirez",
+    "company": "Bramble Interiors",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-07-27"
+  },
+  {
+    "id": "546399891143",
+    "email": "cust-02661@example.com",
+    "firstname": "Hiroshi",
+    "lastname": "Wilson",
+    "company": "Northline Studio",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-06-02"
+  },
+  {
+    "id": "546351797999",
+    "email": "cust-01977@example.com",
+    "firstname": "Steven",
+    "lastname": "Rodriguez",
+    "company": "Cascade Construction",
+    "lifecyclestage": "lead",
+    "trade_signal_signup_date": "2024-10-25"
+  }
+]
