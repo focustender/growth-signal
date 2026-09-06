@@ -1,0 +1,5174 @@
+{
+  "salesforce_only": [
+    {
+      "customer_id": "CUST-00645",
+      "first_name": "Hiroshi",
+      "last_name": "Davis",
+      "company": "Coastal Design Studio",
+      "email": "Hiroshi.Davis.cust-00645@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00153",
+      "first_name": "James",
+      "last_name": "Jackson",
+      "company": "Northline Design Studio",
+      "email": "James.Jackson.cust-00153@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01461",
+      "first_name": "Thomas",
+      "last_name": "Thomas",
+      "company": "Meridian Design Studio",
+      "email": "Thomas.Thomas.cust-01461@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01303",
+      "first_name": "Elizabeth",
+      "last_name": "Miller",
+      "company": "Bramble Construction",
+      "email": "Elizabeth.Miller.cust-01303@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01177",
+      "first_name": "Yuki",
+      "last_name": "Nguyen",
+      "company": "Bramble Architecture Group",
+      "email": "Yuki.Nguyen.cust-01177@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00750",
+      "first_name": "John",
+      "last_name": "Chen",
+      "company": "Meridian Architecture Group",
+      "email": "John.Chen.cust-00750@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00588",
+      "first_name": "Paul",
+      "last_name": "Johnson",
+      "company": "Northline Design Studio",
+      "email": "Paul.Johnson.cust-00588@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03113",
+      "first_name": "James",
+      "last_name": "Jones",
+      "company": "Harbor Design Studio",
+      "email": "James.Jones.cust-03113@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00515",
+      "first_name": "Joseph",
+      "last_name": "Thomas",
+      "company": "Cascade Design + Build",
+      "email": "Joseph.Thomas.cust-00515@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02351",
+      "first_name": "Donna",
+      "last_name": "Okafor",
+      "company": "Northline Interiors",
+      "email": "Donna.Okafor.cust-02351@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00189",
+      "first_name": "James",
+      "last_name": "Patel",
+      "company": "Ashford Interiors",
+      "email": "James.Patel.cust-00189@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00174",
+      "first_name": "Jessica",
+      "last_name": "Nguyen",
+      "company": "Union Construction",
+      "email": "Jessica.Nguyen.cust-00174@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00532",
+      "first_name": "Ashley",
+      "last_name": "Thomas",
+      "company": "Harbor Construction",
+      "email": "Ashley.Thomas.cust-00532@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01151",
+      "first_name": "Kimberly",
+      "last_name": "Chen",
+      "company": "Harbor Design + Build",
+      "email": "Kimberly.Chen.cust-01151@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01245",
+      "first_name": "Charles",
+      "last_name": "Garcia",
+      "company": "Bramble Interiors",
+      "email": "Charles.Garcia.cust-01245@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02837",
+      "first_name": "Susan",
+      "last_name": "Lewis",
+      "company": "Cascade Build Co.",
+      "email": "Susan.Lewis.cust-02837@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00167",
+      "first_name": "Matthew",
+      "last_name": "Jackson",
+      "company": "Union Build Co.",
+      "email": "Matthew.Jackson.cust-00167@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01031",
+      "first_name": "David",
+      "last_name": "Anderson",
+      "company": "Coastal Architecture Group",
+      "email": "David.Anderson.cust-01031@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03167",
+      "first_name": "Matthew",
+      "last_name": "Miller",
+      "company": "Northline Architecture Group",
+      "email": "Matthew.Miller.cust-03167@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02311",
+      "first_name": "John",
+      "last_name": "Sanchez",
+      "company": "Cascade Design + Build",
+      "email": "John.Sanchez.cust-02311@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01158",
+      "first_name": "Jennifer",
+      "last_name": "White",
+      "company": "Union & Associates",
+      "email": "Jennifer.White.cust-01158@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02476",
+      "first_name": "Betty",
+      "last_name": "Okafor",
+      "company": "Union & Associates",
+      "email": "Betty.Okafor.cust-02476@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01482",
+      "first_name": "Karen",
+      "last_name": "Johnson",
+      "company": "Coastal & Associates",
+      "email": "Karen.Johnson.cust-01482@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00040",
+      "first_name": "Steven",
+      "last_name": "Nguyen",
+      "company": "Coastal Design + Build",
+      "email": "Steven.Nguyen.cust-00040@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00835",
+      "first_name": "Michael",
+      "last_name": "Sanchez",
+      "company": "Bramble Design Studio",
+      "email": "Michael.Sanchez.cust-00835@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03165",
+      "first_name": "John",
+      "last_name": "Patel",
+      "company": "Coastal Design + Build",
+      "email": "John.Patel.cust-03165@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01825",
+      "first_name": "Nancy",
+      "last_name": "Haddad",
+      "company": "Harbor Build Co.",
+      "email": "Nancy.Haddad.cust-01825@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03123",
+      "first_name": "Anthony",
+      "last_name": "Kim",
+      "company": "Cascade Design Studio",
+      "email": "Anthony.Kim.cust-03123@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00826",
+      "first_name": "Jessica",
+      "last_name": "Brown",
+      "company": "Bramble Design Studio",
+      "email": "Jessica.Brown.cust-00826@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01130",
+      "first_name": "Linda",
+      "last_name": "Thomas",
+      "company": "Bramble Design Studio",
+      "email": "Linda.Thomas.cust-01130@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01796",
+      "first_name": "Nancy",
+      "last_name": "Jones",
+      "company": "Meridian Design + Build",
+      "email": "Nancy.Jones.cust-01796@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03176",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "company": "Cascade Design + Build",
+      "email": "Sarah.Miller.cust-03176@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00529",
+      "first_name": "Sandra",
+      "last_name": "Jackson",
+      "company": "Bramble Build Co.",
+      "email": "Sandra.Jackson.cust-00529@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02065",
+      "first_name": "Steven",
+      "last_name": "Harris",
+      "company": "Coastal Build Co.",
+      "email": "Steven.Harris.cust-02065@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00563",
+      "first_name": "Susan",
+      "last_name": "Harris",
+      "company": "Northline Design Studio",
+      "email": "Susan.Harris.cust-00563@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01945",
+      "first_name": "Betty",
+      "last_name": "Anderson",
+      "company": "Bramble Studio",
+      "email": "Betty.Anderson.cust-01945@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01870",
+      "first_name": "Carlos",
+      "last_name": "Jackson",
+      "company": "Coastal Architecture Group",
+      "email": "Carlos.Jackson.cust-01870@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01392",
+      "first_name": "Amara",
+      "last_name": "Brown",
+      "company": "Bramble Interiors",
+      "email": "Amara.Brown.cust-01392@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00272",
+      "first_name": "Diego",
+      "last_name": "Hernandez",
+      "company": "Bramble Design Studio",
+      "email": "Diego.Hernandez.cust-00272@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02549",
+      "first_name": "Michelle",
+      "last_name": "Taylor",
+      "company": "Ashford Build Co.",
+      "email": "Michelle.Taylor.cust-02549@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00686",
+      "first_name": "Susan",
+      "last_name": "Walker",
+      "company": "Coastal Studio",
+      "email": "Susan.Walker.cust-00686@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02052",
+      "first_name": "Sandra",
+      "last_name": "Jackson",
+      "company": "Meridian Interiors",
+      "email": "Sandra.Jackson.cust-02052@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00462",
+      "first_name": "Hiroshi",
+      "last_name": "Patel",
+      "company": "Union Build Co.",
+      "email": "Hiroshi.Patel.cust-00462@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01570",
+      "first_name": "Sarah",
+      "last_name": "Perez",
+      "company": "Bramble Design + Build",
+      "email": "Sarah.Perez.cust-01570@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01960",
+      "first_name": "Robert",
+      "last_name": "Thomas",
+      "company": "Coastal Build Co.",
+      "email": "Robert.Thomas.cust-01960@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01004",
+      "first_name": "Linda",
+      "last_name": "Perez",
+      "company": "Coastal Interiors",
+      "email": "Linda.Perez.cust-01004@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00424",
+      "first_name": "Mark",
+      "last_name": "Jackson",
+      "company": "Bramble Architecture Group",
+      "email": "Mark.Jackson.cust-00424@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00274",
+      "first_name": "Patricia",
+      "last_name": "Anderson",
+      "company": "Coastal & Associates",
+      "email": "Patricia.Anderson.cust-00274@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01211",
+      "first_name": "Wei",
+      "last_name": "Perez",
+      "company": "Union Design Studio",
+      "email": "Wei.Perez.cust-01211@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01552",
+      "first_name": "Joseph",
+      "last_name": "Allen",
+      "company": "Harbor Interiors",
+      "email": "Joseph.Allen.cust-01552@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00472",
+      "first_name": "Mark",
+      "last_name": "Walker",
+      "company": "Cascade Design + Build",
+      "email": "Mark.Walker.cust-00472@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03144",
+      "first_name": "David",
+      "last_name": "Moore",
+      "company": "Ashford & Associates",
+      "email": "David.Moore.cust-03144@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00586",
+      "first_name": "Elizabeth",
+      "last_name": "Taylor",
+      "company": "Meridian Build Co.",
+      "email": "Elizabeth.Taylor.cust-00586@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03048",
+      "first_name": "Priya",
+      "last_name": "Nguyen",
+      "company": "Coastal Build Co.",
+      "email": "Priya.Nguyen.cust-03048@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03076",
+      "first_name": "Karen",
+      "last_name": "Chen",
+      "company": "Harbor Studio",
+      "email": "Karen.Chen.cust-03076@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02513",
+      "first_name": "Paul",
+      "last_name": "Chen",
+      "company": "Bramble Design Studio",
+      "email": "Paul.Chen.cust-02513@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01975",
+      "first_name": "Mark",
+      "last_name": "Harris",
+      "company": "Northline Interiors",
+      "email": "Mark.Harris.cust-01975@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00847",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "company": "Meridian Studio",
+      "email": "Sarah.Rodriguez.cust-00847@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01990",
+      "first_name": "Donna",
+      "last_name": "Allen",
+      "company": "Cascade Build Co.",
+      "email": "Donna.Allen.cust-01990@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01939",
+      "first_name": "John",
+      "last_name": "Williams",
+      "company": "Union & Associates",
+      "email": "John.Williams.cust-01939@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01090",
+      "first_name": "Michael",
+      "last_name": "Martinez",
+      "company": "Bramble Architecture Group",
+      "email": "Michael.Martinez.cust-01090@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01407",
+      "first_name": "Hiroshi",
+      "last_name": "Hernandez",
+      "company": "Union Interiors",
+      "email": "Hiroshi.Hernandez.cust-01407@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00440",
+      "first_name": "Yuki",
+      "last_name": "Lewis",
+      "company": "Coastal & Associates",
+      "email": "Yuki.Lewis.cust-00440@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00887",
+      "first_name": "Diego",
+      "last_name": "Brown",
+      "company": "Cascade Architecture Group",
+      "email": "Diego.Brown.cust-00887@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03193",
+      "first_name": "Sandra",
+      "last_name": "Sanchez",
+      "company": "Union Design + Build",
+      "email": "Sandra.Sanchez.cust-03193@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00850",
+      "first_name": "Diego",
+      "last_name": "Walker",
+      "company": "Ashford Architecture Group",
+      "email": "Diego.Walker.cust-00850@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02562",
+      "first_name": "Kenneth",
+      "last_name": "Moore",
+      "company": "Union Construction",
+      "email": "Kenneth.Moore.cust-02562@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02058",
+      "first_name": "Priya",
+      "last_name": "Garcia",
+      "company": "Harbor Interiors",
+      "email": "Priya.Garcia.cust-02058@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01421",
+      "first_name": "Yuki",
+      "last_name": "Davis",
+      "company": "Meridian Studio",
+      "email": "Yuki.Davis.cust-01421@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01157",
+      "first_name": "Yuki",
+      "last_name": "Nguyen",
+      "company": "Bramble Studio",
+      "email": "Yuki.Nguyen.cust-01157@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01851",
+      "first_name": "Charles",
+      "last_name": "Thompson",
+      "company": "Coastal Design + Build",
+      "email": "Charles.Thompson.cust-01851@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02874",
+      "first_name": "Michael",
+      "last_name": "Martin",
+      "company": "Harbor Construction",
+      "email": "Michael.Martin.cust-02874@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02328",
+      "first_name": "Paul",
+      "last_name": "Hernandez",
+      "company": "Harbor Interiors",
+      "email": "Paul.Hernandez.cust-02328@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02098",
+      "first_name": "Steven",
+      "last_name": "Garcia",
+      "company": "Ashford Design Studio",
+      "email": "Steven.Garcia.cust-02098@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02117",
+      "first_name": "Karen",
+      "last_name": "King",
+      "company": "Bramble Interiors",
+      "email": "Karen.King.cust-02117@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00169",
+      "first_name": "Richard",
+      "last_name": "King",
+      "company": "Cascade Design + Build",
+      "email": "Richard.King.cust-00169@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00654",
+      "first_name": "Jennifer",
+      "last_name": "Lee",
+      "company": "Northline Architecture Group",
+      "email": "Jennifer.Lee.cust-00654@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02256",
+      "first_name": "Hiroshi",
+      "last_name": "King",
+      "company": "Bramble Design + Build",
+      "email": "Hiroshi.King.cust-02256@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00112",
+      "first_name": "Diego",
+      "last_name": "Wilson",
+      "company": "Ashford Design Studio",
+      "email": "Diego.Wilson.cust-00112@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02205",
+      "first_name": "David",
+      "last_name": "Harris",
+      "company": "Coastal Interiors",
+      "email": "David.Harris.cust-02205@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00828",
+      "first_name": "Susan",
+      "last_name": "Nguyen",
+      "company": "Harbor Architecture Group",
+      "email": "Susan.Nguyen.cust-00828@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01039",
+      "first_name": "Kenneth",
+      "last_name": "Garcia",
+      "company": "Coastal Architecture Group",
+      "email": "Kenneth.Garcia.cust-01039@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00730",
+      "first_name": "Diego",
+      "last_name": "Perez",
+      "company": "Meridian Design Studio",
+      "email": "Diego.Perez.cust-00730@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00194",
+      "first_name": "Andrew",
+      "last_name": "Smith",
+      "company": "Ashford Design Studio",
+      "email": "Andrew.Smith.cust-00194@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00606",
+      "first_name": "Michael",
+      "last_name": "Harris",
+      "company": "Meridian Architecture Group",
+      "email": "Michael.Harris.cust-00606@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02538",
+      "first_name": "Daniel",
+      "last_name": "Taylor",
+      "company": "Ashford Studio",
+      "email": "Daniel.Taylor.cust-02538@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02645",
+      "first_name": "Robert",
+      "last_name": "Taylor",
+      "company": "Cascade Design + Build",
+      "email": "Robert.Taylor.cust-02645@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01514",
+      "first_name": "Wei",
+      "last_name": "Jones",
+      "company": "Harbor Design Studio",
+      "email": "Wei.Jones.cust-01514@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02430",
+      "first_name": "John",
+      "last_name": "Allen",
+      "company": "Coastal Studio",
+      "email": "John.Allen.cust-02430@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03038",
+      "first_name": "Patricia",
+      "last_name": "Nguyen",
+      "company": "Union Design Studio",
+      "email": "Patricia.Nguyen.cust-03038@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02749",
+      "first_name": "Elizabeth",
+      "last_name": "Rodriguez",
+      "company": "Harbor Interiors",
+      "email": "Elizabeth.Rodriguez.cust-02749@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02738",
+      "first_name": "Carlos",
+      "last_name": "Young",
+      "company": "Harbor Design Studio",
+      "email": "Carlos.Young.cust-02738@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01730",
+      "first_name": "Priya",
+      "last_name": "Hernandez",
+      "company": "Coastal Studio",
+      "email": "Priya.Hernandez.cust-01730@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01328",
+      "first_name": "Karen",
+      "last_name": "Wright",
+      "company": "Cascade Design Studio",
+      "email": "Karen.Wright.cust-01328@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01025",
+      "first_name": "Diego",
+      "last_name": "Lewis",
+      "company": "Northline Studio",
+      "email": "Diego.Lewis.cust-01025@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02441",
+      "first_name": "Joseph",
+      "last_name": "Nguyen",
+      "company": "Ashford Interiors",
+      "email": "Joseph.Nguyen.cust-02441@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02539",
+      "first_name": "Amara",
+      "last_name": "Wilson",
+      "company": "Bramble Architecture Group",
+      "email": "Amara.Wilson.cust-02539@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01706",
+      "first_name": "Daniel",
+      "last_name": "Clark",
+      "company": "Bramble Studio",
+      "email": "Daniel.Clark.cust-01706@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01223",
+      "first_name": "Carlos",
+      "last_name": "Harris",
+      "company": "Harbor & Associates",
+      "email": "Carlos.Harris.cust-01223@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02841",
+      "first_name": "Kimberly",
+      "last_name": "Wright",
+      "company": "Cascade & Associates",
+      "email": "Kimberly.Wright.cust-02841@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00725",
+      "first_name": "Kimberly",
+      "last_name": "Davis",
+      "company": "Cascade Construction",
+      "email": "Kimberly.Davis.cust-00725@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02958",
+      "first_name": "Thomas",
+      "last_name": "Thomas",
+      "company": "Northline Design + Build",
+      "email": "Thomas.Thomas.cust-02958@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00685",
+      "first_name": "Patricia",
+      "last_name": "Thompson",
+      "company": "Harbor Architecture Group",
+      "email": "Patricia.Thompson.cust-00685@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02016",
+      "first_name": "James",
+      "last_name": "Chen",
+      "company": "Coastal Design Studio",
+      "email": "James.Chen.cust-02016@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01488",
+      "first_name": "Priya",
+      "last_name": "Thomas",
+      "company": "Bramble Design + Build",
+      "email": "Priya.Thomas.cust-01488@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01418",
+      "first_name": "Fatima",
+      "last_name": "Thomas",
+      "company": "Bramble Construction",
+      "email": "Fatima.Thomas.cust-01418@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00715",
+      "first_name": "Maria",
+      "last_name": "Brown",
+      "company": "Meridian Design Studio",
+      "email": "Maria.Brown.cust-00715@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02020",
+      "first_name": "Hiroshi",
+      "last_name": "Williams",
+      "company": "Coastal Studio",
+      "email": "Hiroshi.Williams.cust-02020@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01569",
+      "first_name": "Sarah",
+      "last_name": "Brown",
+      "company": "Ashford Design Studio",
+      "email": "Sarah.Brown.cust-01569@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01124",
+      "first_name": "Linda",
+      "last_name": "Thompson",
+      "company": "Meridian Construction",
+      "email": "Linda.Thompson.cust-01124@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03115",
+      "first_name": "Patricia",
+      "last_name": "King",
+      "company": "Ashford Interiors",
+      "email": "Patricia.King.cust-03115@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01562",
+      "first_name": "Thomas",
+      "last_name": "Jackson",
+      "company": "Northline Studio",
+      "email": "Thomas.Jackson.cust-01562@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01037",
+      "first_name": "Carlos",
+      "last_name": "Allen",
+      "company": "Ashford Design + Build",
+      "email": "Carlos.Allen.cust-01037@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00945",
+      "first_name": "Joseph",
+      "last_name": "Nguyen",
+      "company": "Bramble Design Studio",
+      "email": "Joseph.Nguyen.cust-00945@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00625",
+      "first_name": "Elizabeth",
+      "last_name": "Kim",
+      "company": "Coastal Design Studio",
+      "email": "Elizabeth.Kim.cust-00625@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00418",
+      "first_name": "Wei",
+      "last_name": "Young",
+      "company": "Ashford Design + Build",
+      "email": "Wei.Young.cust-00418@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01353",
+      "first_name": "Thomas",
+      "last_name": "Young",
+      "company": "Ashford & Associates",
+      "email": "Thomas.Young.cust-01353@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01314",
+      "first_name": "Ashley",
+      "last_name": "Wilson",
+      "company": "Meridian Design Studio",
+      "email": "Ashley.Wilson.cust-01314@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02955",
+      "first_name": "Jennifer",
+      "last_name": "Miller",
+      "company": "Harbor Construction",
+      "email": "Jennifer.Miller.cust-02955@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02040",
+      "first_name": "Carlos",
+      "last_name": "Lewis",
+      "company": "Cascade Design + Build",
+      "email": "Carlos.Lewis.cust-02040@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00148",
+      "first_name": "Betty",
+      "last_name": "Lewis",
+      "company": "Ashford Design + Build",
+      "email": "Betty.Lewis.cust-00148@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02390",
+      "first_name": "Ashley",
+      "last_name": "Walker",
+      "company": "Northline Build Co.",
+      "email": "Ashley.Walker.cust-02390@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00345",
+      "first_name": "Robert",
+      "last_name": "Miller",
+      "company": "Harbor Construction",
+      "email": "Robert.Miller.cust-00345@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00455",
+      "first_name": "Robert",
+      "last_name": "Clark",
+      "company": "Union Architecture Group",
+      "email": "Robert.Clark.cust-00455@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01650",
+      "first_name": "Matthew",
+      "last_name": "Miller",
+      "company": "Union Studio",
+      "email": "Matthew.Miller.cust-01650@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02922",
+      "first_name": "Thomas",
+      "last_name": "Wilson",
+      "company": "Cascade Interiors",
+      "email": "Thomas.Wilson.cust-02922@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02168",
+      "first_name": "Jessica",
+      "last_name": "Nguyen",
+      "company": "Harbor Build Co.",
+      "email": "Jessica.Nguyen.cust-02168@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03079",
+      "first_name": "Kimberly",
+      "last_name": "Rodriguez",
+      "company": "Coastal & Associates",
+      "email": "Kimberly.Rodriguez.cust-03079@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01100",
+      "first_name": "Paul",
+      "last_name": "Lopez",
+      "company": "Coastal Construction",
+      "email": "Paul.Lopez.cust-01100@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01596",
+      "first_name": "Charles",
+      "last_name": "Walker",
+      "company": "Ashford Design + Build",
+      "email": "Charles.Walker.cust-01596@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03164",
+      "first_name": "Thomas",
+      "last_name": "Brown",
+      "company": "Bramble Architecture Group",
+      "email": "Thomas.Brown.cust-03164@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01006",
+      "first_name": "Kimberly",
+      "last_name": "Patel",
+      "company": "Meridian & Associates",
+      "email": "Kimberly.Patel.cust-01006@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00998",
+      "first_name": "Jennifer",
+      "last_name": "Williams",
+      "company": "Northline & Associates",
+      "email": "Jennifer.Williams.cust-00998@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02438",
+      "first_name": "Elena",
+      "last_name": "Nguyen",
+      "company": "Bramble Design Studio",
+      "email": "Elena.Nguyen.cust-02438@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01246",
+      "first_name": "Maria",
+      "last_name": "Jones",
+      "company": "Meridian Build Co.",
+      "email": "Maria.Jones.cust-01246@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03018",
+      "first_name": "Thomas",
+      "last_name": "Hernandez",
+      "company": "Bramble Studio",
+      "email": "Thomas.Hernandez.cust-03018@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00689",
+      "first_name": "Ashley",
+      "last_name": "Allen",
+      "company": "Union Design Studio",
+      "email": "Ashley.Allen.cust-00689@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01478",
+      "first_name": "Emily",
+      "last_name": "Anderson",
+      "company": "Coastal Design + Build",
+      "email": "Emily.Anderson.cust-01478@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03009",
+      "first_name": "Mark",
+      "last_name": "Williams",
+      "company": "Meridian Design Studio",
+      "email": "Mark.Williams.cust-03009@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00033",
+      "first_name": "Susan",
+      "last_name": "Sanchez",
+      "company": "Meridian Studio",
+      "email": "Susan.Sanchez.cust-00033@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02446",
+      "first_name": "Maria",
+      "last_name": "Sanchez",
+      "company": "Harbor Architecture Group",
+      "email": "Maria.Sanchez.cust-02446@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01959",
+      "first_name": "Karen",
+      "last_name": "Walker",
+      "company": "Union Build Co.",
+      "email": "Karen.Walker.cust-01959@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00352",
+      "first_name": "Nancy",
+      "last_name": "Lewis",
+      "company": "Union Interiors",
+      "email": "Nancy.Lewis.cust-00352@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01829",
+      "first_name": "Amara",
+      "last_name": "Patel",
+      "company": "Union Studio",
+      "email": "Amara.Patel.cust-01829@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01416",
+      "first_name": "Carlos",
+      "last_name": "Allen",
+      "company": "Coastal Design Studio",
+      "email": "Carlos.Allen.cust-01416@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02029",
+      "first_name": "David",
+      "last_name": "Wilson",
+      "company": "Harbor Design Studio",
+      "email": "David.Wilson.cust-02029@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00728",
+      "first_name": "Nancy",
+      "last_name": "Anderson",
+      "company": "Bramble Design Studio",
+      "email": "Nancy.Anderson.cust-00728@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02786",
+      "first_name": "Robert",
+      "last_name": "Chen",
+      "company": "Ashford Build Co.",
+      "email": "Robert.Chen.cust-02786@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01700",
+      "first_name": "Michelle",
+      "last_name": "Williams",
+      "company": "Cascade Interiors",
+      "email": "Michelle.Williams.cust-01700@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00883",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "company": "Harbor Design + Build",
+      "email": "Lisa.Williams.cust-00883@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00349",
+      "first_name": "Robert",
+      "last_name": "Chen",
+      "company": "Cascade Interiors",
+      "email": "Robert.Chen.cust-00349@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00793",
+      "first_name": "Emily",
+      "last_name": "King",
+      "company": "Cascade Construction",
+      "email": "Emily.King.cust-00793@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01145",
+      "first_name": "Kenneth",
+      "last_name": "Hernandez",
+      "company": "Union Architecture Group",
+      "email": "Kenneth.Hernandez.cust-01145@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02990",
+      "first_name": "Robert",
+      "last_name": "King",
+      "company": "Coastal Build Co.",
+      "email": "Robert.King.cust-02990@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01200",
+      "first_name": "John",
+      "last_name": "Lopez",
+      "company": "Harbor Architecture Group",
+      "email": "John.Lopez.cust-01200@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00007",
+      "first_name": "Patricia",
+      "last_name": "Okafor",
+      "company": "Northline Architecture Group",
+      "email": "Patricia.Okafor.cust-00007@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02385",
+      "first_name": "Patricia",
+      "last_name": "Taylor",
+      "company": "Meridian Construction",
+      "email": "Patricia.Taylor.cust-02385@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01957",
+      "first_name": "Mark",
+      "last_name": "Davis",
+      "company": "Ashford Interiors",
+      "email": "Mark.Davis.cust-01957@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02566",
+      "first_name": "Wei",
+      "last_name": "Taylor",
+      "company": "Meridian Architecture Group",
+      "email": "Wei.Taylor.cust-02566@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01345",
+      "first_name": "Fatima",
+      "last_name": "Okafor",
+      "company": "Coastal Build Co.",
+      "email": "Fatima.Okafor.cust-01345@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02077",
+      "first_name": "Linda",
+      "last_name": "Haddad",
+      "company": "Northline Build Co.",
+      "email": "Linda.Haddad.cust-02077@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00524",
+      "first_name": "John",
+      "last_name": "Ramirez",
+      "company": "Northline Design Studio",
+      "email": "John.Ramirez.cust-00524@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01350",
+      "first_name": "Carlos",
+      "last_name": "Chen",
+      "company": "Northline Construction",
+      "email": "Carlos.Chen.cust-01350@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00343",
+      "first_name": "Wei",
+      "last_name": "Wright",
+      "company": "Bramble Build Co.",
+      "email": "Wei.Wright.cust-00343@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01648",
+      "first_name": "Lisa",
+      "last_name": "Moore",
+      "company": "Coastal Interiors",
+      "email": "Lisa.Moore.cust-01648@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00800",
+      "first_name": "Joseph",
+      "last_name": "Perez",
+      "company": "Ashford Design Studio",
+      "email": "Joseph.Perez.cust-00800@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01698",
+      "first_name": "Thomas",
+      "last_name": "Moore",
+      "company": "Bramble Studio",
+      "email": "Thomas.Moore.cust-01698@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02249",
+      "first_name": "Mark",
+      "last_name": "Rodriguez",
+      "company": "Bramble Build Co.",
+      "email": "Mark.Rodriguez.cust-02249@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01614",
+      "first_name": "Carlos",
+      "last_name": "Lee",
+      "company": "Cascade Design + Build",
+      "email": "Carlos.Lee.cust-01614@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00572",
+      "first_name": "Steven",
+      "last_name": "Perez",
+      "company": "Cascade Studio",
+      "email": "Steven.Perez.cust-00572@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02468",
+      "first_name": "Patricia",
+      "last_name": "Garcia",
+      "company": "Cascade Design + Build",
+      "email": "Patricia.Garcia.cust-02468@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00990",
+      "first_name": "Steven",
+      "last_name": "Haddad",
+      "company": "Northline Architecture Group",
+      "email": "Steven.Haddad.cust-00990@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02767",
+      "first_name": "Wei",
+      "last_name": "Miller",
+      "company": "Ashford Design + Build",
+      "email": "Wei.Miller.cust-02767@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00473",
+      "first_name": "Patricia",
+      "last_name": "Nguyen",
+      "company": "Ashford Build Co.",
+      "email": "Patricia.Nguyen.cust-00473@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02812",
+      "first_name": "Joseph",
+      "last_name": "King",
+      "company": "Ashford Interiors",
+      "email": "Joseph.King.cust-02812@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02128",
+      "first_name": "Karen",
+      "last_name": "Rodriguez",
+      "company": "Northline Design Studio",
+      "email": "Karen.Rodriguez.cust-02128@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01397",
+      "first_name": "Betty",
+      "last_name": "Brown",
+      "company": "Coastal Interiors",
+      "email": "Betty.Brown.cust-01397@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00003",
+      "first_name": "Thomas",
+      "last_name": "Harris",
+      "company": "Ashford Interiors",
+      "email": "Thomas.Harris.cust-00003@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01597",
+      "first_name": "Nancy",
+      "last_name": "Hernandez",
+      "company": "Coastal Architecture Group",
+      "email": "Nancy.Hernandez.cust-01597@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00845",
+      "first_name": "Kimberly",
+      "last_name": "Nguyen",
+      "company": "Coastal Interiors",
+      "email": "Kimberly.Nguyen.cust-00845@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02827",
+      "first_name": "Daniel",
+      "last_name": "Haddad",
+      "company": "Coastal Construction",
+      "email": "Daniel.Haddad.cust-02827@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00048",
+      "first_name": "Elena",
+      "last_name": "Wright",
+      "company": "Northline & Associates",
+      "email": "Elena.Wright.cust-00048@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02313",
+      "first_name": "Maria",
+      "last_name": "Patel",
+      "company": "Coastal & Associates",
+      "email": "Maria.Patel.cust-02313@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02736",
+      "first_name": "Daniel",
+      "last_name": "Miller",
+      "company": "Harbor Interiors",
+      "email": "Daniel.Miller.cust-02736@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00823",
+      "first_name": "Elizabeth",
+      "last_name": "Moore",
+      "company": "Bramble Design Studio",
+      "email": "Elizabeth.Moore.cust-00823@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00672",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "company": "Meridian Construction",
+      "email": "Michael.Miller.cust-00672@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00173",
+      "first_name": "Priya",
+      "last_name": "Martinez",
+      "company": "Northline Architecture Group",
+      "email": "Priya.Martinez.cust-00173@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00678",
+      "first_name": "Charles",
+      "last_name": "Martin",
+      "company": "Harbor Interiors",
+      "email": "Charles.Martin.cust-00678@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02726",
+      "first_name": "Diego",
+      "last_name": "Anderson",
+      "company": "Bramble Interiors",
+      "email": "Diego.Anderson.cust-02726@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00243",
+      "first_name": "Matthew",
+      "last_name": "Anderson",
+      "company": "Meridian Interiors",
+      "email": "Matthew.Anderson.cust-00243@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00251",
+      "first_name": "Yuki",
+      "last_name": "Moore",
+      "company": "Coastal Studio",
+      "email": "Yuki.Moore.cust-00251@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01979",
+      "first_name": "Donna",
+      "last_name": "Allen",
+      "company": "Bramble Architecture Group",
+      "email": "Donna.Allen.cust-01979@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01301",
+      "first_name": "Karen",
+      "last_name": "Williams",
+      "company": "Union & Associates",
+      "email": "Karen.Williams.cust-01301@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00222",
+      "first_name": "John",
+      "last_name": "Lewis",
+      "company": "Cascade Design Studio",
+      "email": "John.Lewis.cust-00222@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01401",
+      "first_name": "Charles",
+      "last_name": "Johnson",
+      "company": "Ashford Studio",
+      "email": "Charles.Johnson.cust-01401@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00403",
+      "first_name": "Maria",
+      "last_name": "Thompson",
+      "company": "Union Design Studio",
+      "email": "Maria.Thompson.cust-00403@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00404",
+      "first_name": "Elizabeth",
+      "last_name": "Moore",
+      "company": "Northline Design + Build",
+      "email": "Elizabeth.Moore.cust-00404@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01733",
+      "first_name": "Susan",
+      "last_name": "Robinson",
+      "company": "Union Studio",
+      "email": "Susan.Robinson.cust-01733@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01271",
+      "first_name": "Priya",
+      "last_name": "Lewis",
+      "company": "Union Construction",
+      "email": "Priya.Lewis.cust-01271@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03194",
+      "first_name": "Priya",
+      "last_name": "Garcia",
+      "company": "Harbor Studio",
+      "email": "Priya.Garcia.cust-03194@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00484",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "company": "Meridian Construction",
+      "email": "Michael.Brown.cust-00484@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02637",
+      "first_name": "Amara",
+      "last_name": "Martinez",
+      "company": "Bramble Architecture Group",
+      "email": "Amara.Martinez.cust-02637@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02413",
+      "first_name": "Michelle",
+      "last_name": "Johnson",
+      "company": "Bramble Architecture Group",
+      "email": "Michelle.Johnson.cust-02413@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01611",
+      "first_name": "Anthony",
+      "last_name": "Chen",
+      "company": "Meridian Design Studio",
+      "email": "Anthony.Chen.cust-01611@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02657",
+      "first_name": "Priya",
+      "last_name": "Martinez",
+      "company": "Ashford Design + Build",
+      "email": "Priya.Martinez.cust-02657@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02692",
+      "first_name": "Paul",
+      "last_name": "Rodriguez",
+      "company": "Union Design Studio",
+      "email": "Paul.Rodriguez.cust-02692@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02184",
+      "first_name": "Linda",
+      "last_name": "Lee",
+      "company": "Bramble Design Studio",
+      "email": "Linda.Lee.cust-02184@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02879",
+      "first_name": "Anthony",
+      "last_name": "Johnson",
+      "company": "Coastal Interiors",
+      "email": "Anthony.Johnson.cust-02879@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01872",
+      "first_name": "Betty",
+      "last_name": "Anderson",
+      "company": "Ashford Build Co.",
+      "email": "Betty.Anderson.cust-01872@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00584",
+      "first_name": "Yuki",
+      "last_name": "Taylor",
+      "company": "Bramble Design + Build",
+      "email": "Yuki.Taylor.cust-00584@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01943",
+      "first_name": "Carlos",
+      "last_name": "Miller",
+      "company": "Coastal Construction",
+      "email": "Carlos.Miller.cust-01943@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03071",
+      "first_name": "Betty",
+      "last_name": "Patel",
+      "company": "Ashford Interiors",
+      "email": "Betty.Patel.cust-03071@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02650",
+      "first_name": "Ashley",
+      "last_name": "Haddad",
+      "company": "Ashford & Associates",
+      "email": "Ashley.Haddad.cust-02650@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01774",
+      "first_name": "David",
+      "last_name": "Taylor",
+      "company": "Harbor Architecture Group",
+      "email": "David.Taylor.cust-01774@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01721",
+      "first_name": "Susan",
+      "last_name": "Lopez",
+      "company": "Union Studio",
+      "email": "Susan.Lopez.cust-01721@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02190",
+      "first_name": "Ashley",
+      "last_name": "Smith",
+      "company": "Union Construction",
+      "email": "Ashley.Smith.cust-02190@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02801",
+      "first_name": "Richard",
+      "last_name": "Thompson",
+      "company": "Meridian Studio",
+      "email": "Richard.Thompson.cust-02801@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01366",
+      "first_name": "Ashley",
+      "last_name": "Taylor",
+      "company": "Bramble & Associates",
+      "email": "Ashley.Taylor.cust-01366@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01186",
+      "first_name": "Charles",
+      "last_name": "Hernandez",
+      "company": "Coastal Build Co.",
+      "email": "Charles.Hernandez.cust-01186@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00374",
+      "first_name": "Amara",
+      "last_name": "Miller",
+      "company": "Northline Construction",
+      "email": "Amara.Miller.cust-00374@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02618",
+      "first_name": "Sandra",
+      "last_name": "Johnson",
+      "company": "Union Design Studio",
+      "email": "Sandra.Johnson.cust-02618@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00647",
+      "first_name": "Emily",
+      "last_name": "Thomas",
+      "company": "Ashford Design Studio",
+      "email": "Emily.Thomas.cust-00647@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02436",
+      "first_name": "Jessica",
+      "last_name": "Walker",
+      "company": "Union Design Studio",
+      "email": "Jessica.Walker.cust-02436@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00879",
+      "first_name": "Betty",
+      "last_name": "Lee",
+      "company": "Northline Build Co.",
+      "email": "Betty.Lee.cust-00879@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00057",
+      "first_name": "Sarah",
+      "last_name": "Thomas",
+      "company": "Bramble Design Studio",
+      "email": "Sarah.Thomas.cust-00057@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01572",
+      "first_name": "James",
+      "last_name": "Wilson",
+      "company": "Meridian Construction",
+      "email": "James.Wilson.cust-01572@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02406",
+      "first_name": "Mark",
+      "last_name": "Thompson",
+      "company": "Northline Studio",
+      "email": "Mark.Thompson.cust-02406@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02768",
+      "first_name": "Charles",
+      "last_name": "Brown",
+      "company": "Coastal & Associates",
+      "email": "Charles.Brown.cust-02768@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01908",
+      "first_name": "Charles",
+      "last_name": "White",
+      "company": "Harbor Design Studio",
+      "email": "Charles.White.cust-01908@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02519",
+      "first_name": "Elena",
+      "last_name": "King",
+      "company": "Meridian Architecture Group",
+      "email": "Elena.King.cust-02519@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00017",
+      "first_name": "Mark",
+      "last_name": "Nguyen",
+      "company": "Ashford Design Studio",
+      "email": "Mark.Nguyen.cust-00017@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00226",
+      "first_name": "Matthew",
+      "last_name": "Smith",
+      "company": "Coastal Studio",
+      "email": "Matthew.Smith.cust-00226@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01663",
+      "first_name": "Michael",
+      "last_name": "Moore",
+      "company": "Northline Studio",
+      "email": "Michael.Moore.cust-01663@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03162",
+      "first_name": "Richard",
+      "last_name": "Chen",
+      "company": "Meridian Design Studio",
+      "email": "Richard.Chen.cust-03162@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01973",
+      "first_name": "Karen",
+      "last_name": "Johnson",
+      "company": "Northline Design + Build",
+      "email": "Karen.Johnson.cust-01973@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00216",
+      "first_name": "Jennifer",
+      "last_name": "Okafor",
+      "company": "Bramble Studio",
+      "email": "Jennifer.Okafor.cust-00216@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02763",
+      "first_name": "Paul",
+      "last_name": "White",
+      "company": "Northline & Associates",
+      "email": "Paul.White.cust-02763@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00853",
+      "first_name": "Lisa",
+      "last_name": "Lewis",
+      "company": "Cascade Architecture Group",
+      "email": "Lisa.Lewis.cust-00853@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02375",
+      "first_name": "Diego",
+      "last_name": "King",
+      "company": "Bramble Design Studio",
+      "email": "Diego.King.cust-02375@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01364",
+      "first_name": "Michael",
+      "last_name": "Sanchez",
+      "company": "Bramble Interiors",
+      "email": "Michael.Sanchez.cust-01364@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00667",
+      "first_name": "Wei",
+      "last_name": "Wilson",
+      "company": "Coastal Build Co.",
+      "email": "Wei.Wilson.cust-00667@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03182",
+      "first_name": "Karen",
+      "last_name": "Johnson",
+      "company": "Coastal Design + Build",
+      "email": "Karen.Johnson.cust-03182@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02816",
+      "first_name": "Paul",
+      "last_name": "Garcia",
+      "company": "Ashford Design + Build",
+      "email": "Paul.Garcia.cust-02816@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00611",
+      "first_name": "Kenneth",
+      "last_name": "Nguyen",
+      "company": "Meridian Build Co.",
+      "email": "Kenneth.Nguyen.cust-00611@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02912",
+      "first_name": "Yuki",
+      "last_name": "Wilson",
+      "company": "Union Design Studio",
+      "email": "Yuki.Wilson.cust-02912@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00408",
+      "first_name": "Anthony",
+      "last_name": "Lewis",
+      "company": "Ashford Design + Build",
+      "email": "Anthony.Lewis.cust-00408@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01524",
+      "first_name": "Patricia",
+      "last_name": "Thompson",
+      "company": "Meridian & Associates",
+      "email": "Patricia.Thompson.cust-01524@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01551",
+      "first_name": "Aisha",
+      "last_name": "Perez",
+      "company": "Coastal Studio",
+      "email": "Aisha.Perez.cust-01551@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01256",
+      "first_name": "Carlos",
+      "last_name": "Davis",
+      "company": "Ashford Design + Build",
+      "email": "Carlos.Davis.cust-01256@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00680",
+      "first_name": "Daniel",
+      "last_name": "King",
+      "company": "Coastal Design + Build",
+      "email": "Daniel.King.cust-00680@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01944",
+      "first_name": "Daniel",
+      "last_name": "Ramirez",
+      "company": "Harbor Construction",
+      "email": "Daniel.Ramirez.cust-01944@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01049",
+      "first_name": "Lisa",
+      "last_name": "Clark",
+      "company": "Coastal Build Co.",
+      "email": "Lisa.Clark.cust-01049@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00544",
+      "first_name": "Amara",
+      "last_name": "Martin",
+      "company": "Harbor Design Studio",
+      "email": "Amara.Martin.cust-00544@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00291",
+      "first_name": "Priya",
+      "last_name": "Rodriguez",
+      "company": "Cascade Architecture Group",
+      "email": "Priya.Rodriguez.cust-00291@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00297",
+      "first_name": "Jessica",
+      "last_name": "Ramirez",
+      "company": "Union Construction",
+      "email": "Jessica.Ramirez.cust-00297@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03068",
+      "first_name": "Carlos",
+      "last_name": "Sanchez",
+      "company": "Coastal Interiors",
+      "email": "Carlos.Sanchez.cust-03068@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00921",
+      "first_name": "Yuki",
+      "last_name": "Lopez",
+      "company": "Coastal Design Studio",
+      "email": "Yuki.Lopez.cust-00921@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01986",
+      "first_name": "Aisha",
+      "last_name": "Kim",
+      "company": "Union Architecture Group",
+      "email": "Aisha.Kim.cust-01986@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01062",
+      "first_name": "Daniel",
+      "last_name": "Clark",
+      "company": "Bramble Architecture Group",
+      "email": "Daniel.Clark.cust-01062@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02414",
+      "first_name": "Priya",
+      "last_name": "Garcia",
+      "company": "Bramble Interiors",
+      "email": "Priya.Garcia.cust-02414@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-03131",
+      "first_name": "Daniel",
+      "last_name": "Martin",
+      "company": "Bramble Architecture Group",
+      "email": "Daniel.Martin.cust-03131@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00298",
+      "first_name": "Joseph",
+      "last_name": "Lewis",
+      "company": "Northline Design Studio",
+      "email": "Joseph.Lewis.cust-00298@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00180",
+      "first_name": "Fatima",
+      "last_name": "Okafor",
+      "company": "Harbor Interiors",
+      "email": "Fatima.Okafor.cust-00180@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01043",
+      "first_name": "Elena",
+      "last_name": "Perez",
+      "company": "Cascade Design + Build",
+      "email": "Elena.Perez.cust-01043@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01914",
+      "first_name": "Steven",
+      "last_name": "Robinson",
+      "company": "Harbor Studio",
+      "email": "Steven.Robinson.cust-01914@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00344",
+      "first_name": "Kimberly",
+      "last_name": "Anderson",
+      "company": "Northline Interiors",
+      "email": "Kimberly.Anderson.cust-00344@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03004",
+      "first_name": "Donna",
+      "last_name": "Young",
+      "company": "Northline Design Studio",
+      "email": "Donna.Young.cust-03004@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00561",
+      "first_name": "Susan",
+      "last_name": "Jones",
+      "company": "Union Construction",
+      "email": "Susan.Jones.cust-00561@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-03084",
+      "first_name": "Nancy",
+      "last_name": "King",
+      "company": "Cascade Architecture Group",
+      "email": "Nancy.King.cust-03084@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02366",
+      "first_name": "Carlos",
+      "last_name": "Haddad",
+      "company": "Northline Studio",
+      "email": "Carlos.Haddad.cust-02366@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01180",
+      "first_name": "Matthew",
+      "last_name": "Jones",
+      "company": "Bramble Design Studio",
+      "email": "Matthew.Jones.cust-01180@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02622",
+      "first_name": "Thomas",
+      "last_name": "Lee",
+      "company": "Meridian & Associates",
+      "email": "Thomas.Lee.cust-02622@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02401",
+      "first_name": "Sarah",
+      "last_name": "Wilson",
+      "company": "Bramble Design + Build",
+      "email": "Sarah.Wilson.cust-02401@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00528",
+      "first_name": "David",
+      "last_name": "Smith",
+      "company": "Ashford Studio",
+      "email": "David.Smith.cust-00528@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01740",
+      "first_name": "Linda",
+      "last_name": "Taylor",
+      "company": "Union Design Studio",
+      "email": "Linda.Taylor.cust-01740@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01230",
+      "first_name": "Emily",
+      "last_name": "Haddad",
+      "company": "Union Build Co.",
+      "email": "Emily.Haddad.cust-01230@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01630",
+      "first_name": "Patricia",
+      "last_name": "Walker",
+      "company": "Northline Build Co.",
+      "email": "Patricia.Walker.cust-01630@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00232",
+      "first_name": "Ashley",
+      "last_name": "Kim",
+      "company": "Coastal Design + Build",
+      "email": "Ashley.Kim.cust-00232@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01167",
+      "first_name": "Jessica",
+      "last_name": "Sanchez",
+      "company": "Coastal Design + Build",
+      "email": "Jessica.Sanchez.cust-01167@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02595",
+      "first_name": "Andrew",
+      "last_name": "Clark",
+      "company": "Ashford Build Co.",
+      "email": "Andrew.Clark.cust-02595@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01647",
+      "first_name": "Thomas",
+      "last_name": "Martinez",
+      "company": "Meridian Interiors",
+      "email": "Thomas.Martinez.cust-01647@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-03196",
+      "first_name": "Elena",
+      "last_name": "Garcia",
+      "company": "Northline Build Co.",
+      "email": "Elena.Garcia.cust-03196@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-01731",
+      "first_name": "Jennifer",
+      "last_name": "Lewis",
+      "company": "Harbor Design Studio",
+      "email": "Jennifer.Lewis.cust-01731@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-00041",
+      "first_name": "Sarah",
+      "last_name": "Lopez",
+      "company": "Coastal Design Studio",
+      "email": "Sarah.Lopez.cust-00041@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-00275",
+      "first_name": "Amara",
+      "last_name": "Wright",
+      "company": "Northline Architecture Group",
+      "email": "Amara.Wright.cust-00275@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01753",
+      "first_name": "Steven",
+      "last_name": "Williams",
+      "company": "Union Build Co.",
+      "email": "Steven.Williams.cust-01753@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00491",
+      "first_name": "Priya",
+      "last_name": "Taylor",
+      "company": "Ashford Studio",
+      "email": "Priya.Taylor.cust-00491@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02647",
+      "first_name": "Michael",
+      "last_name": "Walker",
+      "company": "Bramble Design Studio",
+      "email": "Michael.Walker.cust-02647@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01738",
+      "first_name": "Elizabeth",
+      "last_name": "Walker",
+      "company": "Northline & Associates",
+      "email": "Elizabeth.Walker.cust-01738@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01281",
+      "first_name": "Carlos",
+      "last_name": "Wright",
+      "company": "Meridian Interiors",
+      "email": "Carlos.Wright.cust-01281@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02025",
+      "first_name": "Priya",
+      "last_name": "Okafor",
+      "company": "Ashford Design Studio",
+      "email": "Priya.Okafor.cust-02025@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02742",
+      "first_name": "Lisa",
+      "last_name": "Robinson",
+      "company": "Cascade Build Co.",
+      "email": "Lisa.Robinson.cust-02742@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-01806",
+      "first_name": "Aisha",
+      "last_name": "King",
+      "company": "Bramble Design Studio",
+      "email": "Aisha.King.cust-01806@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Closed - Converted"
+    },
+    {
+      "customer_id": "CUST-02000",
+      "first_name": "Paul",
+      "last_name": "Patel",
+      "company": "Ashford & Associates",
+      "email": "Paul.Patel.cust-02000@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00993",
+      "first_name": "Kimberly",
+      "last_name": "Hernandez",
+      "company": "Bramble Architecture Group",
+      "email": "Kimberly.Hernandez.cust-00993@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02283",
+      "first_name": "Emily",
+      "last_name": "Robinson",
+      "company": "Harbor Design + Build",
+      "email": "Emily.Robinson.cust-02283@example.com",
+      "segment": "commercial",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-01013",
+      "first_name": "Karen",
+      "last_name": "Taylor",
+      "company": "Coastal Architecture Group",
+      "email": "Karen.Taylor.cust-01013@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    },
+    {
+      "customer_id": "CUST-02865",
+      "first_name": "Hiroshi",
+      "last_name": "Jackson",
+      "company": "Bramble & Associates",
+      "email": "Hiroshi.Jackson.cust-02865@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-02298",
+      "first_name": "Kenneth",
+      "last_name": "Allen",
+      "company": "Meridian Studio",
+      "email": "Kenneth.Allen.cust-02298@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Working - Contacted"
+    },
+    {
+      "customer_id": "CUST-00777",
+      "first_name": "Hiroshi",
+      "last_name": "Taylor",
+      "company": "Harbor Studio",
+      "email": "Hiroshi.Taylor.cust-00777@example.com",
+      "segment": "trade",
+      "salesforce_stage": "Open - Not Contacted"
+    }
+  ],
+  "hubspot_only": [
+    {
+      "customer_id": "CUST-01538",
+      "email": "cust-01538@example.com",
+      "first_name": "Lisa",
+      "last_name": "Moore"
+    },
+    {
+      "customer_id": "CUST-01042",
+      "email": "cust-01042@example.com",
+      "first_name": "Wei",
+      "last_name": "Lopez"
+    },
+    {
+      "customer_id": "CUST-01487",
+      "email": "cust-01487@example.com",
+      "first_name": "Joseph",
+      "last_name": "Martin"
+    },
+    {
+      "customer_id": "CUST-01854",
+      "email": "cust-01854@example.com",
+      "first_name": "Carlos",
+      "last_name": "Brown"
+    },
+    {
+      "customer_id": "CUST-00483",
+      "email": "cust-00483@example.com",
+      "first_name": "Ashley",
+      "last_name": "Thompson"
+    },
+    {
+      "customer_id": "CUST-03104",
+      "email": "cust-03104@example.com",
+      "first_name": "Priya",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-01311",
+      "email": "cust-01311@example.com",
+      "first_name": "Joseph",
+      "last_name": "Hernandez"
+    },
+    {
+      "customer_id": "CUST-03014",
+      "email": "cust-03014@example.com",
+      "first_name": "Linda",
+      "last_name": "Johnson"
+    },
+    {
+      "customer_id": "CUST-01948",
+      "email": "cust-01948@example.com",
+      "first_name": "Sarah",
+      "last_name": "Haddad"
+    },
+    {
+      "customer_id": "CUST-01420",
+      "email": "cust-01420@example.com",
+      "first_name": "Nancy",
+      "last_name": "Perez"
+    },
+    {
+      "customer_id": "CUST-00032",
+      "email": "cust-00032@example.com",
+      "first_name": "Maria",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-00152",
+      "email": "cust-00152@example.com",
+      "first_name": "Lisa",
+      "last_name": "Moore"
+    },
+    {
+      "customer_id": "CUST-00459",
+      "email": "cust-00459@example.com",
+      "first_name": "Michelle",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-02282",
+      "email": "cust-02282@example.com",
+      "first_name": "Donna",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-01972",
+      "email": "cust-01972@example.com",
+      "first_name": "Lisa",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-02026",
+      "email": "cust-02026@example.com",
+      "first_name": "James",
+      "last_name": "Miller"
+    },
+    {
+      "customer_id": "CUST-01530",
+      "email": "cust-01530@example.com",
+      "first_name": "Jessica",
+      "last_name": "Wilson"
+    },
+    {
+      "customer_id": "CUST-02875",
+      "email": "cust-02875@example.com",
+      "first_name": "Paul",
+      "last_name": "Miller"
+    },
+    {
+      "customer_id": "CUST-00507",
+      "email": "cust-00507@example.com",
+      "first_name": "Ashley",
+      "last_name": "Walker"
+    },
+    {
+      "customer_id": "CUST-01634",
+      "email": "cust-01634@example.com",
+      "first_name": "Charles",
+      "last_name": "Martin"
+    },
+    {
+      "customer_id": "CUST-01712",
+      "email": "cust-01712@example.com",
+      "first_name": "Robert",
+      "last_name": "Moore"
+    },
+    {
+      "customer_id": "CUST-00386",
+      "email": "cust-00386@example.com",
+      "first_name": "Maria",
+      "last_name": "White"
+    },
+    {
+      "customer_id": "CUST-00166",
+      "email": "cust-00166@example.com",
+      "first_name": "Diego",
+      "last_name": "Hernandez"
+    },
+    {
+      "customer_id": "CUST-03023",
+      "email": "cust-03023@example.com",
+      "first_name": "James",
+      "last_name": "Haddad"
+    },
+    {
+      "customer_id": "CUST-01682",
+      "email": "cust-01682@example.com",
+      "first_name": "Diego",
+      "last_name": "Taylor"
+    },
+    {
+      "customer_id": "CUST-02322",
+      "email": "cust-02322@example.com",
+      "first_name": "Anthony",
+      "last_name": "Moore"
+    },
+    {
+      "customer_id": "CUST-00514",
+      "email": "cust-00514@example.com",
+      "first_name": "Michelle",
+      "last_name": "Kim"
+    },
+    {
+      "customer_id": "CUST-02779",
+      "email": "cust-02779@example.com",
+      "first_name": "Kimberly",
+      "last_name": "Okafor"
+    },
+    {
+      "customer_id": "CUST-02656",
+      "email": "cust-02656@example.com",
+      "first_name": "Linda",
+      "last_name": "Ramirez"
+    },
+    {
+      "customer_id": "CUST-00638",
+      "email": "cust-00638@example.com",
+      "first_name": "Carlos",
+      "last_name": "Garcia"
+    },
+    {
+      "customer_id": "CUST-01485",
+      "email": "cust-01485@example.com",
+      "first_name": "Emily",
+      "last_name": "Smith"
+    },
+    {
+      "customer_id": "CUST-03032",
+      "email": "cust-03032@example.com",
+      "first_name": "Betty",
+      "last_name": "King"
+    },
+    {
+      "customer_id": "CUST-00560",
+      "email": "cust-00560@example.com",
+      "first_name": "Robert",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-02281",
+      "email": "cust-02281@example.com",
+      "first_name": "Michael",
+      "last_name": "Williams"
+    },
+    {
+      "customer_id": "CUST-01888",
+      "email": "cust-01888@example.com",
+      "first_name": "Andrew",
+      "last_name": "Miller"
+    },
+    {
+      "customer_id": "CUST-02380",
+      "email": "cust-02380@example.com",
+      "first_name": "Kenneth",
+      "last_name": "White"
+    },
+    {
+      "customer_id": "CUST-00043",
+      "email": "cust-00043@example.com",
+      "first_name": "Charles",
+      "last_name": "Ramirez"
+    },
+    {
+      "customer_id": "CUST-03143",
+      "email": "cust-03143@example.com",
+      "first_name": "Susan",
+      "last_name": "Wilson"
+    },
+    {
+      "customer_id": "CUST-00774",
+      "email": "cust-00774@example.com",
+      "first_name": "Betty",
+      "last_name": "Brown"
+    },
+    {
+      "customer_id": "CUST-01958",
+      "email": "cust-01958@example.com",
+      "first_name": "Aisha",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-03010",
+      "email": "cust-03010@example.com",
+      "first_name": "Nancy",
+      "last_name": "Davis"
+    },
+    {
+      "customer_id": "CUST-00178",
+      "email": "cust-00178@example.com",
+      "first_name": "John",
+      "last_name": "Thompson"
+    },
+    {
+      "customer_id": "CUST-00706",
+      "email": "cust-00706@example.com",
+      "first_name": "Michael",
+      "last_name": "Clark"
+    },
+    {
+      "customer_id": "CUST-02121",
+      "email": "cust-02121@example.com",
+      "first_name": "Linda",
+      "last_name": "Brown"
+    },
+    {
+      "customer_id": "CUST-02648",
+      "email": "cust-02648@example.com",
+      "first_name": "Joseph",
+      "last_name": "Martin"
+    },
+    {
+      "customer_id": "CUST-01966",
+      "email": "cust-01966@example.com",
+      "first_name": "Carlos",
+      "last_name": "Wilson"
+    },
+    {
+      "customer_id": "CUST-02630",
+      "email": "cust-02630@example.com",
+      "first_name": "Betty",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-02266",
+      "email": "cust-02266@example.com",
+      "first_name": "Betty",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-00929",
+      "email": "cust-00929@example.com",
+      "first_name": "Sarah",
+      "last_name": "Sanchez"
+    },
+    {
+      "customer_id": "CUST-00069",
+      "email": "cust-00069@example.com",
+      "first_name": "Hiroshi",
+      "last_name": "Williams"
+    },
+    {
+      "customer_id": "CUST-01788",
+      "email": "cust-01788@example.com",
+      "first_name": "Mark",
+      "last_name": "King"
+    },
+    {
+      "customer_id": "CUST-00313",
+      "email": "cust-00313@example.com",
+      "first_name": "Maria",
+      "last_name": "Haddad"
+    },
+    {
+      "customer_id": "CUST-02550",
+      "email": "cust-02550@example.com",
+      "first_name": "Fatima",
+      "last_name": "Jones"
+    },
+    {
+      "customer_id": "CUST-01811",
+      "email": "cust-01811@example.com",
+      "first_name": "Robert",
+      "last_name": "Jackson"
+    },
+    {
+      "customer_id": "CUST-00652",
+      "email": "cust-00652@example.com",
+      "first_name": "Kimberly",
+      "last_name": "Young"
+    },
+    {
+      "customer_id": "CUST-03019",
+      "email": "cust-03019@example.com",
+      "first_name": "Paul",
+      "last_name": "Wright"
+    },
+    {
+      "customer_id": "CUST-02847",
+      "email": "cust-02847@example.com",
+      "first_name": "Diego",
+      "last_name": "Jones"
+    },
+    {
+      "customer_id": "CUST-01994",
+      "email": "cust-01994@example.com",
+      "first_name": "Matthew",
+      "last_name": "Wilson"
+    },
+    {
+      "customer_id": "CUST-01125",
+      "email": "cust-01125@example.com",
+      "first_name": "Thomas",
+      "last_name": "Hernandez"
+    },
+    {
+      "customer_id": "CUST-00837",
+      "email": "cust-00837@example.com",
+      "first_name": "Richard",
+      "last_name": "Harris"
+    },
+    {
+      "customer_id": "CUST-00096",
+      "email": "cust-00096@example.com",
+      "first_name": "Michael",
+      "last_name": "Rodriguez"
+    },
+    {
+      "customer_id": "CUST-01877",
+      "email": "cust-01877@example.com",
+      "first_name": "Maria",
+      "last_name": "Williams"
+    },
+    {
+      "customer_id": "CUST-00803",
+      "email": "cust-00803@example.com",
+      "first_name": "Elizabeth",
+      "last_name": "Johnson"
+    },
+    {
+      "customer_id": "CUST-00928",
+      "email": "cust-00928@example.com",
+      "first_name": "Kimberly",
+      "last_name": "Jackson"
+    },
+    {
+      "customer_id": "CUST-00814",
+      "email": "cust-00814@example.com",
+      "first_name": "Betty",
+      "last_name": "Robinson"
+    },
+    {
+      "customer_id": "CUST-01454",
+      "email": "cust-01454@example.com",
+      "first_name": "Sandra",
+      "last_name": "Robinson"
+    },
+    {
+      "customer_id": "CUST-01325",
+      "email": "cust-01325@example.com",
+      "first_name": "Linda",
+      "last_name": "Davis"
+    },
+    {
+      "customer_id": "CUST-02483",
+      "email": "cust-02483@example.com",
+      "first_name": "Patricia",
+      "last_name": "Okafor"
+    },
+    {
+      "customer_id": "CUST-01144",
+      "email": "cust-01144@example.com",
+      "first_name": "Donna",
+      "last_name": "Martin"
+    },
+    {
+      "customer_id": "CUST-02429",
+      "email": "cust-02429@example.com",
+      "first_name": "Michael",
+      "last_name": "Wright"
+    },
+    {
+      "customer_id": "CUST-00384",
+      "email": "cust-00384@example.com",
+      "first_name": "Maria",
+      "last_name": "Davis"
+    },
+    {
+      "customer_id": "CUST-00974",
+      "email": "cust-00974@example.com",
+      "first_name": "Elizabeth",
+      "last_name": "Wilson"
+    },
+    {
+      "customer_id": "CUST-01480",
+      "email": "cust-01480@example.com",
+      "first_name": "Steven",
+      "last_name": "Smith"
+    },
+    {
+      "customer_id": "CUST-01148",
+      "email": "cust-01148@example.com",
+      "first_name": "Maria",
+      "last_name": "Johnson"
+    },
+    {
+      "customer_id": "CUST-02636",
+      "email": "cust-02636@example.com",
+      "first_name": "Carlos",
+      "last_name": "Harris"
+    },
+    {
+      "customer_id": "CUST-02575",
+      "email": "cust-02575@example.com",
+      "first_name": "Anthony",
+      "last_name": "Thompson"
+    },
+    {
+      "customer_id": "CUST-02944",
+      "email": "cust-02944@example.com",
+      "first_name": "David",
+      "last_name": "Taylor"
+    },
+    {
+      "customer_id": "CUST-00372",
+      "email": "cust-00372@example.com",
+      "first_name": "Joseph",
+      "last_name": "Brown"
+    },
+    {
+      "customer_id": "CUST-01432",
+      "email": "cust-01432@example.com",
+      "first_name": "Fatima",
+      "last_name": "Wright"
+    },
+    {
+      "customer_id": "CUST-02034",
+      "email": "cust-02034@example.com",
+      "first_name": "Charles",
+      "last_name": "Haddad"
+    },
+    {
+      "customer_id": "CUST-02423",
+      "email": "cust-02423@example.com",
+      "first_name": "Jennifer",
+      "last_name": "Thomas"
+    },
+    {
+      "customer_id": "CUST-00342",
+      "email": "cust-00342@example.com",
+      "first_name": "James",
+      "last_name": "Wright"
+    },
+    {
+      "customer_id": "CUST-00014",
+      "email": "cust-00014@example.com",
+      "first_name": "Ashley",
+      "last_name": "Lopez"
+    },
+    {
+      "customer_id": "CUST-00806",
+      "email": "cust-00806@example.com",
+      "first_name": "Thomas",
+      "last_name": "Lewis"
+    },
+    {
+      "customer_id": "CUST-02526",
+      "email": "cust-02526@example.com",
+      "first_name": "Hiroshi",
+      "last_name": "Harris"
+    },
+    {
+      "customer_id": "CUST-02215",
+      "email": "cust-02215@example.com",
+      "first_name": "Aisha",
+      "last_name": "Okafor"
+    },
+    {
+      "customer_id": "CUST-02744",
+      "email": "cust-02744@example.com",
+      "first_name": "Sandra",
+      "last_name": "Williams"
+    },
+    {
+      "customer_id": "CUST-00594",
+      "email": "cust-00594@example.com",
+      "first_name": "James",
+      "last_name": "Johnson"
+    },
+    {
+      "customer_id": "CUST-00600",
+      "email": "cust-00600@example.com",
+      "first_name": "Fatima",
+      "last_name": "Lee"
+    },
+    {
+      "customer_id": "CUST-00281",
+      "email": "cust-00281@example.com",
+      "first_name": "Hiroshi",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-00788",
+      "email": "cust-00788@example.com",
+      "first_name": "Lisa",
+      "last_name": "Young"
+    },
+    {
+      "customer_id": "CUST-01864",
+      "email": "cust-01864@example.com",
+      "first_name": "Mark",
+      "last_name": "Taylor"
+    },
+    {
+      "customer_id": "CUST-00113",
+      "email": "cust-00113@example.com",
+      "first_name": "Daniel",
+      "last_name": "Anderson"
+    },
+    {
+      "customer_id": "CUST-02022",
+      "email": "cust-02022@example.com",
+      "first_name": "Patricia",
+      "last_name": "Wright"
+    },
+    {
+      "customer_id": "CUST-00986",
+      "email": "cust-00986@example.com",
+      "first_name": "Sarah",
+      "last_name": "Martinez"
+    },
+    {
+      "customer_id": "CUST-00737",
+      "email": "cust-00737@example.com",
+      "first_name": "Fatima",
+      "last_name": "Harris"
+    },
+    {
+      "customer_id": "CUST-02938",
+      "email": "cust-02938@example.com",
+      "first_name": "Joseph",
+      "last_name": "Thomas"
+    },
+    {
+      "customer_id": "CUST-01782",
+      "email": "cust-01782@example.com",
+      "first_name": "Jennifer",
+      "last_name": "Chen"
+    },
+    {
+      "customer_id": "CUST-01003",
+      "email": "cust-01003@example.com",
+      "first_name": "David",
+      "last_name": "Allen"
+    },
+    {
+      "customer_id": "CUST-01844",
+      "email": "cust-01844@example.com",
+      "first_name": "Matthew",
+      "last_name": "Miller"
+    },
+    {
+      "customer_id": "CUST-00438",
+      "email": "cust-00438@example.com",
+      "first_name": "Sarah",
+      "last_name": "Ramirez"
+    },
+    {
+      "customer_id": "CUST-02848",
+      "email": "cust-02848@example.com",
+      "first_name": "Hiroshi",
+      "last_name": "Martin"
+    },
+    {
+      "customer_id": "CUST-01107",
+      "email": "cust-01107@example.com",
+      "first_name": "Wei",
+      "last_name": "Martin"
+    }
+  ],
+  "cross_system": [
+    {
+      "customer_id": "CUST-00460",
+      "hubspot_record": {
+        "Email": "cust-00460@example.com",
+        "First Name": "Nancy",
+        "Last Name": "Haddad",
+        "Company Name": "Cascade Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2024-10-15",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-00460"
+      },
+      "salesforce_record": {
+        "Email": "cust-00460@example.com",
+        "Name": "nancy haddad",
+        "Company": "Cascade Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-10-15",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00134",
+      "hubspot_record": {
+        "Email": "cust-00134@example.com",
+        "First Name": "Susan",
+        "Last Name": "Nguyen",
+        "Company Name": "Meridian & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-09-02",
+        "Trade Signal Region": "MI",
+        "Trade Signal Customer ID": "CUST-00134"
+      },
+      "salesforce_record": {
+        "Email": "cust-00134@example.com",
+        "Name": "susan nguyen",
+        "Company": "Meridian & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-09-02",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01996",
+      "hubspot_record": {
+        "Email": "cust-01996@example.com",
+        "First Name": "Maria",
+        "Last Name": "Johnson",
+        "Company Name": "Northline Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2025-08-09",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-01996"
+      },
+      "salesforce_record": {
+        "Email": "cust-01996@example.com",
+        "Name": "Maria Johnson",
+        "Company": "Northline Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-09"
+      }
+    },
+    {
+      "customer_id": "CUST-03059",
+      "hubspot_record": {
+        "Email": "cust-03059@example.com",
+        "First Name": "Richard",
+        "Last Name": "Davis",
+        "Company Name": "Ashford Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2025-01-28",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-03059"
+      },
+      "salesforce_record": {
+        "Email": "cust-03059@example.com",
+        "Name": "Richard Davis",
+        "Company": "Ashford Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-01-28",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01526",
+      "hubspot_record": {
+        "Email": "cust-01526@example.com",
+        "First Name": "Karen",
+        "Last Name": "Jackson",
+        "Company Name": "Harbor Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "paid_social",
+        "Trade Signal Signup Date": "2024-12-17",
+        "Trade Signal Region": "MN",
+        "Trade Signal Customer ID": "CUST-01526"
+      },
+      "salesforce_record": {
+        "Email": "cust-01526@example.com",
+        "Name": "Karen Jackson",
+        "Company": "Harbor Architecture Group Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-12-17",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01547",
+      "hubspot_record": {
+        "Email": "cust-01547@example.com",
+        "First Name": "Andrew",
+        "Last Name": "Hernandez",
+        "Company Name": "Union Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-04-13",
+        "Trade Signal Region": "CO",
+        "Trade Signal Customer ID": "CUST-01547"
+      },
+      "salesforce_record": {
+        "Email": "cust-01547@example.com",
+        "Name": "Andrew Hernandez",
+        "Company": "Union Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-13",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02030",
+      "hubspot_record": {
+        "Email": "cust-02030@example.com",
+        "First Name": "Ashley",
+        "Last Name": "Miller",
+        "Company Name": "Union & Associates",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-07-14",
+        "Trade Signal Region": "MA",
+        "Trade Signal Customer ID": "CUST-02030"
+      },
+      "salesforce_record": {
+        "Email": "cust-02030@example.com",
+        "Name": "ashley miller",
+        "Company": "Union & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-14",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00716",
+      "hubspot_record": {
+        "Email": "cust-00716@example.com",
+        "First Name": "Elena",
+        "Last Name": "Martin",
+        "Company Name": "Union Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2025-05-20",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-00716"
+      },
+      "salesforce_record": {
+        "Email": "cust-00716@example.com",
+        "Name": "elena martin",
+        "Company": "Union Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-20",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01561",
+      "hubspot_record": {
+        "Email": "cust-01561@example.com",
+        "First Name": "Paul",
+        "Last Name": "Thompson",
+        "Company Name": "Meridian Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2025-08-12",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-01561"
+      },
+      "salesforce_record": {
+        "Email": "cust-01561@example.com",
+        "Name": "Paul Thompson",
+        "Company": "Meridian Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-11",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00844",
+      "hubspot_record": {
+        "Email": "cust-00844@example.com",
+        "First Name": "Robert",
+        "Last Name": "Nguyen",
+        "Company Name": "Cascade Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-05-10",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-00844"
+      },
+      "salesforce_record": {
+        "Email": "cust-00844@example.com",
+        "Name": "robert nguyen",
+        "Company": "Cascade Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-10",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02439",
+      "hubspot_record": {
+        "Email": "cust-02439@example.com",
+        "First Name": "Charles",
+        "Last Name": "Nguyen",
+        "Company Name": "Bramble & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "email_capture",
+        "Trade Signal Signup Date": "2024-08-17",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-02439"
+      },
+      "salesforce_record": {
+        "Email": "cust-02439@example.com",
+        "Name": "charles nguyen",
+        "Company": "Bramble & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-08-17",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-03096",
+      "hubspot_record": {
+        "Email": "cust-03096@example.com",
+        "First Name": "Carlos",
+        "Last Name": "Wilson",
+        "Company Name": "Bramble Construction",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2025-01-21",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-03096"
+      },
+      "salesforce_record": {
+        "Email": "cust-03096@example.com",
+        "Name": "carlos wilson",
+        "Company": "Bramble Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-01-21",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00185",
+      "hubspot_record": {
+        "Email": "cust-00185@example.com",
+        "First Name": "Yuki",
+        "Last Name": "White",
+        "Company Name": "Coastal Design Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2025-06-30",
+        "Trade Signal Region": "GA",
+        "Trade Signal Customer ID": "CUST-00185"
+      },
+      "salesforce_record": {
+        "Email": "cust-00185@example.com",
+        "Name": "Yuki White",
+        "Company": "Coastal Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-06-30",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01612",
+      "hubspot_record": {
+        "Email": "cust-01612@example.com",
+        "First Name": "Charles",
+        "Last Name": "White",
+        "Company Name": "Harbor Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-06-07",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-01612"
+      },
+      "salesforce_record": {
+        "Email": "cust-01612@example.com",
+        "Name": "Charles White",
+        "Company": "Harbor Architecture Group Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-07",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00900",
+      "hubspot_record": {
+        "Email": "cust-00900@example.com",
+        "First Name": "Jennifer",
+        "Last Name": "Sanchez",
+        "Company Name": "Cascade Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-10-15",
+        "Trade Signal Region": "OH",
+        "Trade Signal Customer ID": "CUST-00900"
+      },
+      "salesforce_record": {
+        "Email": "cust-00900@example.com",
+        "Name": "jennifer sanchez",
+        "Company": "Cascade Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-10-15",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01982",
+      "hubspot_record": {
+        "Email": "cust-01982@example.com",
+        "First Name": "James",
+        "Last Name": "Haddad",
+        "Company Name": "Meridian & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2024-09-17",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-01982"
+      },
+      "salesforce_record": {
+        "Email": "cust-01982@example.com",
+        "Name": "James Haddad",
+        "Company": "Meridian & Associates Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-09-17",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02331",
+      "hubspot_record": {
+        "Email": "cust-02331@example.com",
+        "First Name": "Sarah",
+        "Last Name": "Martinez",
+        "Company Name": "Bramble Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2025-06-01",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-02331"
+      },
+      "salesforce_record": {
+        "Email": "cust-02331@example.com",
+        "Name": "Sarah Martinez",
+        "Company": "Bramble Design Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-29",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01381",
+      "hubspot_record": {
+        "Email": "cust-01381@example.com",
+        "First Name": "Hiroshi",
+        "Last Name": "Miller",
+        "Company Name": "Meridian & Associates",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-01-04",
+        "Trade Signal Region": "MA",
+        "Trade Signal Customer ID": "CUST-01381"
+      },
+      "salesforce_record": {
+        "Email": "cust-01381@example.com",
+        "Name": "Hiroshi Miller",
+        "Company": "Meridian & Associates Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-01-04",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02754",
+      "hubspot_record": {
+        "Email": "cust-02754@example.com",
+        "First Name": "James",
+        "Last Name": "Williams",
+        "Company Name": "Northline Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-05-30",
+        "Trade Signal Region": "CO",
+        "Trade Signal Customer ID": "CUST-02754"
+      },
+      "salesforce_record": {
+        "Email": "cust-02754@example.com",
+        "Name": "James Williams",
+        "Company": "Northline Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-28",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01956",
+      "hubspot_record": {
+        "Email": "cust-01956@example.com",
+        "First Name": "John",
+        "Last Name": "Lopez",
+        "Company Name": "Harbor Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-07-30",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-01956"
+      },
+      "salesforce_record": {
+        "Email": "cust-01956@example.com",
+        "Name": "John Lopez",
+        "Company": "Harbor Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-30"
+      }
+    },
+    {
+      "customer_id": "CUST-01683",
+      "hubspot_record": {
+        "Email": "cust-01683@example.com",
+        "First Name": "Kimberly",
+        "Last Name": "Davis",
+        "Company Name": "Northline Architecture Group",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-03-29",
+        "Trade Signal Region": "AZ",
+        "Trade Signal Customer ID": "CUST-01683"
+      },
+      "salesforce_record": {
+        "Email": "cust-01683@example.com",
+        "Name": "kimberly davis",
+        "Company": "Northline Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-03-29",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01259",
+      "hubspot_record": {
+        "Email": "cust-01259@example.com",
+        "First Name": "Robert",
+        "Last Name": "Martin",
+        "Company Name": "Ashford Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-07-20",
+        "Trade Signal Region": "WA",
+        "Trade Signal Customer ID": "CUST-01259"
+      },
+      "salesforce_record": {
+        "Email": "cust-01259@example.com",
+        "Name": "Robert Martin",
+        "Company": "Ashford Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-20",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00068",
+      "hubspot_record": {
+        "Email": "cust-00068@example.com",
+        "First Name": "James",
+        "Last Name": "Taylor",
+        "Company Name": "Bramble Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-08-07",
+        "Trade Signal Region": "OH",
+        "Trade Signal Customer ID": "CUST-00068"
+      },
+      "salesforce_record": {
+        "Email": "cust-00068@example.com",
+        "Name": "James Taylor",
+        "Company": "Bramble Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-06",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02961",
+      "hubspot_record": {
+        "Email": "cust-02961@example.com",
+        "First Name": "Karen",
+        "Last Name": "Smith",
+        "Company Name": "Coastal Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2024-01-26",
+        "Trade Signal Region": "FL",
+        "Trade Signal Customer ID": "CUST-02961"
+      },
+      "salesforce_record": {
+        "Email": "cust-02961@example.com",
+        "Name": "Karen Smith",
+        "Company": "Coastal Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-01-26"
+      }
+    },
+    {
+      "customer_id": "CUST-02642",
+      "hubspot_record": {
+        "Email": "cust-02642@example.com",
+        "First Name": "Richard",
+        "Last Name": "Sanchez",
+        "Company Name": "Union Interiors",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-03-08",
+        "Trade Signal Region": "MI",
+        "Trade Signal Customer ID": "CUST-02642"
+      },
+      "salesforce_record": {
+        "Email": "cust-02642@example.com",
+        "Name": "Richard Sanchez",
+        "Company": "Union Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-03-08"
+      }
+    },
+    {
+      "customer_id": "CUST-01054",
+      "hubspot_record": {
+        "Email": "cust-01054@example.com",
+        "First Name": "Wei",
+        "Last Name": "White",
+        "Company Name": "Ashford Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-07-25",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-01054"
+      },
+      "salesforce_record": {
+        "Email": "cust-01054@example.com",
+        "Name": "Wei White",
+        "Company": "Ashford Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-07-25",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01911",
+      "hubspot_record": {
+        "Email": "cust-01911@example.com",
+        "First Name": "Steven",
+        "Last Name": "Anderson",
+        "Company Name": "Northline & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "email_capture",
+        "Trade Signal Signup Date": "2025-05-24",
+        "Trade Signal Region": "MA",
+        "Trade Signal Customer ID": "CUST-01911"
+      },
+      "salesforce_record": {
+        "Email": "cust-01911@example.com",
+        "Name": "Steven Anderson",
+        "Company": "Northline & Associates Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-24",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00796",
+      "hubspot_record": {
+        "Email": "cust-00796@example.com",
+        "First Name": "Donna",
+        "Last Name": "Hernandez",
+        "Company Name": "Harbor Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "paid_social",
+        "Trade Signal Signup Date": "2025-06-12",
+        "Trade Signal Region": "MD",
+        "Trade Signal Customer ID": "CUST-00796"
+      },
+      "salesforce_record": {
+        "Email": "cust-00796@example.com",
+        "Name": "Donna Hernandez",
+        "Company": "Harbor Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-06-12"
+      }
+    },
+    {
+      "customer_id": "CUST-02129",
+      "hubspot_record": {
+        "Email": "cust-02129@example.com",
+        "First Name": "Hiroshi",
+        "Last Name": "Lewis",
+        "Company Name": "Harbor Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-04-17",
+        "Trade Signal Region": "MI",
+        "Trade Signal Customer ID": "CUST-02129"
+      },
+      "salesforce_record": {
+        "Email": "cust-02129@example.com",
+        "Name": "hiroshi lewis",
+        "Company": "Harbor Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-17",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01933",
+      "hubspot_record": {
+        "Email": "cust-01933@example.com",
+        "First Name": "Linda",
+        "Last Name": "Ramirez",
+        "Company Name": "Meridian Build Co.",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-03-24",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-01933"
+      },
+      "salesforce_record": {
+        "Email": "cust-01933@example.com",
+        "Name": "linda ramirez",
+        "Company": "Meridian Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-03-24",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01631",
+      "hubspot_record": {
+        "Email": "cust-01631@example.com",
+        "First Name": "Elizabeth",
+        "Last Name": "Robinson",
+        "Company Name": "Ashford Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-03-28",
+        "Trade Signal Region": "CT",
+        "Trade Signal Customer ID": "CUST-01631"
+      },
+      "salesforce_record": {
+        "Email": "cust-01631@example.com",
+        "Name": "Elizabeth Robinson",
+        "Company": "Ashford Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-02",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01023",
+      "hubspot_record": {
+        "Email": "cust-01023@example.com",
+        "First Name": "Andrew",
+        "Last Name": "Martin",
+        "Company Name": "Harbor Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2024-06-08",
+        "Trade Signal Region": "NC",
+        "Trade Signal Customer ID": "CUST-01023"
+      },
+      "salesforce_record": {
+        "Email": "cust-01023@example.com",
+        "Name": "andrew martin",
+        "Company": "Harbor Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-08",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02007",
+      "hubspot_record": {
+        "Email": "cust-02007@example.com",
+        "First Name": "Joseph",
+        "Last Name": "Jones",
+        "Company Name": "Bramble & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2024-05-10",
+        "Trade Signal Region": "MA",
+        "Trade Signal Customer ID": "CUST-02007"
+      },
+      "salesforce_record": {
+        "Email": "cust-02007@example.com",
+        "Name": "Joseph Jones",
+        "Company": "Bramble & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-10"
+      }
+    },
+    {
+      "customer_id": "CUST-01852",
+      "hubspot_record": {
+        "Email": "cust-01852@example.com",
+        "First Name": "Sarah",
+        "Last Name": "Rodriguez",
+        "Company Name": "Ashford & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-08-03",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-01852"
+      },
+      "salesforce_record": {
+        "Email": "cust-01852@example.com",
+        "Name": "Sarah Rodriguez",
+        "Company": "Ashford & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-08-03"
+      }
+    },
+    {
+      "customer_id": "CUST-02157",
+      "hubspot_record": {
+        "Email": "cust-02157@example.com",
+        "First Name": "Sarah",
+        "Last Name": "Lee",
+        "Company Name": "Cascade Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2024-10-25",
+        "Trade Signal Region": "GA",
+        "Trade Signal Customer ID": "CUST-02157"
+      },
+      "salesforce_record": {
+        "Email": "cust-02157@example.com",
+        "Name": "Sarah Lee",
+        "Company": "Cascade Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-10-25"
+      }
+    },
+    {
+      "customer_id": "CUST-02661",
+      "hubspot_record": {
+        "Email": "cust-02661@example.com",
+        "First Name": "Hiroshi",
+        "Last Name": "Wilson",
+        "Company Name": "Northline Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2024-06-02",
+        "Trade Signal Region": "MN",
+        "Trade Signal Customer ID": "CUST-02661"
+      },
+      "salesforce_record": {
+        "Email": "cust-02661@example.com",
+        "Name": "hiroshi wilson",
+        "Company": "Northline Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-02",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02940",
+      "hubspot_record": {
+        "Email": "cust-02940@example.com",
+        "First Name": "Emily",
+        "Last Name": "Walker",
+        "Company Name": "Coastal Build Co.",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2025-07-25",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-02940"
+      },
+      "salesforce_record": {
+        "Email": "cust-02940@example.com",
+        "Name": "Emily Walker",
+        "Company": "Coastal Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-07-24",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02292",
+      "hubspot_record": {
+        "Email": "cust-02292@example.com",
+        "First Name": "Susan",
+        "Last Name": "Chen",
+        "Company Name": "Bramble Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-05-28",
+        "Trade Signal Region": "unknown",
+        "Trade Signal Customer ID": "CUST-02292"
+      },
+      "salesforce_record": {
+        "Email": "cust-02292@example.com",
+        "Name": "susan chen",
+        "Company": "Bramble Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-28",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02548",
+      "hubspot_record": {
+        "Email": "cust-02548@example.com",
+        "First Name": "Aisha",
+        "Last Name": "Sanchez",
+        "Company Name": "Meridian Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-07-01",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-02548"
+      },
+      "salesforce_record": {
+        "Email": "cust-02548@example.com",
+        "Name": "Aisha Sanchez",
+        "Company": "Meridian Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-30",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00858",
+      "hubspot_record": {
+        "Email": "cust-00858@example.com",
+        "First Name": "Mark",
+        "Last Name": "Lopez",
+        "Company Name": "Northline Build Co.",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-11-24",
+        "Trade Signal Region": "CO",
+        "Trade Signal Customer ID": "CUST-00858"
+      },
+      "salesforce_record": {
+        "Email": "cust-00858@example.com",
+        "Name": "mark lopez",
+        "Company": "Northline Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-11-24",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02589",
+      "hubspot_record": {
+        "Email": "cust-02589@example.com",
+        "First Name": "Donna",
+        "Last Name": "Chen",
+        "Company Name": "Coastal Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-01-22",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-02589"
+      },
+      "salesforce_record": {
+        "Email": "cust-02589@example.com",
+        "Name": "Donna Chen",
+        "Company": "Coastal Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-01-22"
+      }
+    },
+    {
+      "customer_id": "CUST-02508",
+      "hubspot_record": {
+        "Email": "cust-02508@example.com",
+        "First Name": "Nancy",
+        "Last Name": "Walker",
+        "Company Name": "Union Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-08-29",
+        "Trade Signal Region": "MI",
+        "Trade Signal Customer ID": "CUST-02508"
+      },
+      "salesforce_record": {
+        "Email": "cust-02508@example.com",
+        "Name": "Nancy Walker",
+        "Company": "Union Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-08-29"
+      }
+    },
+    {
+      "customer_id": "CUST-00863",
+      "hubspot_record": {
+        "Email": "cust-00863@example.com",
+        "First Name": "Joseph",
+        "Last Name": "Ramirez",
+        "Company Name": "Ashford Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-07-18",
+        "Trade Signal Region": "AZ",
+        "Trade Signal Customer ID": "CUST-00863"
+      },
+      "salesforce_record": {
+        "Email": "cust-00863@example.com",
+        "Name": "Joseph Ramirez",
+        "Company": "Ashford Architecture Group Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-18",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01675",
+      "hubspot_record": {
+        "Email": "cust-01675@example.com",
+        "First Name": "John",
+        "Last Name": "Martin",
+        "Company Name": "Cascade Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2025-04-18",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-01675"
+      },
+      "salesforce_record": {
+        "Email": "cust-01675@example.com",
+        "Name": "john martin",
+        "Company": "Cascade Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-18",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01038",
+      "hubspot_record": {
+        "Email": "cust-01038@example.com",
+        "First Name": "Sarah",
+        "Last Name": "Lopez",
+        "Company Name": "Harbor Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-04-05",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-01038"
+      },
+      "salesforce_record": {
+        "Email": "cust-01038@example.com",
+        "Name": "sarah lopez",
+        "Company": "Harbor Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-05",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00482",
+      "hubspot_record": {
+        "Email": "cust-00482@example.com",
+        "First Name": "Anthony",
+        "Last Name": "Kim",
+        "Company Name": "Harbor Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-03-30",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-00482"
+      },
+      "salesforce_record": {
+        "Email": "cust-00482@example.com",
+        "Name": "Anthony Kim",
+        "Company": "Harbor Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-03-30",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02781",
+      "hubspot_record": {
+        "Email": "cust-02781@example.com",
+        "First Name": "Linda",
+        "Last Name": "Clark",
+        "Company Name": "Meridian Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "paid_social",
+        "Trade Signal Signup Date": "2025-08-10",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-02781"
+      },
+      "salesforce_record": {
+        "Email": "cust-02781@example.com",
+        "Name": "Linda Clark",
+        "Company": "Meridian Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-10"
+      }
+    },
+    {
+      "customer_id": "CUST-00239",
+      "hubspot_record": {
+        "Email": "cust-00239@example.com",
+        "First Name": "Yuki",
+        "Last Name": "Clark",
+        "Company Name": "Harbor & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-08-07",
+        "Trade Signal Region": "MD",
+        "Trade Signal Customer ID": "CUST-00239"
+      },
+      "salesforce_record": {
+        "Email": "cust-00239@example.com",
+        "Name": "yuki clark",
+        "Company": "Harbor & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-07",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02898",
+      "hubspot_record": {
+        "Email": "cust-02898@example.com",
+        "First Name": "Karen",
+        "Last Name": "Lee",
+        "Company Name": "Meridian Design Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2025-08-15",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-02898"
+      },
+      "salesforce_record": {
+        "Email": "cust-02898@example.com",
+        "Name": "Karen Lee",
+        "Company": "Meridian Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-15",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01997",
+      "hubspot_record": {
+        "Email": "cust-01997@example.com",
+        "First Name": "David",
+        "Last Name": "Garcia",
+        "Company Name": "Northline Build Co.",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "referral",
+        "Trade Signal Signup Date": "2025-08-08",
+        "Trade Signal Region": "unknown",
+        "Trade Signal Customer ID": "CUST-01997"
+      },
+      "salesforce_record": {
+        "Email": "cust-01997@example.com",
+        "Name": "david garcia",
+        "Company": "Northline Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-08",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02530",
+      "hubspot_record": {
+        "Email": "cust-02530@example.com",
+        "First Name": "David",
+        "Last Name": "Ramirez",
+        "Company Name": "Northline Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "email_capture",
+        "Trade Signal Signup Date": "2024-04-27",
+        "Trade Signal Region": "NC",
+        "Trade Signal Customer ID": "CUST-02530"
+      },
+      "salesforce_record": {
+        "Email": "cust-02530@example.com",
+        "Name": "David Ramirez",
+        "Company": "Northline Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-04-25",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01755",
+      "hubspot_record": {
+        "Email": "cust-01755@example.com",
+        "First Name": "Andrew",
+        "Last Name": "Miller",
+        "Company Name": "Coastal Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2025-05-26",
+        "Trade Signal Region": "FL",
+        "Trade Signal Customer ID": "CUST-01755"
+      },
+      "salesforce_record": {
+        "Email": "cust-01755@example.com",
+        "Name": "Andrew Miller",
+        "Company": "Coastal Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-26"
+      }
+    },
+    {
+      "customer_id": "CUST-02908",
+      "hubspot_record": {
+        "Email": "cust-02908@example.com",
+        "First Name": "Robert",
+        "Last Name": "Perez",
+        "Company Name": "Ashford Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-08-17",
+        "Trade Signal Region": "MI",
+        "Trade Signal Customer ID": "CUST-02908"
+      },
+      "salesforce_record": {
+        "Email": "cust-02908@example.com",
+        "Name": "Robert Perez",
+        "Company": "Ashford Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-12",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01937",
+      "hubspot_record": {
+        "Email": "cust-01937@example.com",
+        "First Name": "Jennifer",
+        "Last Name": "Ramirez",
+        "Company Name": "Northline Construction",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2025-08-05",
+        "Trade Signal Region": "NJ",
+        "Trade Signal Customer ID": "CUST-01937"
+      },
+      "salesforce_record": {
+        "Email": "cust-01937@example.com",
+        "Name": "Jennifer Ramirez",
+        "Company": "Northline Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-05"
+      }
+    },
+    {
+      "customer_id": "CUST-02120",
+      "hubspot_record": {
+        "Email": "cust-02120@example.com",
+        "First Name": "Robert",
+        "Last Name": "Perez",
+        "Company Name": "Harbor Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-06-19",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-02120"
+      },
+      "salesforce_record": {
+        "Email": "cust-02120@example.com",
+        "Name": "Robert Perez",
+        "Company": "Harbor Construction Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-19",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01248",
+      "hubspot_record": {
+        "Email": "cust-01248@example.com",
+        "First Name": "Donna",
+        "Last Name": "Jackson",
+        "Company Name": "Union Build Co.",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-04-23",
+        "Trade Signal Region": "OH",
+        "Trade Signal Customer ID": "CUST-01248"
+      },
+      "salesforce_record": {
+        "Email": "cust-01248@example.com",
+        "Name": "Donna Jackson",
+        "Company": "Union Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-04-23"
+      }
+    },
+    {
+      "customer_id": "CUST-01687",
+      "hubspot_record": {
+        "Email": "cust-01687@example.com",
+        "First Name": "Ashley",
+        "Last Name": "Okafor",
+        "Company Name": "Union Build Co.",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-11-06",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-01687"
+      },
+      "salesforce_record": {
+        "Email": "cust-01687@example.com",
+        "Name": "Ashley Okafor",
+        "Company": "Union Build Co.",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-11-06"
+      }
+    },
+    {
+      "customer_id": "CUST-01977",
+      "hubspot_record": {
+        "Email": "cust-01977@example.com",
+        "First Name": "Steven",
+        "Last Name": "Rodriguez",
+        "Company Name": "Cascade Construction",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-10-25",
+        "Trade Signal Region": "FL",
+        "Trade Signal Customer ID": "CUST-01977"
+      },
+      "salesforce_record": {
+        "Email": "cust-01977@example.com",
+        "Name": "Steven Rodriguez",
+        "Company": "Cascade Construction Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-10-25",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02071",
+      "hubspot_record": {
+        "Email": "cust-02071@example.com",
+        "First Name": "Jennifer",
+        "Last Name": "Allen",
+        "Company Name": "Union Design + Build",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-05-25",
+        "Trade Signal Region": "AZ",
+        "Trade Signal Customer ID": "CUST-02071"
+      },
+      "salesforce_record": {
+        "Email": "cust-02071@example.com",
+        "Name": "Jennifer Allen",
+        "Company": "Union Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-25"
+      }
+    },
+    {
+      "customer_id": "CUST-01891",
+      "hubspot_record": {
+        "Email": "cust-01891@example.com",
+        "First Name": "Ashley",
+        "Last Name": "Taylor",
+        "Company Name": "Cascade Design + Build",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-09-21",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-01891"
+      },
+      "salesforce_record": {
+        "Email": "cust-01891@example.com",
+        "Name": "ashley taylor",
+        "Company": "Cascade Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-09-21",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-03120",
+      "hubspot_record": {
+        "Email": "cust-03120@example.com",
+        "First Name": "Mark",
+        "Last Name": "Wright",
+        "Company Name": "Northline Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-04-05",
+        "Trade Signal Region": "WA",
+        "Trade Signal Customer ID": "CUST-03120"
+      },
+      "salesforce_record": {
+        "Email": "cust-03120@example.com",
+        "Name": "Mark Wright",
+        "Company": "Northline Design + Build Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-04-05",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01781",
+      "hubspot_record": {
+        "Email": "cust-01781@example.com",
+        "First Name": "Kenneth",
+        "Last Name": "Allen",
+        "Company Name": "Coastal & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2024-09-02",
+        "Trade Signal Region": "CT",
+        "Trade Signal Customer ID": "CUST-01781"
+      },
+      "salesforce_record": {
+        "Email": "cust-01781@example.com",
+        "Name": "Kenneth Allen",
+        "Company": "Coastal & Associates Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-09-02",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02979",
+      "hubspot_record": {
+        "Email": "cust-02979@example.com",
+        "First Name": "Charles",
+        "Last Name": "Wright",
+        "Company Name": "Meridian Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-06-15",
+        "Trade Signal Region": "AZ",
+        "Trade Signal Customer ID": "CUST-02979"
+      },
+      "salesforce_record": {
+        "Email": "cust-02979@example.com",
+        "Name": "Charles Wright",
+        "Company": "Meridian Design + Build Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-15",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01115",
+      "hubspot_record": {
+        "Email": "cust-01115@example.com",
+        "First Name": "John",
+        "Last Name": "Robinson",
+        "Company Name": "Northline Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2025-05-09",
+        "Trade Signal Region": "AZ",
+        "Trade Signal Customer ID": "CUST-01115"
+      },
+      "salesforce_record": {
+        "Email": "cust-01115@example.com",
+        "Name": "John Robinson",
+        "Company": "Northline Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-14",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01445",
+      "hubspot_record": {
+        "Email": "cust-01445@example.com",
+        "First Name": "Susan",
+        "Last Name": "Williams",
+        "Company Name": "Union Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2025-06-30",
+        "Trade Signal Region": "unknown",
+        "Trade Signal Customer ID": "CUST-01445"
+      },
+      "salesforce_record": {
+        "Email": "cust-01445@example.com",
+        "Name": "Susan Williams",
+        "Company": "Union Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-07-02",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00264",
+      "hubspot_record": {
+        "Email": "cust-00264@example.com",
+        "First Name": "Aisha",
+        "Last Name": "Young",
+        "Company Name": "Union Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-05-15",
+        "Trade Signal Region": "TX",
+        "Trade Signal Customer ID": "CUST-00264"
+      },
+      "salesforce_record": {
+        "Email": "cust-00264@example.com",
+        "Name": "Aisha Young",
+        "Company": "Union Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-15"
+      }
+    },
+    {
+      "customer_id": "CUST-02699",
+      "hubspot_record": {
+        "Email": "cust-02699@example.com",
+        "First Name": "Thomas",
+        "Last Name": "Miller",
+        "Company Name": "Harbor Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "paid_social",
+        "Trade Signal Signup Date": "2024-07-26",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-02699"
+      },
+      "salesforce_record": {
+        "Email": "cust-02699@example.com",
+        "Name": "Thomas Miller",
+        "Company": "Harbor Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-26",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02297",
+      "hubspot_record": {
+        "Email": "cust-02297@example.com",
+        "First Name": "Wei",
+        "Last Name": "Chen",
+        "Company Name": "Meridian & Associates",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-03-12",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-02297"
+      },
+      "salesforce_record": {
+        "Email": "cust-02297@example.com",
+        "Name": "Wei Chen",
+        "Company": "Meridian & Associates",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-03-12"
+      }
+    },
+    {
+      "customer_id": "CUST-02934",
+      "hubspot_record": {
+        "Email": "cust-02934@example.com",
+        "First Name": "Diego",
+        "Last Name": "Garcia",
+        "Company Name": "Union Design + Build",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2025-03-27",
+        "Trade Signal Region": "NC",
+        "Trade Signal Customer ID": "CUST-02934"
+      },
+      "salesforce_record": {
+        "Email": "cust-02934@example.com",
+        "Name": "diego garcia",
+        "Company": "Union Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-03-27",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00027",
+      "hubspot_record": {
+        "Email": "cust-00027@example.com",
+        "First Name": "Jessica",
+        "Last Name": "Young",
+        "Company Name": "Ashford Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-05-03",
+        "Trade Signal Region": "MD",
+        "Trade Signal Customer ID": "CUST-00027"
+      },
+      "salesforce_record": {
+        "Email": "cust-00027@example.com",
+        "Name": "Jessica Young",
+        "Company": "Ashford Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-03",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00708",
+      "hubspot_record": {
+        "Email": "cust-00708@example.com",
+        "First Name": "Maria",
+        "Last Name": "Martinez",
+        "Company Name": "Harbor Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "showroom_walkin",
+        "Trade Signal Signup Date": "2024-06-24",
+        "Trade Signal Region": "MA",
+        "Trade Signal Customer ID": "CUST-00708"
+      },
+      "salesforce_record": {
+        "Email": "cust-00708@example.com",
+        "Name": "maria martinez",
+        "Company": "Harbor Design Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-24",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-03001",
+      "hubspot_record": {
+        "Email": "cust-03001@example.com",
+        "First Name": "David",
+        "Last Name": "Perez",
+        "Company Name": "Meridian Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2024-05-05",
+        "Trade Signal Region": "OH",
+        "Trade Signal Customer ID": "CUST-03001"
+      },
+      "salesforce_record": {
+        "Email": "cust-03001@example.com",
+        "Name": "David Perez",
+        "Company": "Meridian Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-05"
+      }
+    },
+    {
+      "customer_id": "CUST-00859",
+      "hubspot_record": {
+        "Email": "cust-00859@example.com",
+        "First Name": "Linda",
+        "Last Name": "Jackson",
+        "Company Name": "Northline Construction",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2025-08-15",
+        "Trade Signal Region": "IL",
+        "Trade Signal Customer ID": "CUST-00859"
+      },
+      "salesforce_record": {
+        "Email": "cust-00859@example.com",
+        "Name": "Linda Jackson",
+        "Company": "Northline Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-08-20",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00307",
+      "hubspot_record": {
+        "Email": "cust-00307@example.com",
+        "First Name": "Carlos",
+        "Last Name": "Harris",
+        "Company Name": "Harbor Design + Build",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "direct",
+        "Trade Signal Signup Date": "2025-02-07",
+        "Trade Signal Region": "TX",
+        "Trade Signal Customer ID": "CUST-00307"
+      },
+      "salesforce_record": {
+        "Email": "cust-00307@example.com",
+        "Name": "Carlos Harris",
+        "Company": "Harbor Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-02-07"
+      }
+    },
+    {
+      "customer_id": "CUST-00136",
+      "hubspot_record": {
+        "Email": "cust-00136@example.com",
+        "First Name": "Diego",
+        "Last Name": "Williams",
+        "Company Name": "Cascade Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-02-26",
+        "Trade Signal Region": "GA",
+        "Trade Signal Customer ID": "CUST-00136"
+      },
+      "salesforce_record": {
+        "Email": "cust-00136@example.com",
+        "Name": "diego williams",
+        "Company": "Cascade Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-02-26",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02525",
+      "hubspot_record": {
+        "Email": "cust-02525@example.com",
+        "First Name": "Sarah",
+        "Last Name": "Rodriguez",
+        "Company Name": "Coastal Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2024-05-07",
+        "Trade Signal Region": "CA",
+        "Trade Signal Customer ID": "CUST-02525"
+      },
+      "salesforce_record": {
+        "Email": "cust-02525@example.com",
+        "Name": "Sarah Rodriguez",
+        "Company": "Coastal Construction Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-05-07",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-01883",
+      "hubspot_record": {
+        "Email": "cust-01883@example.com",
+        "First Name": "Kimberly",
+        "Last Name": "Martin",
+        "Company Name": "Coastal Architecture Group",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-12-08",
+        "Trade Signal Region": "CO",
+        "Trade Signal Customer ID": "CUST-01883"
+      },
+      "salesforce_record": {
+        "Email": "cust-01883@example.com",
+        "Name": "Kimberly Martin",
+        "Company": "Coastal Architecture Group",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-12-08"
+      }
+    },
+    {
+      "customer_id": "CUST-02147",
+      "hubspot_record": {
+        "Email": "cust-02147@example.com",
+        "First Name": "Emily",
+        "Last Name": "Perez",
+        "Company Name": "Meridian Architecture Group",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-07-25",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-02147"
+      },
+      "salesforce_record": {
+        "Email": "cust-02147@example.com",
+        "Name": "Emily Perez",
+        "Company": "Meridian Architecture Group Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-25",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00551",
+      "hubspot_record": {
+        "Email": "cust-00551@example.com",
+        "First Name": "Sandra",
+        "Last Name": "Martin",
+        "Company Name": "Coastal Interiors",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-06-04",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-00551"
+      },
+      "salesforce_record": {
+        "Email": "cust-00551@example.com",
+        "Name": "Sandra Martin",
+        "Company": "Coastal Interiors",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-03",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00147",
+      "hubspot_record": {
+        "Email": "cust-00147@example.com",
+        "First Name": "Susan",
+        "Last Name": "Lewis",
+        "Company Name": "Meridian Construction",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "email_capture",
+        "Trade Signal Signup Date": "2024-06-12",
+        "Trade Signal Region": "NY",
+        "Trade Signal Customer ID": "CUST-00147"
+      },
+      "salesforce_record": {
+        "Email": "cust-00147@example.com",
+        "Name": "Susan Lewis",
+        "Company": "Meridian Construction",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-06-16",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02967",
+      "hubspot_record": {
+        "Email": "cust-02967@example.com",
+        "First Name": "Maria",
+        "Last Name": "Sanchez",
+        "Company Name": "Ashford Design Studio",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "trade_show",
+        "Trade Signal Signup Date": "2024-10-04",
+        "Trade Signal Region": "WA",
+        "Trade Signal Customer ID": "CUST-02967"
+      },
+      "salesforce_record": {
+        "Email": "cust-02967@example.com",
+        "Name": "Maria Sanchez",
+        "Company": "Ashford Design Studio",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-10-01",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00522",
+      "hubspot_record": {
+        "Email": "cust-00522@example.com",
+        "First Name": "Anthony",
+        "Last Name": "Young",
+        "Company Name": "Harbor Design + Build",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2025-05-20",
+        "Trade Signal Region": "OR",
+        "Trade Signal Customer ID": "CUST-00522"
+      },
+      "salesforce_record": {
+        "Email": "cust-00522@example.com",
+        "Name": "Anthony Young",
+        "Company": "Harbor Design + Build Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-05-20",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-02937",
+      "hubspot_record": {
+        "Email": "cust-02937@example.com",
+        "First Name": "Aisha",
+        "Last Name": "Kim",
+        "Company Name": "Bramble Design + Build",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "organic_search",
+        "Trade Signal Signup Date": "2025-07-10",
+        "Trade Signal Region": "TX",
+        "Trade Signal Customer ID": "CUST-02937"
+      },
+      "salesforce_record": {
+        "Email": "cust-02937@example.com",
+        "Name": "Aisha Kim",
+        "Company": "Bramble Design + Build",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2025-07-10"
+      }
+    },
+    {
+      "customer_id": "CUST-02257",
+      "hubspot_record": {
+        "Email": "cust-02257@example.com",
+        "First Name": "Thomas",
+        "Last Name": "Allen",
+        "Company Name": "Union Design Studio",
+        "Trade Signal Segment": "trade",
+        "Trade Signal Source Channel": "paid_social",
+        "Trade Signal Signup Date": "2024-07-05",
+        "Trade Signal Region": "unknown",
+        "Trade Signal Customer ID": "CUST-02257"
+      },
+      "salesforce_record": {
+        "Email": "cust-02257@example.com",
+        "Name": "Thomas Allen",
+        "Company": "Union Design Studio Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-07-05",
+        "Phone": "555-0100"
+      }
+    },
+    {
+      "customer_id": "CUST-00778",
+      "hubspot_record": {
+        "Email": "cust-00778@example.com",
+        "First Name": "Linda",
+        "Last Name": "Perez",
+        "Company Name": "Northline Build Co.",
+        "Trade Signal Segment": "commercial",
+        "Trade Signal Source Channel": "architect_referral",
+        "Trade Signal Signup Date": "2024-12-18",
+        "Trade Signal Region": "PA",
+        "Trade Signal Customer ID": "CUST-00778"
+      },
+      "salesforce_record": {
+        "Email": "cust-00778@example.com",
+        "Name": "Linda Perez",
+        "Company": "Northline Build Co. Inc",
+        "Status": "Closed - Converted",
+        "CreatedDate": "2024-12-18",
+        "Phone": "555-0100"
+      }
+    }
+  ]
+}
