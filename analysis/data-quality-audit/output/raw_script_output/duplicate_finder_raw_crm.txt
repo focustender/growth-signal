@@ -1,0 +1,4 @@
+### duplicate_finder: raw_crm_export.csv
+Total rows: 669
+Full-row duplicates: 0 (0.0%) [PASS]
+Key [customer_id] duplicates: 0 rows (0 entities) [PASS]

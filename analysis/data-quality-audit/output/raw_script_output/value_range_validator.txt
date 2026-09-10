@@ -1,0 +1,17 @@
+### value_range_validator: customers.csv
+      column status                      issues                rule
+      amount   SKIP Column not found in dataset                 NaN
+email_opt_in   PASS                        None {"allowed": [0, 1]}
+       score   SKIP Column not found in dataset                 NaN
+
+### value_range_validator: funnel_events.csv
+      column       rule status                      issues
+      amount {"min": 0}   PASS                        None
+email_opt_in        NaN   SKIP Column not found in dataset
+       score        NaN   SKIP Column not found in dataset
+
+### value_range_validator: reviews.csv
+      column status                      issues                  rule
+      amount   SKIP Column not found in dataset                   NaN
+email_opt_in   SKIP Column not found in dataset                   NaN
+       score   PASS                        None {"min": 1, "max": 10}

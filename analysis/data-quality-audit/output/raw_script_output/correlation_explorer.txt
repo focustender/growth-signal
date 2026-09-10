@@ -1,0 +1,2 @@
+### correlation_explorer: customers.csv
+Need at least 2 numeric columns for correlation analysis.

@@ -1,0 +1,116 @@
+customer_id,segment,source_channel,signup_date,region,n_samples,sku_collection,stalled,period,region_bucket,collection_family
+CUST-00014,trade,trade_show,2024-09-14,WA,1.0,Glass - Champagne,1,2024,West,Glass
+CUST-00021,trade,trade_show,2025-01-28,MI,1.0,Glass - Midnight,1,2025,Midwest,Glass
+CUST-00027,trade,trade_show,2024-05-03,MD,1.0,Thin Brick - Charcoal,1,2024,South,Thin Brick
+CUST-00040,trade,trade_show,2024-05-19,OR,1.0,Thin Brick - Weathered White,1,2024,West,Thin Brick
+CUST-00046,trade,trade_show,2024-12-26,CO,1.0,Natural Press - Fog,1,2024,West,Natural Press
+CUST-00152,trade,trade_show,2025-08-02,NY,1.0,Natural Press - Fog,0,2025,Northeast,Natural Press
+CUST-00173,trade,trade_show,2024-06-01,OR,1.0,Original Ceramic - Sage,1,2024,West,Original Ceramic
+CUST-00226,trade,trade_show,2024-07-12,PA,1.0,Glass - Seaglass,1,2024,Northeast,Glass
+CUST-00227,trade,trade_show,2024-03-11,MN,1.0,Original Ceramic - Aegean,1,2024,Midwest,Original Ceramic
+CUST-00239,trade,trade_show,2025-08-07,MD,1.0,Original Ceramic - Sage,0,2025,South,Original Ceramic
+CUST-00241,trade,trade_show,2024-11-08,VA,1.0,Thin Brick - Weathered White,0,2024,South,Thin Brick
+CUST-00251,trade,trade_show,2024-11-28,OH,1.0,Thin Brick - Weathered White,0,2024,Midwest,Thin Brick
+CUST-00274,trade,trade_show,2025-03-11,CT,1.0,Natural Press - Sable,1,2025,Northeast,Natural Press
+CUST-00297,trade,trade_show,2024-08-09,MD,1.0,Original Ceramic - Clamshell,0,2024,South,Original Ceramic
+CUST-00313,trade,trade_show,2025-06-22,NJ,1.0,Thin Brick - Terracotta,1,2025,Northeast,Thin Brick
+CUST-00316,trade,trade_show,2025-06-01,MD,1.0,Natural Press - Oatmeal,1,2025,South,Natural Press
+CUST-00333,trade,trade_show,2024-09-16,NJ,1.0,Natural Press - Oatmeal,1,2024,Northeast,Natural Press
+CUST-00349,trade,trade_show,2024-09-28,AZ,1.0,Original Ceramic - Aegean,1,2024,West,Original Ceramic
+CUST-00386,trade,trade_show,2025-02-13,MN,1.0,Natural Press - Fog,1,2025,Midwest,Natural Press
+CUST-00444,trade,trade_show,2024-02-13,CT,1.0,Glass - Seaglass,1,2024,Northeast,Glass
+CUST-00513,trade,trade_show,2025-03-25,CT,1.0,Natural Press - Sable,1,2025,Northeast,Natural Press
+CUST-00515,trade,trade_show,2025-06-09,OR,1.0,Natural Press - Sable,1,2025,West,Natural Press
+CUST-00532,trade,trade_show,2024-02-12,NJ,1.0,Thin Brick - Weathered White,0,2024,Northeast,Thin Brick
+CUST-00623,trade,trade_show,2024-12-02,PA,1.0,Natural Press - Sable,1,2024,Northeast,Natural Press
+CUST-00625,trade,trade_show,2025-06-19,WA,1.0,Original Ceramic - Aegean,1,2025,West,Original Ceramic
+CUST-00654,trade,trade_show,2025-06-27,WA,1.0,Natural Press - Oatmeal,0,2025,West,Natural Press
+CUST-00667,trade,trade_show,2024-06-01,FL,1.0,Original Ceramic - Aegean,1,2024,South,Original Ceramic
+CUST-00672,trade,trade_show,2024-05-03,GA,1.0,Original Ceramic - Clamshell,1,2024,South,Original Ceramic
+CUST-00678,trade,trade_show,2025-08-30,GA,1.0,Original Ceramic - Clamshell,1,2025,South,Original Ceramic
+CUST-00686,trade,trade_show,2024-11-29,NC,1.0,Thin Brick - Charcoal,0,2024,South,Thin Brick
+CUST-00696,trade,trade_show,2024-09-04,CT,1.0,Glass - Seaglass,1,2024,Northeast,Glass
+CUST-00725,trade,trade_show,2024-07-07,CA,1.0,Natural Press - Sable,1,2024,West,Natural Press
+CUST-00730,trade,trade_show,2024-12-02,MN,1.0,Thin Brick - Terracotta,0,2024,Midwest,Thin Brick
+CUST-00734,trade,trade_show,2025-01-12,TX,1.0,Glass - Seaglass,0,2025,South,Glass
+CUST-00784,trade,trade_show,2025-04-23,NJ,1.0,Original Ceramic - Aegean,1,2025,Northeast,Original Ceramic
+CUST-00791,trade,trade_show,2025-04-03,NY,1.0,Glass - Midnight,1,2025,Northeast,Glass
+CUST-00824,trade,trade_show,2024-01-18,NY,1.0,Natural Press - Sable,0,2024,Northeast,Natural Press
+CUST-00844,trade,trade_show,2025-05-10,OR,1.0,Glass - Midnight,1,2025,West,Glass
+CUST-00845,trade,trade_show,2025-02-07,FL,1.0,Glass - Seaglass,1,2025,South,Glass
+CUST-00850,trade,trade_show,2025-04-30,GA,1.0,Glass - Champagne,1,2025,South,Glass
+CUST-00862,trade,trade_show,2025-01-30,,1.0,Thin Brick - Charcoal,1,2025,Unknown,Thin Brick
+CUST-00863,trade,trade_show,2024-07-18,AZ,1.0,Natural Press - Sable,0,2024,West,Natural Press
+CUST-00916,trade,trade_show,2024-07-07,MN,1.0,Thin Brick - Charcoal,1,2024,Midwest,Thin Brick
+CUST-00928,trade,trade_show,2024-03-03,MN,1.0,Natural Press - Fog,0,2024,Midwest,Natural Press
+CUST-01014,trade,trade_show,2024-05-27,OH,1.0,Thin Brick - Terracotta,1,2024,Midwest,Thin Brick
+CUST-01039,trade,trade_show,2024-12-13,NC,1.0,Glass - Midnight,1,2024,South,Glass
+CUST-01054,trade,trade_show,2025-07-25,PA,1.0,Glass - Champagne,1,2025,Northeast,Glass
+CUST-01091,trade,trade_show,2024-06-12,IL,1.0,Original Ceramic - Aegean,1,2024,Midwest,Original Ceramic
+CUST-01140,trade,trade_show,2024-02-10,OH,1.0,Thin Brick - Terracotta,1,2024,Midwest,Thin Brick
+CUST-01228,trade,trade_show,2024-03-25,,1.0,Original Ceramic - Clamshell,1,2024,Unknown,Original Ceramic
+CUST-01249,trade,trade_show,2024-08-26,CO,1.0,Natural Press - Sable,1,2024,West,Natural Press
+CUST-01253,trade,trade_show,2025-03-09,MN,1.0,Glass - Midnight,0,2025,Midwest,Glass
+CUST-01370,trade,trade_show,2025-01-18,OH,1.0,Original Ceramic - Aegean,0,2025,Midwest,Original Ceramic
+CUST-01390,trade,trade_show,2025-05-03,OR,1.0,Glass - Seaglass,0,2025,West,Glass
+CUST-01420,trade,trade_show,2024-10-13,CO,1.0,Original Ceramic - Aegean,1,2024,West,Original Ceramic
+CUST-01421,trade,trade_show,2025-01-28,FL,1.0,Glass - Midnight,1,2025,South,Glass
+CUST-01433,trade,trade_show,2024-02-23,MN,1.0,Glass - Seaglass,1,2024,Midwest,Glass
+CUST-01454,trade,trade_show,2024-07-16,AZ,1.0,Natural Press - Sable,1,2024,West,Natural Press
+CUST-01482,trade,trade_show,2024-07-04,PA,1.0,Glass - Champagne,0,2024,Northeast,Glass
+CUST-01487,trade,trade_show,2025-07-03,PA,1.0,Natural Press - Oatmeal,1,2025,Northeast,Natural Press
+CUST-01541,trade,trade_show,2025-02-21,CT,1.0,Glass - Champagne,1,2025,Northeast,Glass
+CUST-01547,trade,trade_show,2025-04-13,CO,1.0,Original Ceramic - Clamshell,0,2025,West,Original Ceramic
+CUST-01551,trade,trade_show,2024-02-04,,1.0,Glass - Midnight,1,2024,Unknown,Glass
+CUST-01572,trade,trade_show,2025-07-07,FL,1.0,Thin Brick - Charcoal,0,2025,South,Thin Brick
+CUST-01596,trade,trade_show,2025-04-25,NY,1.0,Original Ceramic - Sage,0,2025,Northeast,Original Ceramic
+CUST-01597,trade,trade_show,2025-06-04,AZ,1.0,Glass - Champagne,1,2025,West,Glass
+CUST-01606,trade,trade_show,2024-07-06,,1.0,Original Ceramic - Sage,1,2024,Unknown,Original Ceramic
+CUST-01614,trade,trade_show,2024-08-01,,1.0,Glass - Champagne,1,2024,Unknown,Glass
+CUST-01631,trade,trade_show,2025-03-28,CT,1.0,Original Ceramic - Clamshell,1,2025,Northeast,Original Ceramic
+CUST-01682,trade,trade_show,2025-05-29,OH,1.0,Glass - Champagne,1,2025,Midwest,Glass
+CUST-01698,trade,trade_show,2025-05-27,MD,1.0,Thin Brick - Charcoal,1,2025,South,Thin Brick
+CUST-01716,trade,trade_show,2024-08-21,NY,1.0,Thin Brick - Charcoal,1,2024,Northeast,Thin Brick
+CUST-01782,trade,trade_show,2024-07-18,CO,1.0,Original Ceramic - Clamshell,1,2024,West,Original Ceramic
+CUST-01788,trade,trade_show,2024-01-14,PA,1.0,Natural Press - Sable,0,2024,Northeast,Natural Press
+CUST-01806,trade,trade_show,2024-09-12,WA,1.0,Thin Brick - Terracotta,1,2024,West,Thin Brick
+CUST-01825,trade,trade_show,2025-08-04,AZ,1.0,Thin Brick - Terracotta,1,2025,West,Thin Brick
+CUST-01852,trade,trade_show,2024-08-03,CA,1.0,Natural Press - Oatmeal,0,2024,West,Natural Press
+CUST-01872,trade,trade_show,2024-04-30,MN,1.0,Glass - Champagne,1,2024,Midwest,Glass
+CUST-01901,trade,trade_show,2025-04-02,MI,1.0,Original Ceramic - Clamshell,1,2025,Midwest,Original Ceramic
+CUST-01914,trade,trade_show,2025-02-14,TX,1.0,Original Ceramic - Sage,1,2025,South,Original Ceramic
+CUST-01925,trade,trade_show,2025-03-13,MN,1.0,Glass - Champagne,0,2025,Midwest,Glass
+CUST-01962,trade,trade_show,2024-07-18,,1.0,Glass - Midnight,1,2024,Unknown,Glass
+CUST-02020,trade,trade_show,2024-03-01,NC,1.0,Thin Brick - Terracotta,1,2024,South,Thin Brick
+CUST-02102,trade,trade_show,2025-07-24,CA,1.0,Thin Brick - Weathered White,0,2025,West,Thin Brick
+CUST-02145,trade,trade_show,2024-11-30,MD,1.0,Natural Press - Sable,1,2024,South,Natural Press
+CUST-02203,trade,trade_show,2025-08-05,AZ,1.0,Thin Brick - Weathered White,1,2025,West,Thin Brick
+CUST-02254,trade,trade_show,2024-10-11,GA,1.0,Glass - Champagne,1,2024,South,Glass
+CUST-02297,trade,trade_show,2025-03-12,IL,1.0,Natural Press - Fog,1,2025,Midwest,Natural Press
+CUST-02362,trade,trade_show,2024-01-27,MD,1.0,Natural Press - Sable,0,2024,South,Natural Press
+CUST-02380,trade,trade_show,2025-06-08,NC,1.0,Natural Press - Oatmeal,0,2025,South,Natural Press
+CUST-02385,trade,trade_show,2024-10-16,CA,1.0,Original Ceramic - Aegean,1,2024,West,Original Ceramic
+CUST-02390,trade,trade_show,2025-07-14,IL,1.0,Natural Press - Oatmeal,1,2025,Midwest,Natural Press
+CUST-02413,trade,trade_show,2024-07-24,TX,1.0,Original Ceramic - Sage,1,2024,South,Original Ceramic
+CUST-02414,trade,trade_show,2024-06-12,TX,1.0,Glass - Midnight,1,2024,South,Glass
+CUST-02430,trade,trade_show,2025-06-02,MD,1.0,Natural Press - Sable,0,2025,South,Natural Press
+CUST-02441,trade,trade_show,2025-03-17,MI,1.0,Thin Brick - Weathered White,1,2025,Midwest,Thin Brick
+CUST-02539,trade,trade_show,2024-01-08,CT,1.0,Original Ceramic - Sage,1,2024,Northeast,Original Ceramic
+CUST-02546,trade,trade_show,2024-07-06,MN,1.0,Natural Press - Sable,0,2024,Midwest,Natural Press
+CUST-02680,trade,trade_show,2025-01-27,,1.0,Original Ceramic - Aegean,1,2025,Unknown,Original Ceramic
+CUST-02760,trade,trade_show,2024-01-30,CT,1.0,Original Ceramic - Sage,1,2024,Northeast,Original Ceramic
+CUST-02768,trade,trade_show,2025-03-26,IL,1.0,Glass - Seaglass,1,2025,Midwest,Glass
+CUST-02821,trade,trade_show,2025-03-23,VA,1.0,Thin Brick - Charcoal,1,2025,South,Thin Brick
+CUST-02841,trade,trade_show,2024-08-23,IL,1.0,Natural Press - Sable,1,2024,Midwest,Natural Press
+CUST-02906,trade,trade_show,2024-04-16,CO,1.0,Thin Brick - Terracotta,1,2024,West,Thin Brick
+CUST-02908,trade,trade_show,2025-08-17,MI,1.0,Original Ceramic - Aegean,1,2025,Midwest,Original Ceramic
+CUST-02916,trade,trade_show,2024-02-18,MN,1.0,Original Ceramic - Sage,1,2024,Midwest,Original Ceramic
+CUST-02933,trade,trade_show,2024-10-17,CT,1.0,Original Ceramic - Sage,1,2024,Northeast,Original Ceramic
+CUST-02958,trade,trade_show,2024-10-07,NJ,1.0,Glass - Seaglass,0,2024,Northeast,Glass
+CUST-03011,trade,trade_show,2025-01-07,MD,1.0,Natural Press - Oatmeal,1,2025,South,Natural Press
+CUST-03046,trade,trade_show,2025-01-16,NY,1.0,Thin Brick - Terracotta,1,2025,Northeast,Thin Brick
+CUST-03071,trade,trade_show,2025-04-19,WA,1.0,Original Ceramic - Clamshell,1,2025,West,Original Ceramic
+CUST-03113,trade,trade_show,2024-09-25,MI,1.0,Natural Press - Sable,1,2024,Midwest,Natural Press
+CUST-03121,trade,trade_show,2024-05-03,CT,1.0,Original Ceramic - Sage,0,2024,Northeast,Original Ceramic
+CUST-03130,trade,trade_show,2025-01-08,OR,1.0,Thin Brick - Terracotta,1,2025,West,Thin Brick
+CUST-03162,trade,trade_show,2025-08-21,GA,1.0,Original Ceramic - Sage,0,2025,South,Original Ceramic

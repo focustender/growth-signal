@@ -1,0 +1,8 @@
+### freshness_check: customers.csv (signup_date)
+  timestamp_col: signup_date
+  latest_record: 2025-08-31T00:00:00+00:00
+  current_time_utc: 2026-09-07T02:11:06.744161+00:00
+  lag_hours: 8930.19
+  max_lag_hours: 999999.0
+  status: PASS
+  message: Data is fresh — lag 8930.2h ≤ 999999.0h

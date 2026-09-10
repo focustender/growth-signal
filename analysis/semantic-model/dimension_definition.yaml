@@ -1,0 +1,66 @@
+# Trade Signal customer dimensions, formalized from customers.csv's real
+# columns. Validate with:
+# python3 .claude/skills/semantic-model-builder/scripts/model_yaml_validator.py --input analysis/semantic-model/dimension_definition.yaml --strict
+
+dimensions:
+  - name: segment
+    label: "Customer Segment"
+    description: "Which of Fireclay's four customer types this record belongs to -- gates which funnel stages apply (project_upload only exists for trade/commercial) and shows up as the primary cut in every analysis in this project."
+    type: categorical
+    expr: segment
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      possible_values:
+        - "homeowner"
+        - "designer"
+        - "trade"
+        - "commercial"
+      notes: "Never null in this dataset. project_rate is undefined (not
+        just zero) for homeowner/designer -- filter them out of that
+        metric's denominator entirely rather than treating their
+        non-participation as a 0%."
+
+  - name: source_channel
+    label: "Acquisition Channel"
+    description: "How the customer was originally acquired -- the dimension the trade-show-stall finding is cut on, and the single most consequential dimension in this project's analyses."
+    type: categorical
+    expr: source_channel
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      possible_values:
+        - "trade_show"
+        - "showroom_walkin"
+        - "architect_referral"
+        - "paid_social"
+        - "direct"
+        - "organic_search"
+        - "referral"
+        - "email_capture"
+      notes: "Was null/unattributed for 34 customers in the raw messy CRM
+        export before analysis/crm-reconciliation's field-by-field
+        coalescing recovered it -- never null in the canonical
+        customers.csv used by the rest of this project's analyses."
+
+  - name: region
+    label: "Region"
+    description: "US state abbreviation where the customer is located. Collapsed to a coarser Census-region bucket (Northeast/Midwest/South/West) in analysis/root-cause/ to get large enough per-cell counts for a dimension comparison -- the raw 20-state cardinality is too sparse to compare directly at this dataset's volume."
+    type: categorical
+    expr: region
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      notes: "3.38% null in the raw customers.csv (108 of 3,200 rows) --
+        fully recovered (0% null) in customers_reconciled.csv via the
+        same coalescing logic that recovers source_channel. See
+        analysis/data-quality-audit/output/quality_rubric.md."
+
+  - name: signup_date
+    label: "Signup Date"
+    description: "The date the customer entered the funnel. Anchors every cohort in analysis/cohort-analysis's early (abandoned) attempt at signup-based cohorting -- see that folder's README for why first-purchase date, not signup_date, is the correct cohort anchor for repeat-purchase analysis specifically."
+    type: time
+    expr: signup_date
+    type_params:
+      time_granularity: day
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      notes: "Range in this dataset: 2024-01-02 to 2025-11-16 (last
+        signup) with funnel activity observed through 2025-11-11."

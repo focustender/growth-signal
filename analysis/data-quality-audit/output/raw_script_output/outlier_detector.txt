@@ -1,0 +1,3 @@
+### outlier_detector: funnel_events.csv (amount)
+column  outlier_count  outlier_pct    min      max      mean  iqr_outliers  zscore_outliers
+amount            311         18.8 305.08 25994.31 3517.3651           311               65

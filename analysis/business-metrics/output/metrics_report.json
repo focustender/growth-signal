@@ -1,0 +1,34 @@
+{
+  "designer": {
+    "n_customers": 662,
+    "n_purchasers": 402,
+    "conversion_rate": 0.6072507552870091,
+    "aov": 1086.4843360995856,
+    "total_revenue": 523685.45,
+    "revenue_per_customer": 791.0656344410879
+  },
+  "homeowner": {
+    "n_customers": 1769,
+    "n_purchasers": 768,
+    "conversion_rate": 0.43414358394573205,
+    "aov": 1093.3639012925976,
+    "total_revenue": 930452.68,
+    "revenue_per_customer": 525.9766421707183
+  },
+  "commercial": {
+    "n_customers": 211,
+    "n_purchasers": 72,
+    "conversion_rate": 0.3412322274881517,
+    "aov": 13381.722000000002,
+    "total_revenue": 1137446.37,
+    "revenue_per_customer": 5390.741090047394
+  },
+  "trade": {
+    "n_customers": 558,
+    "n_purchasers": 191,
+    "conversion_rate": 0.34229390681003585,
+    "aov": 13670.07351694913,
+    "total_revenue": 3226137.35,
+    "revenue_per_customer": 5781.608154121855
+  }
+}

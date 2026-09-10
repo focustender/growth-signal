@@ -1,0 +1,39 @@
+### null_counter (data-quality-audit): customers.csv
+        column dtype  null_count  null_pct  warn_threshold  fail_threshold status
+  company_name   str        2431     75.97             5.0            20.0   FAIL
+        region   str         108      3.38             5.0            20.0   PASS
+   customer_id   str           0      0.00             0.0             0.0   FAIL
+       segment   str           0      0.00             5.0            20.0   PASS
+source_channel   str           0      0.00             5.0            20.0   PASS
+   signup_date   str           0      0.00             0.0             0.0   FAIL
+  email_opt_in int64           0      0.00             5.0            20.0   PASS
+
+### null_counter: customers_reconciled.csv
+        column dtype  null_count  null_pct  warn_threshold  fail_threshold status
+  company_name   str         458     76.33             5.0            20.0   FAIL
+   customer_id   str           0      0.00             0.0             0.0   FAIL
+       segment   str           0      0.00             5.0            20.0   PASS
+source_channel   str           0      0.00             0.0             0.0   FAIL
+   signup_date   str           0      0.00             5.0            20.0   PASS
+        region   str           0      0.00             5.0            20.0   PASS
+  email_opt_in int64           0      0.00             5.0            20.0   PASS
+
+### null_profiler (programmatic-eda): raw_crm_export.csv
+                null_count  null_pct status
+company_name           513     76.68   FAIL
+source_channel          34      5.08   WARN
+region                  16      2.39     OK
+customer_id              0      0.00     OK
+segment                  0      0.00     OK
+signup_date              0      0.00     OK
+email_opt_in             0      0.00     OK
+
+### null_profiler: funnel_events.csv
+                null_count  null_pct status
+amount                7214     81.35   FAIL
+sku_collection        3349     37.76   FAIL
+event_id                 0      0.00     OK
+customer_id              0      0.00     OK
+event_type               0      0.00     OK
+event_date               0      0.00     OK
+channel                  0      0.00     OK

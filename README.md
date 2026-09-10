@@ -23,9 +23,22 @@ design/          mockups
 shopify-theme/   real Liquid theme section on a live Shopify Partner dev store
 visualizer/      perspective texture-mapping room visualizer (not generative AI)
 analysis/
-  crm-reconciliation/   HubSpot <-> Salesforce lifecycle data-quality reconciliation
+  crm-reconciliation/     HubSpot <-> Salesforce lifecycle data-quality reconciliation
+  experimentation/        power analysis + stop/scale/learn decision memo for the trade-show test
+  lifecycle-attribution/  platform-metric vs. commercial-outcome divergence, email programs
+  data-quality-audit/     six-dimension quality scorecard + EDA notes on the core dataset
+  cohort-analysis/        repeat-purchase retention by first-purchase cohort and segment
+  time-series/            monthly trend/anomaly check on the trade-show stall rate
+  root-cause/             hypothesis rule-out for the trade-show stall-rate drift
+  business-metrics/       AOV, conversion rate, and revenue-per-customer by segment
+  semantic-model/         validated YAML definitions for every funnel metric/dimension
+  visualization/          chart specs + a real segment-comparison chart
+  dashboard-spec/         requirements spec for an ongoing lifecycle dashboard
+  narrative/              SCR-framework synthesis tying this round's findings together
+  qa/                     final QA gate — automated checks + manual sign-off
 .claude/
-  skills/lifecycle-pulse/   a real, runnable Claude Code skill: recurring lifecycle/funnel digest
+  skills/   lifecycle-pulse/ (original, a real runnable digest skill) + 13 vendored data-analytics
+            skills used as workflow tooling for this round of work — see skills/README.md
 site/            the case-study write-up
 ```
 

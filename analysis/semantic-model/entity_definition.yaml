@@ -1,0 +1,68 @@
+# Trade Signal core entities. Validate with:
+# python3 .claude/skills/semantic-model-builder/scripts/model_yaml_validator.py --input analysis/semantic-model/entity_definition.yaml --strict
+
+entities:
+  - name: customer
+    label: "Customer"
+    description: "A person or organization who entered the Fireclay funnel -- the grain every metric in metric_definition.yaml is ultimately computed against."
+    type: primary
+    expr: customer_id
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      source_table: "customers"
+      grain: "one row per customer"
+      relationships:
+        - entity: "funnel_event"
+          type: "one_to_many"
+          join_key: "customer_id"
+          notes: "A customer has zero or more funnel events across six
+            event_type values (site_visit, visualizer_use,
+            sample_request, purchase, project_upload, repeat_purchase).
+            Every metric in metric_definition.yaml except advocacy_rate
+            is computed from this relationship."
+        - entity: "email_engagement"
+          type: "one_to_many"
+          join_key: "customer_id"
+          notes: "A customer has zero or more email sends across six
+            campaign_type programs. Joined against funnel_event's
+            purchase/repeat_purchase rows in
+            analysis/lifecycle-attribution/ to compare platform metrics
+            (open/click rate) against commercial outcomes (purchase
+            value)."
+        - entity: "review"
+          type: "one_to_many"
+          join_key: "customer_id"
+          notes: "A customer has zero or more reviews; advocacy_rate's
+            numerator. Not yet joined against other entities in any
+            analysis in this project -- see metric_definition.yaml's
+            advocacy_rate calculation_notes for a suggested next step."
+
+  - name: funnel_event
+    label: "Funnel Event"
+    description: "A single timestamped action a customer took, one of six event_type values forming the interest -> sample -> project -> purchase -> repeat -> advocacy funnel this project's measurement foundation defines."
+    type: foreign
+    expr: event_id
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      source_table: "funnel_events"
+      grain: "one row per event"
+
+  - name: email_engagement
+    label: "Email Engagement"
+    description: "A single email send to a customer under one of six lifecycle program types, with open/click flags."
+    type: foreign
+    expr: engagement_id
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      source_table: "email_engagement"
+      grain: "one row per send"
+
+  - name: review
+    label: "Review"
+    description: "A single customer review with a numeric score (observed range 3-10 in this dataset)."
+    type: foreign
+    expr: customer_id
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      source_table: "reviews"
+      grain: "one row per review (a customer may have more than one)"

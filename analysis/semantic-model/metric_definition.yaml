@@ -1,0 +1,179 @@
+# Trade Signal funnel metrics, formalized from docs/measurement-foundation.md's
+# prose stage table into the semantic-model-builder skill's YAML schema.
+# Generated with scripts/metric_template_generator.py, filled by hand against
+# the real stage definitions already in use across this project's analyses.
+# Validate with: python3 .claude/skills/semantic-model-builder/scripts/model_yaml_validator.py --input analysis/semantic-model/metric_definition.yaml --strict
+
+metrics:
+  - name: interest_rate
+    description: "Share of customers who ever recorded a site_visit or visualizer_use funnel event -- the top of the funnel, before any sample or purchase intent is expressed."
+    label: "Interest Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_interest_event
+        filter: "event_type IN ('site_visit', 'visualizer_use')"
+      denominator:
+        name: total_customers
+    filter: |
+      # {{ Dimension('funnel_event__event_type') }} IN ('site_visit', 'visualizer_use')
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "funnel_events, customers"
+      grain: "one row per customer"
+      business_context: >
+        Top-of-funnel awareness signal. Used to confirm total addressable
+        interest before measuring drop-off at each later stage; not itself
+        a stage most lifecycle work optimizes directly.
+      calculation_notes: >
+        A customer can trigger this via either event type; counted once
+        regardless of how many interest-stage events they generate.
+      good_value_range: "Directional only -- this dataset has no external
+        traffic-acquisition benchmark to compare against."
+      last_verified: 2026-09-06
+
+  - name: sample_rate
+    description: "Share of customers with at least one sample_request funnel event -- the first stage where a customer has taken a real, effortful action, not just browsed."
+    label: "Sample Request Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_sample_request
+        filter: "event_type = 'sample_request'"
+      denominator:
+        name: total_customers
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "funnel_events, customers"
+      grain: "one row per customer"
+      business_context: >
+        The real lifecycle funnel entry point for this analysis -- every
+        downstream finding in this project (the trade-show stall, the
+        second-sample predictor, the cohort/attribution work) is scoped
+        to customers who already reached this stage.
+      calculation_notes: >
+        Does not distinguish first vs. second+ sample requests on its own
+        -- see the second_sample_rate note below and
+        docs/measurement-foundation.md's channel breakdown for that cut.
+      good_value_range: "By segment (real, from this dataset): homeowner
+        70.8%, designer 75.2%, trade 63.1%, commercial 41.7%."
+      last_verified: 2026-09-06
+
+  - name: project_rate
+    description: "Share of trade/commercial customers with a project_upload funnel event -- the stage unique to trade and commercial customers submitting a real project scope; homeowner and designer customers don't pass through this stage by definition."
+    label: "Project Upload Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_project_upload
+        filter: "event_type = 'project_upload'"
+      denominator:
+        name: trade_and_commercial_customers
+    filter: |
+      # {{ Dimension('customer__segment') }} IN ('trade', 'commercial')
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "funnel_events, customers"
+      grain: "one row per trade/commercial customer"
+      business_context: >
+        A structural, segment-gated stage, not a universal funnel step --
+        computing this against the full customer base (including
+        homeowner/designer, who never trigger project_upload) would
+        silently understate the real project-to-purchase rate for the
+        segments it actually applies to.
+      calculation_notes: >
+        Denominator MUST be filtered to segment IN (trade, commercial)
+        before computing this rate -- this is the single most important
+        gotcha in this whole metric set.
+      good_value_range: "Not independently published elsewhere in this
+        project; see purchase_rate for the downstream conversion this
+        stage feeds."
+      last_verified: 2026-09-06
+
+  - name: purchase_rate
+    description: "Share of customers with at least one purchase funnel event."
+    label: "Purchase Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_purchase
+        filter: "event_type = 'purchase'"
+      denominator:
+        name: total_customers
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "funnel_events, customers"
+      grain: "one row per customer"
+      business_context: >
+        The primary commercial-outcome stage this whole funnel exists to
+        drive toward. Reported both against the total customer base and
+        as a sample-to-purchase conversion (see calculation_notes) --
+        the two answer different questions and both appear in this
+        project's write-ups.
+      calculation_notes: >
+        docs/measurement-foundation.md reports this two ways: as a share
+        of ALL customers per segment, and as "% of Sampled -> Purchased"
+        (i.e., purchase_rate computed with sample_rate's numerator as the
+        denominator instead of total_customers). Both are valid; state
+        which one you mean explicitly, since they differ substantially
+        (e.g. homeowner: 768/1,769 = 43.4% of all customers vs. 768/1,252
+        = 61.3% of sampled customers).
+      good_value_range: "By segment, % of sampled -> purchased (real,
+        from this dataset): homeowner 61.3%, designer 80.7%, trade 54.3%,
+        commercial 81.8%."
+      last_verified: 2026-09-06
+
+  - name: repeat_purchase_rate
+    description: "Share of customers with a purchase who go on to record a second purchase/repeat_purchase event."
+    label: "Repeat Purchase Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_repeat_purchase
+        filter: "event_type = 'repeat_purchase' OR (event_type = 'purchase' AND purchase_sequence > 1)"
+      denominator:
+        name: customers_with_at_least_one_purchase
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "funnel_events"
+      grain: "one row per customer who has purchased at least once"
+      business_context: >
+        The lever analyzed in analysis/cohort-analysis/ -- overall 15.4%
+        of first-time purchasers ever repeat, with a hard floor at month
+        1 (0% of repeat purchases happen that early) and a 2x gap between
+        trade (23.6%) and homeowner (10.8%).
+      calculation_notes: >
+        MUST be cohorted on each customer's first purchase date, not
+        signup date -- anchoring on signup date produces nonsensical
+        rates above 100%, since very few customers' first purchase
+        happens in their signup month. See
+        analysis/cohort-analysis/README.md's "note on cohort definition."
+      good_value_range: "15.4% overall; segment range 10.8%-23.6% (real,
+        from this dataset)."
+      last_verified: 2026-09-06
+
+  - name: advocacy_rate
+    description: "Share of customers with a review record tied to them -- the final funnel stage, representing a customer willing to publicly vouch for the product."
+    label: "Advocacy Rate"
+    type: ratio
+    type_params:
+      numerator:
+        name: customers_with_a_review
+      denominator:
+        name: total_customers
+    meta:
+      owner: "Lifecycle Growth & Analytics"
+      data_source: "reviews, customers"
+      grain: "one row per customer"
+      business_context: >
+        Not deeply analyzed elsewhere in this project yet -- included
+        here for completeness of the funnel definition, and as a
+        candidate for a future analysis pass (e.g., does a review
+        precede or follow a repeat purchase, and does review score
+        correlate with repeat-purchase likelihood).
+      calculation_notes: >
+        This dataset's reviews table has a single score column
+        (observed range 3-10); a customer with multiple reviews should
+        still count once for this rate.
+      good_value_range: "Not yet benchmarked in this project."
+      last_verified: 2026-09-06

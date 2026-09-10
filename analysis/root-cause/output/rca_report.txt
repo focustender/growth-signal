@@ -1,0 +1,38 @@
+======================================================================
+  ROOT CAUSE DRILL-DOWN: STALLED_LEAD_COUNT
+  Period A: 2024  →  Period B: 2025
+======================================================================
+
+  DIMENSION: COLLECTION_FAMILY
+  Segment                              A             B        Change   Contribution
+  ------------------------------------------------------------------
+  Original Ceramic                    16             9            -7 [-43.8%]        +87.5%
+
+  DIMENSION: REGION_BUCKET
+  Segment                              A             B        Change   Contribution
+  ------------------------------------------------------------------
+  West                                13             8            -5 [-38.5%]        +62.5%
+  Unknown                              5             2            -3 [-60.0%]        +37.5%
+  Midwest                             10             9            -1 [-10.0%]        +12.5%
+  Northeast                            9            10            +1 [+11.1%]        -12.5%
+
+  DIMENSION: COLLECTION_FAMILY
+  Segment                              A             B        Change   Contribution
+  ------------------------------------------------------------------
+  Glass                               12            11            -1 [-8.3%]        +12.5%
+
+  DIMENSION: REGION_BUCKET
+  Segment                              A             B        Change   Contribution
+  ------------------------------------------------------------------
+  South                                9             9            +0 [+0.0%]         -0.0%
+
+  DIMENSION: COLLECTION_FAMILY
+  Segment                              A             B        Change   Contribution
+  ------------------------------------------------------------------
+  Natural Press                        9             9            +0 [+0.0%]         -0.0%
+  Thin Brick                           9             9            +0 [+0.0%]         -0.0%
+
+  TOP DRIVER: collection_family = 'Original Ceramic'
+  Drove +87.5% of total metric change.
+  Investigate this segment first.
+======================================================================

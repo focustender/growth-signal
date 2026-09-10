@@ -1,0 +1,19 @@
+### null_counter (data-quality-audit, default 5%/20% thresholds): customers.csv
+        column dtype  null_count  null_pct  warn_threshold  fail_threshold status
+  company_name   str        2431     75.97             5.0            20.0   FAIL
+        region   str         108      3.38             5.0            20.0   PASS
+   customer_id   str           0      0.00             5.0            20.0   PASS
+       segment   str           0      0.00             5.0            20.0   PASS
+source_channel   str           0      0.00             5.0            20.0   PASS
+   signup_date   str           0      0.00             5.0            20.0   PASS
+  email_opt_in int64           0      0.00             5.0            20.0   PASS
+
+### null_counter: customers_reconciled.csv
+        column dtype  null_count  null_pct  warn_threshold  fail_threshold status
+  company_name   str         458     76.33             5.0            20.0   FAIL
+   customer_id   str           0      0.00             5.0            20.0   PASS
+       segment   str           0      0.00             5.0            20.0   PASS
+source_channel   str           0      0.00             5.0            20.0   PASS
+   signup_date   str           0      0.00             5.0            20.0   PASS
+        region   str           0      0.00             5.0            20.0   PASS
+  email_opt_in int64           0      0.00             5.0            20.0   PASS

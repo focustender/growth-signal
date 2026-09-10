@@ -1,0 +1,22 @@
+[
+  {
+    "check": "row_count",
+    "status": "PASS",
+    "detail": "23 rows"
+  },
+  {
+    "check": "fully_null_columns",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "duplicate_rows",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "column_names",
+    "status": "WARN",
+    "detail": "Non-standard column names: ['Cohort Size', 'Period 0', 'Period 2', 'Period 3', 'Period 4', 'Period 5', 'Period 6', 'Period 7', 'Period 8', 'Period 9', 'Period 10']"
+  }
+]

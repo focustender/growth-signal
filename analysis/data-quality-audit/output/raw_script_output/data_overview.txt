@@ -1,0 +1,23 @@
+### data_overview: customers.csv
+Shape:   3,200 rows × 7 columns
+Memory:  1.02 MB
+
+Column types:
+  str             6
+  int64           1
+
+Per-column info:
+                dtype  non_null  null_pct  unique             sample
+customer_id       str      3200      0.00    3200         CUST-00001
+segment           str      3200      0.00       4           designer
+source_channel    str      3200      0.00       8     organic_search
+signup_date       str      3200      0.00     603         2024-10-08
+region            str      3092      3.38      20                 CO
+company_name      str       769     75.97      64  Ashford Interiors
+email_opt_in    int64      3200      0.00       2                  1
+
+Sample (3 rows):
+customer_id   segment  source_channel signup_date region               company_name  email_opt_in
+ CUST-02385     trade      trade_show  2024-10-16     CA      Meridian Construction             0
+ CUST-02539     trade      trade_show  2024-01-08     CT Bramble Architecture Group             1
+ CUST-02177 homeowner showroom_walkin  2024-05-28     OH                        NaN             1

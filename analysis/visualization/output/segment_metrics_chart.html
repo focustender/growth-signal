@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Conversion Rate vs. Revenue per Customer, by Segment</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ink:#211d1a; --paper:#edeee8; --paper-raised:#f6f6f1;
+    --seaglass:#3f6f66; --seaglass-soft:#e2ebe8;
+    --clay:#a15c3e; --clay-soft:#f3e4dc;
+    --slate:#6b6862; --slate-soft:#dcdbd3; --line:#c9c7bd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#ece9e2; --paper:#1a1815; --paper-raised:#242220;
+      --seaglass:#7fada2; --seaglass-soft:#25332f;
+      --clay:#d08e6d; --clay-soft:#3a2a22;
+      --slate:#a5a196; --slate-soft:#332f29; --line:#3a372f;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.5; padding:2.5rem 2rem 3rem;}
+  .wrap{max-width:920px; margin:0 auto;}
+  h1{font-size:1.4rem; font-weight:700; margin:0 0 .35rem;}
+  .lede{color:var(--slate); font-size:.92rem; max-width:64ch; margin:0 0 2rem;}
+  .charts{display:grid; grid-template-columns:1fr 1fr; gap:2rem;}
+  @media (max-width:720px){.charts{grid-template-columns:1fr;}}
+  .chart-card{border:1px solid var(--line); background:var(--paper-raised); padding:1.25rem 1.25rem 1rem;}
+  .chart-title{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--slate); margin-bottom:.9rem;}
+  svg{width:100%; height:auto; font-family:"IBM Plex Mono",monospace;}
+  .bar-label{font-size:11px; fill:var(--ink);}
+  .value-label{font-size:12px; font-weight:600; fill:var(--ink); font-variant-numeric:tabular-nums;}
+  .gridline{stroke:var(--line); stroke-width:1;}
+  .axis-label{font-size:10px; fill:var(--slate);}
+  .note{margin-top:1.75rem; font-size:.87rem; color:var(--slate); max-width:70ch;}
+  .note strong{color:var(--ink);}
+  footer{margin-top:2rem; font-family:"IBM Plex Mono",monospace; font-size:.7rem; color:var(--slate);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Conversion Rate vs. Revenue per Customer, by Segment</h1>
+  <p class="lede">Same four segments, same order, two different rankings — the platform-metric-vs-commercial-outcome distinction from <code>analysis/business-metrics/output/ecommerce_metrics_findings.md</code>, made visible. Real numbers from <code>trade_signal.db</code>; underlying data is synthetic.</p>
+
+  <div class="charts">
+    <div class="chart-card">
+      <div class="chart-title">Conversion rate (% of customers who ever purchased)</div>
+      <svg viewBox="0 0 400 260" role="img" aria-label="Bar chart of conversion rate by segment">
+        <line class="gridline" x1="40" y1="20" x2="40" y2="210"></line>
+        <line class="gridline" x1="40" y1="210" x2="380" y2="210"></line>
+        <!-- axis ticks at 0/20/40/60% -->
+        <text class="axis-label" x="34" y="213" text-anchor="end">0</text>
+        <text class="axis-label" x="34" y="150" text-anchor="end">20</text>
+        <text class="axis-label" x="34" y="87" text-anchor="end">40</text>
+        <text class="axis-label" x="34" y="24" text-anchor="end">60%</text>
+        <line class="gridline" x1="40" y1="150" x2="380" y2="150" stroke-dasharray="2,3" opacity="0.5"></line>
+        <line class="gridline" x1="40" y1="87" x2="380" y2="87" stroke-dasharray="2,3" opacity="0.5"></line>
+
+        <!-- bars: designer 60.7, homeowner 43.4, trade 34.2, commercial 34.1; max 60.7 -> scale 190px over 63.3 -->
+        <rect x="65" y="46.5" width="60" height="163.5" fill="#3f6f66"></rect>
+        <text class="value-label" x="95" y="38" text-anchor="middle">60.7%</text>
+        <text class="bar-label" x="95" y="228" text-anchor="middle">designer</text>
+
+        <rect x="155" y="93.5" width="60" height="116.5" fill="#3f6f66"></rect>
+        <text class="value-label" x="185" y="85" text-anchor="middle">43.4%</text>
+        <text class="bar-label" x="185" y="228" text-anchor="middle">homeowner</text>
+
+        <rect x="245" y="118.5" width="60" height="91.5" fill="#3f6f66"></rect>
+        <text class="value-label" x="275" y="110" text-anchor="middle">34.2%</text>
+        <text class="bar-label" x="275" y="228" text-anchor="middle">trade</text>
+
+        <rect x="335" y="118.8" width="30" height="91.2" fill="#3f6f66"></rect>
+        <text class="value-label" x="350" y="110" text-anchor="middle" font-size="11">34.1%</text>
+        <text class="bar-label" x="350" y="228" text-anchor="middle" font-size="10">commercial</text>
+      </svg>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-title">Revenue per customer ($, all customers in segment)</div>
+      <svg viewBox="0 0 400 260" role="img" aria-label="Bar chart of revenue per customer by segment">
+        <line class="gridline" x1="40" y1="20" x2="40" y2="210"></line>
+        <line class="gridline" x1="40" y1="210" x2="380" y2="210"></line>
+        <text class="axis-label" x="34" y="213" text-anchor="end">0</text>
+        <text class="axis-label" x="34" y="150" text-anchor="end">2k</text>
+        <text class="axis-label" x="34" y="87" text-anchor="end">4k</text>
+        <text class="axis-label" x="34" y="24" text-anchor="end">6k</text>
+        <line class="gridline" x1="40" y1="150" x2="380" y2="150" stroke-dasharray="2,3" opacity="0.5"></line>
+        <line class="gridline" x1="40" y1="87" x2="380" y2="87" stroke-dasharray="2,3" opacity="0.5"></line>
+
+        <!-- values: designer 791, homeowner 526, trade 5782, commercial 5391; max 5782 -> scale 190px over 6500 (axis top) -->
+        <rect x="65" y="187" width="60" height="23" fill="#a15c3e"></rect>
+        <text class="value-label" x="95" y="180" text-anchor="middle" font-size="11">$791</text>
+        <text class="bar-label" x="95" y="228" text-anchor="middle">designer</text>
+
+        <rect x="155" y="194.6" width="60" height="15.4" fill="#a15c3e"></rect>
+        <text class="value-label" x="185" y="188" text-anchor="middle" font-size="11">$526</text>
+        <text class="bar-label" x="185" y="228" text-anchor="middle">homeowner</text>
+
+        <rect x="245" y="41" width="60" height="169" fill="#a15c3e"></rect>
+        <text class="value-label" x="275" y="33" text-anchor="middle">$5,782</text>
+        <text class="bar-label" x="275" y="228" text-anchor="middle">trade</text>
+
+        <rect x="335" y="52" width="30" height="158" fill="#a15c3e"></rect>
+        <text class="value-label" x="350" y="44" text-anchor="middle" font-size="10">$5,391</text>
+        <text class="bar-label" x="350" y="228" text-anchor="middle" font-size="10">commercial</text>
+      </svg>
+    </div>
+  </div>
+
+  <p class="note"><strong>Reading both charts together:</strong> designer leads on conversion rate (left) but sits second-lowest on revenue per customer (right); trade is the mirror image. A dashboard surfacing only the left chart would rank these two segments in the wrong order for a revenue-driven prioritization call.</p>
+
+  <footer>Data: analysis/business-metrics/output/metrics_report.json · Not affiliated with or endorsed by Fireclay Tile · synthetic data</footer>
+</div>
+</body>
+</html>

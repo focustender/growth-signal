@@ -1,0 +1,17 @@
+### referential_integrity: funnel_events -> customers
+Referential integrity check: customer_id → customer_id
+  Total child rows:  8,868
+  Orphan rows:       0 (0.0%)
+  Status:            PASS
+
+### referential_integrity: email_engagement -> customers
+Referential integrity check: customer_id → customer_id
+  Total child rows:  7,949
+  Orphan rows:       0 (0.0%)
+  Status:            PASS
+
+### referential_integrity: reviews -> customers
+Referential integrity check: customer_id → customer_id
+  Total child rows:  474
+  Orphan rows:       0 (0.0%)
+  Status:            PASS
