@@ -2,7 +2,7 @@
 
 A work-sample system built to demonstrate the actual competencies Fireclay Tile's Lifecycle Growth & Analytics Manager job description asks for, against real (free-tier) tooling rather than a description of them.
 
-Read the full write-up at [`site/case-study.html`](site/case-study.html) (open with `python3 -m http.server` from the repo root, then visit `localhost:8000/site/case-study.html`).
+Read the full write-up at (https://focustender.studio/project-trade-signal-case-study.html)
 
 ## What's real, what's synthetic, what's simulated
 
